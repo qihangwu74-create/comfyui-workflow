@@ -1,5 +1,8 @@
 # ComfyUI Design Workflow Library
 
+> **在线交互入口：** [打开工作流检索与 AI 推荐页面](https://qihangwu74-create.github.io/comfyui-workflow/)
+
+
 一个面向视觉设计、产品展示与内容生产的 ComfyUI 工作流素材库。当前版本收录 862 个可检索工作流，并为 AI 助手准备了任务标签、依赖信息、硬件参考、来源记录和本地检索工具。
 
 这个仓库强调“先找到合适方案，再检查依赖，最后实测”，适合长期积累个人设计能力，不依赖某家公司或单一行业。
