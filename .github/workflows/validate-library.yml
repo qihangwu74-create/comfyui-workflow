@@ -20,4 +20,4 @@ jobs:
         with:
           python-version: "3.12"
       - name: Run library checks
-        run: python -m unittest discover -s "05_知识库/tests" -p "test_*.py" -v
+        run: python "05_知识库/tools/test_library.py"
