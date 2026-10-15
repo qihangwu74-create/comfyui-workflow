@@ -1,0 +1,230 @@
+{
+  "schema_version": "1.0",
+  "observed_at": "2026-10-15",
+  "evidence_policy": {
+    "A": "employer_official",
+    "B": "major_job_board_or_company_ats",
+    "C": "aggregator_or_repost",
+    "inference_rule": "A core skill needs support from at least 3 independent job postings; sources and inferences are stored separately."
+  },
+  "postings": [
+    {
+      "id": "E01",
+      "company": "美团",
+      "role": "AI批量内容生产",
+      "grade": "A",
+      "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=social&jobUnionId=4805954551",
+      "status": "active_when_checked",
+      "requirements": [
+        "AI批量内容生产线",
+        "至少两种AI视频工具",
+        "发布前质检",
+        "API或工作流编排",
+        "平台数据归因",
+        "可核验案例"
+      ]
+    },
+    {
+      "id": "E02",
+      "company": "美团",
+      "role": "整合营销视觉设计",
+      "grade": "A",
+      "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=social&jobUnionId=4779681468",
+      "status": "active_when_checked",
+      "requirements": [
+        "视觉策略",
+        "平面与动效",
+        "AIGC实景合成",
+        "可复用方法或coding工具",
+        "跨文化视觉",
+        "业务理解"
+      ]
+    },
+    {
+      "id": "E03",
+      "company": "美团",
+      "role": "AI产品从0到1",
+      "grade": "A",
+      "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=social&jobUnionId=4360870843",
+      "status": "active_when_checked",
+      "requirements": [
+        "需求到验证闭环",
+        "多模态与Agent边界",
+        "动手构建",
+        "跨团队协作",
+        "开源项目"
+      ]
+    },
+    {
+      "id": "E04",
+      "company": "General Motors",
+      "role": "CMF Designer",
+      "grade": "A",
+      "url": "https://search-careers.gm.com/en/jobs/jr-202618374/creative-senior-lead-cmf-designer/",
+      "status": "active_when_checked",
+      "requirements": [
+        "品牌与用户连接",
+        "材料研究",
+        "实体样板",
+        "供应商协作",
+        "验证与量产",
+        "2D与3D沟通"
+      ]
+    },
+    {
+      "id": "E05",
+      "company": "重庆张雪机车",
+      "role": "车辆造型/CMF设计师",
+      "grade": "B",
+      "url": "https://www.zhaopin.com/jobdetail/CCL1482625180J40872772901.htm",
+      "status": "active_when_checked",
+      "requirements": [
+        "草图到3D",
+        "品牌语言",
+        "CMF与贴花",
+        "表面工艺",
+        "油泥与量产",
+        "Alias加分"
+      ]
+    },
+    {
+      "id": "E06",
+      "company": "未公开摩托车企业",
+      "role": "造型设计工程师",
+      "grade": "B",
+      "url": "https://www.randstad.cn/en/jobs/zao-xing-she-ji-gong-cheng-shi_hangzhou_90M0152385_19591_EN/",
+      "status": "active_when_checked",
+      "requirements": [
+        "2D到3D CAS",
+        "曲面建模",
+        "工程可行性",
+        "开模",
+        "人机工程",
+        "竞品分析"
+      ]
+    },
+    {
+      "id": "E07",
+      "company": "Kirin",
+      "role": "3D Product Visualization Artist",
+      "grade": "B",
+      "url": "https://jobs.ashbyhq.com/Kirin/c567966b-133d-4e45-b1d1-4d279d5f9f15",
+      "status": "active_when_checked",
+      "requirements": [
+        "CAD/STP清理",
+        "PBR材质",
+        "灯光相机",
+        "电商PDP",
+        "材质真实性",
+        "可复用源文件"
+      ]
+    },
+    {
+      "id": "E08",
+      "company": "TikTok Shop",
+      "role": "AI产品设计师",
+      "grade": "C",
+      "url": "https://www.mianshima.com/job/2/7667901772677368117",
+      "status": "repost_needs_verification",
+      "requirements": [
+        "Figma",
+        "信息架构",
+        "交互与视觉",
+        "AI原型工具",
+        "设计系统",
+        "英语"
+      ]
+    },
+    {
+      "id": "E09",
+      "company": "Anker Innovations",
+      "role": "三维高级设计师",
+      "grade": "C",
+      "url": "https://hireportal.us.com/cn/job/xprkqjt40brg/job",
+      "status": "aggregated_when_checked",
+      "requirements": [
+        "C4D",
+        "Octane",
+        "产品动画运镜",
+        "材质灯光",
+        "After Effects",
+        "AIGC加分"
+      ]
+    }
+  ],
+  "inferred_core_skills": [
+    {
+      "id": "production_pipeline",
+      "label": "稳定生产与质量控制",
+      "evidence": [
+        "E01",
+        "E03",
+        "E07"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "product_truth",
+      "label": "产品真实性与CMF工艺",
+      "evidence": [
+        "E04",
+        "E05",
+        "E06",
+        "E07"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "business_loop",
+      "label": "需求到结果的业务闭环",
+      "evidence": [
+        "E01",
+        "E02",
+        "E03"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "motion",
+      "label": "动态内容与镜头表达",
+      "evidence": [
+        "E01",
+        "E02",
+        "E09"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "tool_building",
+      "label": "工作流编排、自动化与轻量编码",
+      "evidence": [
+        "E01",
+        "E02",
+        "E03"
+      ],
+      "priority": "P1"
+    },
+    {
+      "id": "collaboration",
+      "label": "跨团队与供应商协作",
+      "evidence": [
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "portfolio_evidence",
+      "label": "可核验案例与结构化作品集",
+      "evidence": [
+        "E01",
+        "E05",
+        "E07"
+      ],
+      "priority": "P0"
+    }
+  ]
+}
