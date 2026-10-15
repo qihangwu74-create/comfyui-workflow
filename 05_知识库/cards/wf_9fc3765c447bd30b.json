@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Minimax H3 FL2VA Turbo_ComfyKitchen.json",
-    "sha256": "99ac54ec5eb97fb85a64599661b3ca9cbe7ab21d124d0b88765776cb257ecb42",
+    "sha256": "04e7434fbbba59b08ce83339fbe6b2c4fdb11c72e35d8d24537cc5553ba13588",
     "canonical_json_sha256": "d28684fe4fac3658da215448d94922dd3e6e775959250e575b61cb138a43cee8",
-    "bytes": 23905,
+    "bytes": 25219,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -214,7 +214,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/ZHO-ZHO-ZHO__ComfyUI-Workflows-ZHO/workflows/SD3是否内置文本编码器的对比【Zho】.json",
-    "sha256": "f7ffb42afafb29ed217e668834861e865d1a6342abf17251af81e5678488bda6",
+    "sha256": "d75b2c08485f12a5fd6589f5b69f49f6fef1bb231ddd2637097d8a04b72f9e76",
     "canonical_json_sha256": "f070de0173d564b970a9b9b8bdfdf0724e6d42394859386bb417cf15a117f27e",
-    "bytes": 14693,
+    "bytes": 15533,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -221,7 +221,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_beeble_switchx_image_edit.json",
-    "sha256": "563a38dfa391bef3f23356e9f212c17593747aa73f470325142ea1bb8f4d264b",
+    "sha256": "4eb17d74eb6802a11021dc9b29120617159c4b6d603a3ae26cf01238818bda8a",
     "canonical_json_sha256": "2639080655e4fa61de187b572244f7f3b19dd92b9c518b7eb2430fe08e95e0da",
-    "bytes": 8307,
+    "bytes": 8726,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -81,7 +81,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

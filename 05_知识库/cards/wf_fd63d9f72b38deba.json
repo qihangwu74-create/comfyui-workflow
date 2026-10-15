@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Qwen Image Edit 2509/Composition Control_Qwen Image Edit 2509.json",
-    "sha256": "39bdffc8b000ab9c6d157cd03b8237c07ac6b85d673eca5ae8b3fc5f026912e8",
+    "sha256": "9923d9e36e3ef5fd1e6961e8850219b9224b891e279021a9b056256266392a9b",
     "canonical_json_sha256": "f21f45068dab6585a5df56f64a7ce809626d1c3b1353f30e3120d524fcbdfb20",
-    "bytes": 31905,
+    "bytes": 33665,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -228,7 +228,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

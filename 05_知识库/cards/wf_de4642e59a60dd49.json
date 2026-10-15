@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/template_ltx2_3_lora_remove_subtitles_from_video.json",
-    "sha256": "bb329f12ba5ed8273c9a00fe5c1fc3ae82491ffb0c9c165a9343debeaf33fbc5",
+    "sha256": "6bbccb645e463a44ae2d0304f86238f746399302f5e12eb4430acbd1c758ae5e",
     "canonical_json_sha256": "a3dd8229ba6efc4c69fe8e8026486b6f821892b248f840ee26c2e22628ec6ec0",
-    "bytes": 125290,
+    "bytes": 130369,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -309,7 +309,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

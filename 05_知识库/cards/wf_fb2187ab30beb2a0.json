@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_clarity_ai_crystal_upscale.json",
-    "sha256": "932803336647c8a7edac3142dbe3466da0af535c60d6e08adba97789d1004b53",
+    "sha256": "132d9b85e7091407d5c4d9d05ff0d8280da8455cb17f964f8c6563ce0784f15e",
     "canonical_json_sha256": "169f41789d3bd8d63cc92e72a6e6fd75aea049668554a06cdef6e89f4e9e5858",
-    "bytes": 5647,
+    "bytes": 5897,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -70,7 +70,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

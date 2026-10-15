@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/LTX 2.3 Colorization V1.json",
-    "sha256": "5562d0837577d88275592f9ee82ce4c315b98d70f715b09fdecc0383b91ffbdf",
+    "sha256": "49e7f3cb39d75512b05203196853bb008f9d8082289a0923c614c9bedee310cf",
     "canonical_json_sha256": "583f1ebbb6d3359aa5e2a824eff7b57a39818143a1c9994d42a4d3033204da1a",
-    "bytes": 78273,
+    "bytes": 81998,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -377,7 +377,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SCAIL/SCAILReplace.json",
-    "sha256": "4da275905c7f9e45792b77e368ed57250a81ea26b8f506742161526f99606c73",
+    "sha256": "9b55e7d37fc6f6f2cd9f2d2358bba5ca6a1862f9615ec9f02f3d7d437e8b2a18",
     "canonical_json_sha256": "84cb2f95cbd4887ed034e608d8b4a19dd6b9883cc9cfb453369659ca34d9b9cf",
-    "bytes": 39061,
+    "bytes": 41158,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -267,7 +267,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

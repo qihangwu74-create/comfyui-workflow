@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/clotheschangertiled.json",
-    "sha256": "3a64fc1edd3e044f7027fe628a1daf9d5f2310e668366fd0476953b54099e587",
+    "sha256": "c5973e21da49067b255fcab71bed6a306fb388d699b128086733001f1e918289",
     "canonical_json_sha256": "544df723c73491819fd85583497ec6c21eeead1bd91169e34ac154a812d1a596",
-    "bytes": 35975,
+    "bytes": 37898,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -306,7 +306,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

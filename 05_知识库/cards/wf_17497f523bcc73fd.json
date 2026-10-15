@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Krea2 Identity Edit V1.json",
-    "sha256": "2f90a23551cba6d09e3e50198b6a4df53355e3de7b32e706fc717ea59ae7ef10",
+    "sha256": "824a56462c9b98262e3e3692c8249484b8158e761913ac9dd9f39d41f08feddc",
     "canonical_json_sha256": "d97599b87856998bc5fbe7e1ed0b12d3d3790c71a763a1ea2f8f200187c8430c",
-    "bytes": 37966,
+    "bytes": 39815,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -212,7 +212,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

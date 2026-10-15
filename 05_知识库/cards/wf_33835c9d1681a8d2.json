@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/ducklineart.json",
-    "sha256": "70a5c8332f72eb3ad386f968effe2e1aa83d790430fda7f86a094455c64fd1af",
+    "sha256": "8eb40deb3cb372923c5cbf9a58b7e5a3d143d27a3d660aa767235983049e53db",
     "canonical_json_sha256": "1c5df59f45c29ac7bca8702eacfd67e939b7eaa1299c0c4d0d795d415c40a7a9",
-    "bytes": 15910,
+    "bytes": 16820,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -135,7 +135,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

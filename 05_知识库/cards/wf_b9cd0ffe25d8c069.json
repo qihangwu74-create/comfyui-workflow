@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Flux/【Flux】ControlnetBasic.json",
-    "sha256": "5b64508d7d12bb86627069dc2ae289c87fd86e30f0b941816dd110db4f732204",
+    "sha256": "9f47e03304b2ed9da69c1e34e3686e07de7bed759de08deeb27bb4b14bfb081b",
     "canonical_json_sha256": "6692815b16dc577d0e9049e2caada0050a160f824eb24b02bf25811075dea15b",
-    "bytes": 14386,
+    "bytes": 15161,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -140,7 +140,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

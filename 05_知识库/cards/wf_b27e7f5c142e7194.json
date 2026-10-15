@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/fahdmirza__comfyuiworkflows/workflows/hunyuanvideoi2v.json",
-    "sha256": "f14ae61b3290639998d5af04470ec5aba78a31270faaf0322f0b4af84cbc8972",
+    "sha256": "81da2f70a4caadbc995359c89461288bbedfefb518feb38d3a9297c1639eac5b",
     "canonical_json_sha256": "636b91e5998b6c0785e79812ec074373eede46690da44331703a64cf5f09abb3",
-    "bytes": 17459,
+    "bytes": 18478,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -195,7 +195,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

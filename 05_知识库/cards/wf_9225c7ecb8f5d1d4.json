@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Flux/FluxTools/【FluxTools】SimpleTryon.json",
-    "sha256": "68f4b846df2421793a6139f827e179b97961a70fa79f8584bda57394f57bc566",
+    "sha256": "e9ee4088b850d8d8c5161aef5d55e0c8b0534ab0f139413b9a51dad7453a4380",
     "canonical_json_sha256": "6724d9e9ad97589c6498914d0bf13fc443a57ff6444c7bd0b7a7f17a2cacca06",
-    "bytes": 20464,
+    "bytes": 21687,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -216,7 +216,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

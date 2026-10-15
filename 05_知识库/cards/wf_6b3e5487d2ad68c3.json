@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/video_wan_vace_outpainting.json",
-    "sha256": "4f76d56c3f6f49121b6cdc897f55039bcec2c295f564e618409d3dadbf0973f9",
+    "sha256": "d9f35ed354af535e30358d3f2bfe9d56bb9ec26e1badf0bf108ede33a28f413a",
     "canonical_json_sha256": "821e1f8d46d17a125221c7a73dbe5b4eeb913899eb8739438edcc6c1a378aef2",
-    "bytes": 36771,
+    "bytes": 38601,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -313,7 +313,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

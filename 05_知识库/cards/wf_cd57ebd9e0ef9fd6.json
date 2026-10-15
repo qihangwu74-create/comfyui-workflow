@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/guided_composition/canny.json",
-    "sha256": "d71ba682cdae5451903c7d34e798e563b907220950ba3bb09f8a4a0acea72717",
+    "sha256": "d0a635d12fa10eb56d7354b71fdc86fed88a4b112b35eb9fe109fa02e5258284",
     "canonical_json_sha256": "d8e73877f8bbc6410fb8c44c22b45a675a15b9cbe85e0488e6f913af03cb3208",
-    "bytes": 10291,
+    "bytes": 10918,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -155,7 +155,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

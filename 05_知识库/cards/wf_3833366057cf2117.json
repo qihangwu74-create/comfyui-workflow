@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux1/Flux 1 Turbo Alpha.json",
-    "sha256": "d527053e786168f6b695bc979d74a700bffdbc7fe205a143b6f348b902261fbf",
+    "sha256": "d9fa5ea49d95eab805b56dea47aa14f2bec205a5a511d0a851aff1c38ccc0f95",
     "canonical_json_sha256": "4278c00d4555df15bc60a61eca4ae92e39a0dc9b1a6e0d59113863b3e902c587",
-    "bytes": 8968,
+    "bytes": 9514,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -171,7 +171,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

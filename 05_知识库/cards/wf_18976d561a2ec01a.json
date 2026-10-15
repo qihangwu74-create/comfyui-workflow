@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/ipaclothes.json",
-    "sha256": "96394a7d912993e74ad8626f9dd571f6fa4354d2f095f5297277e26c7527fe0b",
+    "sha256": "3bb3f4c6cad939fe85d77ff28ee95f757e776fae3ca46f9ae606ae8e32c2f4e9",
     "canonical_json_sha256": "8fa8eab625acdc9694d19e966c24a7ae2b21454ab803e6e4658fa2a18c64c0d3",
-    "bytes": 32103,
+    "bytes": 33826,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -229,7 +229,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

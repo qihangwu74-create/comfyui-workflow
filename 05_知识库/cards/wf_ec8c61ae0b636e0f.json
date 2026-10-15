@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/utility_sirolim_image_controlled_upscale.json",
-    "sha256": "9d207c6b2c08137b4a7efabb8973bd6779fc9cbaf5551c9a97424c61a55baefe",
+    "sha256": "19fb14d46613a5f9a4b02e6c0bfa8a6545ecd1ca2d4c02688289501072cde822",
     "canonical_json_sha256": "8277b174529f6d8a37e7b4b44a2938ec38c0748a98262d4c57b1d2689445a683",
-    "bytes": 113606,
+    "bytes": 118026,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -217,7 +217,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

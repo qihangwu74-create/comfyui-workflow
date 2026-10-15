@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/ZHO-ZHO-ZHO__ComfyUI-Workflows-ZHO/workflows/Stable Cascade Img2Img【Zho】.json",
-    "sha256": "c4bf3a9d4f1af60741b784307698ab78ce260d8865c5b3eba1c8822fff4b7cd9",
+    "sha256": "0fad4d559a967c44b387772013309845a2f729266a538d6c1f63a5f89f70d111",
     "canonical_json_sha256": "5bad2d9208e531218a645356fda9bedebae0a13314cd4112b9b9f5adc5cbbd16",
-    "bytes": 11293,
+    "bytes": 11979,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -135,7 +135,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

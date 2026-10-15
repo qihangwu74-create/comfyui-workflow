@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Krita/【Krita】RoomShow.json",
-    "sha256": "3a74bfcce512d1c6b93d2896849cc0d5a06dc135ee0dd2f036ed8c9ba4720b68",
+    "sha256": "76ffee606223cff640fbf47fd792b8874e7253e1d60850dac674a1d943fd9ab0",
     "canonical_json_sha256": "79c573a8880cb6b5de5c1d3940aa5255f50faf8f126bcdd968d7c04c1a1450fe",
-    "bytes": 21924,
+    "bytes": 23224,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -151,7 +151,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

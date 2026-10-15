@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/image_conditioning/experiments/IPAdapter_img_variations.json",
-    "sha256": "5d34587c8d59766b628bdab87024c8e5a97709dd5ac13fd6373dbbb19ce847fc",
+    "sha256": "c5a014b7a4c1e76bcac38e16803267e469f3b6c5322014fcf8fd03f7143987f3",
     "canonical_json_sha256": "b204ae930f85ee607f3e19e3a4b21ea8647ee876d46383339a560db61aa664bd",
-    "bytes": 13244,
+    "bytes": 14062,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -178,7 +178,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

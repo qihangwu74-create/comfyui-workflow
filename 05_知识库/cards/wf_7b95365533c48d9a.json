@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SpecialUsage/kcolors.json",
-    "sha256": "e70c5b1eb17a8d7a568aae189fa8fae2a697da546c8c3bbdcb81d107e6d591b3",
+    "sha256": "4218aaa35958c523bb5fed744c899144b469e45de52e18da6ff4ce733b9e68c2",
     "canonical_json_sha256": "b9b3fd1a6195d5ee47dc9aa0e02b2611e78a02b83025e1c940d25507fe9253ff",
-    "bytes": 13984,
+    "bytes": 14759,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -167,7 +167,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

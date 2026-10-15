@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/utility_nanobanana_pro_illustration_upscale.json",
-    "sha256": "f2696c1286d5999011adb7ef02f4ffd83e111577f6494e702192b9b6f4bd4fb3",
+    "sha256": "3a4e0412c8181be752b676fe676f3751ea8e445f9e24deb1dee6e3a7aea71558",
     "canonical_json_sha256": "f416f5bf5d07264dfc3eedcbc5e72e318280011d41166beb7b760e6ebfd66886",
-    "bytes": 3591,
+    "bytes": 3763,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -73,7 +73,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

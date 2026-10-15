@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Joy Image Edit Plus.json",
-    "sha256": "5aa8a30ba885c2868b0d7744db0e765b0d06a47ffbe22b9fe714318e163887be",
+    "sha256": "33583a6c81290fa615031e619c3680e54135e2db235203a1fc3297c5db59ce07",
     "canonical_json_sha256": "5e7a9b39c660262ee57d223b27af1252f760756e30d458322bd1113fc0085ed9",
-    "bytes": 26667,
+    "bytes": 28179,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -195,7 +195,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

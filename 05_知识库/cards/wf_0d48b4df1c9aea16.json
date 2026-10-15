@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SDXL/【SDXL】MVAdapterPVC.json",
-    "sha256": "0549fa816f7d0a42bd0f1bff1b1e8b30fd5e0ee4ab69578c1097b327e7c90b55",
+    "sha256": "01a81645a6d094f0c3b31d533e9db31ce3a008f1ac7dd2cbdf181523a0ea91cc",
     "canonical_json_sha256": "3fde633a1efff6515a74e2460c834eeab781979daee8f95ce333ebe19ae510f0",
-    "bytes": 15912,
+    "bytes": 16861,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -173,7 +173,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

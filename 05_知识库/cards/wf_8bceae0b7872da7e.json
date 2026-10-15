@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Kolors/【Kolors】Render.json",
-    "sha256": "090ee3081cf4685c49be48401a2dee596f3dffc6bade685c880fe4062ce67e6c",
+    "sha256": "0c119a54d29605c750c29b3697dced354a87fda5165757d454c807b7595e5c1c",
     "canonical_json_sha256": "76610ffa47b8e3e779a8d49910174fe8a95a0723c2afc5ddfee553eb81768096",
-    "bytes": 45832,
+    "bytes": 48518,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -264,7 +264,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/template_qwen_Image_2512_360_lora.json",
-    "sha256": "5b5280796f29b638d5c96b6d645dcba49d622ce24a513ae4bfcbb4751d75ba51",
+    "sha256": "73f822e9ff868e5d1eb692d095d18a0f55bd3e7a87aa2d40723945bdac357b9a",
     "canonical_json_sha256": "6e1ce4a11ffa96eb028d14959be7082ae1aa3545b60d04150c9496c39c470728",
-    "bytes": 58831,
+    "bytes": 61001,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -235,7 +235,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

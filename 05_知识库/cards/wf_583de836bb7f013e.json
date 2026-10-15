@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/SDXL QR Code Monster.json",
-    "sha256": "35a12201532c007cd962ea5786bf312d95cc9aa78ef8e3f770861d3f6d8115a1",
+    "sha256": "a79186177c0cd280445afdee2867907e6ca017c481a24a1e4110882bf9397dd9",
     "canonical_json_sha256": "6975f10e8803ca200efb54d7bbbfa6c2b3f0546faf43e88e796cb0060bd6a9dd",
-    "bytes": 12836,
+    "bytes": 13503,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -138,7 +138,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

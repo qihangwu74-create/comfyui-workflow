@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/image_conditioning/IPAdapter_basic_SDXL.json",
-    "sha256": "66266475d84f546b1b57b88026260007bcf3acf947d2bb12219a121455ffd8fc",
+    "sha256": "8a0d5b5382b1af5f8ccccc254988e374ec26fad4e87bb75c82a5dd91cd5e8275",
     "canonical_json_sha256": "a54d26f214f77a073823a711919ccdbbabc86f416fd2c3409741ee85327be4ce",
-    "bytes": 14194,
+    "bytes": 15003,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -173,7 +173,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

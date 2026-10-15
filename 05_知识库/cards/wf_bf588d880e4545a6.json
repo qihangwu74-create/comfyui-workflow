@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_flux2_text_to_image_9b.json",
-    "sha256": "3f7a00594fb22cbee9f33e6c9e3fbc3aabdb3c318869206b4d3d0a5860f9cddd",
+    "sha256": "b5412962056c4d6e30b25a577db6de285a335f14e69d77e81c10aaabdb9ca76b",
     "canonical_json_sha256": "dddc3c7c90871e0a68392e32e64908b4c340a3eb225a6d38e7c4328215c71145",
-    "bytes": 39584,
+    "bytes": 41053,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -200,7 +200,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

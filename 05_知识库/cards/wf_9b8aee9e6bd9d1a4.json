@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/templates_hellorob_facegen_skindetail_upscale.json",
-    "sha256": "a118adfec15d9186b00296407e84bf0f36e830c66e784ebe5d2d0319fefea639",
+    "sha256": "0afeae7177fa8ee574e6dd7079419318d32d01882743ebf4ee76d40ab1865a23",
     "canonical_json_sha256": "dcf7ebf038cecffbbd126ec87a140d033a6a3d3e4a29b1fa03b5cb662d579a2f",
-    "bytes": 110438,
+    "bytes": 114825,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -412,7 +412,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

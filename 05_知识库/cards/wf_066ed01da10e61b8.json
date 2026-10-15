@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux2 Klein 9B_Realistic.json",
-    "sha256": "78942ab274915a1f2dfc6fb437a85c3530828bc7a806392929569ae35e70add4",
+    "sha256": "fad3a17ea87cc1a6503360e4e6888c9adb4857e3f7260dff74444235b4907d1c",
     "canonical_json_sha256": "ba14ed7bb6499906ce6d5a3d8e009df46171ed8f4d4759cd58a1b3aedb2b0383",
-    "bytes": 20622,
+    "bytes": 21783,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -193,7 +193,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

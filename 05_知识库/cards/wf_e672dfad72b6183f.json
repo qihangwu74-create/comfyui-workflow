@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/video_ltx2_pose_to_video.json",
-    "sha256": "7738cdeabf925f9e842073983dc8ff89b9f10ce9c51f245fac6e4337a1a839e4",
+    "sha256": "b0efca0ee5d4957e66aa6b83f061015bbe5ec6aa90473bf755c4f349b3657275",
     "canonical_json_sha256": "8578c121f11b25aa2af55f236fee057ce8ef3211a95669f7029f7ed7dda1e77b",
-    "bytes": 208939,
+    "bytes": 217003,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -648,7 +648,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

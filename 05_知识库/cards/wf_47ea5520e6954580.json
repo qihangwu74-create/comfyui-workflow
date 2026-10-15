@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux1/Flux1 Krea Dev.json",
-    "sha256": "3ef9e70124f62e58d8234e07bb2ca826a51aff9f2c5d425e426f2e81e440464b",
+    "sha256": "ef60e766c3c296eb851449b6cf1271bd0b60667cf7d7c513235b32ef6e2a8d04",
     "canonical_json_sha256": "b4486579ed5a8e556622f93c23191c9184080bfb588d59233f7c7a90c1c39592",
-    "bytes": 9565,
+    "bytes": 10099,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -158,7 +158,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

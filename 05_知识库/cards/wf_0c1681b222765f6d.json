@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_lotus_depth_v1_1.json",
-    "sha256": "26391eef92b6eafe8a1d7af7eec001368c777e01ce89424999bd232557ed985c",
+    "sha256": "065e158f6be2cdc58db2f58f90d8c8ebc6f3c95d299a376805f77d6ceb17eb67",
     "canonical_json_sha256": "c6b8b4a9ea8cc10654969913b2fdb6f9cf2f9a13597b0809232fc95917a0abc6",
-    "bytes": 29874,
+    "bytes": 31023,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -153,7 +153,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

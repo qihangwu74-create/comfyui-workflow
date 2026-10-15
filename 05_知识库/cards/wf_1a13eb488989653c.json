@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Minimax H3 FL2VA Larry_Turbo_Sol.json",
-    "sha256": "79d8db4a07970642cd17e5a7d5c0fb45ff0b59e116d7149ce10f6cd9a95c49cb",
+    "sha256": "654e77b042802300325d3cc1d247249ca30b999e1c0efd06243ed22d07769d48",
     "canonical_json_sha256": "9e2bdb091fd9b6c8f9e9616b3240f899172c59e9a7ff2521ead516330947196d",
-    "bytes": 23111,
+    "bytes": 24378,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -200,7 +200,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

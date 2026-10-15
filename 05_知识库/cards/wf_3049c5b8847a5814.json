@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/LTX 2_5 CQ Video Enhancer.json",
-    "sha256": "ea46d328f89861c163f104de05a6df8fd6bcc1a5ac80dbc91762ccfb1877ce89",
+    "sha256": "475b724285e35b0b7baa55bf9504f91992cda691322842d861c7702cdf716645",
     "canonical_json_sha256": "fc8e9f547333374d81c4dd72f6891ea6d74d4a91912c941e5173fe505781092d",
-    "bytes": 80824,
+    "bytes": 84589,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -412,7 +412,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

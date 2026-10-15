@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Flux/FluxTools/【FluxTools】CannyDepthSwitch.json",
-    "sha256": "54f54bdfa7bdf625c789dace55b542d4d457ab4c2dba3acf99ad8a340a417bbc",
+    "sha256": "7595a1585e5e8174fa487f2d4879e5baba343361ddfc65f6b28be68d9cfaf4d9",
     "canonical_json_sha256": "95b5309764eff5338f8c8d9610a7e1722b7104fb45fcd12b349ba2ba4c17b92b",
-    "bytes": 21496,
+    "bytes": 22834,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -228,7 +228,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

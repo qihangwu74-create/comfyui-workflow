@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_qwen_image_edit_2511.json",
-    "sha256": "b23103935f437e1fe3184247fa5bafb891a28113d0c63de7449b7cdfb0419111",
+    "sha256": "5fd26d5c04431426f3de14944494eea5cb0ca3ec2461eace84a127e55c498611",
     "canonical_json_sha256": "429d30d51be30149ca1e752521d25a2c72999762af44308138137419ad280a65",
-    "bytes": 59841,
+    "bytes": 62125,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -231,7 +231,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

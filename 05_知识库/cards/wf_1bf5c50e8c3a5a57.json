@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/LTX 2.5 Alpha Gen_Tile_Fusion.json",
-    "sha256": "8384c0de089b0380df7e31fbbae6884aa478a9abaebe3897f8b4c3f936f91946",
+    "sha256": "a8a9c4a6174070c7a063b91e0a39eb3dfbff237623851bfb1bdb3186faa4651d",
     "canonical_json_sha256": "895c31dd956ab733a3526609e9385fcb4782a1583d772a67b0404b3f6d14cda8",
-    "bytes": 50360,
+    "bytes": 52971,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -347,7 +347,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

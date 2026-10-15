@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SDXL/【SDXL】NPNNoiseSimple.json",
-    "sha256": "92e9718819667252e7e6510e7814502b48c52cac726ef03302da2eeef020383b",
+    "sha256": "0f486a2dce5541d6820878ab95097e0f300647ebbba609328f8903fd2e90ebda",
     "canonical_json_sha256": "b11d09fd0f191bf5dd60abc6593b1c973fa3f1001319e331b7f3ea83222e802c",
-    "bytes": 13973,
+    "bytes": 14811,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -124,7 +124,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

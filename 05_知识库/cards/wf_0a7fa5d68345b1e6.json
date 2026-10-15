@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/fahdmirza__comfyuiworkflows/workflows/hunyuanVideo_t2v_Lora_01.json",
-    "sha256": "033aaa63d99889548e2851b9c64a0b9daeaaf9f69270f99f43b780db4d174121",
+    "sha256": "cc4a6815c128b7236a253511485e9f818294abf95b1e1a691852d105dbb6dfc8",
     "canonical_json_sha256": "7fd5ec457802dd173577e85e601350bb5b88bda57559b154607c948401e7dc26",
-    "bytes": 9278,
+    "bytes": 9773,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -137,7 +137,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

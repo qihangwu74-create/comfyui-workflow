@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SDXL/ArtCompare.json",
-    "sha256": "3fb1d26ff455c3e6e8d25e5faec52e763a715ed8851b3dd1e405e822ee418779",
+    "sha256": "a13085e6ed1c29ad7cc1a1b83295bb708e4c88b1c6ec2a57fb0fbcdec9402f2b",
     "canonical_json_sha256": "fc6763410509752f654c958fe0a4c1ffe164528da891c6cc5ade53b90e7bf7dd",
-    "bytes": 21427,
+    "bytes": 22592,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -120,7 +120,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

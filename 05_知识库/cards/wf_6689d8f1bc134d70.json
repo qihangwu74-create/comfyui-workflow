@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/text2img/conditioning_area.json",
-    "sha256": "2f097c56830fec298a85e3c37c15f220cc62e1d71669a79921882f60f0f6dbb5",
+    "sha256": "39482f743a9f7fa271ccad6516c2d7b46dc5d64e1d3a24c198358aaeea0118d5",
     "canonical_json_sha256": "7d6a031d8663a460d1c296d8c898c3ef819b4a47e9991306b5afa671980c3d20",
-    "bytes": 13172,
+    "bytes": 13975,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -136,7 +136,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

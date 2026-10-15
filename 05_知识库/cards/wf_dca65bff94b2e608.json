@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Kandinsky-5.0-T2I-Lite Text To Image.json",
-    "sha256": "01e914d6d38dc449fbdf354602ac5fa44778a19d25de750cfac8596d90d02bd3",
+    "sha256": "72058f18dc9416896d7460c1fc4418e9163fb369d10ddef1ee4a707b26cb55aa",
     "canonical_json_sha256": "bf4d205220c7aba2a1b22b094f75a738fd7791e8ccf1ff8cfa4aaa6db453efb5",
-    "bytes": 12135,
+    "bytes": 12750,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -171,7 +171,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/layerdiffusionsubject.json",
-    "sha256": "72cedad5dc4c884954402e60c093ca114cc000c0379a9f6f1a5e380abe819402",
+    "sha256": "d07f2e5f111942c9336b38c2d1b527e33468c83ee68b7fd67601b72e9696b141",
     "canonical_json_sha256": "74cafdf4e91d63a1ac4ff7f06cc9605d54c5b0e453b1b0baf918167eccfe9ffa",
-    "bytes": 17143,
+    "bytes": 18147,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -145,7 +145,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

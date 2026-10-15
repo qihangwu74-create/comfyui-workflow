@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/yolain__ComfyUI-Yolain-Workflows/workflows/workflows/2_advanced/2-1ipadapter/2-1ipadapter_basic.json",
-    "sha256": "111e1d139aa6aee72137e4bb6cb45adad477d4e54dddbca3d155e3bb8849d34c",
+    "sha256": "433e44343464862bfc74af548d98cf0c056e776a3daea93ad4f5222108d32a0b",
     "canonical_json_sha256": "a8e881a7809a1bdd84ade84f3760dc86319fa2261b2995eef64c66439982bd4b",
-    "bytes": 39087,
+    "bytes": 39553,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -105,7 +105,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

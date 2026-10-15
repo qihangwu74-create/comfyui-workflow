@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Lens Simple I2I.json",
-    "sha256": "2f47e5d131d3f833be34c313ad9e8f87e8b3f66d4c536e88bd3b423f50eeee33",
+    "sha256": "320aeec4ca37a99f75073e2346c4a6a412ff2455dfd212e8e8be1788a6526d3b",
     "canonical_json_sha256": "9f2f09189baf0ddf96ff43f1530b540f5e5213fc2981a6c0f1e7152fa10c4130",
-    "bytes": 12562,
+    "bytes": 13312,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -157,7 +157,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SpecialUsage/oldmanpic.json",
-    "sha256": "6663646ee3e3951470a7a32819fbacc49fca2303eab7f33b67b4ad3aa220e0bb",
+    "sha256": "669adb49f44bc3f2ad115c6a80c561e21ac174e980b57ba6cadc5f7ce7ec4bf0",
     "canonical_json_sha256": "b0a19ee7a61e641723afde84b1fc3d2f63aa8920925a2e356d011d59e16ce092",
-    "bytes": 9628,
+    "bytes": 10151,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -98,7 +98,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

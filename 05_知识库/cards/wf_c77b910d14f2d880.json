@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/utility_void_video_inpainting.json",
-    "sha256": "1f2e06b8830070ecf84059e4b03b12f3e132680fc3c01fc786bdb9bf47e38492",
+    "sha256": "9b262659a8949bd6ad9370469b4b1cc894cebb943bf96c9b278fa22cdabfb940",
     "canonical_json_sha256": "fb9cdf290d274f93014fbf39826d6416b0926f9f1b524808640c8d46539be95e",
-    "bytes": 117195,
+    "bytes": 121619,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -317,7 +317,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

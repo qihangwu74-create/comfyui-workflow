@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/ZHO-ZHO-ZHO__ComfyUI-Workflows-ZHO/workflows/Sketch to 3D【Zho】.json",
-    "sha256": "ea1db5f3d5f9c1a489914ff7f0cba48cbe6d1b2d634663540574903bc161a399",
+    "sha256": "2896760e32327b81b80a8b5b67e6591009bc136f2ec0532a7f6ced280441ece6",
     "canonical_json_sha256": "680b53a32189fe2f7e31a096dfd49dc7460d50a058ec8ce5536c4f9e4cbc1d33",
-    "bytes": 13164,
+    "bytes": 13987,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -167,7 +167,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

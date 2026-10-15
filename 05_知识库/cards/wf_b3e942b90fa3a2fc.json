@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Z Image Turbo/Z Image Turbo Fun Controlnet Union.json",
-    "sha256": "e0d07edc34d174337a3517a3263377bee1c905531ed6408106d4e1a49eb2af2a",
+    "sha256": "596bf54cb54cdacdbaf726c0c76d105af3d7a664f7ea5d6e804d3de4f579f670",
     "canonical_json_sha256": "084110760372011307ff6e21059d64cb86938909e66034f2eafb7b9b84a2824e",
-    "bytes": 17170,
+    "bytes": 18135,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -190,7 +190,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

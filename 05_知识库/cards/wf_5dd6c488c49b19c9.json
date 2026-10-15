@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/utility_birefnet_remove_background.json",
-    "sha256": "a89e7323957cea65a8809e7c6fd6688d336aaa45be48e071867f2e64abd267d6",
+    "sha256": "7100d7cf77681618d9bb52cdc142422d13a9764b3d9cd22cc34565dd78cdb45d",
     "canonical_json_sha256": "c7d267b6f3c28d25ecfd735833a7f4c9ac725e40bf4fa489ac077a072c8d9550",
-    "bytes": 13225,
+    "bytes": 13776,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -96,7 +96,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/basic/multiple_loras.json",
-    "sha256": "8f4302e71d7d1473819246b50e86cbdf670032055033cae0b382cd1e2daf0332",
+    "sha256": "550287413ff6c4beb47646522a564e6394e5c93c1392dfe0f28450cb3a8624b7",
     "canonical_json_sha256": "fb6e3105246d72ff558ada2be50d7c5b9ee87516d2e84abf4d42b10c8780c7db",
-    "bytes": 8764,
+    "bytes": 9307,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -160,7 +160,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

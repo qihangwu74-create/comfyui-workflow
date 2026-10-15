@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/basic/experiments/compare_samplers.json",
-    "sha256": "08d09b4af03eae140b40714ddf7bf40c626feee05009f87adf1f5daeb378e1dd",
+    "sha256": "0dea8627abb9e18a0b99045dec3ebb75d6ce410eb77462a5189f7023281a44dd",
     "canonical_json_sha256": "aa25320a5d5afabbb274d8301cdf178f441a1f1da670f2da34d101517b5a011e",
-    "bytes": 22431,
+    "bytes": 23819,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -139,7 +139,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

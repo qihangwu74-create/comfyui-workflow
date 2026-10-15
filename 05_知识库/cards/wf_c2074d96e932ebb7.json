@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_IPAdapter_plus/workflows/examples/ipadapter_kolors.json",
-    "sha256": "53d8c6472845dc05812727b230da9ec2271ff9aea2aa610e4d4c4e484ac9f8fd",
+    "sha256": "58cd784bb5af95bbf915e10eaac9318a718122833922d71a3bf0fbb86d2b0b59",
     "canonical_json_sha256": "ad660a337ca56c583356b7336657b12f4eacdf696391c909896bfaca5c1b04dd",
-    "bytes": 11640,
+    "bytes": 12319,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -181,7 +181,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

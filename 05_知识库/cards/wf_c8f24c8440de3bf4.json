@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Lens Turbo T2I Highresfix.json",
-    "sha256": "5ba7c9f01a44b19f76a86fe1eaec2effffb566567b02e5c72f452806c10ab8da",
+    "sha256": "71bec09ccbcb3c88ffbddef41eb570b50eeef044cd2adaab3236c2606247e9b1",
     "canonical_json_sha256": "6ee3e2418b4e3900c482c1003319fecf97dcbca012b1f49d2199171cd3607367",
-    "bytes": 16680,
+    "bytes": 17661,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -180,7 +180,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

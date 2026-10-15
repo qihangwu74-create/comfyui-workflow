@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/video_wan2_2_14B_fun_control.json",
-    "sha256": "5275224792c2648fd8f41e4734509c84a85639322cc8c267f01bcf8ec10c88ea",
+    "sha256": "6bd62d5f3524941739297261dd59f1057a5f5eb4737d8725ce170ab0af2c3ef3",
     "canonical_json_sha256": "69e3da2d1813d2d9ac5002dde58ea7d2be275e0cb216423426948c5d1c12c983",
-    "bytes": 61018,
+    "bytes": 63926,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -426,7 +426,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

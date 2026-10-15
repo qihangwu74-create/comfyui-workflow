@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_google_nano_banana2_image_edit.json",
-    "sha256": "be0f846e06531f6ae0a4c299ec8b3115525365f1b760f11d3b6c5f32c06a7b7b",
+    "sha256": "df0028a22f4e3fed6e4f15c18cb57a5c3a03655896f73478a7c59928d0fc6236",
     "canonical_json_sha256": "5d625319d48281c34c23ff49ebb3b0238ee9c440b8b0437131b936426c504af3",
-    "bytes": 4311,
+    "bytes": 4494,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -73,7 +73,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/text2img/gligen_box.json",
-    "sha256": "478dd2d2f1ca28a6925d9cb80ffdbfef656f66a05d60ba66a8d168b233cf791e",
+    "sha256": "48ba993c6a558965695b9eb79a6004c4fcf07cecd250c18f83d4b79e0fa2e5c9",
     "canonical_json_sha256": "e1c3ee6ddbba23b961a6c528d42db890f42bf0376ceb08822b4499d9195b49eb",
-    "bytes": 9658,
+    "bytes": 10251,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -142,7 +142,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

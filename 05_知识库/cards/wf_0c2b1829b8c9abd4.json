@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/LTX 2.3 Clean Plate.json",
-    "sha256": "01dd136e87faaa3e1b8a748e52938c031f4d6add0832b5558dfbce68a05fe75b",
+    "sha256": "530cfae0079af0009c58929cad08c804ae9db703dd66bfdf297577af4e0e8c6a",
     "canonical_json_sha256": "6e3ae0ee493db2e936d7d850cc02fd3a8481903bef74ed99edd26efb311fe910",
-    "bytes": 50010,
+    "bytes": 52665,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -362,7 +362,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

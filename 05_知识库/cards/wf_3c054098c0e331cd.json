@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Animate/【AnimateDiff】DifferentialDiffusionSimple.json",
-    "sha256": "04f70fa6a7a3a1d64f140fd3571585b7560990d67530ddf2c94971ead72956e9",
+    "sha256": "786bc66911c9047ce31c01fa07dad3a7fe7593724ecb36a7954a2d251ca24738",
     "canonical_json_sha256": "a1295f298dce363ff8e7dac617b3b5383a43fea10e782cf5ae33fa8e10a13fbb",
-    "bytes": 45717,
+    "bytes": 48368,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -228,7 +228,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

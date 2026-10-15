@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_qwen_image_edit_2509_relight.json",
-    "sha256": "bf17a8412db73407c3bc74d85db1af1ea3385a89bf51227235f5a49583fb5fca",
+    "sha256": "4d0367d9f9bb8971ffdd9ac3cd7e5c7d469c7380e2756f7eb3f647aeb121626a",
     "canonical_json_sha256": "7826230133a2883ca124edaf524c01295f5189ff482952699c61cf7cc11268a2",
-    "bytes": 44888,
+    "bytes": 46585,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -271,7 +271,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

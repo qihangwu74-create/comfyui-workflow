@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/LocalVideoModel/HunyuanVideo/【HYVideo】ImageMotion.json",
-    "sha256": "135ab1ec7676a932c7e4f293fffeaf196c6c3d1782d5e3b672b353c0df4bb917",
+    "sha256": "a9df7469a62ff6285fb3aca53aa8a79ccaa05cf68f5a241ef662fb4c96bc971f",
     "canonical_json_sha256": "0bbdf584584982f699d96da75f13cc6bcffa58f1e4c23946fa8af74dfb7f1cd7",
-    "bytes": 24739,
+    "bytes": 26076,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -177,7 +177,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

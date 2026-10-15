@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Kolors/【Kolors】MixwithmklanRealistic.json",
-    "sha256": "ab12e6c1e76b3d2a7d9d66acf07dc6b33f89e1d9e0b26c635bba6b0786dcf4fb",
+    "sha256": "3a4b6f4aa009c8c24af57682815c713612d9eb1ecc7214b026f65ca42b887fde",
     "canonical_json_sha256": "3b1468068e7de7cc18cc6a02af39afdb93dfecf21467321c924301279823c9ba",
-    "bytes": 25309,
+    "bytes": 26822,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -204,7 +204,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

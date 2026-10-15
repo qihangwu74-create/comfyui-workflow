@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/templates-qwen_image_edit-crop_and_stitch-fusion.json",
-    "sha256": "3cb267ae729e12e8d8e971df2196e24f1e2645313c682078204dcecf07a3970a",
+    "sha256": "4eef937d71a3116d91ea81dba676cc1ae3e99a2753914b6109bf7339cf7b1a41",
     "canonical_json_sha256": "58e2d363c701728fbe57ebf0efb042aebf373b1b17b326010d89a2dd84af8812",
-    "bytes": 59487,
+    "bytes": 61685,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -248,7 +248,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/yolain__ComfyUI-Yolain-Workflows/workflows/workflows/2_advanced/2-5ICLight/2-5ICLight输入前景背景.json",
-    "sha256": "80330503691e6c66b4cd2140789665270fad581d29cf1c1ca3b6bd3f0dda0a1c",
+    "sha256": "44ffbff19cffee28b66d3a71c1f91bbc8bd1a106519e23b2997996329522e98d",
     "canonical_json_sha256": "94533483111652fe464187d5e0f3e1d4ea9c96fa9f41725c2098edce0aa70838",
-    "bytes": 205554,
+    "bytes": 206345,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -123,7 +123,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

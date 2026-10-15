@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/video_ltx2_i2v_lora.json",
-    "sha256": "8d5756481de5843af9381d66a513d3e46074abe262d91b9521a83756e3ce4844",
+    "sha256": "4d83d0a63d8891d66ea2bb14325543d14955c40d904820ee4974f0b2a14eaf1d",
     "canonical_json_sha256": "b61ec0d47c54130502e101192eb21b770d3b95bd7fa784e0a7846a477e4fb0e8",
-    "bytes": 126061,
+    "bytes": 130676,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -454,7 +454,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

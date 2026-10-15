@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/text2img/embeddings.json",
-    "sha256": "4654b02a707df9a54b410f542315fc2f02b6c94a6abc1576a17500cf84cf336e",
+    "sha256": "21f3ecbe1d1348ca72e355417097d0c0c392bdcd90111148c78758f075ac2712",
     "canonical_json_sha256": "0c2bf3d523c23b45f0e58637a48f9098be64bac27a1d5595757631cedbd24209",
-    "bytes": 6578,
+    "bytes": 6979,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -121,7 +121,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

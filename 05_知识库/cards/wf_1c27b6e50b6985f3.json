@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Experiment/StyleAsligned+IPadapter.json",
-    "sha256": "49f52a6ffcb2f244810101a7c7fdebf400f60efdc57a906eeec7c2bce8a12959",
+    "sha256": "029737e50d18bc749d643b9ae67de953fe969ab884bb7279a16be94cde63e0fc",
     "canonical_json_sha256": "ad40d8276e71a524c9220f4d987545645236d42053eccf3b6e3217285b53853a",
-    "bytes": 22645,
+    "bytes": 23869,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -184,7 +184,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/MiniMax Music 3 Prompt Studio Gemma 4 12B.json",
-    "sha256": "4e3f782fa86a0a57ab3a1f970c96fa2d9140decdbe4c8d9884117c3c76a63f27",
+    "sha256": "a58dcc26a187263af9019c0811e0eb4004b62298970b48a9b0472478bfd98328",
     "canonical_json_sha256": "32b496ddf4d8c1f433d13e08a7d54ecf6820d397ff27c9bbb4bc32e59128cbed",
-    "bytes": 55443,
+    "bytes": 56587,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -84,7 +84,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

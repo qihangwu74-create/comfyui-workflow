@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Minimax H3 FL2VA  + Rewriter Omni.json",
-    "sha256": "3e76cec4cdf65dbbc79d10620498ee8c40f9fb7f7c72024dcde90daa26819ce1",
+    "sha256": "61cc503ae501ac05bb9d40cc7b7c00ae0a71e35c1aee22fb61aad8d437306a66",
     "canonical_json_sha256": "9c8e4f20856c0f90ca4ae9dc8b63f59022816052f842600c08c1dea41441e8b1",
-    "bytes": 42039,
+    "bytes": 43778,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -223,7 +223,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

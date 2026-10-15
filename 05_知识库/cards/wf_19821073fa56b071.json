@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Couple/couplefaceid.json",
-    "sha256": "5b6f46444c015346630d4b5761451c5f9915610492e059dfa6bce5a71b50fcbb",
+    "sha256": "1ce6bdd1af413b258580223c7465621925f2944e16180b947893439485f91769",
     "canonical_json_sha256": "c192e95e7b831bf2eb2a49a7ccecc55bda18dca0a2ce1f3a73256cc23c905798",
-    "bytes": 54890,
+    "bytes": 57960,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -291,7 +291,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

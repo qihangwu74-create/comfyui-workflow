@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/ollama/SD15haircut.json",
-    "sha256": "afda85d1d60c98b6dcf596f286f15210c63fb826aa71f0239b15f8bbd86cb3c4",
+    "sha256": "4388c2242eec455c4713ad475d6e9e6cdb71a00572e4b3f144245d36292a164f",
     "canonical_json_sha256": "c9da2d1818a9b5a88d44f62a3f413beb4db7d933a98d755f9d8b11504db22e9b",
-    "bytes": 50245,
+    "bytes": 52747,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -145,7 +145,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

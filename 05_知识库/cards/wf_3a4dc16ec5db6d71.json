@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_flux.1_fill_dev_OneReward.json",
-    "sha256": "9f6b7be1e9d67e582289034e7595e1ea6ac25439f13276ffc251b37be6bf0ae6",
+    "sha256": "c4fdb37c4770d8b8249e56280e0716dce7859a72991bb15d71337fcd7989ffa8",
     "canonical_json_sha256": "697ab851ae069d47b2d36d75fff19c29012af8a7e4b370af08a453c7e813d4ca",
-    "bytes": 74723,
+    "bytes": 77596,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -288,7 +288,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

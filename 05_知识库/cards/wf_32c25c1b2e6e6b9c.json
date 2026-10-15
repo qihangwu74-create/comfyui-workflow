@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Zimage/【Zimage】SimpleTTPI2I.json",
-    "sha256": "781c4c0cecb4f0723b05c2f7205cfd5e61c21728fa29ed8e6c8005136f6b6f97",
+    "sha256": "c689f9c327416a77c8ada50e21871027d2e1837497e59dd8e113e440a634247c",
     "canonical_json_sha256": "b53a063902bf767feeb29f6480e811c668537c9d33ddef39c06383d0c976d780",
-    "bytes": 20127,
+    "bytes": 21284,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -185,7 +185,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

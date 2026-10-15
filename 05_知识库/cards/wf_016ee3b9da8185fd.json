@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/LTX 2.3 Lens Flare Remover.json",
-    "sha256": "30b2a9d0afb13f56249ef8a31c46a69b01aab18a494368d49d1e93abd09de643",
+    "sha256": "75946f5006d91df387a57a22f7abd2909521a73ae1065ef2efac70439a3cbb96",
     "canonical_json_sha256": "fe237ccbbb58aa38c62f57c9d1dcda7f15f938214bb82cf98e41a667414d899a",
-    "bytes": 49596,
+    "bytes": 52251,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -362,7 +362,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

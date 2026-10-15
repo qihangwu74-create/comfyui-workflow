@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/fahdmirza__comfyuiworkflows/workflows/text_to_video_wan22_5B.json",
-    "sha256": "6a4d79e1891ae1257654fa78d6716936aff9f8c7e578e4e716eb112f4e5a57c4",
+    "sha256": "e7913b6b2c8f7d82a6a6f9940289bf6e7513cc908bbf455e4553de9804c6f571",
     "canonical_json_sha256": "5df2043e5ca617393b05268ab22efbda7c0b4ff5bd34726d5f2a24197dff4291",
-    "bytes": 10180,
+    "bytes": 10758,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -150,7 +150,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

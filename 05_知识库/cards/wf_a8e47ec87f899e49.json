@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_anima_lllite_depth_control_to_image.json",
-    "sha256": "d46cfa6b0a7784f159fa044934ccbb78df4d0c6dc5a1fcdfc9a839a9f3af87e8",
+    "sha256": "639a85f62348ff16f6c390c2e3bc2dc09acd82a2902c4ca5b481b4f38726cab3",
     "canonical_json_sha256": "546c4256f05c4816313c3ea42efc4f8971bd1922df82b613562ec8f544de94c7",
-    "bytes": 68496,
+    "bytes": 71239,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -271,7 +271,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

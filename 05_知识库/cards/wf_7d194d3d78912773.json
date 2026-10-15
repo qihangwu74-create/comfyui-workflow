@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/fahdmirza__comfyuiworkflows/workflows/virtual-tryon-flux-redux-workflow.json",
-    "sha256": "899bc89604a0bfe4455604f58f6247e229d97085c71f38c123c58900e72ccc23",
+    "sha256": "f7636534f1ce3994fc0cd3cc8d9f52cab3af9e41d89f8f490f371b351cab0b7b",
     "canonical_json_sha256": "b150ac8a5290edaa737beb0a78119df77a5d789e943435c7dfd3c0c6b4e50f90",
-    "bytes": 20360,
+    "bytes": 21594,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -182,7 +182,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

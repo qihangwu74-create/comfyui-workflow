@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/yolain__ComfyUI-Yolain-Workflows/workflows/workflows/2_advanced/2-3layerDiffuse/2-3layerdiffuse透明图.json",
-    "sha256": "cfb887928150f291dff274ab82bc3be49ca5203aa25475541ba6ef5a5e943bf0",
+    "sha256": "f00e08ec59526c5811df22c251018d5e5468c4ac0f7771d7f032db4a82200c76",
     "canonical_json_sha256": "62164237370e667484646d5e8a1df9d85638611194c6a613a2fa0e7f722593a2",
-    "bytes": 39734,
+    "bytes": 42092,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -207,7 +207,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

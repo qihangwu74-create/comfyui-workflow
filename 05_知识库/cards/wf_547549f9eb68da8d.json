@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Shuttle 3.1 Aesthetic.json",
-    "sha256": "f9c4a94aba38ca006acec2f8cc3c750c4f916766721d9212965551e3bde2d8f2",
+    "sha256": "74098a2474cb99f103a12abb33bd90c0d74cc53c136563be2982031428d7638f",
     "canonical_json_sha256": "69babec21407c393d1e2a7553c5afc19a8bb1e07caac077a22ab18fb04225173",
-    "bytes": 7017,
+    "bytes": 7444,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -150,7 +150,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

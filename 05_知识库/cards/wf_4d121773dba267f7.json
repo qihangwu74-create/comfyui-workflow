@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/fahdmirza__comfyuiworkflows/workflows/LTX_Video_image_to_video.json",
-    "sha256": "469bd2ad3107f6ad39993f9c762ff778ce76a54a974e60da30c221909177cc3f",
+    "sha256": "b3541f6051d12b7957011d1dc961c67fd19b80c401093173c6695ea1006bb659",
     "canonical_json_sha256": "e4e7ad19c81a907ce6e2e6509d6e35264e713f47d0ca96b4fcea0d49359faa17",
-    "bytes": 11924,
+    "bytes": 12642,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -142,7 +142,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

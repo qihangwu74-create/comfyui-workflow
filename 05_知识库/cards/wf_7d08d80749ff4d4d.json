@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Qwen Image Edit 2511 LanPaint V2 4 Steps.json",
-    "sha256": "13028994ffd62d10b95aee789eaa120fa39fd561379687557e1ad0dd7d040d1b",
+    "sha256": "dfaa8d48f3be93727f3b47084fde8ede82a1ffacf1e0e6d8d0c7b4bd584c318f",
     "canonical_json_sha256": "a6771817e57561da45cc91c7a8d0a48044758fbd10b05bd83982695d75266d2a",
-    "bytes": 24092,
+    "bytes": 25476,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -214,7 +214,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

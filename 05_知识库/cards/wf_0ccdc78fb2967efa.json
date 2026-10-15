@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SDXL/【3D】Realtime.json",
-    "sha256": "9175d41bebce402c6a056697a1fb25f8a3299f856935c15abdc97a3a62f868a9",
+    "sha256": "b9f23ff0154e3052a13ac06618d3e5b0a0de2cd45d4c628925c9abd58c7854a4",
     "canonical_json_sha256": "8e9425c1f38ec137b8c33dc839cf574afdaed28b063f97636a9aa24de17921e3",
-    "bytes": 10926,
+    "bytes": 11577,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -130,7 +130,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

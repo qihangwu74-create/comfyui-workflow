@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Animate/【SVD】SUPIR.json",
-    "sha256": "12816eae15745d2392c4fd838305a6ed69b1ea3cd7b3e438cc77b26e47db3114",
+    "sha256": "99b960669339bfe3faace4cbe2397c2d042c308ce1d1eb124e6454499f5d16ab",
     "canonical_json_sha256": "c3e51d9faa1d6419863c53b1c7f93e6f658fb43b1331456eb0b840c701edff46",
-    "bytes": 58795,
+    "bytes": 62397,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -203,7 +203,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

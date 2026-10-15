@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_bytedance_seedream_5_0_pro_image_edit.json",
-    "sha256": "b202733e88f324a7e80c378ccae65dd58c579cd85dd3bbfd51b1f8b9300c228c",
+    "sha256": "9f608b7405d0f12125db3e057489221bf89cb1f80a51af7e26dea01dfce0bd64",
     "canonical_json_sha256": "1fd3281e941c2d2ea0a2435091fff63279f404c47c73c2aa7c87b7eb8f5f6b0d",
-    "bytes": 9462,
+    "bytes": 9815,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -75,7 +75,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

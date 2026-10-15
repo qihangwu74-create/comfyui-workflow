@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/yolain__ComfyUI-Yolain-Workflows/workflows/workflows/1_basic/1-5Controlnet.json",
-    "sha256": "c9497cd6fdbd4edc8dd27c75540506e17f4272521c4c6e072d2d9e7fd5786e58",
+    "sha256": "0a6d0b8aeaf6d761b9298d0215f014e538cc647465347c82d5d803baca41fffb",
     "canonical_json_sha256": "ed0f74b712bd785af32c663098ab1e6d9f51f7a8aec0dda00b47e8740fcf75d7",
-    "bytes": 229276,
+    "bytes": 229979,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -137,7 +137,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

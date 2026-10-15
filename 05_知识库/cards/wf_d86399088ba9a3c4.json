@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Animate/【Toon】inpaintandtoon.json",
-    "sha256": "557e22c7f8326f0c3713be626921429c65e0fcd58c8ab0baf3291fb1d38d663c",
+    "sha256": "9e3b2bb956d208b34f6bb86629032383d3db4b3fd353d8334963a4aac7ba0554",
     "canonical_json_sha256": "eef175e93f954470567fc8b2c652bbdb0a719f816f5058ceea762bd184b880f9",
-    "bytes": 36033,
+    "bytes": 38129,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -201,7 +201,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

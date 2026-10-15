@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Qwen Image Edit 2509/Qwen Image Edit 2509 Fusion.json",
-    "sha256": "a41c8e005a13c2b62affdd1ed96a843c147c5ca5f35b51e6d56d3946b3739d11",
+    "sha256": "8bbe896ac619654f8f37f70d4d1d06c28ede6c73e769494ca236057ac6b63b4d",
     "canonical_json_sha256": "b93e5f78488eaa92c97a9342acc3d81245186481a0a7610980d9215df1a3ba5e",
-    "bytes": 25238,
+    "bytes": 26684,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -234,7 +234,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

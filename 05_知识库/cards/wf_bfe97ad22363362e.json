@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/video_minimax_h3_fun_controlnet_union.json",
-    "sha256": "8f6c8f1bbc732b9bf88ac574b279dbac2d163818c4b24067e475ef662c8c831e",
+    "sha256": "1f18b71fd23e7a37a35ba01463b5e0d13dc5f15bb09ecae339c18ae7c7645d55",
     "canonical_json_sha256": "3b78462e72299897041280ecd053b7c9ea87fc1cd36d7261bbc990a08ee88f04",
-    "bytes": 91170,
+    "bytes": 94571,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -361,7 +361,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

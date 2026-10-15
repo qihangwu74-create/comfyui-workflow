@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux1/FLux Pulid Single Face.json",
-    "sha256": "5a82ee81252f2ec3eca7b7c94a12d03887ea82f17e1710c6cb98b4135730bf38",
+    "sha256": "1ee11c43afc039f175f2818c0b87c08f1ee250db649d0f7aabed0895f3deb159",
     "canonical_json_sha256": "86e5196efbef51730915216351e89c07b329c7e9bc5d3b3b9ee6df7a1cf41382",
-    "bytes": 11662,
+    "bytes": 12345,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -200,7 +200,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Qwen Image Edit 2511 AnyPose + Reactor V2.json",
-    "sha256": "59bb0d99b217114d71a3931d8f02aaa0db5fa77dcbce47c542eb0b8b39d207b2",
+    "sha256": "607d1be81b3f956657a2923e960c7c88476c20786fa0076bf274d0698c4b1753",
     "canonical_json_sha256": "7147c0fe9674410df78f222cd8490aab4607b631f4ee17f836ad92a59b4a9530",
-    "bytes": 76767,
+    "bytes": 80040,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -331,7 +331,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

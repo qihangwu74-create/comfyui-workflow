@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/LTX 2.3 Motion Transfer.json",
-    "sha256": "d7bb55dca7c20b0ac6c0c7fbb7816e3922d0420f3bf47e6f304cb94c02904d2a",
+    "sha256": "f213aa369f67de47e6d6f5ab721e12561d04231c8af477aceded47e1bd71a1af",
     "canonical_json_sha256": "69553203257050e77d01cd673548f8d6ecbc412169c3a663df8e589e4953de42",
-    "bytes": 80042,
+    "bytes": 84398,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -504,7 +504,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

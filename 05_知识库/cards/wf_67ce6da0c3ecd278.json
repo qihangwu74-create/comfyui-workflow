@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_magnific_image_upscale_precise.json",
-    "sha256": "d5fc09965dae84c64cddbc27b7c6bdf111e22dca525712280e5ba8ada14d0fc3",
+    "sha256": "79a03a0ad3d132d999d2f9e053e4fc45beb7ddb2c197593a56155ab9dd1a92e1",
     "canonical_json_sha256": "7aad2c3373e2c91b127a388ae4828961de67eee9fccf0ed01f94c40d8e310f88",
-    "bytes": 3281,
+    "bytes": 3480,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -72,7 +72,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

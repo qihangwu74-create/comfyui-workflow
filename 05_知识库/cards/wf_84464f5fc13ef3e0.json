@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Krea2 Turbo Simple.json",
-    "sha256": "f03413879c369140976c98acfc78d636505a4c7805749df44f0c7f0171edae45",
+    "sha256": "4a4abb37c23500f9e190d8a8d46ea61fa1c382bf1628bb6d5be4c48ad8551067",
     "canonical_json_sha256": "c1ae0d7f0ecf4c0ca72ee2aeb0d562a26543348a21c1ee2a115bd71dadf65260",
-    "bytes": 12568,
+    "bytes": 13255,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -172,7 +172,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

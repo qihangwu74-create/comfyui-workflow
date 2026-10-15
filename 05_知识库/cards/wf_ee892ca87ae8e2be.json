@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/WanVIdeo/SVI2WanT820260101.json",
-    "sha256": "3aced07321cfd8dcd21ce32c1d6206ce18df4e39d4f1a312b574c21866bcb8f9",
+    "sha256": "42d7a3064ca592ab28a8d5082e93c3ac30d3bdef901411c9972fbc398f6d0f34",
     "canonical_json_sha256": "2da7e29ba1ce300f42a418e2b85226b2e6d9851a4a95893a7a9ad2329ed2bac7",
-    "bytes": 200678,
+    "bytes": 210953,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -440,7 +440,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SDXL/LineArtColorArtists.json",
-    "sha256": "05d056f169cdbf71bb315d5d4819594d37fd14093ce0278f3b3bd55ff39e53f3",
+    "sha256": "85f3641a2779c1d6fe35a3cb333f6b90d13804405ab3cfc65cb8a0f09df441cd",
     "canonical_json_sha256": "234c9f055c28c73380ea1f9144b896af108c98563c5912e3ecd0ab4249c0e8c3",
-    "bytes": 20019,
+    "bytes": 21096,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -126,7 +126,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

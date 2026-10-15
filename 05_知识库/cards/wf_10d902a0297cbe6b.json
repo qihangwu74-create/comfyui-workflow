@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux2 Klein 9B Distill Editing 1.0.json",
-    "sha256": "e0cc41c6d0e3b5a166ac097be3fa76182286b576d8c93e69c8760421a6763278",
+    "sha256": "9ed6bc3cd9db660140c7641160e476b8b5a469c6b55c1bd9d0741077a80f9561",
     "canonical_json_sha256": "e3a4cf9af16a4a8e397389490d34c46b0e6265e52d7f08ddcadfedb10096e429",
-    "bytes": 37221,
+    "bytes": 39349,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -197,7 +197,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

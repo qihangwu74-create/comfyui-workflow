@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Flux/ACELora/【Portrait】PortraitLoraWithRedux.json",
-    "sha256": "5f39ca70046cfeeba66782e286e95f932c5d026a848be15baaacf1723c583fa7",
+    "sha256": "d0783d2799e77d3c383eb9b4df5ad62947bf34f7f248c967b54671e8798a3ae5",
     "canonical_json_sha256": "145509b84bddd52a79c9572c87cb35b0e4f4be7da3229669c46fafbe65cfd95d",
-    "bytes": 37292,
+    "bytes": 39489,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -272,7 +272,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

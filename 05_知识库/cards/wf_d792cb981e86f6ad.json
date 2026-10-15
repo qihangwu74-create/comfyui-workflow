@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/template_ltx2_3_style_transition.json",
-    "sha256": "ae8e0460b892e3e70a7428e02a77f2b150754d4badb1c84d0855014df32ea70d",
+    "sha256": "8ee24ef457a2815572582787d82d69636dfd1d920d5e5610eeea76bc0b67f6df",
     "canonical_json_sha256": "391fa1ad8d88afcf75027050df069c0d62aac76f9816a51b057ba9e399beadb6",
-    "bytes": 93025,
+    "bytes": 96489,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -268,7 +268,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

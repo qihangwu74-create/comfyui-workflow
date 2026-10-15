@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux1/Flux 1 Dev Lora.json",
-    "sha256": "be7b384183397532903768af57084df6be0b317b4bf5e8cebfd1f5a60b0eca56",
+    "sha256": "4363de0afff485b6a20a40b32351afc68990d6f44aff630ed8d16b8ebaa969e9",
     "canonical_json_sha256": "b73c4ff7618b8046cea6cfba7a80ab947e95fcd62132ce08a6fdc567da8c5f0c",
-    "bytes": 8948,
+    "bytes": 9513,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -189,7 +189,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

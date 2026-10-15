@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_qwen3_t2i.json",
-    "sha256": "ba6169102417a2ac00c4c3056682c3c134a7a9fb54f82b72a4bd256ed27f4f64",
+    "sha256": "72dfb5c7697c248448c6fcb71feefdc85d887c65ff3054593c74da8ce20192ed",
     "canonical_json_sha256": "b14db36bc9a8c111158d672669a83a8bc8c17746387f94f1c12d8316d6e2a893",
-    "bytes": 5223,
+    "bytes": 5424,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -58,7 +58,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

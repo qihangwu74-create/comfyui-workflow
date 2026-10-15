@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Animate/【Toon】Toondenoise.json",
-    "sha256": "c13ac1d835a81609382212dabe910cb8d2e644e9fd7c58e99e4cdd29f395e0eb",
+    "sha256": "1cee329c62c3b9f5cb32765ba9df97ae76e2b84c0ca45d255998f626d62a90c4",
     "canonical_json_sha256": "b49f6c72f18781588adaa350265741a0875e00207e61ea1e8d12b5e9f1f21b07",
-    "bytes": 54607,
+    "bytes": 57739,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -293,7 +293,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

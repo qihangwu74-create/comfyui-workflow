@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_marigold_v2_depth_estimation.json",
-    "sha256": "166b1484cf6805de4cd2645d48ab0ceac7bdc83b61e565df5f870adfa978f9cf",
+    "sha256": "f5c3ef19696632046ff7cb581967b5b5870e846aab4ddf67dcbca153bcdca711",
     "canonical_json_sha256": "6d756db47c20b5d25914ab92dbfd82d2a62ada126ec4da985a502243b9919031",
-    "bytes": 35883,
+    "bytes": 37194,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -228,7 +228,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

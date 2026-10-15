@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/LTX 2.3 Image To Video V1.json",
-    "sha256": "63b0217d671621f7f4ad043415b3f98337113e16afb4d26f728a312129327040",
+    "sha256": "144a566ec58bfafb8e12929d4c474f6125e9a6f08026fec47d7fb405c7b4147b",
     "canonical_json_sha256": "ce8fc307065c78f40c6b87e7fe98a4d638561bd6d66b4e80543ca9cd96ce7452",
-    "bytes": 67812,
+    "bytes": 71425,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -403,7 +403,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

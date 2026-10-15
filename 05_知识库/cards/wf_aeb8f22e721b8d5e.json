@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Flux/FluxTools/【FluxTool】ReduxAdvanced.json",
-    "sha256": "1b9906dfe5036103b754a2a8a5e9fadcbc0bf4099ed6f456709e09cf31de7875",
+    "sha256": "527f44a4d30dd61cfe7429c8942cd5dc32901bd5d481da144c5df11a9b120da1",
     "canonical_json_sha256": "4a5902aab588a1164b6a68a9021c01fa80122c203a189f1f26777c0dc76b417b",
-    "bytes": 22490,
+    "bytes": 23845,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -219,7 +219,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

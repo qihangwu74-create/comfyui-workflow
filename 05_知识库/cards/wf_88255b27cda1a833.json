@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/text2img/conditioning_concat.json",
-    "sha256": "2b8cc46c7b1568e5dc670076fd27f6e5d9bf70ef2033bb05e1fbc8803871be0b",
+    "sha256": "b0c4c2c4269fffcb283691986be56f1a59b64d036a5ce0b184a9d108880421dc",
     "canonical_json_sha256": "219d97fcdd0126e8b62f5547fee8f0f048b4a30f200c74bd1d9bccd16168fad0",
-    "bytes": 10239,
+    "bytes": 10858,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -134,7 +134,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

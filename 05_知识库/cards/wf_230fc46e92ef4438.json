@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/ltxv_image_to_video.json",
-    "sha256": "8d41217612e91b4e067c71eaba261555b142d597b46ee7eca5bf3544ec9d80d7",
+    "sha256": "ee7e01d0590bbf06ea24bdbce57f537468151a2d9709f55f3378aab61c95d590",
     "canonical_json_sha256": "e45310b62c754a49bdf09af14c64daee5494fa8327df038d48dff72442d41fda",
-    "bytes": 16586,
+    "bytes": 17502,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -161,7 +161,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

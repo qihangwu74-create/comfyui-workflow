@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/template_character_portrait_relighting.json",
-    "sha256": "951273aac0bb640eda270d818b83fcb49934bb758ec4fd0e23fabc876e05e5bf",
+    "sha256": "963ae934473223b1ad48e8359dd44854d371660cc5fe58730b4996b7557486a7",
     "canonical_json_sha256": "d36397c26acfea71c7b0f4c22eb3c56aa62c816a7a08e3eceb3c1ffce7f3b12d",
-    "bytes": 15524,
+    "bytes": 16178,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -74,7 +74,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

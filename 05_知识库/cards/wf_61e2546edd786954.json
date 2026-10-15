@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/utility_recraft_crisp_image_upscale.json",
-    "sha256": "9b83dd24122bdf6a0ca1e11f66e725dd0f64309f8cd320f4f6d49c31f62ee148",
+    "sha256": "c44553efe25116f6ab8c25af15a7492f581cd58d46fc9d2e8f1fbfdc47981e2b",
     "canonical_json_sha256": "53c3f09724fe78f6df6e193b4fcb768fb9217f261c5f05324cd039f3eb8576b0",
-    "bytes": 4539,
+    "bytes": 4790,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -75,7 +75,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

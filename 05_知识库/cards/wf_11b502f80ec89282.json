@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_IPAdapter_plus/workflows/examples/ipadapter_simple.json",
-    "sha256": "2888e500de8ea15e4b1eea985588477e618b9eb1e79f27c05f56ff242675b3d8",
+    "sha256": "1e41caa3b03422b3d4ad7e0807dba4c965c393621e8d6d1e9821274e73c7dd77",
     "canonical_json_sha256": "fdbe8c818286f7d55fd801ad0b18b8aa2c5f07002053fa44d729771e6de4f580",
-    "bytes": 8880,
+    "bytes": 9425,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -127,7 +127,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

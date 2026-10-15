@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Qwen Image Edit 2511 Inpainting 3.0.json",
-    "sha256": "08b5a3357dd05984436b194fbb190a274a0802513ff325b0e5ca3bba258f9cf3",
+    "sha256": "a295b0122ecccc8952b68a68c4a6f76102943e0bd8449478b5e92b4e700c6fb1",
     "canonical_json_sha256": "f910443ebd33741ef887e3c771f5ba71e07240d1148d33f900ffca9c4d68553c",
-    "bytes": 25130,
+    "bytes": 26601,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -209,7 +209,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/BackgroundChanger/【background】brushnet.json",
-    "sha256": "b3023c25cea871ca25b78ded36ce29e96536ef4050fbf26df267281736d6ed23",
+    "sha256": "ea946c4a83c0ed3d6def8b4f70b9a3a61e68371a55414a6cf66ff3fffdcbfee5",
     "canonical_json_sha256": "c4ab0152c850d85f1968a1cb8491380be6cae1563598e62d78caf60f1aeeed8b",
-    "bytes": 10941,
+    "bytes": 11619,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -136,7 +136,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

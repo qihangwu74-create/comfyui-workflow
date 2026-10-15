@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/basic/experiments/compare_checkpoints.json",
-    "sha256": "6f1cdfe9935c73673718d6152c7e0edd1cefb8907562f75ba4b908ed479d0825",
+    "sha256": "1de022f0ee0be118d09fb91a60d90c0f539aca4debbc06f9f11e07b590a62a92",
     "canonical_json_sha256": "e7c8b60e7cb09f85462987cb8670d5e48c1aac7562bea778cc2e0be1c8e2a0a8",
-    "bytes": 25670,
+    "bytes": 27076,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -158,7 +158,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

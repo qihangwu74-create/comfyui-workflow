@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/yolain__ComfyUI-Yolain-Workflows/workflows/workflows/1_basic/1-12噪声注入.json",
-    "sha256": "ea50a7a94e9b79a7e8a8d464f8121d88b847f7cba9dd6ff7f68b2ccc4394f6f1",
+    "sha256": "4e633e4389b9dcb3854cfa9eb7f064af11efb74896fd598546b2a3cdb2fc8595",
     "canonical_json_sha256": "e4b581d3178b4dcad2435e3b837d10f25c3b741a7e7d026d4c3e7b69d48bfd68",
-    "bytes": 6048,
+    "bytes": 6384,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -108,7 +108,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/comfyanonymous__ComfyUI_examples/workflows/cosmos_predict2/cosmos_predict2_2b_i2v_example.json",
-    "sha256": "f899c40e8e8f570980860c5bc864c0df36df80d0628db0dfa7587a1c698f015d",
+    "sha256": "99e4cbaccac5f180c2268ffde1f42770936cb5d1fb2b9e1b3bf2491c212cb712",
     "canonical_json_sha256": "4cf78a4bf1d86261aa385cd8eea054770c78f163e2c1717cae0ceafa9a204b5e",
-    "bytes": 8848,
+    "bytes": 9395,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -156,7 +156,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

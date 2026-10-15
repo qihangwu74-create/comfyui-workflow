@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/flux_fill_outpaint_example.json",
-    "sha256": "87f4f940de570cabef26e9f5b42a5080e919aa6c69c9feaf28a0d419d34a460b",
+    "sha256": "2c2922dc1aba5e359a9686c10bc328d1f7d891c7d03099e00a30109faa5b13ec",
     "canonical_json_sha256": "d4850f5ff7b95187aee4189aa6cc276e67d38fd38a4f6789aaf8d97a08a932e5",
-    "bytes": 15836,
+    "bytes": 16659,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -198,7 +198,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/flux_kontext_dev_basic.json",
-    "sha256": "28d57d262f04c7a1de809aa593428df519afe120337017b0645e75e4cfd41011",
+    "sha256": "3c613304ceefdc511eb2fa3ffef2470d182b6002b85a88786d2fe1abe62d90fe",
     "canonical_json_sha256": "5056054f228acb6243de48a4022576f124569ce74d6a6374104014b554f2106f",
-    "bytes": 38019,
+    "bytes": 39397,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -210,7 +210,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/image_conditioning/experiments/conditioning_unclip_multiple_imgs.json",
-    "sha256": "8ac9dc8a7bcfa83793603a6a2a03c2fe62fef3afc683e08c92f657f9b44661ca",
+    "sha256": "4c09d737a31dcf76df59d98c4961bdb1766012abc954b9cedd0e0f2f2b765aff",
     "canonical_json_sha256": "c8b8b0eb0e237773772b4c9f4331b8619488f294123846bbdaa03489bc755665",
-    "bytes": 11770,
+    "bytes": 12480,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -116,7 +116,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

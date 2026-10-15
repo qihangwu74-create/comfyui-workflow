@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/hunyuan_dit/ditwithupscale.json",
-    "sha256": "ceddcfeb711f5aadace5eb8a18aa77be2229afd623f4e31d30f4d0e9db21a414",
+    "sha256": "e61561e14b37dd3f737f9f80d15693700478845ddc90307543f0420e195ca460",
     "canonical_json_sha256": "c06997a830529c43bbe048a11bf122f6fc42d010b7edd39f8a4f70f2db58ce03",
-    "bytes": 20225,
+    "bytes": 21336,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -163,7 +163,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

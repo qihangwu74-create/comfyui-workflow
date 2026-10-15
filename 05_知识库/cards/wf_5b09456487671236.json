@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Video/WAN/ShortMV.json",
-    "sha256": "0f726eda64c842aa40b9a56b2777b14a4ca5212c547202f8ceb2ea3266398993",
+    "sha256": "0fcd71f29ebef33874c0fa9d898dc0e500c0c20332a56ab74662fadd44ff6cb6",
     "canonical_json_sha256": "0fbf2dbd2bf177c3190a80e2fa0859babf30f0ef478fd3b6380ad78ebbddb7b2",
-    "bytes": 45647,
+    "bytes": 48128,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -322,7 +322,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/text2img/timestepping.json",
-    "sha256": "d7a4e62bcd48d2c258a792fa43f3ac44b6551706c07e7879040494e6ba42f629",
+    "sha256": "e245e5a5dd841da05753ae712b568157f5a7adfb69c26f62f105d285627d3243",
     "canonical_json_sha256": "9f448d7e4223e833634740c1f156ecd00d600e9bd71df5734b847f0876a8a155",
-    "bytes": 20635,
+    "bytes": 21792,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -135,7 +135,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

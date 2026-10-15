@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Couple/CoupleWorkflow(mix).json",
-    "sha256": "a36491ea928a83b0b3983a6d9f11acf38808f666a1698ca9e2b899430d2c15ef",
+    "sha256": "37005d6d5e66c9612d2f018118a4a5d4024c3aeac4c2d932fa09b2958a29330a",
     "canonical_json_sha256": "1a995ebe484baf19ae5c8b08737ce92bf116ec4f915a28cf6a05431ed440e6ce",
-    "bytes": 39497,
+    "bytes": 41539,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -244,7 +244,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

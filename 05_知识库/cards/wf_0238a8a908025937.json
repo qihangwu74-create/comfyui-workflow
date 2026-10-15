@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Z Image Turbo Fun 2_1 InPainting 4.0.json",
-    "sha256": "cf99c6c5958796f8def05dc523f5f3ce9fa5339a677a6bee2b09074c7bf8249c",
+    "sha256": "ea51a3168351ba922b0eadfc09682e319ab175c8edeea40f45f0bc952270b6dd",
     "canonical_json_sha256": "b2852c2c431de26c423f6c3abef4e097046c4783babd92e963a50cfcb776bc73",
-    "bytes": 24656,
+    "bytes": 26041,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -219,7 +219,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Animate/【EasyAnimate】ConceptVideo.json",
-    "sha256": "6df67d7bc586a0583f92fdd09150016298cc413e31d727ea234af4038d5b0cfe",
+    "sha256": "82821499450e60314c7bb6e17800b9e58c021b2b26abc1eecf4113169a323b34",
     "canonical_json_sha256": "f04acf03dffe50e3b193b79e51f3ed9b903bb675a147e2c3c5610c6dbb14c4e4",
-    "bytes": 30303,
+    "bytes": 31845,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -87,7 +87,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

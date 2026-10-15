@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/inpaintoutpaint/【Inpaint】SDXLRemove.json",
-    "sha256": "30dd1b2a5a44bd808da9161853d485834f3161bddc604b022e363c118b525b3e",
+    "sha256": "858afdac762b45ad3be10b3c5b7a1359f9ac55be2475ddf21c3289a4cf39de99",
     "canonical_json_sha256": "045c9db2bb7da1e0ae00a063dfa21e16ad1fa7abb96b796b720145a9c0a067fc",
-    "bytes": 25335,
+    "bytes": 26840,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -166,7 +166,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Qwen/Qwen_Image_2512_GGUF.json",
-    "sha256": "b6e7b89fbf1215d503e28af24b15000d9d9374ff28c5664fe63a9dc4f466d0f0",
+    "sha256": "5b6eb2971745e40e9ad4d8f6a077c97d643eb8ea31a8869a7696b1edbfeece92",
     "canonical_json_sha256": "4e22593491d63469ff2442c7f64ed4431217cf29c0371e64cc924765c0411c33",
-    "bytes": 14298,
+    "bytes": 15028,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -177,7 +177,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

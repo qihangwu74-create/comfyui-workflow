@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SpecialUsage/stylephoto.json",
-    "sha256": "93cc7857bab8997d4d3ad85d350af7e973c4035fefe475653026eb0b28727406",
+    "sha256": "48bcadd3078d10c4fdfe40a2db0d54339ed0ae9449c9a5014f01a639c8216dd1",
     "canonical_json_sha256": "1e613b9ad9faa602b5632982dc1e9bf0b2646395cf29fb17d4e0f5af55237226",
-    "bytes": 53634,
+    "bytes": 56817,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -237,7 +237,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

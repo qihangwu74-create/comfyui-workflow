@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_bria_video_replace_background.json",
-    "sha256": "f446e13ee077da6eefe84c502f8ce27198fd4b3ed1a0b66016ba65bacce41cff",
+    "sha256": "a563c600388a8f1e624aaf2e3e563bac3917888aabd075392e9e0275d0354af0",
     "canonical_json_sha256": "d46596b67ace39764d48a293f1d2d0d56ff11b90fdc2fb0313f54f09e5410b0d",
-    "bytes": 3668,
+    "bytes": 3878,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -82,7 +82,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/PID/ZImagePID.json",
-    "sha256": "b3e5747e6dbc92cd3d8241aca8e6dfb610259166f11079e63d6291ee6e6c5ac9",
+    "sha256": "01c718169318d25bed521c8ebbb79f5203cc1523e17a16c9ed160ee2aab052eb",
     "canonical_json_sha256": "187e4680c293cba3216e235be37adcc4dd32e0658d2fb8d5a0eed1eb03838d42",
-    "bytes": 31702,
+    "bytes": 33264,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -235,7 +235,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Animate/【EasyAnimate】AllinOne.json",
-    "sha256": "8a4ccaf0a5ab0d57a3ee64c077c9deab29e02bd7774b3c3c723dfacc4627a24e",
+    "sha256": "afb87a09967e1aa2000f41cb28c64625a4538806170f6028fcdc4deeb426df59",
     "canonical_json_sha256": "9fae96e9ab780e5d15ad1f0e5e1814eb5d0611a31709579d629fd599988988f6",
-    "bytes": 44472,
+    "bytes": 46930,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -169,7 +169,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

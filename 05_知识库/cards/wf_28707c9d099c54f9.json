@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux2 Klein 9B 3D Ghost Mannequin + SAM3_1.json",
-    "sha256": "4ee669eb602755b1f5d766107e7969b3207e0ecd8b72a8184532a19e13a68063",
+    "sha256": "93986f28af43d7860e136b1c6c9e5c92cfac601930a6e29cebf09017613c96c7",
     "canonical_json_sha256": "1333c56930ea466d30d8de69ad985174ca9aa3936c06bbb9c5441aa50539f749",
-    "bytes": 21955,
+    "bytes": 23185,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -225,7 +225,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

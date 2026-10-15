@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux1/flux krea 3k.json",
-    "sha256": "aa1f15709734ba07d5ab8c45a62199dea71d2074b335c28b8705a9f79c05d654",
+    "sha256": "71337cd973ba564160b3d1d1793a24bfffaa8c77bc94bb813271771e4722b10e",
     "canonical_json_sha256": "bc5005c30466a005bec3530f1d884c4daf61501410308c50f8e3ae03e5c71bdb",
-    "bytes": 12638,
+    "bytes": 13284,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -185,7 +185,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

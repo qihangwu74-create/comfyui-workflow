@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/template_purz_wan22_animate_auto_character_replace.json",
-    "sha256": "09b373960a281f36874a8e5ae12cc0dc888bb3d5de3502add1135c71ed0e8995",
+    "sha256": "5acedff1e36d2c0ce7ab81c6b748fe66d8669fb04db711658c2dbe61ba06bb10",
     "canonical_json_sha256": "5828721344c4bb7ef1997be9dd5e990fae2b2665392da0f73b5f4312d32e2367",
-    "bytes": 101246,
+    "bytes": 105245,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -332,7 +332,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

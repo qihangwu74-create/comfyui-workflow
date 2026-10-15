@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/LTX 2.3 Motion Tracking VBVR.json",
-    "sha256": "7fd1c91614835bf61c446db8b59c37f6ca44e4831927777fcaeb8c31d5fea849",
+    "sha256": "c91697b5373d4fc08e281a7e87bc804f1e3d79a35f34bb2f69f065e5252ada9f",
     "canonical_json_sha256": "ad8abc1793fee57be4f977baebd4e4526a9b87655f1fc669d95a99cd9c5568e5",
-    "bytes": 73260,
+    "bytes": 76573,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -382,7 +382,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

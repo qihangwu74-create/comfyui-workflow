@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/ollama/SDXLhaircut.json",
-    "sha256": "4417f876aef46933455460daa9ff785402cefa81867c038160177c559c9618ec",
+    "sha256": "ca481134a87c1a1692c6ddb6f75da5031be337aef7bfa82284360380e3616d3b",
     "canonical_json_sha256": "92c5c90f29aa642bb3f93d20884e88aba8065f759b05e584ae81b7ce3377c873",
-    "bytes": 57470,
+    "bytes": 60085,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -174,7 +174,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

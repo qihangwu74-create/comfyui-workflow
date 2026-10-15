@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/yolain__ComfyUI-Yolain-Workflows/workflows/workflows/2_advanced/2-2instantID/百变大头贴v1.json",
-    "sha256": "da61e20ce6e2d1a04df8dcdded998d50374ad748c367ec662f367bfddc7fddf9",
+    "sha256": "d7755cc1db4f15251d7aa198dfecd44ba93e424d4cf6ad97eee259fbe2ac920b",
     "canonical_json_sha256": "1626f65648c74c75ae978571bf0386a7cb4f6fb723bdf54551371c05f30c864c",
-    "bytes": 20829,
+    "bytes": 21991,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -143,7 +143,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

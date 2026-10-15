@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Hidream i1 Full FP8.json",
-    "sha256": "868825f72136874623b948045e21949ef334ad9c8a09e8b8b91404f7433a6d18",
+    "sha256": "22225f98071e1233e95f9a87c952782d431beea3ed2d12910ab8f9777d85a0eb",
     "canonical_json_sha256": "029a03ca67d1aeccaa1fb89de410894fbf896316ac8a9cfd434b13d2e98b5a6b",
-    "bytes": 8003,
+    "bytes": 8474,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -164,7 +164,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

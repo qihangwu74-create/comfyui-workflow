@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/ollama/geminidesign.json",
-    "sha256": "cf922f0bcb6733346f50815cc4c08acd8e49b733d8bcda93faf96e537634939b",
+    "sha256": "ba6bb57d4a0322d1e1b4881bd9d525d568bef7239a9cedecd60da22b837bdac1",
     "canonical_json_sha256": "919cc40ed19858220a9c45c71bce754adb35aec2555bc59968f3a0ae2b0e1ed2",
-    "bytes": 17907,
+    "bytes": 18604,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -109,7 +109,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

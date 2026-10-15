@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Ovis 7B Text To Image.json",
-    "sha256": "b9ad7e8e57ef6030e0043b49fb4e09f84fc5d0ae5c2d8233987c2d7aa4383a8f",
+    "sha256": "1cbf69cc3f3f60e5f59a00b858ff23d5269d656d48ca91f8aad99570e25b5700",
     "canonical_json_sha256": "5ea6bb7de452f9f6c2991bd9c344c9f20fc1df268a628a9ec7ece988878866fa",
-    "bytes": 13334,
+    "bytes": 13986,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -171,7 +171,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

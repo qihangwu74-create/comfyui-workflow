@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/flux_depth_lora_example.json",
-    "sha256": "a377b0c63a6f8e5b43f19f8484c1fcf2633a42dbb686d8e40fc2428010f504f3",
+    "sha256": "953755b7090ded474031812d433456562f397b44b846f6808c89bfe8b1ba72e8",
     "canonical_json_sha256": "688b91fb6a3ebbb03251048be256930dcefad2f1eb2f296399faff822703d123",
-    "bytes": 62234,
+    "bytes": 64627,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -302,7 +302,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

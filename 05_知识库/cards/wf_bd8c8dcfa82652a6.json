@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_firered_image_edit1_1.json",
-    "sha256": "be0b3d285cf4f7461ef0553b89eb955688e46ea5cd4ac25457ad16b17ae8ffaf",
+    "sha256": "19497cab653333b06bac35fe6d836268cb32185139a7a6963ab19627a723c542",
     "canonical_json_sha256": "d5269b08e17f5a07fd20848b0f731038578ddd0b2303c1dcd03ed906961ed17d",
-    "bytes": 56516,
+    "bytes": 58616,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -220,7 +220,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

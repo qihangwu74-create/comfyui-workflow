@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SpecialUsage/poster.json",
-    "sha256": "60de1a6ce273609c7b4e341f2ebe2496a3b6efcb9973571c195120f582af61b2",
+    "sha256": "7a026b5391b24d1164100cf0cded1d324853d193038763f99b8f18eeb24e1653",
     "canonical_json_sha256": "77f38c131b53a0e451dd1ad46575835f10788a942e478a2b29cf13bac35149f8",
-    "bytes": 20272,
+    "bytes": 21186,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -114,7 +114,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

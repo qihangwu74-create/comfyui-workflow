@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/ZHO-ZHO-ZHO__ComfyUI-Workflows-ZHO/workflows/FLUX.1 DEV 1.0【Zho】.json",
-    "sha256": "3873de9c722b249bf3c7b197a4c720088c87f4b90f1a0473fcc15a9fb7c906cd",
+    "sha256": "352bd80307b792ee9df499ab06a682ac4914a7579325a011ef20b34eef6dcf86",
     "canonical_json_sha256": "139f971f23f1c925058761ce661560644b06a1958781eff24fd02f16bbee87d7",
-    "bytes": 20137,
+    "bytes": 21145,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -155,7 +155,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

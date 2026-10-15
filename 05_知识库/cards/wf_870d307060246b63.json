@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/inpaintoutpaint/【powerpaint】removepeole.json",
-    "sha256": "edd4eb6d6141a3c46f373083a4d21e34851213b90f3020bfdeabba394c8967c8",
+    "sha256": "4e83958d6ea00833c6342d0d2751227ba13bb24e6702296bb9782d7e2629a5fe",
     "canonical_json_sha256": "7e88ff0bdd779b652f0c0204d60fb9ccebdafa1af6c14d07aea08d66b1bc22f0",
-    "bytes": 20430,
+    "bytes": 21638,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -174,7 +174,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

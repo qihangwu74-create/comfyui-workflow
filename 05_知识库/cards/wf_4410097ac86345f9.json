@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/ZHO-ZHO-ZHO__ComfyUI-Workflows-ZHO/workflows/CRM Comfy 3D【Zho】.json",
-    "sha256": "8de576469004aafa9d826ca1b10b9fe566b6cca6b8264e54ef69437f0bd06402",
+    "sha256": "30d443ff65b43c3d3f744ad3aef466d22577b6a39e43ad510c486227f3f6b1fd",
     "canonical_json_sha256": "783f7bb3822ed634871cb4ed673a8c68ef7b52d71d2c300b4141a07e91ae8e42",
-    "bytes": 12803,
+    "bytes": 13546,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -104,7 +104,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

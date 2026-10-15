@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_bfl_flux2_max_sofa_swap.json",
-    "sha256": "14797288453d6005ce385e8eeb13ffb315285008007515330786aef6a8c6f4b8",
+    "sha256": "aa90731a536d572d0f37710326966ed9dff1bde91510b579c79ac90b3fab74ba",
     "canonical_json_sha256": "c7350d3b18de66e85185cbcc75b41b2652477ed14fc1a24c5da640804c36e44b",
-    "bytes": 9829,
+    "bytes": 10250,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -80,7 +80,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

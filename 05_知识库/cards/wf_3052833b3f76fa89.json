@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Qwen/QwenCompare20251225.json",
-    "sha256": "4896ac1011b5d1273e0387fc619273618c429de54e9fa4046e807835aa1eaae9",
+    "sha256": "32de15ffde77a2af8d09612843e71373293bdea92e4900bd34eaf110005e3a8c",
     "canonical_json_sha256": "e4d50bda2e59fcfb7ecf0afe1bd00636e7e35094e47ae77291a6cc8d33940063",
-    "bytes": 24415,
+    "bytes": 25822,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -201,7 +201,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

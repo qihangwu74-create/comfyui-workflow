@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux.2 Text To Image.json",
-    "sha256": "286195919f388b42615c03089902ba353a9d449542eeaf8631985d4493a21920",
+    "sha256": "c7eccc6abdf1678d23cd55db08861c4b0b5ae06ed6153008295c7249110bd9d4",
     "canonical_json_sha256": "f1cfdaf84008ea212d5f13c85dc1419bb31d6b18e1b002f4e5159be88293aff4",
-    "bytes": 11672,
+    "bytes": 12272,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -172,7 +172,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

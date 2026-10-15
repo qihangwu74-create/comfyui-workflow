@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/template_outpaint_to_any_aspect_ratio_nano_banana_pro.json",
-    "sha256": "aa1b42864495e311c6e84e5514065bcc134c1a754be1def25ff1fd5277a7a6f2",
+    "sha256": "505fad0a4f9ed7110b4db766d7a06be0c9d4455cb826c829f939190567e70711",
     "canonical_json_sha256": "c70f3daef7879d29e837c3311dff30f588e68dfc74c39152496e580bde42afbf",
-    "bytes": 41593,
+    "bytes": 43249,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -92,7 +92,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

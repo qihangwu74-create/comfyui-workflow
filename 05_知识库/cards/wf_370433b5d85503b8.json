@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_topaz_image_enhance_wonder3_5.json",
-    "sha256": "932989198c9fcd8e47cbd1828577ab7d6a93e3e11ce084f48bdc0a841f69bf27",
+    "sha256": "2349a25dce510724ac008a57869d1e55e23679af9dc8137df5c3d6da74efd0da",
     "canonical_json_sha256": "0bf464fb6ad4e7030ff415ecf1ff80690978823bc68092823916d1b4f16b8caa",
-    "bytes": 3365,
+    "bytes": 3576,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -66,7 +66,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

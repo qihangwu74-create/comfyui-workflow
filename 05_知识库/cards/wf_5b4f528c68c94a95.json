@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/video_wan2_2_14B_fun_camera.json",
-    "sha256": "a18eaacc5c94a6e37ba3cabaaf1542c4c00445d4c6663d3d6f905bd3c35a5ee2",
+    "sha256": "d1cdba3ce9e35712b6b358ab0691bfa858e3637c25875bb00962d9dd122290d3",
     "canonical_json_sha256": "0a202177c8d19966209bfa6455a4c35e22305ec6030329b074ca126cdde22cfd",
-    "bytes": 56295,
+    "bytes": 59030,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -407,7 +407,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

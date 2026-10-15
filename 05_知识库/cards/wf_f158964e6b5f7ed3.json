@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/LTX_2.3 First And Last Frame.json",
-    "sha256": "69e9c1bffca148845783d1f1aa81d82a1f69f8f932e79f6cb459ac6578d23e04",
+    "sha256": "f29578d900ccd45bdd6b5b2792c920d5f2b53589b11255181201f4030fbc3c3d",
     "canonical_json_sha256": "5892b9a4400d078ee9f0ad14fca642f17c7437000d0bf6eeab6d45c275d503d2",
-    "bytes": 63198,
+    "bytes": 66616,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -366,7 +366,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

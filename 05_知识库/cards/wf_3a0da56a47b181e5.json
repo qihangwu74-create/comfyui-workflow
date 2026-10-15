@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/comfyanonymous__ComfyUI_examples/workflows/wan/image_to_video_wan_example.json",
-    "sha256": "63a7e71041289d4a7ab92aa6326f4b10f36fb2eca5d4817ff55ac9624feed631",
+    "sha256": "c2d0214ecea548c683230b44517861b86c77011279208e8e9f56e77dd890b2e7",
     "canonical_json_sha256": "970b90c12cd96b01bd760708eaa12f03f39e989fdea305fae2293900ca531db0",
-    "bytes": 12582,
+    "bytes": 13325,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -178,7 +178,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

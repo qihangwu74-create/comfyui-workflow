@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/playgroundchanger.json",
-    "sha256": "d43f6b26587fc2b038138e559309f2095ec820aac60b18176152f8d562decfec",
+    "sha256": "82b0689be7f5cda458e72f4085b5941f16c1c7eb4c872a768eed383d6e18d64d",
     "canonical_json_sha256": "b2546c741a94d24681883797ca946fa73aed69fbd285e87d442da1d49d396f1a",
-    "bytes": 14750,
+    "bytes": 15625,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -118,7 +118,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

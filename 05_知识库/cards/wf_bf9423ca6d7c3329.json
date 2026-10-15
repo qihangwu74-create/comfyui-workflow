@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Mage Flow Edit.json",
-    "sha256": "d8115efda847fa7961c9f515a7ee0aa2daf0c7a88a88715b70d44d2fc435dd6b",
+    "sha256": "61d73af5d1fe95d91b54f48ca8043d30835bce0eae9b43c8e41ca5a04141f687",
     "canonical_json_sha256": "a34f6324061d55e26e4a48f19693d36bfb43e7e6c81216cf456900c1e627efec",
-    "bytes": 13898,
+    "bytes": 14709,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -165,7 +165,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

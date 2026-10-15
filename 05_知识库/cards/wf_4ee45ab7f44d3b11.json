@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/hunyuan video I2V V2 .json",
-    "sha256": "992e238a9df492c969d2f7487e8f4791fa7abdbec1b19048afcf78c860a7288b",
+    "sha256": "696a50f71bfde3996281761c1b655691427b559dbf78b2e286ae8975fba8ccd4",
     "canonical_json_sha256": "80adc7b8e072098b90cb35451dbfb6d2fa3c98252553eb54cf3bc54e05c6ff9e",
-    "bytes": 16055,
+    "bytes": 16975,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -197,7 +197,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

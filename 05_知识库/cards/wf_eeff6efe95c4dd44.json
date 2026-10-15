@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Ovis Image Vs Z Image Turbo Comparison.json",
-    "sha256": "6c278c8538b9fb4a2ca3bc760329a0cb17abfe70d06f55c32d9f8988b36c3502",
+    "sha256": "e594db9ac9544153d65c2fc382cf5cd0aabfbaa6a6166df4deb316c0fd8d6d4c",
     "canonical_json_sha256": "0095f2ed6786cc91edc97f05ea518af6a5874fd10cd69a330fce135fca50e411",
-    "bytes": 23620,
+    "bytes": 24825,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -245,7 +245,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

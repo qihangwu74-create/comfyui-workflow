@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/fahdmirza__comfyuiworkflows/workflows/hairstyle.json",
-    "sha256": "6a1a0107d96f5cc9318a76772d12545d4e6f94b1900b50aa82687cbcd5f15be4",
+    "sha256": "c2d4828dd214e093c48cb63df94e07ced4accf1b5b5e64e62d044924e7065a02",
     "canonical_json_sha256": "f03e7d305c1052b61b7a7abdc64de5e7f53a6933ff14cabbd105aa1b01d1d28d",
-    "bytes": 9652,
+    "bytes": 10234,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -117,7 +117,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

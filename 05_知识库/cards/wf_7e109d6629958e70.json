@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_bfl_flux_1_kontext_pro_image.json",
-    "sha256": "c4dde34caa272310cfd6e0bebf97bb6f6a5dda629d44d83b3df467892d3de9e4",
+    "sha256": "b4a8ce947e5e780fb6b4b9ceddd3b2b4a53aa60f83114df765e1d90e97a405bc",
     "canonical_json_sha256": "666bccb560bf1b70bc3b79935b8f0065c2ef2b59cb330b285fd48c92dad312a5",
-    "bytes": 10520,
+    "bytes": 10898,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -74,7 +74,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

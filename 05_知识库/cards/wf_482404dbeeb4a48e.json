@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/MiniMAXH3/FL2VA頭尾格6STEP.json",
-    "sha256": "65652c8d761878ab0ad7416f1ac2ead76d8e0df3677a40151a5d8c18ceac9b8e",
+    "sha256": "2b19161bac0205d0612a1740cd11c0e4541e4ee0000fefd1dc80fbc1a2752b9d",
     "canonical_json_sha256": "6dcedeeab3b8db7e68c5a4113dcdabd1ded5e9425e16697198271e9f8f13ffd1",
-    "bytes": 24480,
+    "bytes": 25617,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -199,7 +199,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

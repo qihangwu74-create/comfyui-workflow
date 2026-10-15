@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/hunyuanImage2.1 GGUF workflow.json",
-    "sha256": "ce1bbd2cfe512877a504b6c62d2d985a8f5a1dd1e774d1bbc8c7131b131e3c5e",
+    "sha256": "3a95a20fdc90275b2076755cf9b9e32336034756ba48a33f923efcff5c5357ac",
     "canonical_json_sha256": "ccb3167fcb13089e97fae97b819408e55389e2abec33bdb6a5a0cc99c59dbb0c",
-    "bytes": 10054,
+    "bytes": 10592,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -148,7 +148,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

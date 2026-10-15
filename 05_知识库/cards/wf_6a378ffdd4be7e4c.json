@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/yolain__ComfyUI-Yolain-Workflows/workflows/workflows/1_basic/1-15Cosxl.json",
-    "sha256": "e1fa924c8ed3169c7499add169ccfbe4018fa8834271f8ef88e7a1ba21212290",
+    "sha256": "fe1df5f665c3929a69eee20426f0e80138d0e1f395718856f3d39e342723fbd2",
     "canonical_json_sha256": "5879074ee83393d928c5627cb86c1f781e3c01d536818688434bef7b4b649d66",
-    "bytes": 149469,
+    "bytes": 149751,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -97,7 +97,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

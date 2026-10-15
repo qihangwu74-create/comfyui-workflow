@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/basic/basic_parametrized.json",
-    "sha256": "8403ebb705a8f644c23fba685cce9a296e02650a2ba3f19de3b637a18444f3f7",
+    "sha256": "5871b32cced652df1777c3e0c9b3fac3617cac797c682427dd04e273d33a670c",
     "canonical_json_sha256": "5cce30c9b6a46f06b037ba70fb921a011a68ca01356a8327f7a3b45c71484c14",
-    "bytes": 16282,
+    "bytes": 17169,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -121,7 +121,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

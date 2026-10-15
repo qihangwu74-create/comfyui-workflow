@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Video/WAN/【Wan】FantasyTalkingEnglish.json",
-    "sha256": "7814e80e620bdc0f3fa05442a402b54411bfef112ba4140a33494593e13cfe39",
+    "sha256": "6960e14b9156b77d198ab78d634da2df9ecf37da829f4019896ea8e9c4e37d7d",
     "canonical_json_sha256": "c34cb4c692762ba060d2a2a0a96ec4e78577a407ed9f083a709eba239717307c",
-    "bytes": 69918,
+    "bytes": 73416,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -319,7 +319,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

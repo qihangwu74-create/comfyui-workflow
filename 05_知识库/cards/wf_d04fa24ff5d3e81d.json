@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/text2img/conditioning_average.json",
-    "sha256": "f0fb1fb7a79a3170ea83b9a605d0bf4bb4a6aeabb7305e010f36bc681eac7c5a",
+    "sha256": "24679e6bb48f4f9bbe7dca8b9f56582e3f3e61bd225cec180584cb0d90f90bec",
     "canonical_json_sha256": "5f3182f8c094888c3e0a96a0327e902e0fb2ae8180fd3187fe707dd25a99feb0",
-    "bytes": 8391,
+    "bytes": 8902,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -128,7 +128,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

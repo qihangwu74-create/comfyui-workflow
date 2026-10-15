@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/basic/basic_latent_batch.json",
-    "sha256": "135d8e49e09a788a307ab5d800e0d4480911e49d804d460a11d0d1c9576eb2d1",
+    "sha256": "bd2145f711a24533fe213ef0817b764653d81909dd112305352839f6a7966f4f",
     "canonical_json_sha256": "936d0ef197aaa2699ec74899453aaa7246690eca28b62784158683593315f250",
-    "bytes": 8665,
+    "bytes": 9205,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -123,7 +123,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

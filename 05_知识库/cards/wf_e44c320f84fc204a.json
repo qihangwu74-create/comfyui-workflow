@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/in-out_painting/experiments/outpaint_seam_fix_SDXL.json",
-    "sha256": "eccf7a91e83c44808eb9d803d634dd683072e1013b235c3e5fb0b1a80b1f4f07",
+    "sha256": "c2d0894a3fe47a564b5e919bf5f1e97044eaaf79a8ab4e60863ec397c5d3c58d",
     "canonical_json_sha256": "1b1b78b03a05e60cb5dbb517600388359f19f847e2baa305f2083bafdb397be2",
-    "bytes": 21927,
+    "bytes": 23331,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -151,7 +151,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

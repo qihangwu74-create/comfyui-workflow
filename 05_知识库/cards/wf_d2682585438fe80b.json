@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Qwen_Image_2512 High ResFix.json",
-    "sha256": "14bf30f5d535ea20c74ddfd472cdba2294df631eb81f61c9597c3fb50866fca3",
+    "sha256": "84a0a58a1c9de738980628c743afdd30635f29ec5dca86b795f76eb84db20c3c",
     "canonical_json_sha256": "e157c4d6031321aa449772175a9905efc9021c96097a0adf8421de9c8af4653c",
-    "bytes": 24164,
+    "bytes": 25384,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -235,7 +235,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

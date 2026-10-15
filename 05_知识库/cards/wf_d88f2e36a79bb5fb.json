@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Flux/FluxTools/【FluxTool】ReduxStoryBoard.json",
-    "sha256": "fa7ddc40e59fb7ea3b04258881819b1ef336545387acdd97e02c2d453772713a",
+    "sha256": "bea773cf83bad172ff4e7609a8fa12cc0b0f96c993866e6a05604bd58f60e669",
     "canonical_json_sha256": "7094094c6eed9105bccbaf9ff21de07d66528d7a5ff504b7a4be9e610448df67",
-    "bytes": 23109,
+    "bytes": 24281,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -238,7 +238,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

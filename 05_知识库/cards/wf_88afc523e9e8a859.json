@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Flux/FluxTools/【FLUXTool】BGChanger.json",
-    "sha256": "e0ef84ef56ec26eb2696c9af794cba8a3a78f96f7072e4db24c98aa2f311b2db",
+    "sha256": "baa33e3dd949791e219ccc510b0a64d8e0b2d15337272de029192baaa965b79b",
     "canonical_json_sha256": "7744f07b1055c3ee7fac6b42eef25e5bd10c8c66ed9ac71b41b4e8f4568aaf4a",
-    "bytes": 38023,
+    "bytes": 40280,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -323,7 +323,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/sdxl_revision_text_prompts.json",
-    "sha256": "fb299a5caf94f8c23d2e86709a0e587c52f781f2d6ae4f38b3fda43c37f4e8c2",
+    "sha256": "be74548d5af389e9e979a45db37a245149809d74761ede1c427d8221587797e3",
     "canonical_json_sha256": "11864bd5a67e792a088620b53e7e379df487523b55a578ede5aaa415f658a794",
-    "bytes": 15377,
+    "bytes": 16232,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -155,7 +155,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

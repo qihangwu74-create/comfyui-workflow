@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/sdxlturbo_example.json",
-    "sha256": "d3ece55064f10b31937b2f07b8028b6d1593071fcc8be62ed4e7c8bc88cf8ee3",
+    "sha256": "3017952e370418256fc6f7f8cb500cb6d33e56e9ef48a6b0d0b86b68240fa59b",
     "canonical_json_sha256": "2578198ba9f40cada19c3b9d13e17337f5b40e0c1cfce0876f460ea62f0979cd",
-    "bytes": 8515,
+    "bytes": 9033,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -117,7 +117,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

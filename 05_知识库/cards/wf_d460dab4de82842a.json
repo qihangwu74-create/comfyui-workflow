@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Flux/FluxWallpaper.json",
-    "sha256": "668b4d0f0e2f4bab8d8f1d48cfaf88dbd443ea918ca6df0ecdeeb4c379cc89c1",
+    "sha256": "33f21832b7acd4b626f68a545e48bc57e71d8a61f8298cb009bcaef78ec47ba5",
     "canonical_json_sha256": "989cb0da2d4a31de8b58380f9d117ad0b2db499b1a16896d9474400d55a079d3",
-    "bytes": 20474,
+    "bytes": 21622,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -140,7 +140,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

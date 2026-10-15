@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SpecialUsage/animevideoupscale.json",
-    "sha256": "da0e9e1c88109060f33cc78278794f9710d3af5e2c0db4d2d76365e9b5402250",
+    "sha256": "3e1723359d34b01a83df4094be261153f3587bfc9986b4001c7e3c91a421029f",
     "canonical_json_sha256": "03110f44949edf7b97aa8f4346220bc879294a732a4cb2e77db9d72eec0fe027",
-    "bytes": 6486,
+    "bytes": 6848,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -96,7 +96,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

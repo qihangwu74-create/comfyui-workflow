@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/yolain__ComfyUI-Yolain-Workflows/workflows/workflows/1_basic/1-1基础文生图.json",
-    "sha256": "77f16c5eff7003e80babd2a9a8ea1e4191e0c70284e7f79bf55bbdb0410f939f",
+    "sha256": "d9b2686483617ebae193f5e5d05e98f010a55cd4b618ac58d0cf7637b3c04fa3",
     "canonical_json_sha256": "f9e30d1c1e11fcfaf397e35675f061762fb3bc394a11b4726b937b0a49ee7d4d",
-    "bytes": 15247,
+    "bytes": 16035,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -159,7 +159,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

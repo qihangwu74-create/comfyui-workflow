@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/video_wan2_2_5B_fun_inpaint.json",
-    "sha256": "8efa4d2434745c6f71d886f08335cb4d7a2c4244ecc7ed21ff3a5249c9dd59ba",
+    "sha256": "94fb8269332edb510dfe1dff2540b8ea08a1d02b8007cb8636432b00ce8bb3eb",
     "canonical_json_sha256": "2ac4c1082308d79a6cbb1beb574912cda9d480af094fb9ea9f92cc9543be8981",
-    "bytes": 17061,
+    "bytes": 17917,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -196,7 +196,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

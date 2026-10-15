@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/removeothers.json",
-    "sha256": "964f5a45dda8581c01608ed93615aaf4491573c349aa4034bb7e09d7ed19911c",
+    "sha256": "930e64e5999739e44200b2d3785db3433fa293fc65fda2e79eef588b1d7ced6b",
     "canonical_json_sha256": "a50faffef40c36d268a8d978c5dc134d9b8577eec789b4b8b5c009a75e37a011",
-    "bytes": 21225,
+    "bytes": 22440,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -131,7 +131,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

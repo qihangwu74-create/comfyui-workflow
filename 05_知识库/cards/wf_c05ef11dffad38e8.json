@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux.2 Klein 9b Text To Image.json",
-    "sha256": "d1105e2e783309c8483f733674da7b45664e5e2b966372d391ec431c9925bf0b",
+    "sha256": "3470b186da8ba8c60ebbf0e603b2d7cc00b7c77c8c45f83caa833348a4ec5b2f",
     "canonical_json_sha256": "06defeb8de07d85bf3d1497b6cc2305ab1d83a6bc3399300a138704856ecd6cb",
-    "bytes": 10460,
+    "bytes": 11012,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -151,7 +151,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

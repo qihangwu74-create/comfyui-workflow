@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/LTX 2.3 HDR V1.1.json",
-    "sha256": "9024623a1e535b7b25b1d239968fee6cb3cf78cc245d720b38524595a4311cfa",
+    "sha256": "89b144d6b720f34b38d75349566a658cd9e483ad8b5c540fa787001f5d10eea3",
     "canonical_json_sha256": "d80b6c36a2699cece28b938c7026f26ecac307f6c80850b1ad841a469d18c3fa",
-    "bytes": 48687,
+    "bytes": 51271,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -355,7 +355,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

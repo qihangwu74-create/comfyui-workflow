@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/comfyanonymous__ComfyUI_examples/workflows/ltxv/ltxv_text_to_video.json",
-    "sha256": "05305fa49540c25fa0a9a884986f567c732e90479d4b9b9fd77109498abcec65",
+    "sha256": "6837b9345d461c88ebcd169c499f505e219497798dea4a0968c92fa5488dc937",
     "canonical_json_sha256": "2a97206d47ede15415bca5701f3bc533bdbb6d2b36f7cfc9a9171ca68e043ed6",
-    "bytes": 10507,
+    "bytes": 11118,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -135,7 +135,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

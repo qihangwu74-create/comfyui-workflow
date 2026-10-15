@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Boogu Image Edit V1.1.json",
-    "sha256": "ab2f3a9c3d2e8ddeaebe67eb7b05a4bb479dd433ad22e0ad7671abd84431d701",
+    "sha256": "67175c5c17a1addde75b8cfb4ba1fea2c7d1392721ac60941481fdbf9f41931e",
     "canonical_json_sha256": "ea6e10f6a25c6a8a471adbb18f7793fb78cc035a271d75bbb334a917143c8cff",
-    "bytes": 28990,
+    "bytes": 30384,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -181,7 +181,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

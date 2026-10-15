@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_qwen_image_union_control_lora.json",
-    "sha256": "192d65f74ff0d82ac9b27ceec75ecc6e384b7dfee626152497ed1465782edb81",
+    "sha256": "1b764fafa45054636d6c0e50ab1997fcb80ff2e3af2d747a305d0ec6610cce33",
     "canonical_json_sha256": "53a33d72bc1aed42d2572e5f1a8577fa27f9f89cd080e5f5d307f6c978917178",
-    "bytes": 63412,
+    "bytes": 65780,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -254,7 +254,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

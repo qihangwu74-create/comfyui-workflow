@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/template_ltx2_3_lora_googly_eyes.json",
-    "sha256": "097974a5146fce9b73a5a99aee789516a450df1bbf5716e23b0b79874b1e5b65",
+    "sha256": "18300eb6eed5083986a9deb1ea3b3258a4e92cdeaffdbf176d8b31f0e62c4863",
     "canonical_json_sha256": "6c6441d8be9b63351baf5fb842b7d979d56152c4ee22b831bd86de7d2aeb39ca",
-    "bytes": 111596,
+    "bytes": 116077,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -307,7 +307,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

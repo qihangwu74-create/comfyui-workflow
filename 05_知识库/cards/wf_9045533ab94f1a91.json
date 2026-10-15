@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/video_wan_vace_inpainting.json",
-    "sha256": "d664daff8d38af123c372b506e4b4b6d5cfbc89c9976778dc7a08e9c50068315",
+    "sha256": "f09c62af0fc03fe2a6ae714f213c50d8aca9ff2fe123042a3bd584ab7dff6838",
     "canonical_json_sha256": "7b4fbd9a93989a775c1652248ce74967d4dd2e1a11b0e77d5c4342fe93c80f5d",
-    "bytes": 111104,
+    "bytes": 115261,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -281,7 +281,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

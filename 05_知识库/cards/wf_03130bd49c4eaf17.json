@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux2 Klein 9b Face Swap.json",
-    "sha256": "29d567e5f21bce7746e6ddd85421c3ac8d32d89b1f2f723094764d55ccfbafb0",
+    "sha256": "deb2ef46076555d8c4c33b055502e8970dd1df3101341c5c072aad8afca37790",
     "canonical_json_sha256": "8360fd8b247e77f5e1701d3c91a9ce81d38345d3f09c3414cb0b558b156f8460",
-    "bytes": 43596,
+    "bytes": 46028,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -229,7 +229,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

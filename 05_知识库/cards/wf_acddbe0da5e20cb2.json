@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/BackgroundChanger/【background】differdiffdream.json",
-    "sha256": "7612cf50262fa6e8b2370683603b96a3892f38d4888ec6b2825b7836aa3d00ce",
+    "sha256": "72076fd3fd6dcfff685f96914cc4a123e3179107a63f4676decfa96c42ba6408",
     "canonical_json_sha256": "19fccd6f72b0e75958af9a0ac7b8768c68e60822b9b21355d4a3b7f17330e705",
-    "bytes": 13874,
+    "bytes": 14698,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -120,7 +120,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Lesson/Lesson2/Lesson2.json",
-    "sha256": "39f09b04491f1a77c074e4b19c2be8fb19c15e6d99302723495ac72c82dcc8cc",
+    "sha256": "37e6fc4f10b92f7ae643941464b375539c9c4abf26889049b6de55c6094679c7",
     "canonical_json_sha256": "cb978ebb4b3a68d0059bc40230a40831d6eb2595e7b5a2f8b91ca95fdee3eb70",
-    "bytes": 11113,
+    "bytes": 11767,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -120,7 +120,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

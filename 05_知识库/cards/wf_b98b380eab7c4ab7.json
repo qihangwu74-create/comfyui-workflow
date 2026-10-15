@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/HandFix.json",
-    "sha256": "ed1978b0b1dec657b462b39a63de98fa1cbf9faf3b1d7245567ae01a6270c11d",
+    "sha256": "d5b05fdb441b631a3d11cfbbfcebad60aa362ed257b5934f71431424d42db330",
     "canonical_json_sha256": "893faf7d9a4230e8578261863969e4e9f8305ac7c19729a09836cf24cfadad72",
-    "bytes": 30398,
+    "bytes": 32170,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -210,7 +210,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

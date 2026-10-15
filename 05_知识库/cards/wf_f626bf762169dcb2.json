@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Qwen Image Edit 2511 Multiple Angles.json",
-    "sha256": "7370fadf75b3f38218793278d90de7b234fca2cfafa85a4d01884454e80fddce",
+    "sha256": "e07298fc760586b9f89c195d4d3acbd0df9c0a0669e3c8c0b61aa13f9eaca9ec",
     "canonical_json_sha256": "e8e342256647e16c7f5db0908ae41c04f67a947f0a81c30b1aec64c58be96e21",
-    "bytes": 27282,
+    "bytes": 28525,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -223,7 +223,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

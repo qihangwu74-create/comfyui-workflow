@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SDXL/【SDXL】PVCWorkflowNew.json",
-    "sha256": "d3b9983f5ca6dd8ac1d3a66ae73d1a4c527bca49bef8a4ab4f177aee89c614d9",
+    "sha256": "a027a67fc0c105263af026797ddad3da246fcd5b50db097329752c2edb553238",
     "canonical_json_sha256": "19816a78610d0dbed06fc4d2187341ed63c6b6a36effcf90ac05d13fbd03083d",
-    "bytes": 27271,
+    "bytes": 28869,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -177,7 +177,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

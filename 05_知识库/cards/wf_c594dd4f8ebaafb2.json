@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/utility-depthAnything-v2-relative-video.json",
-    "sha256": "bf45855c63cc5155ae2149bf36688df0cb4f146f1f9bba949f34a101476418ed",
+    "sha256": "1be5cb24f25477ac033c5b1fd88f7938decaa52cd690700a7513f1a78978c5f4",
     "canonical_json_sha256": "7a720becb4d103687f1e1b7cb29cad12e340e191deb2e10e5796637fee616096",
-    "bytes": 9071,
+    "bytes": 9479,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -83,7 +83,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

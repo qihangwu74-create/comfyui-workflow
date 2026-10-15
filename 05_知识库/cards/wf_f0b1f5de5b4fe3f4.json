@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SpecialUsage/LLMComparetools.json",
-    "sha256": "bc66ac10f6c20abc955d9d195d32a3bf5016a067f734e550c747ac1a6a8bd112",
+    "sha256": "9e57def2da106c7ee782b242c7437ffc78b0e73039fe2df33f8f90e9c536ffc7",
     "canonical_json_sha256": "8c243b718fdd89147916439519ce79f271efa031de4448ab2a8d1fe04d237761",
-    "bytes": 22968,
+    "bytes": 24216,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -70,7 +70,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

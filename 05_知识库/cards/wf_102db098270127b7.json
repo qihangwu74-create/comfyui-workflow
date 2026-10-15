@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/templates_all_in_one_image_edit_models.app.json",
-    "sha256": "24e2b2aa67e7fb2e19161a19ad265c194d4ee4f1f3ba616fcebfc7471bdb8921",
+    "sha256": "cde76652cd46a69680d4d862c482d3f238ed4ad801f27e4f94b6926b959a459c",
     "canonical_json_sha256": "4ecdad66ebbdaa6a29a572df2421a2372dc5e6a6eb2f96145cc9518f81ad5c60",
-    "bytes": 175712,
+    "bytes": 182774,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -507,7 +507,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

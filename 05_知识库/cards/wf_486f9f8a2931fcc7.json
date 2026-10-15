@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_grok_imagine_image_2_image_edit.json",
-    "sha256": "028f7e11c500c5b150818bb3a6273ef6e34de0f38ebe1df8fc009cc732a76102",
+    "sha256": "8bfa0fbebe9e571d9bdc9ad826992513a89a6c5f636bfc6819fe8cffab3e559f",
     "canonical_json_sha256": "59af10c598c2811c26d7a15f5ed5d3c83c506e6ea806f12d035c95b824ac9d35",
-    "bytes": 4849,
+    "bytes": 5063,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -75,7 +75,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

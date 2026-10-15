@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Krea2 Depth Control.json",
-    "sha256": "66dc51beb5044ead39a5d93a98773a7c3a7f8252921448943a9683ebe0b850da",
+    "sha256": "1ba09762c1c21a121f259f1e6152d7ef6cc94d6616275d9c9c38c0d4fd75af33",
     "canonical_json_sha256": "aa894c2ea50c43fc2b8b80db692b4ed95154cac51f2d63609bc4af57613a6b7b",
-    "bytes": 71221,
+    "bytes": 74244,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -300,7 +300,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

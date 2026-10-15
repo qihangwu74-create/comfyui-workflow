@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image-qwen_image_edit_2511_lora_inflation.json",
-    "sha256": "ef2d2983baf49e44f12a054e422b699668be97b8f06a8407b26879bc98d4e306",
+    "sha256": "22afb8a23dcaf8267ddcf58064d83ab20dd979279f82cb33fdc0b08e47859c23",
     "canonical_json_sha256": "9b5c923e298463f6da9fc079073ee817c903e225091639b94d5030070a632b5a",
-    "bytes": 44851,
+    "bytes": 46497,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -244,7 +244,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

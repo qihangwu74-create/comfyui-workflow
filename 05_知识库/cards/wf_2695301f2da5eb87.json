@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/basic/clip_skip.json",
-    "sha256": "53394b1dc95920232a67fb3b38ea892e758e3f2df1c1adc6cc3ec5539e2abd0d",
+    "sha256": "f7d315818518f0fcee50abaf688c7732d451328bd5b7d7d6bfe9c6bab98142f3",
     "canonical_json_sha256": "e5be7e68d3c92f9c6f7219c9e8140f1438c5c8e57f4242566658bada94a210c3",
-    "bytes": 7264,
+    "bytes": 7712,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -122,7 +122,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

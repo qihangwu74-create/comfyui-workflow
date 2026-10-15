@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux1/flux.1 canny dev.json",
-    "sha256": "56192130de02ab4cb98e83a60247db7a81d89fcc42120a1f47f664f7739d150b",
+    "sha256": "4512d2b0fe3077bb6716b1e3720c8fa5aa800aff77898b1bafd0bc4b3940900f",
     "canonical_json_sha256": "8a2d09da4c693d2ee0811ea55a9240df6aa3cce9826eed10c41442dc5b6a7099",
-    "bytes": 11006,
+    "bytes": 11672,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -164,7 +164,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

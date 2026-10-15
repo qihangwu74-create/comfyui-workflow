@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/image_conditioning/experiments/unclip_SDXL_refiner.json",
-    "sha256": "c1478979fd45c390d980bbc10c5ee71b5cc86e316dc3d64a90730036ce046095",
+    "sha256": "fe14513e4983e88c2552b10249c12341ddb646b5233a693d7eb938a290ff7678",
     "canonical_json_sha256": "5bb76f708b850d2448aa26d6bea5c73f2dabaf20f61c2ae67a6ae53d5f2c0af1",
-    "bytes": 19513,
+    "bytes": 20698,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -178,7 +178,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

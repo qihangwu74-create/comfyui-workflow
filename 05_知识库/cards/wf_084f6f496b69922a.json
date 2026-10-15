@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Pulid FLux Multiple Faces.json",
-    "sha256": "9bcc20de4260ee9b0765e81c59ad58fd700447ea78f08f984855e7653a7b2ee5",
+    "sha256": "448ac04987d1460d1f17d593c89fdf1ed86b870e1ae5c066e5d813b63ca46b90",
     "canonical_json_sha256": "4eda2e06744462e90c77a4f34a766a440799fdbf63286943726a4f03f5e65676",
-    "bytes": 18358,
+    "bytes": 19458,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -215,7 +215,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

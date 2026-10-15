@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/sdxl_refiner_prompt_example.json",
-    "sha256": "c376af45ad93aeb52326d51d73f2d218c85423e36eec05a498edda50b769e4fb",
+    "sha256": "f08b431ca4ad76e20dbafffe6f2736a786ef6b2a35f6b228b0ff19be6f50bb35",
     "canonical_json_sha256": "18a7851e6f2107a3880f5c6a70ddfe443f152d6b4200f391751a0d26e91bd298",
-    "bytes": 23037,
+    "bytes": 24146,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -155,7 +155,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

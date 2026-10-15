@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/templates-product_scene_relight.json",
-    "sha256": "ee585bfe1944cc78e4b0c8cb6be432f27b4d0cd4514e071b47be0665bb8b2ee3",
+    "sha256": "acbe12497320ec6116e0c0f4ba6fcb34667902bb4e3cbf59168622f92a66e4a1",
     "canonical_json_sha256": "bf097218c213f00115f74fa4002087e58406670c1375d777dd5799b63714f69a",
-    "bytes": 16548,
+    "bytes": 17275,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -85,7 +85,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

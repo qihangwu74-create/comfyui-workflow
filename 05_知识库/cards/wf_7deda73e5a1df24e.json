@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/YuE2 Music_Ref_MIDI.json",
-    "sha256": "6610e67f4722da5ab2ce6a3583c6a2a985378a6ace39cd611e7d2ddf261e604b",
+    "sha256": "1a1329bab2a0028866d23c4b544fed5391a1f003779c8f8c788a2ab86978fc39",
     "canonical_json_sha256": "70cfacc384eab20290f195c6b29cf82c26122b8e4005eb9e89c906c31b10ffe2",
-    "bytes": 57472,
+    "bytes": 59873,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -144,7 +144,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

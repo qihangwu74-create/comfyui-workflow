@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/utility_seedvr2_video_upscale.json",
-    "sha256": "d88c2474aed582f1567a0fe583f39361e2aedf90a30ce078fb543fe4706f67d7",
+    "sha256": "8d7decc3282ef3ad12398bc3a9f5e65add02a67c9b36e4c0e782cfd9a406e9eb",
     "canonical_json_sha256": "b059b277cf7017f03153820a8c627c52a0ebbdfb6e84269bf8de45f94c227b63",
-    "bytes": 17075,
+    "bytes": 17873,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -97,7 +97,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

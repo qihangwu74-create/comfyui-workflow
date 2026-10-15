@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Qwen3 ASR 3.0.json",
-    "sha256": "77ef81801a6ed1d2d0c581a2b957e83eb96a2e987b35b4e636c1e7e9a8aae1ec",
+    "sha256": "4fa34f7ea56be7181b790d8b1fb0cf99a6336c3b7dbf390942dd9a61d7f0ba6b",
     "canonical_json_sha256": "5803fe3b92bbc7017a559929faed27029430709fc0ec83343b1f1ff02f3f343e",
-    "bytes": 7547,
+    "bytes": 7968,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -72,7 +72,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/image_conditioning/conditioning_style.json",
-    "sha256": "d7d315af72342891713034382dcb1e964ccee64bbf2826e2a5d3ef183994b027",
+    "sha256": "87b1faeaeb93dd1b2e9dd97984406b50f82a10661be2b9386f5042e72bf9682f",
     "canonical_json_sha256": "b45adcb855731db0d79bb05ecb2c2eb0534b50a64890b51eeadbb97a77b591a6",
-    "bytes": 10374,
+    "bytes": 11005,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -174,7 +174,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

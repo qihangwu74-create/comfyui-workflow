@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/yolain__ComfyUI-Yolain-Workflows/workflows/workflows/1_basic/1-7XY对比.json",
-    "sha256": "3b302099755139e6167a0ffd5ab5e7dcdc99afe12ef44f430eade50ac3a0e6c4",
+    "sha256": "6abeaec2e14233b99f6eb0aa211e8b06c109a9c70b92b1096b1c9e5f79721cb5",
     "canonical_json_sha256": "86ffebbb8b55df4ef1e8ca9693cfe40a23b288fd9ef39bf150fd85f868ee130d",
-    "bytes": 9377,
+    "bytes": 9860,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -96,7 +96,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_flux_erase_image.json",
-    "sha256": "f026370a5b1a3756c2aac7a8f9d05513195f73c1495f877082bd723029d789f4",
+    "sha256": "ff784cf9f7220550a4a125f9aa968e53ca87fa3d9993e14f594025b41d4d0ce7",
     "canonical_json_sha256": "b3baf44ff3898a1ed5507fdadba361e074ae7045453042397e56ffdd989bfa65",
-    "bytes": 5490,
+    "bytes": 5740,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -66,7 +66,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

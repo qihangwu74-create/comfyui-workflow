@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Animate/【hotshot】hotshotxlvid2vid.json",
-    "sha256": "abdb55476d4dcec0b04e1f0b48ca4fbefc337ddeb63c65c3e2cdc61ad8ec62b0",
+    "sha256": "184518573c6bfd185205771354f15ee4d3716fa6375f1484a2c80bf2920777f2",
     "canonical_json_sha256": "7bfa50ae80427ea09df32b2834d2835a3fe49b1561b2e1fbbf6118856e955fca",
-    "bytes": 26919,
+    "bytes": 28385,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -207,7 +207,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

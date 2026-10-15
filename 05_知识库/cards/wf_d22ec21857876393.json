@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/templates_purz_wan22_animate_auto_full_scene.json",
-    "sha256": "d3e6aedd99c965cce695371f5a4229ff9915dc6a97193fb514faa0ca1cebcd72",
+    "sha256": "582cb05fe430fdc329432ca88a0967125aaacf62bbefe5433d69f81d4e01f905",
     "canonical_json_sha256": "192cedbcc51af1536dbb638f064b83e720780129c4c9da2465a8dd6e100e3131",
-    "bytes": 97633,
+    "bytes": 101407,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -328,7 +328,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

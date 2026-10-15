@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Flux/FluxTools/【Fluxtool】ReduxInpainting.json",
-    "sha256": "7091bb8872f210f12b8753d3de7eb14603408f298a376656b9e6cacde6cac631",
+    "sha256": "d6f07fbe91fd6afc8bc68f8e928bba2f44f84b67f884bc4d23ae977f6c531718",
     "canonical_json_sha256": "c4616c8c4c8cd26475645e4f7e36a32cf70c6a13bf807a13a219e2a79ec92b71",
-    "bytes": 18391,
+    "bytes": 19492,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -235,7 +235,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

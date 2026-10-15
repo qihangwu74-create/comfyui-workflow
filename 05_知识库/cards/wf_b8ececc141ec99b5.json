@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/QuickreplaceBG.json",
-    "sha256": "55bdc988bd953d807c26b68add80a981dbb8558bb39be31056e943634e6b2cda",
+    "sha256": "de7729c4404fc9d0c4a5ceca38ddbd61e3a132f051a4ed5e6bd91615ae502ad6",
     "canonical_json_sha256": "87f7dc063de7f5117217367d12a87e6460e2c97bfec09e67eca6ce5bd815c687",
-    "bytes": 21621,
+    "bytes": 22927,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -125,7 +125,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

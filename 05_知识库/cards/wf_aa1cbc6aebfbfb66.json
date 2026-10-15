@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Qwen Image Edit 2509/Normal_Multi Image Editing _Qwen Image Edit 2509.json",
-    "sha256": "927a553322f58b2263d07c2ed88b9bfb2757b4051ec482f51987dd39cb0d553b",
+    "sha256": "ca4a4b038dca9069ba44867a7d5a1b0ccf9c3cf9a09e3b976452c80a9e6a07da",
     "canonical_json_sha256": "c23fcee5cf62da9a4b61406762ea80139e9c92f20bd8dc43e036606f9582d7fe",
-    "bytes": 21619,
+    "bytes": 22867,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -199,7 +199,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SpecialUsage/sampler.json",
-    "sha256": "7e3515764bb7993e48a70f2c4815d9d0c7b3f5003af92594abff6eba909940ba",
+    "sha256": "97a59e08a83b57f0397e2d1332312e7a4308ba295502d99973565326ba634471",
     "canonical_json_sha256": "efab6fa7d420e064f71a337ed038322bb1e9ca4b9b8c52b2143a70b1cddb1510",
-    "bytes": 12220,
+    "bytes": 12934,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -110,7 +110,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_IPAdapter_plus/workflows/examples/ipadapter_noise_injection.json",
-    "sha256": "b84867a304deabaaceb3d95f90e466e7de59891e65637cde019d63da48e74c2f",
+    "sha256": "d020535ed34a88bd8bd55d8d6ddf0dcaecdf09634d04be6a6c68a34c2ffe25f4",
     "canonical_json_sha256": "d032aa0d84b7b76f478a62fd0af6d3ad4d9dc10576253b38d0bf0eca6599096f",
-    "bytes": 11134,
+    "bytes": 11810,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -155,7 +155,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

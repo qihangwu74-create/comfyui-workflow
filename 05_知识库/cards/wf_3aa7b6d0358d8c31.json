@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/inpaintoutpaint.json",
-    "sha256": "4530a689014cdf75172862d31f9887ebee060f385af757d3cc80a637fd6def3b",
+    "sha256": "11cab247edde2ca445705a3b1bff2f5d52f16ae6cc69c57d4a280ceb79500075",
     "canonical_json_sha256": "a11a517bd0cb3a41a8d4ab324617c70e0193bcbbbd68ec370902b166398f04b3",
-    "bytes": 26930,
+    "bytes": 28344,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -205,7 +205,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux1/Flux.1 Depth.json",
-    "sha256": "7d1fa1168d1bee81584768b327857f187fbd240829b5dfa8fb49f9f39fe14852",
+    "sha256": "999cd67961e9d7fe765d6c5bffc9dc1f2a067ea8e7fbd99ad162a7fed11ffccc",
     "canonical_json_sha256": "4923f2ff315005318d38a9f6ba9e8adec2d9d9292be116b84aaba04f7ea4e93e",
-    "bytes": 11125,
+    "bytes": 11796,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -170,7 +170,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

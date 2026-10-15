@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SpecialUsage/AniPortrait.json",
-    "sha256": "c9af8bebda9a03be895d98b816e7d8a43157bcc642ca07d309ce51a348d633e4",
+    "sha256": "67da09b7f98de9357ed777642f389a125460a10ffcfb6b3a9925a9efc8b27344",
     "canonical_json_sha256": "d4ba9c19c53d6d74baa0dd71f7a141fb355cd2233b6ea05e2933fa437a47c811",
-    "bytes": 10789,
+    "bytes": 11348,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -137,7 +137,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

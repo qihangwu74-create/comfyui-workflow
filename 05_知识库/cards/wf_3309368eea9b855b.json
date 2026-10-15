@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Qwen/QwenImageLayered.json",
-    "sha256": "df6d8c6bdd4508e0e4d495be9d0a80765a3cd89976a16e96486d46898e19597e",
+    "sha256": "6b9531aa0635953480540487be7edec0f2d4928f14fb1828d341cbfcafaa76dd",
     "canonical_json_sha256": "d9f4ababafda4853c80e9abcf97fb94572d8b2aef83e2b959bcc697bba0327a0",
-    "bytes": 20103,
+    "bytes": 21218,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -193,7 +193,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

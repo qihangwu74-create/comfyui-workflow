@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux1/InfiniteYou Flux.json",
-    "sha256": "3975b36609b306df11625ef4798626b5814ecd47216c03d3f9a9ca63d04c1ac4",
+    "sha256": "16fe2e75d97e9c29868e7a62798c50114a0e047959f0d7886eb8b3e4fe386df2",
     "canonical_json_sha256": "5b13bf8761255583b29bcdce88fd95acf93ed89741c47fed394c158d5463267f",
-    "bytes": 12183,
+    "bytes": 12882,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -208,7 +208,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

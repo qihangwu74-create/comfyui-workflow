@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Krea2 Style Transfer.json",
-    "sha256": "3d22c0c3957229c42a8943042468dc96ef99dd1f0d7b47b64deed1d9bd5ecbaf",
+    "sha256": "670505772a5afe97b613a710df2a3588e598ade5ebb9de7c3be3f5eb79a84704",
     "canonical_json_sha256": "f1b685d04a7dcc8239ffd7ec370dde41438f25a9113139b7343906f0281a7758",
-    "bytes": 50262,
+    "bytes": 52425,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -223,7 +223,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

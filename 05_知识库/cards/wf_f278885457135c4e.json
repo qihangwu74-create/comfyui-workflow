@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/yolain__ComfyUI-Yolain-Workflows/workflows/workflows/2_advanced/2-2instantID/2-2instantID_simple.json",
-    "sha256": "e1903950904a38c83eb84d163174862dd953b51a8a8be5d04d9a62c9e72f32f4",
+    "sha256": "b252f9af176bd31241654b45431c1ae25ec101382ed7ab66e55d1a74715fa405",
     "canonical_json_sha256": "2fd2055a957d849d79af019b2830abe759363aa868b0ae5665c4c8fc5e206dbd",
-    "bytes": 8662,
+    "bytes": 9070,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -115,7 +115,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

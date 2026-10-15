@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_qwen_image_instantx_controlnet.json",
-    "sha256": "9955e6599c377923b8415b712c75db3275b9b6e8ac81a870f5bc5ebda9b7977d",
+    "sha256": "6c8d6f579ae769b9c22d6fe6200c464ef9c9ab2f3a9b5f3ebbd187ead7882210",
     "canonical_json_sha256": "f7f944be0d6f567933274b158a61753ef1325615712c64f9f781279382fd0675",
-    "bytes": 68357,
+    "bytes": 70881,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -350,7 +350,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

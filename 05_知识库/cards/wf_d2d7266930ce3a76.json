@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/comfyanonymous__ComfyUI_examples/workflows/cosmos/text_to_video_cosmos_7B.json",
-    "sha256": "e9d8fcef4dc90a1a9321b093e1206da4ae57ef8b18a300e360b9dd2e5b7576c4",
+    "sha256": "4d201fc15315014fde2d5c8954abeffe08c407eca9169804eda23ac9074d7454",
     "canonical_json_sha256": "45849d7e8e3d33085b4e7f5d6c80202a93f7985eb06d0e87216fdd6afbc52291",
-    "bytes": 12571,
+    "bytes": 13233,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -151,7 +151,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

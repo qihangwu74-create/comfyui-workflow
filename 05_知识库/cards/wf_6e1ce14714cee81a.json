@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_bria_image_outpainting.json",
-    "sha256": "eb12f8faaec98a90db4e3a55c7f9385b28595115e0d2d14af71ab2441e67648d",
+    "sha256": "12ea937b5f93cc34fc39de638775305cc0ad7b7aa63138c393f36868f7e08dcb",
     "canonical_json_sha256": "7588f81b06914c403f4ba591373f74a13045350e9a20064e50f3dab159fe26ff",
-    "bytes": 5106,
+    "bytes": 5394,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -77,7 +77,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

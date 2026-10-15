@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Qwen/ImageEditQwen.json",
-    "sha256": "c8ba7b0dbe8e2d95f181fe8baaa84abce3717a57913a9c771bf532048bf01dd9",
+    "sha256": "a23eefa90dc72d01982ccc1bcd8111f36f3f0a307ad5863f964b891fdf999c89",
     "canonical_json_sha256": "9fe8e351147c932811160454887b70caab1c4920c4af69b7c015525ad2e32acf",
-    "bytes": 23500,
+    "bytes": 24750,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -190,7 +190,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

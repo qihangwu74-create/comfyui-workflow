@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SpecialUsage/bnktiledver.json",
-    "sha256": "369206bcdb88589f194f33653214e96840438658d27fb90c6515c68cf003edd3",
+    "sha256": "8385b4665d3d63d3217c0996dbb196fe23a514735c69d879f03eb28500197184",
     "canonical_json_sha256": "3280b9a3e7596f11d8bfb88e1d9dad2bff586c986d4b029df8ebc2b9fcb122e7",
-    "bytes": 29201,
+    "bytes": 30900,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -188,7 +188,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

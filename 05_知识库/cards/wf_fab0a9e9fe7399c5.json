@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Kandinsky 5.0 Image Lite T2I Image To Image.json",
-    "sha256": "703cccffae97856cf3d05ada248ec4f042b0e28a156d10ff1cac150c1df27499",
+    "sha256": "7e851ff96189deaf2fb975cb1c17f8613386f4b27609e63ddb1837a10fee27e5",
     "canonical_json_sha256": "3964f9ff2b4e59c4c603cca781227f3b18e7cf1ced9de9b5820a09c6df7e4872",
-    "bytes": 15534,
+    "bytes": 16368,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -184,7 +184,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

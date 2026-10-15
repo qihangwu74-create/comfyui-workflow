@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/LTX 2.3 Obscura_Remova.json",
-    "sha256": "5d36e2115d4057d0748bd8ba4ccd2864b5f5ed44f5597b59b17119858e9aac29",
+    "sha256": "14627f97b7d8d3bca268c1e7ebf2f7166afea829fce36bd1298359ee73b26e9b",
     "canonical_json_sha256": "98f1295a2323934b2bc88c2fa2710ec1180f344731387c8ba664723827d83d5c",
-    "bytes": 59316,
+    "bytes": 62463,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -364,7 +364,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

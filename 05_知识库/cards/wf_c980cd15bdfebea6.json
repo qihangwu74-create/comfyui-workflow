@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/image_conditioning/img2img_SDXL.json",
-    "sha256": "bdc538fbb6ab17d45c1b2aacb59df465dfacfa03294ccd8e05f0f01d2fa6539c",
+    "sha256": "03423e9dbb4e0c5914a73d7301a43c3b96cb52e50f39b73e1960f7e4bdebf366",
     "canonical_json_sha256": "02a6d146c4a5dab8f4d9e88e6a958e63a38ce60d3033aa402d2e0bb090bbbac2",
-    "bytes": 12015,
+    "bytes": 12722,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -129,7 +129,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

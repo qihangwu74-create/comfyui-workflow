@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/guided_composition/pose.json",
-    "sha256": "f3f507279874bf772461122066828993fed1350f5a1cdbba9b9e886fbdcafd76",
+    "sha256": "62ff45051ac1b16715b63d0c1a7590bc302ef5f6847c16a632d6b3492c0c015c",
     "canonical_json_sha256": "45caaf1a1e168d48ccbb4eddb526321b69ec5d2d3dd08794dca0d974976d8962",
-    "bytes": 11131,
+    "bytes": 11810,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -156,7 +156,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_wavespeed_image_upscale.json",
-    "sha256": "7169cc19c05400f5a10ae3ab1a96d1a7c71092ccabb50e365f4d6a922b14fd48",
+    "sha256": "bd3257c1e40ad1790c0cb12b9143a753699f58380958f3328b389be0f1b1c1e7",
     "canonical_json_sha256": "b688ae08a9804280bf3a7b6845b62c41fa772101c21618090f7f1d5c7b8d970f",
-    "bytes": 4071,
+    "bytes": 4302,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -73,7 +73,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

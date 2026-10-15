@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/basic/SDXL_text_g-l.json",
-    "sha256": "730891b675f3b3a76c297c5e6bd89c7ed8d66cbe0c86f7d43ad40d4e3a0f0ce4",
+    "sha256": "1e3dbd776afd1fead319531060af0dc2339aa4a87786c47eb8c5913b4ef3fe88",
     "canonical_json_sha256": "cbeb851dd9069a9b85d37b185ec36c7c37b00530be21997fa5bce5805e738cdb",
-    "bytes": 26443,
+    "bytes": 27814,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -159,7 +159,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

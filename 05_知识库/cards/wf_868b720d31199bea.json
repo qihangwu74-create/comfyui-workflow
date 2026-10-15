@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux1 Redux Two Image + Prompt.json",
-    "sha256": "5a7a6d89d134480b0ea1c310f814939b8122dcd15a44886fb518aded23c3b284",
+    "sha256": "35efc6fc37b4a78785a6814a93dceba6f45737f6991bab573f4f72ffeb8f4828",
     "canonical_json_sha256": "550db0afab1f7f4e5d428e637e9166d4e7ba8de53ee08dc9d569f4da8ef7f4f2",
-    "bytes": 17851,
+    "bytes": 18939,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -232,7 +232,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_bria_remove_video_background_transparent.json",
-    "sha256": "a9a2c93d63339455eb517a077f225e6d774bf8e8151632415d5646c85cc94a04",
+    "sha256": "a8e38431cd78d54aa7f095ee3bea3edc209ffd279bab3df6017a0415dd9cace9",
     "canonical_json_sha256": "035eb3c973c3d77b503b586621f7922cf400809a9422b9f44a3c3c64245248df",
-    "bytes": 4302,
+    "bytes": 4575,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -74,7 +74,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

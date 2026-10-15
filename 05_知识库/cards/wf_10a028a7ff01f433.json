@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_ideogram_v4_5_image_edit.json",
-    "sha256": "a7e4ebe6936b76b35e3ea8a8e8dbfc81e456c7fa25ced957754c06b88b36dbcc",
+    "sha256": "e06dfc1f7bd58acd015c14e2519686e30caed4dc0028faab4b668fa979765452",
     "canonical_json_sha256": "7f38c64590a68c4fe415fc9ba8eaecf268554b96710134b9b544639d6166bfcf",
-    "bytes": 10733,
+    "bytes": 11244,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -76,7 +76,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

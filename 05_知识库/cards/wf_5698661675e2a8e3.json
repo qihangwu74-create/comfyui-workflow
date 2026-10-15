@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Qwen Image Edit 2511 Inpaint + SAM3 V2.5.json",
-    "sha256": "c7094bc1307a02df1a1181918a353b5a3c1d466be67a469fa46fac30a0d7c27b",
+    "sha256": "73f525293be362cfa326a5b3d11c13483f0f2927d6731fada68657373fc11c4b",
     "canonical_json_sha256": "81f73a1ce7afe1eaf7d8dd49d47313ea766187df316bb02f3cd782b09b9dea7e",
-    "bytes": 54055,
+    "bytes": 56685,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -235,7 +235,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

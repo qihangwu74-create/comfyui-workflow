@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_bria_image_edit.json",
-    "sha256": "f80a739ff44d32b62c74fc9b1d80e3a524ffc0c5e35bcf5438d0da92571e3988",
+    "sha256": "927cf613015e87eb7acc263beb16a115999590e6457270350356f735414a9c6b",
     "canonical_json_sha256": "ab9f4c9f945dca2d96348c63e34600dda0a62be56917c655e9e2ec846e0e4ab9",
-    "bytes": 5191,
+    "bytes": 5448,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -74,7 +74,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

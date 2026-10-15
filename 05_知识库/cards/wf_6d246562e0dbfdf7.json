@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Flux1/Flux 1 Dev ControlNet Union Pro.json",
-    "sha256": "1484fbd04e771848c882ad926d485f78a593036ad70bc15587b902b6a98f13cc",
+    "sha256": "da7246af9ea0038c0b3df282614ef6b7385b6576a586599d530e1675a1d65f70",
     "canonical_json_sha256": "c215821166cdd6205704d20c421e4613f1dfafbe25a761d2e5ad9b1a0001e03f",
-    "bytes": 14977,
+    "bytes": 15845,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -210,7 +210,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

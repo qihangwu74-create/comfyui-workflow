@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Lens T2I.json",
-    "sha256": "cbbcd0c52032ecd6b3ee9a3f728e9a229bcc80d211a1d879233adfd916bceb83",
+    "sha256": "5f5bdd224034b557691caec119fd967a14a87dcb4118cde5891f4f445f571e71",
     "canonical_json_sha256": "63b74eae2eabdec5e1a8472027b23ba41c49f7bc50fe4a7b0b99ea35d3f2a75c",
-    "bytes": 11724,
+    "bytes": 12411,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -148,7 +148,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

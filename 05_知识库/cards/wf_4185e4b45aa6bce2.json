@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_qwen_image_controlnet_patch.json",
-    "sha256": "8fb8d9baac5ff34e23955c14afb36331158820fcdea9f02d6bff412fb700e0d8",
+    "sha256": "e7f3f1ae9b4a53a767b2fd5677ae66a4ed479afc9e79c4866119eb29f7c95140",
     "canonical_json_sha256": "dc94a91be1892099c53282cf486bd9f750fed557820e0351b531c1c6f2940875",
-    "bytes": 22460,
+    "bytes": 23514,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -246,7 +246,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

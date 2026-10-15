@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/utility-topaz_landscape_upscaler.json",
-    "sha256": "a5ed767a09af0aeefc7b2c3c62f38cee9e06fd27914c84d4b81b79e4e21403bb",
+    "sha256": "e2a8ea3b1b116be1034bf604c7c02b53d3196ac6ee76179b895e673368d1a07c",
     "canonical_json_sha256": "be7044a40f545792f7585f790bbc5eedfd821fe45d3836c6909b77727e965251",
-    "bytes": 8690,
+    "bytes": 9116,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -74,7 +74,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

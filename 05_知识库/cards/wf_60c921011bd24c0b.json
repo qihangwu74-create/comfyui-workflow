@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_openrouter_mai_image_26_flash_image_edit.json",
-    "sha256": "4735a746cd4d8efa454779f9100117a43278ef61b267a432d81e13bc7ab9aa25",
+    "sha256": "4c4032eeefa3b3f0b399b66eac659392d0be84912c8e8d3902bf43690bee4466",
     "canonical_json_sha256": "921ccb3e94591a17a57a862a85dd466aa1a1d95bcaa76e915cc4feb34c19d5d8",
-    "bytes": 5611,
+    "bytes": 5826,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -71,7 +71,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

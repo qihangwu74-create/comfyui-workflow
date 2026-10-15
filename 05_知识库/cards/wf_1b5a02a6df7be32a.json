@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Flux/FluxTools/【FluxTool】Outpaint.json",
-    "sha256": "06b01c03dfb875485e58c3c60b4ca6d5421f791c13af4fb03201492f6ad60bc6",
+    "sha256": "057daa52016d72cd6264533d6c4140df1bd41712fc7f81d0f9be386528c9400b",
     "canonical_json_sha256": "226927f0537dd7cd891fac04271a86b7de91bce8809659260f5f86aa5b6d52f5",
-    "bytes": 11536,
+    "bytes": 12246,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -166,7 +166,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

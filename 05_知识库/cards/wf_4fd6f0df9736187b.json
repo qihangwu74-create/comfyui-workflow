@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/text2img/experiments/blank_token.json",
-    "sha256": "99545f467d6c5ede167124d1251ed58e0944df44b0d3595a85c3dde26e0fbae7",
+    "sha256": "3907ac62815ba2551177eceaa9545e4ef450b14d1b7fde532b98e8cbf3bf2f24",
     "canonical_json_sha256": "1e5c4c3bab4df9b3b971cf23fb1e5084faffd5044e56127ffeb0ead0dd4d7766",
-    "bytes": 10197,
+    "bytes": 10833,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -133,7 +133,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

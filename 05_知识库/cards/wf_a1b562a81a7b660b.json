@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Flux/FluxDev.json",
-    "sha256": "68400bf9c8f24f3a1ea07b1c2c60bff6e80b73905767e905122cb051257aca9c",
+    "sha256": "db6f4fc9122339754fa9713a515f15d7b2e8c208ec1117838e92f21960af964b",
     "canonical_json_sha256": "a10c9baf5430e672160de26fdcd72069dbe27a3b992243857c527678e4df6c2c",
-    "bytes": 24008,
+    "bytes": 25179,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -223,7 +223,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

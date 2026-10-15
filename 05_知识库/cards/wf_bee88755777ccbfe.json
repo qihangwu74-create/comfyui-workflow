@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/fahdmirza__comfyuiworkflows/workflows/Flux-Lora-Workflow.json",
-    "sha256": "6562d9563248d5d5afc8429b0c925a49a6dd3702e6f0a81a3a16f8020fbe22d2",
+    "sha256": "01c6038c5cadcc478702cb2a95acd132d90a05d51297c273971646b6d5644110",
     "canonical_json_sha256": "3958a70090f5ff09e5b216d485c0fba67b07e2154326d2cc8593a4b47d7b4480",
-    "bytes": 10843,
+    "bytes": 11490,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -174,7 +174,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

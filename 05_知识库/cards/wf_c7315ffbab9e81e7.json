@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/utility_recraft_creative_image_upscale.json",
-    "sha256": "bb713b96ebbb564fa5a7a1e9221351595e1271dcfdb208b31d24578599b3990e",
+    "sha256": "e097ddd94c20220644a541d665d084c2f46cdc90d3d286f20508089f3832a3ac",
     "canonical_json_sha256": "b0ad5a11b92d3ee1d90f5bb9285a9631f022882f7b3fb688807a640abca2e87a",
-    "bytes": 4557,
+    "bytes": 4808,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -75,7 +75,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

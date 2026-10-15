@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Ace step.json",
-    "sha256": "b339f85223ab62d02362900e4475dab16bf459dc6b04003ed37e891676eb79f4",
+    "sha256": "1ca785fc45c82e48cf968caf7f33459627bcf754b47d7507b68211ebf5b6071b",
     "canonical_json_sha256": "c50a21f3a12fee6071b9cbcc76f0069f006b447c444913a513d25a636ba8c965",
-    "bytes": 7392,
+    "bytes": 7801,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -97,7 +97,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

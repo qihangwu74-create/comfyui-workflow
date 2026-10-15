@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_IPAdapter_plus/workflows/examples/ipadapter_weight_types.json",
-    "sha256": "b5253316941351c8c9046b18cf36c1edf1a3b9c69dc4727bc8b79f9b0c85c7cb",
+    "sha256": "4f7cbd6a53f9192462d114ca387be45735897469709840cedd3209629253cc80",
     "canonical_json_sha256": "3f73b3d50d8bd39d098b144f1232abc9399109611cb302eaf5f054f325341525",
-    "bytes": 27342,
+    "bytes": 29079,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -177,7 +177,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

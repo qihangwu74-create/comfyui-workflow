@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Hidream i1 fast Dual Clip Loader.json",
-    "sha256": "64555c91cd01925bfbc37f021960af9ebb4f3307e846fb969a68403d8525c7bb",
+    "sha256": "3f39acb8af8d3f4a7d5b17bc9c9bf20cba900cd85a88d7e1545833db48f541b8",
     "canonical_json_sha256": "32a59853c0b4d07e0988f2a27d18c5e25f4840ce0fdcf7d03bd11b2251bb45a2",
-    "bytes": 8175,
+    "bytes": 8646,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -152,7 +152,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

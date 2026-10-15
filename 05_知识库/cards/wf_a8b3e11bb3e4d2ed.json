@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_joyai_image_edit.json",
-    "sha256": "2a3261bfaba39ddd38b9124e83db545d1b006621d80679970adbbf5942bfa932",
+    "sha256": "745f4405e48af903f40e307ec35334e93cc2c760ea72bcf8373ebce05eea9ad0",
     "canonical_json_sha256": "83ce286cfb16798d1dc40cb558baf3dd1fb14b2be4f1eab8813e745f3d092e6f",
-    "bytes": 34909,
+    "bytes": 36376,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -186,7 +186,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/image_conditioning/experiments/IPAdapter_canny.json",
-    "sha256": "65a324ea16b124114e1d35cfee7427ec2d4299721ad2ea7d993f15db67302f29",
+    "sha256": "36f6d0e0d13f3793cc7aa4b01f5650de164ff1f0e8f94e1c1f783b2e575552cf",
     "canonical_json_sha256": "955f21f24951022ecbe14f766aade632a60c5e75952ed93c84606e41e8d17d91",
-    "bytes": 13398,
+    "bytes": 14216,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -205,7 +205,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

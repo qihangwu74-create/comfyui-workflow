@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/ollama/ollamaclotheschanger.json",
-    "sha256": "2796d5cb2d233d1346f5f1d23f5e92c9f0e10bb4296002e8fb453e9a41149823",
+    "sha256": "736fdbbceb03d3d0317ec736115430015934d1afca124021b43a4fc32083d474",
     "canonical_json_sha256": "115e16729f819ebf7e31770721308a4432b073d02ab06428cf69b86bed8a781a",
-    "bytes": 51033,
+    "bytes": 53840,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -235,7 +235,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

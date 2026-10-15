@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_z_image_turbo.json",
-    "sha256": "baaf937ff071970cc6b1e2fa0093a4dd664a4cc734d38adc4c7810e535c1f1d3",
+    "sha256": "ac12bbee0102181441ae44812084f28cbdb5a0fa2f0045f2be6f35acb7f2d33c",
     "canonical_json_sha256": "c84718aa82aff3932ec75d3ff40e29beedce75f838a04f25fc0360335e95300b",
-    "bytes": 27390,
+    "bytes": 28454,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -167,7 +167,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

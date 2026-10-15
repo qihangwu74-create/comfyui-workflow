@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SpecialUsage/characterdifferentpose.json",
-    "sha256": "76e069c389bb00f7c6f02cebe6c00b7e5894804522b8f90e8e1cc597538c50d2",
+    "sha256": "82d087ba83dca6cab2c3e99adbf37c7d2456c840ff25b590ea6b79a7459f562c",
     "canonical_json_sha256": "484e006209d005d828e5bac8ee14912b47d235380095b85a8060ab868884ec98",
-    "bytes": 44638,
+    "bytes": 47284,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -256,7 +256,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

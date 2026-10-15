@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Minimax H3 FL2VA lightx2v_Turbo_Sol.json",
-    "sha256": "620888ac6da24671d02c64155ae7cd0b888c78a0f8540934f4d9d0802ca2edf9",
+    "sha256": "4f3a38213cd1bbd376e3185c320fcaae72fd19f225daeec83f864783cad06362",
     "canonical_json_sha256": "1c530645edc5270982f2bc349df52113efbdc7991937da426e5d751a7b857609",
-    "bytes": 21370,
+    "bytes": 22532,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -205,7 +205,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

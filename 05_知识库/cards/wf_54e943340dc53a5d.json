@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/LTX 2.3 Camera Man.json",
-    "sha256": "cad02d28314bbe2e10f67e861f0d3cbe8637e86f796388e737e9d2ed5dccf99b",
+    "sha256": "6f3cbcc4d5885525dda33cd12eb78ccb326092da87529b6bed14b03905799d68",
     "canonical_json_sha256": "c2776b74e3f872b7b9b6a64bb0957b33b249de20c2404b5e047f63b0b5df8a5b",
-    "bytes": 101378,
+    "bytes": 106131,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -447,7 +447,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/llm.json",
-    "sha256": "29dab2bff628d11069ea0b55901d74c138de539957bfe6934d376629e942b991",
+    "sha256": "55243fb34a1af567612b552775a33b1540d0230d8f391e24c1f86ebacf43e99f",
     "canonical_json_sha256": "fbba007d4bc77119bcc7c9ae7f2a6281771b8bd5a20038407673adfa53330a07",
-    "bytes": 12966,
+    "bytes": 13634,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -146,7 +146,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

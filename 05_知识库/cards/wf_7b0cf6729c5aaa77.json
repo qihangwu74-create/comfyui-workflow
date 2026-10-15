@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_openai_image_1_inpaint.json",
-    "sha256": "692d7a34b5edb752b1539c676e0d95af6d151265d06d0f83971474716b311ff5",
+    "sha256": "6aa35cf4e452dd5fad9c00b1316651542a36cb10abe13f383ab11e1d6c3f6866",
     "canonical_json_sha256": "312633080eb43a31cdd6257ab14ec145b429f83cc03e8e4cbd1f2f06713d108e",
-    "bytes": 6643,
+    "bytes": 6935,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -72,7 +72,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

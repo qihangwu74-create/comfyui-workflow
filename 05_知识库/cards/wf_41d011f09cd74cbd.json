@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/yolain__ComfyUI-Yolain-Workflows/workflows/workflows/2_advanced/2-4inpainting/2-4brushnet_1.1.8.json",
-    "sha256": "1d45da2f1f407300f0aa182290e26a5b4d99152c84b01f955dee2baa8d8a595b",
+    "sha256": "e9401409fbcec07c1f68f0b4721035a9becef00dbed960e31b71987a1a84ccf3",
     "canonical_json_sha256": "4f62c8843b82d8e0003d85e8756a46777ab44637cef103ba10533b5ec6d98e3b",
-    "bytes": 63487,
+    "bytes": 63941,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -115,7 +115,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/basic/experiments/save_noise_steps.json",
-    "sha256": "6bd435e8baf62fbed81f851d9178d2f2fcd0ea2b42c967bd112497d18579cf95",
+    "sha256": "a9fc46041a4151ca7f71cfa6a1e8bf0b497f6a7eaeeb021068a227b6f3ff7daf",
     "canonical_json_sha256": "e13738fc44947d6b574e8ef01006c49836c2c21e161b8ee59b5e74baa213e67a",
-    "bytes": 7761,
+    "bytes": 8231,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -121,7 +121,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Flux/Fluxdevfp8Checkpoint.json",
-    "sha256": "a02dea9e17def651d5347f30981d337025c480f864bcfddf40c20de7d96d3fdb",
+    "sha256": "409a77fba11bfca1e0bad89d2e2fb35734b5ddfb0ff61a8147a1302e89310b95",
     "canonical_json_sha256": "c4997f03c957a5711b60e8bbadcdbc49f754686608809da4bda2ebdaca0b7508",
-    "bytes": 18443,
+    "bytes": 19520,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -166,7 +166,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

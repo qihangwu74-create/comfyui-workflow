@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/upscale/upscale_latent_SDXL.json",
-    "sha256": "197f2fe401e76ee7ed29d6f951b2105b2c9c44b36cd21383e16ff48b09b173f8",
+    "sha256": "f982f47d72c347404eb3b9c496b6a4d3c7b8cd5cf0f7e23f09f6964b5a23cb61",
     "canonical_json_sha256": "78a326d603435d911ea10564edb95c3b861d93f55f9e8858d9d057d350c4890a",
-    "bytes": 28965,
+    "bytes": 30529,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -172,7 +172,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

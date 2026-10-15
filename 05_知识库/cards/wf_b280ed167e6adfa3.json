@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/utility_depth_anything3_video_depth_estimation.json",
-    "sha256": "1dcbb8b960815159a16981a200880c3d79c9df98a1e877a0564361b63e9dd50b",
+    "sha256": "85de1fc6fda0220fcb26eb64cfe5299e1d9bf2929e9cf5f84f1e4e08f1e85b06",
     "canonical_json_sha256": "62331d3a1e64e1fca50e0c5c0844d1c949210eb5f79a9d6a7fe29d796e6deffd",
-    "bytes": 25972,
+    "bytes": 26981,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -101,7 +101,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

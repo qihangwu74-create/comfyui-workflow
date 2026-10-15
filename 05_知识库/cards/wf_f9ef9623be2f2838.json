@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_ltx2_5_i2v.json",
-    "sha256": "75565ffa9d0f9105590b4d5735675731ca257bca6910f2207118d46cceb22a10",
+    "sha256": "16acc8649c974a517361db9265a3d7632fdeed977dab405b945c5804ba166eb7",
     "canonical_json_sha256": "34aca2f9377440595f9d436f2d00d60da043db004a37473c87676836e0bf94ca",
-    "bytes": 3497,
+    "bytes": 3664,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -69,7 +69,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

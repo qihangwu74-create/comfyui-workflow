@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_z_image_turbo_fun_union_controlnet.json",
-    "sha256": "617c27df391c122b81c1532e09355373e7996cc583fe9f5a4527913208e177ec",
+    "sha256": "21a67b59bfdae0e43bde2d49b7d16258ca7fc2871db9bb45dc49f474d8643777",
     "canonical_json_sha256": "cfdc5a5f57f03b21fa197360d34b2bc825c933dd6705343aeef33619abab6a90",
-    "bytes": 42229,
+    "bytes": 43868,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -214,7 +214,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

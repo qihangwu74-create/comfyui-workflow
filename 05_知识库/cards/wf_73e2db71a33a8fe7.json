@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/LBM Relighting.json",
-    "sha256": "7f1620b1525435bc65663cc894e76f5a626822c558a93d15f9d4f89e76a97346",
+    "sha256": "65ee6e23db305577df37f8eaa0dd5508c9ea7fa8f64f6610c0ebf3a9f49139f1",
     "canonical_json_sha256": "07e27ef3672da6fec542fec064068a838fba951ead1636ec285bb4449dbb0a60",
-    "bytes": 7312,
+    "bytes": 7727,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -115,7 +115,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

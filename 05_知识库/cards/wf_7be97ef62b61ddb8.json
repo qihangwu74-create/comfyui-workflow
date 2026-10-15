@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/lquesada__ComfyUI-Inpaint-CropAndStitch/workflows/example_workflows/inpaint_sd15.json",
-    "sha256": "7fddfba24cfdacc586597f507010fe93f177e53dba5bd1a0e6eb496d840e52bf",
+    "sha256": "8c7ebb19e225334eb4a034da035bafd7cc0e712bf8dc707a751a4717a7a92e96",
     "canonical_json_sha256": "629f1eb692e2f370978486921f8a4b3940642376fe0f687540c4bfc959510d89",
-    "bytes": 13121,
+    "bytes": 13846,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -116,7 +116,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

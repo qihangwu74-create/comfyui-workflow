@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Ovis 7B GGUF.json",
-    "sha256": "f275819399fb7b55f7319f009115cdc0cb3d5a29b022bdb2b59e6501861d056b",
+    "sha256": "135eb15a586dd0d1ccd11aab389f2a25f8dfb9df5a8de6b6fc9f7d588445b89d",
     "canonical_json_sha256": "820df83c78a7523421885bd06f70363471d45e38da341105a2e8b60d9f3f04d2",
-    "bytes": 12341,
+    "bytes": 12964,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -159,7 +159,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/yolain__ComfyUI-Yolain-Workflows/workflows/workflows/1_basic/1-4通配符与风格提示词.json",
-    "sha256": "6dc156d142b5d70c582bbaa59d6b2111f7b4c009f75ab0514ae352f530371d82",
+    "sha256": "57c93828d66a53f273e2bc980d24ad062ef751dd7a397d13eece1a86545c7ebb",
     "canonical_json_sha256": "cb2751dbe3e387c335c6d57971249be6c2576c5450a0e4516ec8217f61a2a16f",
-    "bytes": 9352,
+    "bytes": 9767,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -98,7 +98,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

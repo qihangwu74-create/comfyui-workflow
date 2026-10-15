@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/LTXVideo2/LTXAudioToVideo0218.json",
-    "sha256": "565a4f5707f60a7a0ba67c82cf3ba17350ab0ad8a3acfc6aac9b2ab0846643f6",
+    "sha256": "8464a230cf2373e952fb46804956eab22d0a6bf5f5b5557a70af488165dbdd78",
     "canonical_json_sha256": "e32c879c9c7244e3b63510653d3c774ce6eac0802cf18fb3a6325f316eb38328",
-    "bytes": 50565,
+    "bytes": 53241,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -341,7 +341,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

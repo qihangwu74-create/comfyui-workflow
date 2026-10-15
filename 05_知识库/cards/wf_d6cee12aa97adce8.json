@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Flux/FluxTools/【FluxTool】InpaintAndDetailer.json",
-    "sha256": "b5ee9fe28cf678a697b0ebf79e2feb7941f1f07f2619ad40522069ae669a1529",
+    "sha256": "420163ede5914ec34bf54e26fdd4fe77a1e7f575125f24aa022c8777c5935404",
     "canonical_json_sha256": "aef9ce558ae46e1f271405d5e16f7a6aec060c2fdca6c60202ab6c0192871199",
-    "bytes": 31323,
+    "bytes": 33177,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -248,7 +248,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/comfyanonymous__ComfyUI_examples/workflows/wan22/text_to_video_wan22_14B.json",
-    "sha256": "74c95c930d606476ecf3dcea15a8d9a829a10daa1649912ac5c4a635e2ada807",
+    "sha256": "fc6dc32beeedfd442059112bf83c3aac9dade68fe8e2e53b806a10bd068ed07f",
     "canonical_json_sha256": "549e2cc78bc3e2b25e82d9860b2162e01bdde1accce3d427ccdd32714376505a",
-    "bytes": 13150,
+    "bytes": 13908,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -176,7 +176,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

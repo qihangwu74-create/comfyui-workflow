@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/ZHO-ZHO-ZHO__ComfyUI-Workflows-ZHO/workflows/SD3 BASE 1.0【Zho】.json",
-    "sha256": "f9e0cb6a289a32d70c6a33cc16baf87509f8f82b760d9daef63df4d2d2e6c37d",
+    "sha256": "dfae905f11f53e6cf1c95eeaa74cded68ba75c7f24a3d8ea49c1506e15207887",
     "canonical_json_sha256": "3a904e160e542d8dcd7952aea86a7375d90f28b691cc4e0f570e0b0e2cb734b3",
-    "bytes": 12307,
+    "bytes": 13024,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -139,7 +139,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

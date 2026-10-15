@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Cosmos Predict2 2B T2I.json",
-    "sha256": "673af2da0ec473e62c6d7518aa0e750efb013c25be37fcc1e45121d2f611f244",
+    "sha256": "10c68c2cab0f912ef3093d9380470644cf25b5fb4a5f0aef1cd0585e3f566ec8",
     "canonical_json_sha256": "8d3ce8bc641fba01b2283869ce322bbd48fa63fd448dd6166808d0e89114da6f",
-    "bytes": 8003,
+    "bytes": 8447,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -146,7 +146,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

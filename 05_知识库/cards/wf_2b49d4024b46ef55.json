@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/inpaintoutpaint/【powerpaint】outpaint.json",
-    "sha256": "47999f9c9841233f872d1a293aecf1ac3bf41e841484af3bea089e8b142d0853",
+    "sha256": "333acf50489bc6cccb3d7e11cfd4cf697922a2ddc997561e9bf0569e090a518e",
     "canonical_json_sha256": "46a4cf1a81205ae8683ab131936017d7c7cfe2d092ca1ee72f2dad35ca7cb8a2",
-    "bytes": 13119,
+    "bytes": 13921,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -166,7 +166,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

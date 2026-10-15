@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/templates_purz_image_glitch.json",
-    "sha256": "e05b2c09e49b69b6f6aa9809d52b9491e1ae98a92e03ff781c257d105cf66369",
+    "sha256": "d187414853bd540c3d93d451e1f4fd36324431170f33d2048d28f3f5d2776925",
     "canonical_json_sha256": "3ab1bc690a7fa4a0313e36b814684eb2b1d9768ceb446570caedb85cb526eb6a",
-    "bytes": 4002,
+    "bytes": 4204,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -65,7 +65,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

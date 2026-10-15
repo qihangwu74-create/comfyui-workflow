@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/llm_qwen3_5_text_gen.json",
-    "sha256": "302ce45009c7eab46a69e9f304dce6a8066d505c9ce85a138e13fe0c34509b49",
+    "sha256": "44775ba2fa90876e6129550f75862f4183917da911bc85eccc1c0ee475ba0124",
     "canonical_json_sha256": "4fa9e5eb25d3920906308ec12fc688982bcfaa89a4ed36c1df31380285e25819",
-    "bytes": 6617,
+    "bytes": 6888,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -101,7 +101,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

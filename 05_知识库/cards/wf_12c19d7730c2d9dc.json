@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/BackgroundChanger/【SD15】ICLightv1.json",
-    "sha256": "d6e05a040f423d40cadf9293c00f5225d8a01525d89098d7fcb862febb9d8892",
+    "sha256": "21d6926bc07c081bdf45628dcf6dd58530c140924a6d90ef2c9129eca9a5ecb6",
     "canonical_json_sha256": "300852246c14836ad12553e12e98f737a55b2aa71f4f5d0d6bcf02363a82608c",
-    "bytes": 43645,
+    "bytes": 46167,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -250,7 +250,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

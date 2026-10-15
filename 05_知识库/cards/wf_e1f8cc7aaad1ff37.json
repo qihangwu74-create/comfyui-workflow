@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_qwen_image_instantx_inpainting_controlnet.json",
-    "sha256": "1a0b3773fbe12a09db55632887f459e16da2e443a36977d6d51f416e20c88d87",
+    "sha256": "0108e2f0e966026c3e9c94c69e28b8e0c2004ee5b148d0757a159a60b952ba62",
     "canonical_json_sha256": "d33dd3292420e7a3222a4db4e2ce25bedb6b442130a20502905e80d555a81fe7",
-    "bytes": 74759,
+    "bytes": 78469,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -404,7 +404,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

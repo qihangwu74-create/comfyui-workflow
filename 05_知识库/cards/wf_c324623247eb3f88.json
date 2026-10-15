@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/BackgroundChanger/【background】differdiffplay.json",
-    "sha256": "9a0405897a02f1be8767b5de191f3fe7be04506d2589444155462901945932ea",
+    "sha256": "640b27f72138dcf279fb8cda9aadce216d418f5f166b6ee94b758f1672ff36fb",
     "canonical_json_sha256": "7949be4f798854d0e0b501a7e65276b3aa982740ca15b6a3ae6a92c143a4e082",
-    "bytes": 14806,
+    "bytes": 15681,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -121,7 +121,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

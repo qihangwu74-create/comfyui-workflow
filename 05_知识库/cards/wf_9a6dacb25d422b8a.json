@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/skyreels v1 image to video.json",
-    "sha256": "6caae6100b305cb819f1e6f2c927c6d0ae78ab247af485aab682b0d21fb9970d",
+    "sha256": "620c341aa6f16517f15f0a90dac3c88b25f7c2a63dd81fa08ed7bda036d449e8",
     "canonical_json_sha256": "491272adaf6adbac6b734130a2005307ca51cd07f44b5fd52747609a97f10e89",
-    "bytes": 13944,
+    "bytes": 14757,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -168,7 +168,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

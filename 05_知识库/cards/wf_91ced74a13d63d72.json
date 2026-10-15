@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/utility_image_upscale_supir.json",
-    "sha256": "8283d044c01daf0b4aceddc7e3aa2a8af4f73a3587b7324a1443cb9f50587e22",
+    "sha256": "b5158da4662e59c723ee357dde2043d6452cd9da4162ac6f78d9453255828c31",
     "canonical_json_sha256": "e0e248bfbdb2e011df7bbfb7752ff4bbb730e455dfe398070672c5ce29d78cb4",
-    "bytes": 62982,
+    "bytes": 65379,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -207,7 +207,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

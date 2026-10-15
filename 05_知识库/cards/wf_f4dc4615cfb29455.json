@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/yolain__ComfyUI-Yolain-Workflows/workflows/workflows/1_basic/1-13StableCascade.json",
-    "sha256": "b2338596b7019ea93f5ea1e52d74922a41dd6756c7f2663753bd4c40cbd4eb60",
+    "sha256": "30e38bdc3d79d2775a9a62fcc72f9dd10c5a861abf9f6b5b97ef1f1463ed4516",
     "canonical_json_sha256": "6d9066f77512031d9e08d7a0dbfeccd8924d00473f75b163271b8cc224271ee9",
-    "bytes": 5664,
+    "bytes": 5968,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -105,7 +105,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

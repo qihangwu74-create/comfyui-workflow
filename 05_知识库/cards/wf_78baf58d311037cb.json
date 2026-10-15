@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/image_qwen_image_2512_with_2steps_lora.json",
-    "sha256": "3a95c94c18872d880f38f44fbfbaff25c2b0bdcbf51539877309517cb867cf31",
+    "sha256": "28ccdee1136ef5f405c1c4e1959dc474150d682139ed09d7ff2e356c3d750e88",
     "canonical_json_sha256": "d719db10fc62bbc3b1361127e75d929b3f182df7f3791a2c51270b7bda91b28a",
-    "bytes": 18344,
+    "bytes": 19118,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -194,7 +194,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Animate/4StepAndMusetalk.json",
-    "sha256": "463203916d744c924d59999d6ee5fbb1dbcdd59233577cffd7b5fd89190450f4",
+    "sha256": "003d63a4cee432f6a07328a7d2e9d73db90e24664ce471a739031b9cc9c44b3c",
     "canonical_json_sha256": "2e6bac30162cf5dad5dcc6dfb1d29673144c436b8a403f1ada6b0525929ca234",
-    "bytes": 38216,
+    "bytes": 40389,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -191,7 +191,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

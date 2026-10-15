@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/ZHO-ZHO-ZHO__ComfyUI-Workflows-ZHO/workflows/LivePortrait Animals 1.0【Zho】.json",
-    "sha256": "469f534ad6f295353079128fbcdbcf7d5758e8f7f93c18d1b9b1246de766d10e",
+    "sha256": "450c3120d7cbecef1d4a089cb3440eae8f3dc575a59a114b635e4cee2b2fca30",
     "canonical_json_sha256": "436e2d659b50d15cbc1d7aa1ff8d2869dfea40c61fecce2fb43b7badd1432bdb",
-    "bytes": 11569,
+    "bytes": 12230,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -84,7 +84,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

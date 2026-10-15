@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/utility_video_upscale.json",
-    "sha256": "b2ef6bcee33fa841ff53a7836496179d805d2ec9b01d12bdd14aae881e007f10",
+    "sha256": "a800407bb3d67459c953627ae6483f2cfda10066b894be5850fbba0829f61984",
     "canonical_json_sha256": "755e477a7fa2cd34941bb718f68207b6c13115f2c55a6bf3ac566d4ed78ed107",
-    "bytes": 70338,
+    "bytes": 73260,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -173,7 +173,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

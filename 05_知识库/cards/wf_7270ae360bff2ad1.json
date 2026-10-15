@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/fahdmirza__comfyuiworkflows/workflows/flux2_example.json",
-    "sha256": "8639fc20a4010dd6d0706881c809c2279ad7f7232a713d080744533f047d4613",
+    "sha256": "04579d93baf49c5cc77d994a92f7578723087161b76b129796e932e045472096",
     "canonical_json_sha256": "2f8dfc3ecb37e7437ba1c23c997b61f8783a8e0f657584a1f4b5d34fc08b81f6",
-    "bytes": 20985,
+    "bytes": 22190,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -171,7 +171,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

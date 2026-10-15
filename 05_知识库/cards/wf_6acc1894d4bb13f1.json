@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/LTX 2.3 I2V & T2V Prompt Relay Timeline V1.json",
-    "sha256": "62d9667ac055adbd3b77e1097686fdbb9a3106f20a5b887a8340d6f88162ccf1",
+    "sha256": "dbba8319d1c7f6bafdfc229774e01c1ea08e4c6246b0f7fc3e6631f4f1802117",
     "canonical_json_sha256": "a425be63e77113d9d6e46b0ce491165127abf12571c99571b22e3870f1918e64",
-    "bytes": 81984,
+    "bytes": 86133,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -378,7 +378,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

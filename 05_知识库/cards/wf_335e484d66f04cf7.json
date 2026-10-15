@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/template_ltx2_3_remove_watermark_from_video.json",
-    "sha256": "5467128f407c56a97e8c1b26122ea591572e24bb63d7c39e174773c6a0119180",
+    "sha256": "ff9fe57cc4dd62f7147030eee081ca3362be1052eab369b537970a1c758071f7",
     "canonical_json_sha256": "d4bd44d145d6c1214127c784950b42d3c40eea00b6496d04b39649407c716c9d",
-    "bytes": 125290,
+    "bytes": 130369,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -309,7 +309,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

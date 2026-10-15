@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Z Image Turbo/Z Image Turbo Text To Image.json",
-    "sha256": "2e76868c312718bc5577ee67e50e796c923be16a2dbd0e8852b00d269a165010",
+    "sha256": "ae6269a4084eb7f0bee00369dd9b57b9d0e7eed7f699a28c4a6c7f564b0fed98",
     "canonical_json_sha256": "e5d6587bb2fdfaeb959da510e60c5190b964621ae165d5569d36b707790219a9",
-    "bytes": 9719,
+    "bytes": 10247,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -147,7 +147,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

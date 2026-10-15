@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Wan 2.1 14B T2V FusionX.json",
-    "sha256": "dd3b9125735c28a41a475a2f97f20672b433db5556463ff99278566483ca49ce",
+    "sha256": "c30f44675212785f6c66dd03e5102a62c4e1c7c6120f28c21e2fca493b51a4ef",
     "canonical_json_sha256": "8fe7510379866a844ae40fe7eb92a8ea60cf8e91cf17dece419f5e3ea9fdeda1",
-    "bytes": 19684,
+    "bytes": 20712,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -226,7 +226,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/fahdmirza__comfyuiworkflows/workflows/WAN-T2V-Rapid-AIO.json",
-    "sha256": "0910fd4ad12f4aecadb7aaded5c467183051dbea259f0f4b9d03fac374b8c929",
+    "sha256": "7409df3b1242dfa117abbbc15b4a857743833726ecef75efb185ebf364200ef9",
     "canonical_json_sha256": "0cea1710c225bf7d59a4ab4e352d10ccb6b6fd0b56af564cb8aaf56da47e2f13",
-    "bytes": 8273,
+    "bytes": 8745,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -106,7 +106,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

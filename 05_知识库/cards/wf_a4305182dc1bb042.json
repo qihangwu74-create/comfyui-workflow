@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/Flux/ACELora/【Portrait】FaceChangerBasic.json",
-    "sha256": "0bf008662d71d6d32f80e1e11c91f677d1ba304cdce1630b3102ecc29bcdfa0a",
+    "sha256": "5b31cb01e23a5921553e2b3b804e962ed6f8e4c705270c2db2a239b15b28859f",
     "canonical_json_sha256": "25f596fd764e537497ceec1bd93b7b931863400913188c71a20eb2f388314963",
-    "bytes": 30410,
+    "bytes": 32258,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -243,7 +243,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/axiomgraph__ComfyUIWorkflow/workflows/Qwen_Image_2512 Simple Image To Image.json",
-    "sha256": "04c5f24ca2c0217b914a2533a7cc4da0f263d74672fe6f6a3a3edb9476fadbd3",
+    "sha256": "915c736ce8fe89dd9520e7ae094b09af786b8cc02a7106eff812d081da4b7fa0",
     "canonical_json_sha256": "9851709c4d6e22d6fd5e91fc6d902ca88ee7575b248a96768997047cee31b4d0",
-    "bytes": 18340,
+    "bytes": 19204,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -206,7 +206,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

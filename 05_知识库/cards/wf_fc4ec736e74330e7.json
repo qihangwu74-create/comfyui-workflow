@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "01_指定仓库/dseditor__ComfyuiWorkflows/workflows/SDXL/【SDXL】PromptlistExample.json",
-    "sha256": "7114d733136cd3faba5a837d2bba7ff66debe01aef592ac8354c4d1ef55dbf71",
+    "sha256": "f3fd40e360aaa9138fbf57fbc102a29b8e735f0a91fcb7f76184b8ed58e1ba93",
     "canonical_json_sha256": "dd83fd62fbb7f41e402af07c7d23050848f4d359eca8b8a10a64a38a2429e218",
-    "bytes": 21812,
+    "bytes": 22508,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -106,7 +106,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/yolain__ComfyUI-Yolain-Workflows/workflows/workflows/1_basic/1-6细节修复.json",
-    "sha256": "efccd08be12e258dd45a93ade769b1400375e80ab800c8ed99841c835ad43d85",
+    "sha256": "2b39bb83d8bad66d4ea9c2806f769338013ea32c24b19a14c43d44c7886150eb",
     "canonical_json_sha256": "d78f6011722379f2805b419f6d66357f8b4ffe674bcdda4c9b7d8f190330efac",
-    "bytes": 8391,
+    "bytes": 8870,
     "format": "UI画布JSON"
   },
   "tasks": [],
@@ -123,7 +123,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

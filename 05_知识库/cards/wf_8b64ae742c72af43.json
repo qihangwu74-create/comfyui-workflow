@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/sd3.5_large_canny_controlnet_example.json",
-    "sha256": "45f3606abb069c53409958f672c74efeac9eaa1dd11be1ce9dbc6d17f2ea0cdd",
+    "sha256": "ff918c55df42f0610ff1b04e1b7c2546b2a9bf4fae4e6378547d609640c4b3c3",
     "canonical_json_sha256": "bc91975fd21ac9a2f73abbe392d972eeebe13f22fe2552ec6f14cd646e3dec48",
-    "bytes": 15436,
+    "bytes": 16265,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -152,7 +152,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

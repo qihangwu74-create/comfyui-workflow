@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/upscale/experiments/denoise_impact_on_latent.json",
-    "sha256": "225b94f521c38fbb9507603daa92d42ee1cfbd23cdfe24240101e4d243584d47",
+    "sha256": "e157775fdc48d5c229233a04e20f5806557fd465484b8fefd4e855e14ab19bbf",
     "canonical_json_sha256": "33713b209d8451d290e832a0fe94c63290ce640e11436e5cf1555c612364b1f6",
-    "bytes": 21260,
+    "bytes": 22637,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -151,7 +151,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

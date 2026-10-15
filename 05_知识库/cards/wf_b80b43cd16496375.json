@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_flux_video_edit.json",
-    "sha256": "5dd5d2c50732e449a1df3f7a688d1141390f3ecefa9cf5a464a25b9a4fe7379f",
+    "sha256": "866e0c79d2ddca784558a11e710b4e4e71b45fee66b6237eb882ad367ad9b28d",
     "canonical_json_sha256": "9cef4e2430695ef03161727dbd5fb5f26723a14d51adc95a7ba224df890fed61",
-    "bytes": 5453,
+    "bytes": 5651,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -69,7 +69,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "03_官方模板/Comfy-Org__workflow_templates/workflows/templates/api_openai_gpt_image_25_flare_image_edit.json",
-    "sha256": "93d502fd2c4fa668fc40f0460c4250dface35f84a03949edc4e2b6604a0e1f24",
+    "sha256": "724414ccc74d01a8ed80d285ba824681cffbecc33dbfc846ac06aaaa1c85b012",
     "canonical_json_sha256": "cdf7cf07a68ae9efe14b251e400c1600e9ae6a2eb2547a65af93e43db6becc41",
-    "bytes": 6155,
+    "bytes": 6379,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -71,7 +71,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

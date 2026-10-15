@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/in-out_painting/outpaint.json",
-    "sha256": "b1797108a9dfc58f163285aef409809536e06aabef179947bff3f537b52f90cc",
+    "sha256": "d2fd1879f65187c08baab4d2cc9954d69c376b95d6a9794a6152cf42a6c44b0d",
     "canonical_json_sha256": "378c3e44711c4ebf8c161bb13025edb826f966254786cbd5d9f49ae69736cf67",
-    "bytes": 14249,
+    "bytes": 15148,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -155,7 +155,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,

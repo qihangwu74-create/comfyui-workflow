@@ -16,9 +16,9 @@
   },
   "file": {
     "relative_path": "02_高星补充/cubiq__ComfyUI_Workflows/workflows/upscale/upscale_latent_with_model.json",
-    "sha256": "cd56a8cca4e12675eb3974f0b75c0d2bc93a93ff5c871d7ea466ec9030e64a84",
+    "sha256": "1a4a1547f5f06d1e3aa13e6e24ca89f9ec7b85262005b3bb2ef4fa4dad68c998",
     "canonical_json_sha256": "8e8b6f4061e2b0d45cf5fa71acc1a300efe58f1ccb508363fb5785a3b8dfbf46",
-    "bytes": 8651,
+    "bytes": 9192,
     "format": "UI画布JSON"
   },
   "tasks": [
@@ -127,7 +127,7 @@
   "readiness": {
     "downloaded": true,
     "json_parsed": true,
-    "source_hash_matches": true,
+    "source_hash_matches": false,
     "dependencies_checked": false,
     "gpu_run_tested": false,
     "production_approved": false,
