@@ -1,0 +1,843 @@
+[
+  {
+    "plugin_id": "CY-CHENYUE/ComfyUI-Gemini-API",
+    "uids": [
+      "wf_adc29e15f83508df"
+    ]
+  },
+  {
+    "plugin_id": "ComfyMath",
+    "uids": [
+      "wf_7890651f6440245b",
+      "wf_8a0dfb5ded13459f"
+    ]
+  },
+  {
+    "plugin_id": "ComfyUI-GGUF",
+    "uids": [
+      "wf_4f1a5e237b995e2d",
+      "wf_48e8b9826b00c13e",
+      "wf_3052833b3f76fa89",
+      "wf_d99fd308a31b80d0",
+      "wf_3309368eea9b855b",
+      "wf_7be6de091834938b",
+      "wf_a80c563a9257ed79",
+      "wf_072baff958ef9bdb"
+    ]
+  },
+  {
+    "plugin_id": "ComfyUI-GIMM-VFI",
+    "uids": [
+      "wf_f8e7b2cd8d76d1f3",
+      "wf_0825c5e6f26d4866"
+    ]
+  },
+  {
+    "plugin_id": "ComfyUI-LBM",
+    "uids": [
+      "wf_73e2db71a33a8fe7"
+    ]
+  },
+  {
+    "plugin_id": "ComfyUI-LTXVideo",
+    "uids": [
+      "wf_54e943340dc53a5d",
+      "wf_90f82a05c090cde1",
+      "wf_1bb9ee45daa8d3e1",
+      "wf_298e8eaeadd528fb",
+      "wf_87350d0e92c36bb3",
+      "wf_16bc021915961e73",
+      "wf_753d7e1a15579f11",
+      "wf_9c42ec77a3364938",
+      "wf_3049c5b8847a5814",
+      "wf_2edfd52c09beb351",
+      "wf_fd0dfa0cdc0df479",
+      "wf_7890651f6440245b",
+      "wf_de4642e59a60dd49",
+      "wf_ad145c251401dd2e",
+      "wf_8a0dfb5ded13459f",
+      "wf_5db66e659b884025",
+      "wf_335e484d66f04cf7"
+    ]
+  },
+  {
+    "plugin_id": "ComfyUI-WanAnimatePreprocess",
+    "uids": [
+      "wf_2e8dd235dd12587b",
+      "wf_d22ec21857876393"
+    ]
+  },
+  {
+    "plugin_id": "ComfyUI-WanVideoWrapper",
+    "uids": [
+      "wf_5b09456487671236",
+      "wf_0825c5e6f26d4866",
+      "wf_2d48ab55c9ab7c56",
+      "wf_d2c8304176b701d8",
+      "wf_ec8c61ae0b636e0f",
+      "wf_014b459cfdde4d04"
+    ]
+  },
+  {
+    "plugin_id": "ComfyUI-nunchaku",
+    "uids": [
+      "wf_3052833b3f76fa89",
+      "wf_d99fd308a31b80d0"
+    ]
+  },
+  {
+    "plugin_id": "ComfyUI-segment-anything-2",
+    "uids": [
+      "wf_2e8dd235dd12587b",
+      "wf_d22ec21857876393",
+      "wf_db5a0d996a05074a"
+    ]
+  },
+  {
+    "plugin_id": "Listhelper",
+    "uids": [
+      "wf_ccb9b0826ea77e58",
+      "wf_fd0dfa0cdc0df479",
+      "wf_48e8b9826b00c13e",
+      "wf_2d48ab55c9ab7c56",
+      "wf_ee892ca87ae8e2be",
+      "wf_d2c8304176b701d8",
+      "wf_fd9d87b1369b5117"
+    ]
+  },
+  {
+    "plugin_id": "NickPittas/ComfyUI_CameraAngleSelector",
+    "uids": [
+      "wf_fd9003c855949a2e"
+    ]
+  },
+  {
+    "plugin_id": "NikoDemon80/ComfyUI-H3-Motion-Context",
+    "uids": [
+      "wf_b75cda16a71a9322"
+    ]
+  },
+  {
+    "plugin_id": "RES4LYF",
+    "uids": [
+      "wf_0825c5e6f26d4866",
+      "wf_2d48ab55c9ab7c56",
+      "wf_d2c8304176b701d8"
+    ]
+  },
+  {
+    "plugin_id": "Saganaki22/ComfyUI-sol-attn",
+    "uids": [
+      "wf_20cf279379731755",
+      "wf_482404dbeeb4a48e"
+    ]
+  },
+  {
+    "plugin_id": "T8mars/comfyui-minimax-h3-audio-T8",
+    "uids": [
+      "wf_08412cfcf0d619b6"
+    ]
+  },
+  {
+    "plugin_id": "advancedRefluxControl",
+    "uids": [
+      "wf_9c2c70311988a2cc",
+      "wf_ecf3b770827e7b8d"
+    ]
+  },
+  {
+    "plugin_id": "audiotools",
+    "uids": [
+      "wf_0825c5e6f26d4866",
+      "wf_2d48ab55c9ab7c56",
+      "wf_d2c8304176b701d8"
+    ]
+  },
+  {
+    "plugin_id": "bfsnodes",
+    "uids": [
+      "wf_4640e09dcaf42c9d"
+    ]
+  },
+  {
+    "plugin_id": "cg-image-picker",
+    "uids": [
+      "wf_ba80029736c34466"
+    ]
+  },
+  {
+    "plugin_id": "cg-use-everywhere",
+    "uids": [
+      "wf_ba80029736c34466"
+    ]
+  },
+  {
+    "plugin_id": "chibi",
+    "uids": [
+      "wf_3b2235c01eb21fab",
+      "wf_5b09456487671236"
+    ]
+  },
+  {
+    "plugin_id": "cocotools_io",
+    "uids": [
+      "wf_87350d0e92c36bb3"
+    ]
+  },
+  {
+    "plugin_id": "comfyroll",
+    "uids": [
+      "wf_9c2c70311988a2cc",
+      "wf_322f39aced7431e8",
+      "wf_ee892ca87ae8e2be"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-custom-scripts",
+    "uids": [
+      "wf_b701bd286ae87d6a",
+      "wf_26d5cfe9cc83a96f",
+      "wf_6f78c08daa8b63f4",
+      "wf_64860c62baff36c1",
+      "wf_d97911f49d5f433d",
+      "wf_322f39aced7431e8",
+      "wf_48e8b9826b00c13e",
+      "wf_399ae8338ec6540d",
+      "wf_3b2235c01eb21fab",
+      "wf_fa64ea454873eaed",
+      "wf_5b09456487671236",
+      "wf_0825c5e6f26d4866",
+      "wf_2d48ab55c9ab7c56",
+      "wf_d2c8304176b701d8"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-depthanythingv2",
+    "uids": [
+      "wf_a9fe27316b46627b"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-dype",
+    "uids": [
+      "wf_86094d763f05236b"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-easy-use",
+    "uids": [
+      "wf_298e8eaeadd528fb",
+      "wf_87350d0e92c36bb3",
+      "wf_4640e09dcaf42c9d",
+      "wf_16bc021915961e73",
+      "wf_753d7e1a15579f11",
+      "wf_9c42ec77a3364938",
+      "wf_ea4800c04ac96e14",
+      "wf_694e6e74ed673642",
+      "wf_f626bf762169dcb2",
+      "wf_39120ec9b5e5045a",
+      "wf_9c2c70311988a2cc",
+      "wf_ba80029736c34466",
+      "wf_b75cda16a71a9322",
+      "wf_399ae8338ec6540d",
+      "wf_fa64ea454873eaed",
+      "wf_0825c5e6f26d4866",
+      "wf_2d48ab55c9ab7c56"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-florence2",
+    "uids": [
+      "wf_8f81d8f7a3cfa05f"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-frame-interpolation",
+    "uids": [
+      "wf_399dcb236f0b4907"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-gguf",
+    "uids": [
+      "wf_26bed4449b1025a3",
+      "wf_c59af4b0e0c088b8",
+      "wf_47b466ca8c84cfad",
+      "wf_9c2c70311988a2cc",
+      "wf_ecf3b770827e7b8d",
+      "wf_8f81d8f7a3cfa05f",
+      "wf_f5210abc01cf836d",
+      "wf_ccc649e6addac6fd"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-griptape",
+    "uids": [
+      "wf_3b2235c01eb21fab"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-impact-pack",
+    "uids": [
+      "wf_9c2c70311988a2cc",
+      "wf_322f39aced7431e8",
+      "wf_ba80029736c34466",
+      "wf_f5210abc01cf836d",
+      "wf_ccc649e6addac6fd",
+      "wf_399ae8338ec6540d",
+      "wf_fa64ea454873eaed",
+      "wf_5b09456487671236",
+      "wf_8e43c1521f2f95c3",
+      "wf_d6cc24b617cc7cc8"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-impact-subpack",
+    "uids": [
+      "wf_ba80029736c34466",
+      "wf_f5210abc01cf836d",
+      "wf_ccc649e6addac6fd"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-inpaint-cropandstitch",
+    "uids": [
+      "wf_4630cd034c99f90b",
+      "wf_f9d04b014833685d",
+      "wf_c1912c196823e384",
+      "wf_8e43c1521f2f95c3",
+      "wf_d6cc24b617cc7cc8"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-inpaint-nodes",
+    "uids": [
+      "wf_9c2c70311988a2cc",
+      "wf_ecf3b770827e7b8d"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-inspire-pack",
+    "uids": [
+      "wf_9c42ec77a3364938"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-kjnodes",
+    "uids": [
+      "wf_6d246562e0dbfdf7",
+      "wf_86094d763f05236b",
+      "wf_e286259c3b6cf59f",
+      "wf_28707c9d099c54f9",
+      "wf_7efcbbd31da1539e",
+      "wf_fab0a9e9fe7399c5",
+      "wf_54e943340dc53a5d",
+      "wf_0c2b1829b8c9abd4",
+      "wf_90f82a05c090cde1",
+      "wf_1bb9ee45daa8d3e1",
+      "wf_298e8eaeadd528fb",
+      "wf_87350d0e92c36bb3",
+      "wf_4640e09dcaf42c9d",
+      "wf_6acc1894d4bb13f1",
+      "wf_c59af4b0e0c088b8",
+      "wf_7a27e623849653c6",
+      "wf_016ee3b9da8185fd",
+      "wf_16bc021915961e73",
+      "wf_753d7e1a15579f11",
+      "wf_9c42ec77a3364938",
+      "wf_1bf5c50e8c3a5a57",
+      "wf_3049c5b8847a5814",
+      "wf_2edfd52c09beb351",
+      "wf_f158964e6b5f7ed3",
+      "wf_ff655086ecbcfe5e",
+      "wf_ea4800c04ac96e14",
+      "wf_3d90e53602dc321e",
+      "wf_fd63d9f72b38deba",
+      "wf_fa6709694c149939",
+      "wf_4630cd034c99f90b",
+      "wf_b8037e644e8a78b8",
+      "wf_5698661675e2a8e3",
+      "wf_80f6720a109fd23c",
+      "wf_d44e76dd733ff893",
+      "wf_7d08d80749ff4d4d",
+      "wf_75eb44c2e1c473da",
+      "wf_0238a8a908025937",
+      "wf_01c233c5ff5a85b8",
+      "wf_322f39aced7431e8",
+      "wf_f5210abc01cf836d",
+      "wf_ccc649e6addac6fd",
+      "wf_ccb9b0826ea77e58",
+      "wf_fd0dfa0cdc0df479",
+      "wf_20cf279379731755",
+      "wf_482404dbeeb4a48e",
+      "wf_4f1a5e237b995e2d",
+      "wf_48e8b9826b00c13e",
+      "wf_3052833b3f76fa89",
+      "wf_d99fd308a31b80d0",
+      "wf_3309368eea9b855b",
+      "wf_e7a30886847161f1",
+      "wf_8d53d3d8801c2a16",
+      "wf_399ae8338ec6540d",
+      "wf_fa64ea454873eaed",
+      "wf_0825c5e6f26d4866",
+      "wf_4f0b3d41854b1e5f",
+      "wf_2d48ab55c9ab7c56",
+      "wf_ee892ca87ae8e2be",
+      "wf_d2c8304176b701d8",
+      "wf_32c25c1b2e6e6b9c",
+      "wf_8747b3c3d3b7ce4a",
+      "wf_adc29e15f83508df",
+      "wf_7890651f6440245b",
+      "wf_de4642e59a60dd49",
+      "wf_ad145c251401dd2e",
+      "wf_8a0dfb5ded13459f",
+      "wf_5db66e659b884025",
+      "wf_335e484d66f04cf7",
+      "wf_2e8dd235dd12587b",
+      "wf_9b8aee9e6bd9d1a4",
+      "wf_d22ec21857876393",
+      "wf_91ced74a13d63d72",
+      "wf_7c6b98676be83eaf",
+      "wf_db5a0d996a05074a",
+      "wf_b2d4f51a1256ae05",
+      "wf_9e52b9050957fb9e",
+      "wf_840a144a6f176396",
+      "wf_36c383db9845ab12",
+      "wf_20d3757f0aa33a25",
+      "wf_6d3682ad661155fe",
+      "wf_b3a7e8c47eb8e1fb",
+      "wf_c68a1759b7bcb982",
+      "wf_a9fe27316b46627b",
+      "wf_84ad1476068d1924"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-krea2t-enhancer",
+    "uids": [
+      "wf_2295bfcbdfd310b6",
+      "wf_47389abafa7d499b",
+      "wf_17497f523bcc73fd",
+      "wf_b0e90236054ad957",
+      "wf_84464f5fc13ef3e0"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-mmaudio",
+    "uids": [
+      "wf_6ed53f2ed30284fb"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-ollamagemini",
+    "uids": [
+      "wf_26d5cfe9cc83a96f",
+      "wf_6f78c08daa8b63f4",
+      "wf_64860c62baff36c1",
+      "wf_d97911f49d5f433d",
+      "wf_5b09456487671236",
+      "wf_0825c5e6f26d4866",
+      "wf_2d48ab55c9ab7c56"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-qwenmultiangle",
+    "uids": [
+      "wf_399dcb236f0b4907",
+      "wf_29ef9f7ad07014e7"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-rmbg",
+    "uids": [
+      "wf_73e2db71a33a8fe7",
+      "wf_3f3e38ae499c0580"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-sam3",
+    "uids": [
+      "wf_7efcbbd31da1539e",
+      "wf_5698661675e2a8e3"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-supir",
+    "uids": [
+      "wf_b2d4f51a1256ae05"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-videohelpersuite",
+    "uids": [
+      "wf_54e943340dc53a5d",
+      "wf_0c2b1829b8c9abd4",
+      "wf_90f82a05c090cde1",
+      "wf_1bb9ee45daa8d3e1",
+      "wf_298e8eaeadd528fb",
+      "wf_87350d0e92c36bb3",
+      "wf_4640e09dcaf42c9d",
+      "wf_016ee3b9da8185fd",
+      "wf_16bc021915961e73",
+      "wf_753d7e1a15579f11",
+      "wf_9c42ec77a3364938",
+      "wf_1bf5c50e8c3a5a57",
+      "wf_3049c5b8847a5814",
+      "wf_2edfd52c09beb351",
+      "wf_6ed53f2ed30284fb",
+      "wf_39120ec9b5e5045a",
+      "wf_f8e7b2cd8d76d1f3",
+      "wf_84abb887d48828ef",
+      "wf_4ee45ab7f44d3b11",
+      "wf_ccb9b0826ea77e58",
+      "wf_fd0dfa0cdc0df479",
+      "wf_e7a30886847161f1",
+      "wf_8d53d3d8801c2a16",
+      "wf_5b09456487671236",
+      "wf_0825c5e6f26d4866",
+      "wf_4f0b3d41854b1e5f",
+      "wf_2d48ab55c9ab7c56",
+      "wf_ee892ca87ae8e2be",
+      "wf_d2c8304176b701d8",
+      "wf_7890651f6440245b",
+      "wf_8a0dfb5ded13459f",
+      "wf_5db66e659b884025",
+      "wf_a9fe27316b46627b"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-wanvideowrapper",
+    "uids": [
+      "wf_ec8c61ae0b636e0f",
+      "wf_014b459cfdde4d04"
+    ]
+  },
+  {
+    "plugin_id": "comfyui-wd14-tagger",
+    "uids": [
+      "wf_fa64ea454873eaed"
+    ]
+  },
+  {
+    "plugin_id": "comfyui_controlnet_aux",
+    "uids": [
+      "wf_6d246562e0dbfdf7",
+      "wf_753d7e1a15579f11",
+      "wf_fd63d9f72b38deba",
+      "wf_fa6709694c149939",
+      "wf_4630cd034c99f90b",
+      "wf_d90424d8ef63b2d3",
+      "wf_7a4c7f6a92bdfd5d",
+      "wf_01c233c5ff5a85b8",
+      "wf_b3e942b90fa3a2fc",
+      "wf_ecf3b770827e7b8d",
+      "wf_ba80029736c34466",
+      "wf_d99fd308a31b80d0",
+      "wf_e672dfad72b6183f",
+      "wf_db5a0d996a05074a"
+    ]
+  },
+  {
+    "plugin_id": "comfyui_essentials",
+    "uids": [
+      "wf_6d246562e0dbfdf7",
+      "wf_ecf3b770827e7b8d",
+      "wf_ba80029736c34466",
+      "wf_f5210abc01cf836d",
+      "wf_ccc649e6addac6fd",
+      "wf_145f6eb97f21beed",
+      "wf_5b09456487671236",
+      "wf_0825c5e6f26d4866",
+      "wf_2d48ab55c9ab7c56",
+      "wf_d2c8304176b701d8",
+      "wf_adc29e15f83508df",
+      "wf_28d09592ef506ce8",
+      "wf_9b8aee9e6bd9d1a4",
+      "wf_e83855ecd557d659",
+      "wf_9e52b9050957fb9e",
+      "wf_fb7be0829443d228",
+      "wf_840a144a6f176396",
+      "wf_36c383db9845ab12",
+      "wf_20d3757f0aa33a25",
+      "wf_6d3682ad661155fe",
+      "wf_866dcf258a4291f6",
+      "wf_b3a7e8c47eb8e1fb",
+      "wf_435decfe3a7840dc",
+      "wf_0d306ea45c5b55bd",
+      "wf_c68a1759b7bcb982",
+      "wf_a9fe27316b46627b",
+      "wf_84ad1476068d1924"
+    ]
+  },
+  {
+    "plugin_id": "comfyui_face_parsing",
+    "uids": [
+      "wf_9b8aee9e6bd9d1a4"
+    ]
+  },
+  {
+    "plugin_id": "comfyui_fill-nodes",
+    "uids": [
+      "wf_b701bd286ae87d6a",
+      "wf_fd0dfa0cdc0df479"
+    ]
+  },
+  {
+    "plugin_id": "comfyui_layerstyle",
+    "uids": [
+      "wf_9c2c70311988a2cc",
+      "wf_ecf3b770827e7b8d",
+      "wf_322f39aced7431e8",
+      "wf_ba80029736c34466",
+      "wf_5b09456487671236",
+      "wf_0825c5e6f26d4866",
+      "wf_2d48ab55c9ab7c56",
+      "wf_adc29e15f83508df",
+      "wf_fb7be0829443d228",
+      "wf_c68a1759b7bcb982"
+    ]
+  },
+  {
+    "plugin_id": "comfyui_layerstyle_advance",
+    "uids": [
+      "wf_9c2c70311988a2cc"
+    ]
+  },
+  {
+    "plugin_id": "comfyui_nvidia_rtx_nodes",
+    "uids": [
+      "wf_81bd6c03ff56b85b"
+    ]
+  },
+  {
+    "plugin_id": "comfyui_ttp_toolset",
+    "uids": [
+      "wf_ba80029736c34466",
+      "wf_8f81d8f7a3cfa05f",
+      "wf_32c25c1b2e6e6b9c",
+      "wf_8747b3c3d3b7ce4a"
+    ]
+  },
+  {
+    "plugin_id": "comfyui_ultimatesdupscale",
+    "uids": [
+      "wf_9b8aee9e6bd9d1a4"
+    ]
+  },
+  {
+    "plugin_id": "controlaltai-nodes",
+    "uids": [
+      "wf_28d09592ef506ce8"
+    ]
+  },
+  {
+    "plugin_id": "facok/comfyui-krea2-controlnet",
+    "uids": [
+      "wf_47389abafa7d499b"
+    ]
+  },
+  {
+    "plugin_id": "float-optimized",
+    "uids": [
+      "wf_0825c5e6f26d4866"
+    ]
+  },
+  {
+    "plugin_id": "gguf",
+    "uids": [
+      "wf_c7abc554410c853c",
+      "wf_88547d0df578b692"
+    ]
+  },
+  {
+    "plugin_id": "indextts-mw",
+    "uids": [
+      "wf_0825c5e6f26d4866",
+      "wf_2d48ab55c9ab7c56",
+      "wf_d2c8304176b701d8"
+    ]
+  },
+  {
+    "plugin_id": "katalist-ai/ComfyUI-InfiniteYou",
+    "uids": [
+      "wf_2a3ec7b436cf5904"
+    ]
+  },
+  {
+    "plugin_id": "kijai/ComfyUI-KJNodes",
+    "uids": [
+      "wf_3309368eea9b855b"
+    ]
+  },
+  {
+    "plugin_id": "kijai/ComfyUI-PromptRelay",
+    "uids": [
+      "wf_6acc1894d4bb13f1"
+    ]
+  },
+  {
+    "plugin_id": "kijai/ComfyUI-SolAttn_triton",
+    "uids": [
+      "wf_6bf82f4076bd9b3e",
+      "wf_4db3e3bc76a7cfac"
+    ]
+  },
+  {
+    "plugin_id": "kijai/ComfyUI_essentials",
+    "uids": [
+      "wf_b2d4f51a1256ae05"
+    ]
+  },
+  {
+    "plugin_id": "kontext-super-prompt",
+    "uids": [
+      "wf_322f39aced7431e8"
+    ]
+  },
+  {
+    "plugin_id": "lanpaint",
+    "uids": [
+      "wf_e286259c3b6cf59f",
+      "wf_03130bd49c4eaf17",
+      "wf_94d3cf6aa4c12fb3",
+      "wf_fa6709694c149939",
+      "wf_4630cd034c99f90b",
+      "wf_5698661675e2a8e3",
+      "wf_d44e76dd733ff893",
+      "wf_7d08d80749ff4d4d",
+      "wf_0238a8a908025937"
+    ]
+  },
+  {
+    "plugin_id": "larryvrh/ComfyUI-MiniMax-H3-Turbo",
+    "uids": [
+      "wf_482404dbeeb4a48e"
+    ]
+  },
+  {
+    "plugin_id": "lbouaraba/comfyui-krea2edit",
+    "uids": [
+      "wf_17497f523bcc73fd"
+    ]
+  },
+  {
+    "plugin_id": "masquerade-nodes-comfyui",
+    "uids": [
+      "wf_fb7be0829443d228"
+    ]
+  },
+  {
+    "plugin_id": "minimax-h3-prompt-rewriter",
+    "uids": [
+      "wf_6bf82f4076bd9b3e"
+    ]
+  },
+  {
+    "plugin_id": "ostris/ComfyUI-Krea2-Ostris-Edit",
+    "uids": [
+      "wf_b0e90236054ad957"
+    ]
+  },
+  {
+    "plugin_id": "pr-was-node-suite-comfyui-47064894",
+    "uids": [
+      "wf_b701bd286ae87d6a",
+      "wf_399ae8338ec6540d",
+      "wf_3b2235c01eb21fab",
+      "wf_5b09456487671236"
+    ]
+  },
+  {
+    "plugin_id": "rgthree-comfy",
+    "uids": [
+      "wf_5b98c7726cb8d963",
+      "wf_6d246562e0dbfdf7",
+      "wf_e286259c3b6cf59f",
+      "wf_0047d32f843ddbff",
+      "wf_10d902a0297cbe6b",
+      "wf_2ac385e52ba3b457",
+      "wf_5402db909b5371b5",
+      "wf_066ed01da10e61b8",
+      "wf_03130bd49c4eaf17",
+      "wf_94d3cf6aa4c12fb3",
+      "wf_47389abafa7d499b",
+      "wf_17497f523bcc73fd",
+      "wf_753d7e1a15579f11",
+      "wf_fd63d9f72b38deba",
+      "wf_fa6709694c149939",
+      "wf_a5b6de6afef83992",
+      "wf_06fa9b509c2ae1e6",
+      "wf_aa1cbc6aebfbfb66",
+      "wf_62ef9a283f53fd20",
+      "wf_3f3e38ae499c0580",
+      "wf_183eefb04d6ba99c",
+      "wf_4630cd034c99f90b",
+      "wf_5698661675e2a8e3",
+      "wf_80f6720a109fd23c",
+      "wf_d44e76dd733ff893",
+      "wf_7d08d80749ff4d4d",
+      "wf_f626bf762169dcb2",
+      "wf_fd9003c855949a2e",
+      "wf_66ed78d5b80ff824",
+      "wf_d90424d8ef63b2d3",
+      "wf_7a4c7f6a92bdfd5d",
+      "wf_d2682585438fe80b",
+      "wf_0238a8a908025937",
+      "wf_01c233c5ff5a85b8",
+      "wf_b3e942b90fa3a2fc",
+      "wf_ba80029736c34466",
+      "wf_b2d4f51a1256ae05"
+    ]
+  },
+  {
+    "plugin_id": "seedvr2_videoupscaler",
+    "uids": [
+      "wf_9b8aee9e6bd9d1a4",
+      "wf_e83855ecd557d659"
+    ]
+  },
+  {
+    "plugin_id": "spacepxl/ComfyUI-VAE-Utils",
+    "uids": [
+      "wf_d99fd308a31b80d0"
+    ]
+  },
+  {
+    "plugin_id": "teacache",
+    "uids": [
+      "wf_8f81d8f7a3cfa05f",
+      "wf_f5210abc01cf836d",
+      "wf_ccc649e6addac6fd"
+    ]
+  },
+  {
+    "plugin_id": "tts_audio_suite",
+    "uids": [
+      "wf_39120ec9b5e5045a",
+      "wf_75eb44c2e1c473da"
+    ]
+  },
+  {
+    "plugin_id": "vnccs-utils",
+    "uids": [
+      "wf_66ed78d5b80ff824"
+    ]
+  },
+  {
+    "plugin_id": "vrgamegirl19/comfyui-vrgamedevgirl",
+    "uids": [
+      "wf_4630cd034c99f90b"
+    ]
+  },
+  {
+    "plugin_id": "wolfden-styler",
+    "uids": [
+      "wf_145f6eb97f21beed"
+    ]
+  },
+  {
+    "plugin_id": "zhangp365/ComfyUI-PuLID-Flux",
+    "uids": [
+      "wf_ba80029736c34466"
+    ]
+  }
+]

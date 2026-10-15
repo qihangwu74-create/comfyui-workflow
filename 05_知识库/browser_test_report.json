@@ -1,0 +1,9 @@
+{
+  "dashboard": "passed",
+  "local_links": 13,
+  "copy_feedback": "passed",
+  "stable_id_display": "passed",
+  "stable_id_search": "passed",
+  "card_link": "passed",
+  "javascript_errors": []
+}

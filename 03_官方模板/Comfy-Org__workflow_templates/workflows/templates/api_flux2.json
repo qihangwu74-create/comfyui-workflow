@@ -1,0 +1,397 @@
+{
+  "id": "221c430d-e1b0-4eba-acf0-39172eb60bc8",
+  "revision": 0,
+  "last_node_id": 24,
+  "last_link_id": 29,
+  "nodes": [
+    {
+      "id": 16,
+      "type": "LoadImage",
+      "pos": [
+        -1690,
+        2320
+      ],
+      "size": [
+        280,
+        370
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            27
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1"
+      },
+      "widgets_values": [
+        "api_flux2_input_image_4.png",
+        "image"
+      ],
+      "widgets_values_named": {
+        "image": "api_flux2_input_image_4.png",
+        "upload": "image"
+      }
+    },
+    {
+      "id": 15,
+      "type": "LoadImage",
+      "pos": [
+        -1700,
+        1860
+      ],
+      "size": [
+        280,
+        370
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            25
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1"
+      },
+      "widgets_values": [
+        "api_flux2_input_image_1.png",
+        "image"
+      ],
+      "widgets_values_named": {
+        "image": "api_flux2_input_image_1.png",
+        "upload": "image"
+      }
+    },
+    {
+      "id": 18,
+      "type": "LoadImage",
+      "pos": [
+        -1340,
+        2320
+      ],
+      "size": [
+        280,
+        370
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            28
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1"
+      },
+      "widgets_values": [
+        "api_flux2_input_image_3.png",
+        "image"
+      ],
+      "widgets_values_named": {
+        "image": "api_flux2_input_image_3.png",
+        "upload": "image"
+      }
+    },
+    {
+      "id": 19,
+      "type": "LoadImage",
+      "pos": [
+        -1340,
+        1870
+      ],
+      "size": [
+        280,
+        370
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            26
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1"
+      },
+      "widgets_values": [
+        "api_flux2_input_image_2.png",
+        "image"
+      ],
+      "widgets_values_named": {
+        "image": "api_flux2_input_image_2.png",
+        "upload": "image"
+      }
+    },
+    {
+      "id": 12,
+      "type": "SaveImage",
+      "pos": [
+        -340,
+        1830
+      ],
+      "size": [
+        670,
+        560
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 29
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.5.1"
+      },
+      "widgets_values": [
+        "Flux.2[pro]"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "Flux.2[pro]"
+      }
+    },
+    {
+      "id": 23,
+      "type": "Flux2ImageNode",
+      "pos": [
+        -780,
+        1830
+      ],
+      "size": [
+        400,
+        318
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model.images.image_1",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 25
+        },
+        {
+          "name": "model.images.image_2",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 26
+        },
+        {
+          "name": "model.images.image_3",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 27
+        },
+        {
+          "name": "model.images.image_4",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 28
+        },
+        {
+          "name": "model.images.image_5",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            29
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Flux2ImageNode"
+      },
+      "widgets_values": [
+        "Create a photoshoot-style group portrait with four characters, each based on the four provided reference inputs .\nArrange all characters in a top-down, slightly elevated overhead view, similar to a drone or high-platform angle.\nCharacters stand loosely together on an open, clean ground plane, evenly spaced and “tiled” across the frame, all looking upward toward the camera.\nExpressions are natural and relaxed, as if posing for a professional editorial shoot.\nUse bright, soft lighting that casts clean shadows on the ground.\nPreserve each character’s skin tone, clothing style, and proportions from the references.\nOverall aesthetic: modern, crisp, magazine-style group portrait.",
+        "Flux.2 [pro]",
+        1920,
+        1088,
+        0,
+        "randomize"
+      ],
+      "widgets_values_named": {
+        "prompt": "Create a photoshoot-style group portrait with four characters, each based on the four provided reference inputs .\nArrange all characters in a top-down, slightly elevated overhead view, similar to a drone or high-platform angle.\nCharacters stand loosely together on an open, clean ground plane, evenly spaced and “tiled” across the frame, all looking upward toward the camera.\nExpressions are natural and relaxed, as if posing for a professional editorial shoot.\nUse bright, soft lighting that casts clean shadows on the ground.\nPreserve each character’s skin tone, clothing style, and proportions from the references.\nOverall aesthetic: modern, crisp, magazine-style group portrait.",
+        "model": "Flux.2 [pro]",
+        "model.width": 1920,
+        "model.height": 1088,
+        "seed": 0,
+        "control_after_generate": "randomize"
+      },
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 24,
+      "type": "MarkdownNote",
+      "pos": [
+        -2270,
+        1800
+      ],
+      "size": [
+        400,
+        370
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "## Input Assets\n\n- [api_flux2_input_image_4.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/api_flux2_input_image_4.png)\n- [api_flux2_input_image_1.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/api_flux2_input_image_1.png)\n- [api_flux2_input_image_3.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/api_flux2_input_image_3.png)\n- [api_flux2_input_image_2.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/api_flux2_input_image_2.png)\n\n\n## Report Issue\n\nNote: Please update ComfyUI first ([guide](https://docs.comfy.org/installation/update_comfyui)) and prepare required models. Desktop/Cloud updates follow stable releases, so some nightly-supported models may not be available yet.\n\n- Cannot run / runtime errors: [ComfyUI/issues](https://github.com/comfyanonymous/ComfyUI/issues)\n- UI / frontend issues: [ComfyUI_frontend/issues](https://github.com/Comfy-Org/ComfyUI_frontend/issues)\n- Workflow issues: [workflow_templates/issues](https://github.com/Comfy-Org/workflow_templates/issues)\n"
+      ],
+      "widgets_values_named": {
+        "text": "## Input Assets\n\n- [api_flux2_input_image_4.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/api_flux2_input_image_4.png)\n- [api_flux2_input_image_1.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/api_flux2_input_image_1.png)\n- [api_flux2_input_image_3.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/api_flux2_input_image_3.png)\n- [api_flux2_input_image_2.png](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/api_flux2_input_image_2.png)\n\n\n## Report Issue\n\nNote: Please update ComfyUI first ([guide](https://docs.comfy.org/installation/update_comfyui)) and prepare required models. Desktop/Cloud updates follow stable releases, so some nightly-supported models may not be available yet.\n\n- Cannot run / runtime errors: [ComfyUI/issues](https://github.com/comfyanonymous/ComfyUI/issues)\n- UI / frontend issues: [ComfyUI_frontend/issues](https://github.com/Comfy-Org/ComfyUI_frontend/issues)\n- Workflow issues: [workflow_templates/issues](https://github.com/Comfy-Org/workflow_templates/issues)\n"
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    }
+  ],
+  "links": [
+    [
+      25,
+      15,
+      0,
+      23,
+      0,
+      "IMAGE"
+    ],
+    [
+      26,
+      19,
+      0,
+      23,
+      1,
+      "IMAGE"
+    ],
+    [
+      27,
+      16,
+      0,
+      23,
+      2,
+      "IMAGE"
+    ],
+    [
+      28,
+      18,
+      0,
+      23,
+      3,
+      "IMAGE"
+    ],
+    [
+      29,
+      23,
+      0,
+      12,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "Multiple input image example",
+      "bounding": [
+        -1840,
+        1770,
+        1010,
+        970
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.7468076591308566,
+      "offset": [
+        2584.1028972350896,
+        -1545.022652456567
+      ]
+    },
+    "frontendVersion": "1.51.9",
+    "workflowRendererVersion": "LG",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true,
+    "ue_links": [],
+    "links_added_by_ue": []
+  },
+  "version": 0.4
+}

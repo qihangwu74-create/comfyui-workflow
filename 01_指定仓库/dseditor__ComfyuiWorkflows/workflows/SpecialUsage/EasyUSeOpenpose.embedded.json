@@ -1,0 +1,2342 @@
+{
+  "last_node_id": 47,
+  "last_link_id": 71,
+  "nodes": [
+    {
+      "id": 19,
+      "type": "LoadImage",
+      "pos": [
+        770,
+        140
+      ],
+      "size": [
+        230,
+        314
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "localized_name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            20
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "localized_name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "dance_04.png",
+        "image"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "LoadImage",
+      "pos": [
+        1020,
+        130
+      ],
+      "size": [
+        230,
+        314
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "localized_name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            22
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "localized_name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "jumping_03.png",
+        "image"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "LoadImage",
+      "pos": [
+        1280,
+        130
+      ],
+      "size": [
+        220,
+        320
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "localized_name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            23
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "localized_name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "flexing_02.png",
+        "image"
+      ]
+    },
+    {
+      "id": 34,
+      "type": "LoadImage",
+      "pos": [
+        -30,
+        120
+      ],
+      "size": [
+        250,
+        320
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "localized_name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            42
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "localized_name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "standing_07.png",
+        "image"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "LoadImage",
+      "pos": [
+        240,
+        120
+      ],
+      "size": [
+        250,
+        320
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "localized_name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            7,
+            28
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "localized_name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "dance_05.png",
+        "image"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "LoadImage",
+      "pos": [
+        510,
+        130
+      ],
+      "size": [
+        230,
+        320
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "localized_name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            43
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "localized_name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "flexing_01.png",
+        "image"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "easy styleAlignedBatchAlign",
+      "pos": [
+        960,
+        -690
+      ],
+      "size": [
+        315,
+        106
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "localized_name": "model",
+          "type": "MODEL",
+          "link": 44
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "localized_name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            45
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy styleAlignedBatchAlign"
+      },
+      "widgets_values": [
+        "both",
+        "q+k",
+        1
+      ]
+    },
+    {
+      "id": 16,
+      "type": "easy controlnetLoader",
+      "pos": [
+        970,
+        -130
+      ],
+      "size": [
+        280,
+        150
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "link": 15
+        },
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "link": 69
+        },
+        {
+          "name": "control_net",
+          "localized_name": "control_net",
+          "type": "CONTROL_NET",
+          "shape": 7,
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "links": [
+            16
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "positive",
+          "localized_name": "positive",
+          "type": "CONDITIONING",
+          "links": null
+        },
+        {
+          "name": "negative",
+          "localized_name": "negative",
+          "type": "CONDITIONING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy controlnetLoader"
+      },
+      "widgets_values": [
+        "control_v11p_sd15_openpose.pth",
+        1,
+        1
+      ]
+    },
+    {
+      "id": 24,
+      "type": "easy imageCount",
+      "pos": [
+        1520,
+        370
+      ],
+      "size": [
+        210,
+        26
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "localized_name": "images",
+          "type": "IMAGE",
+          "link": 50
+        }
+      ],
+      "outputs": [
+        {
+          "name": "count",
+          "localized_name": "count",
+          "type": "INT",
+          "links": [
+            30
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy imageCount"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 12,
+      "type": "easy ipadapterApplyADV",
+      "pos": [
+        640,
+        -570
+      ],
+      "size": [
+        290,
+        428
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "localized_name": "model",
+          "type": "MODEL",
+          "link": 51
+        },
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "link": 11
+        },
+        {
+          "name": "image_negative",
+          "localized_name": "image_negative",
+          "type": "IMAGE",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "attn_mask",
+          "localized_name": "attn_mask",
+          "type": "MASK",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "clip_vision",
+          "localized_name": "clip_vision",
+          "type": "CLIP_VISION",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "optional_ipadapter",
+          "localized_name": "optional_ipadapter",
+          "type": "IPADAPTER",
+          "shape": 7,
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "model",
+          "localized_name": "model",
+          "type": "MODEL",
+          "links": [
+            44
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "images",
+          "localized_name": "images",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "masks",
+          "localized_name": "masks",
+          "type": "MASK",
+          "links": null
+        },
+        {
+          "name": "ipadapter",
+          "localized_name": "ipadapter",
+          "type": "IPADAPTER",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy ipadapterApplyADV"
+      },
+      "widgets_values": [
+        "PLUS (high strength)",
+        0.6,
+        "CUDA",
+        1,
+        1,
+        "weak input",
+        "concat",
+        0,
+        1,
+        "V only",
+        "all",
+        false,
+        false,
+        0,
+        ""
+      ]
+    },
+    {
+      "id": 40,
+      "type": "FreeU_V2",
+      "pos": [
+        -40,
+        -730
+      ],
+      "size": [
+        315,
+        130
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "localized_name": "model",
+          "type": "MODEL",
+          "link": 58
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "localized_name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            59
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27",
+        "Node name for S&R": "FreeU_V2"
+      },
+      "widgets_values": [
+        1.3,
+        1.4,
+        0.9,
+        0.2
+      ]
+    },
+    {
+      "id": 6,
+      "type": "easy controlnetLoader",
+      "pos": [
+        -20,
+        -140
+      ],
+      "size": [
+        280,
+        150
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "link": 5
+        },
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "link": 7
+        },
+        {
+          "name": "control_net",
+          "localized_name": "control_net",
+          "type": "CONTROL_NET",
+          "shape": 7,
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "links": [
+            6
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "positive",
+          "localized_name": "positive",
+          "type": "CONDITIONING",
+          "links": null
+        },
+        {
+          "name": "negative",
+          "localized_name": "negative",
+          "type": "CONDITIONING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy controlnetLoader"
+      },
+      "widgets_values": [
+        "control_v11p_sd15_openpose.pth",
+        1,
+        1
+      ]
+    },
+    {
+      "id": 32,
+      "type": "WD14Tagger|pysssss",
+      "pos": [
+        -430,
+        -690
+      ],
+      "size": [
+        310,
+        270
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "link": 41
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "localized_name": "STRING",
+          "type": "STRING",
+          "shape": 6,
+          "links": [
+            40
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-wd14-tagger",
+        "ver": "d33501765c5bf3dca6e90e0ebaa962890999fbc5",
+        "Node name for S&R": "WD14Tagger|pysssss"
+      },
+      "widgets_values": [
+        "wd-swinv2-tagger-v3",
+        0.2,
+        0.85,
+        false,
+        false,
+        ""
+      ]
+    },
+    {
+      "id": 31,
+      "type": "StringFunction|pysssss",
+      "pos": [
+        -420,
+        -350
+      ],
+      "size": [
+        300,
+        320
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_c",
+          "type": "STRING",
+          "shape": 7,
+          "widget": {
+            "name": "text_c"
+          },
+          "link": 40
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "localized_name": "STRING",
+          "type": "STRING",
+          "links": [
+            38,
+            39
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "bc8922deff73f59311c05cef27b9d4caaf43e87b",
+        "Node name for S&R": "StringFunction|pysssss"
+      },
+      "widgets_values": [
+        "replace",
+        "yes",
+        "(realistic:1.3) , finely detailed, quality, (masterpiece:1.2) , (asian:1.2) , (best quality) , (detailed skin:1.3) ,prompt",
+        "prompt",
+        "",
+        [
+          false,
+          true
+        ],
+        [
+          false,
+          true
+        ],
+        [
+          false,
+          true
+        ]
+      ]
+    },
+    {
+      "id": 43,
+      "type": "easy imageListToImageBatch",
+      "pos": [
+        2380,
+        -650
+      ],
+      "size": [
+        315,
+        26
+      ],
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "localized_name": "images",
+          "type": "IMAGE",
+          "link": 64
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "localized_name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            62
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy imageListToImageBatch"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 25,
+      "type": "easy detailerFix",
+      "pos": [
+        1980,
+        -640
+      ],
+      "size": [
+        320,
+        330
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "link": 33
+        },
+        {
+          "name": "model",
+          "localized_name": "model",
+          "type": "MODEL",
+          "shape": 7,
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "links": null
+        },
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "links": [
+            64
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "cropped_refined",
+          "localized_name": "cropped_refined",
+          "type": "IMAGE",
+          "shape": 6,
+          "links": null
+        },
+        {
+          "name": "cropped_enhanced_alpha",
+          "localized_name": "cropped_enhanced_alpha",
+          "type": "IMAGE",
+          "shape": 6,
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy detailerFix"
+      },
+      "widgets_values": [
+        "Hide",
+        0,
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "ImpactMakeImageBatch",
+      "pos": [
+        1540,
+        140
+      ],
+      "size": [
+        140,
+        146
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image1",
+          "localized_name": "image1",
+          "type": "IMAGE",
+          "link": 20
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 22
+        },
+        {
+          "name": "image3",
+          "type": "IMAGE",
+          "link": 23
+        },
+        {
+          "name": "image4",
+          "type": "IMAGE",
+          "link": 28
+        },
+        {
+          "name": "image5",
+          "type": "IMAGE",
+          "link": 42
+        },
+        {
+          "name": "image6",
+          "type": "IMAGE",
+          "link": 43
+        },
+        {
+          "name": "image7",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "localized_name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            50,
+            69
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "d8738eee2f6c8c9a17ca42ab71f47ce35ccca3e7",
+        "Node name for S&R": "ImpactMakeImageBatch"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 26,
+      "type": "easy samLoaderPipe",
+      "pos": [
+        1630,
+        -250
+      ],
+      "size": [
+        315,
+        226
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "sam_pipe",
+          "localized_name": "sam_pipe",
+          "type": "PIPE_LINE",
+          "links": [
+            34
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy samLoaderPipe"
+      },
+      "widgets_values": [
+        "sam_vit_b_01ec64.pth",
+        "AUTO",
+        "center-1",
+        0,
+        0.93,
+        0,
+        0.7,
+        "False"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "easy ultralyticsDetectorPipe",
+      "pos": [
+        1620,
+        -460
+      ],
+      "size": [
+        327.5999755859375,
+        130
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "bbox_segm_pipe",
+          "localized_name": "bbox_segm_pipe",
+          "type": "PIPE_LINE",
+          "links": [
+            32
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy ultralyticsDetectorPipe"
+      },
+      "widgets_values": [
+        "bbox/face_yolov8m.pt",
+        0.5,
+        10,
+        3
+      ]
+    },
+    {
+      "id": 33,
+      "type": "LoadImage",
+      "pos": [
+        -780,
+        -700
+      ],
+      "size": [
+        315,
+        314
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "localized_name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            41
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "localized_name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "comicbook_01463_.png",
+        "image"
+      ]
+    },
+    {
+      "id": 45,
+      "type": "easy hiresFix",
+      "pos": [
+        1630,
+        -1080
+      ],
+      "size": [
+        240,
+        290
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "shape": 7,
+          "link": 66
+        },
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "shape": 7,
+          "link": 67
+        },
+        {
+          "name": "vae",
+          "localized_name": "vae",
+          "type": "VAE",
+          "shape": 7,
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "links": [
+            65
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "links": [
+            70
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "latent",
+          "localized_name": "latent",
+          "type": "LATENT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy hiresFix"
+      },
+      "widgets_values": [
+        "4x-UltraSharp.pth",
+        true,
+        "bilinear",
+        "by percentage",
+        50,
+        1024,
+        1024,
+        1024,
+        "disabled",
+        "Hide",
+        0,
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "ImageConcatFromBatch",
+      "pos": [
+        2370,
+        -560
+      ],
+      "size": [
+        352.79998779296875,
+        106
+      ],
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "localized_name": "images",
+          "type": "IMAGE",
+          "link": 62
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "localized_name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            71
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "3f141b8f1ca1c832a1c6accd806f2d2f40fd4075",
+        "Node name for S&R": "ImageConcatFromBatch"
+      },
+      "widgets_values": [
+        3,
+        false,
+        4096
+      ]
+    },
+    {
+      "id": 47,
+      "type": "SaveImage",
+      "pos": [
+        2350,
+        -370
+      ],
+      "size": [
+        1000,
+        640
+      ],
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "localized_name": "images",
+          "type": "IMAGE",
+          "link": 71
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27",
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "Sheet/ComfyUI"
+      ]
+    },
+    {
+      "id": 1,
+      "type": "easy comfyLoader",
+      "pos": [
+        -30,
+        -540
+      ],
+      "size": [
+        310,
+        374
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "optional_lora_stack",
+          "localized_name": "optional_lora_stack",
+          "type": "LORA_STACK",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "optional_controlnet_stack",
+          "localized_name": "optional_controlnet_stack",
+          "type": "CONTROL_NET_STACK",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "positive",
+          "type": "STRING",
+          "widget": {
+            "name": "positive"
+          },
+          "link": 38
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "links": [
+            5
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "model",
+          "localized_name": "model",
+          "type": "MODEL",
+          "links": [
+            58
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "vae",
+          "localized_name": "vae",
+          "type": "VAE",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy comfyLoader"
+      },
+      "widgets_values": [
+        "henmixReal_v6b.safetensors",
+        "vae-ft-mse-840000-ema-pruned.safetensors",
+        -1,
+        "hypersd\\Hyper-SD15-12steps-CFG-lora.safetensors",
+        0.6,
+        1,
+        "768 x 768",
+        512,
+        512,
+        "",
+        "3d, Drawings, abstract art, cartoons, surrealist painting, conceptual drawing, graphics, (low resolution:1.3), (worst quality:1.3), (low quality:1.3), collage, (watermark:1.3), letter, nude,",
+        1,
+        [
+          false,
+          true
+        ],
+        [
+          false,
+          true
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "type": "easy comfyLoader",
+      "pos": [
+        960,
+        -520
+      ],
+      "size": [
+        310,
+        320
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "optional_lora_stack",
+          "localized_name": "optional_lora_stack",
+          "type": "LORA_STACK",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "optional_controlnet_stack",
+          "localized_name": "optional_controlnet_stack",
+          "type": "CONTROL_NET_STACK",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "batch_size",
+          "type": "INT",
+          "widget": {
+            "name": "batch_size"
+          },
+          "link": 30
+        },
+        {
+          "name": "positive",
+          "type": "STRING",
+          "widget": {
+            "name": "positive"
+          },
+          "link": 39
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "links": [
+            15,
+            35
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "model",
+          "localized_name": "model",
+          "type": "MODEL",
+          "links": [],
+          "slot_index": 1
+        },
+        {
+          "name": "vae",
+          "localized_name": "vae",
+          "type": "VAE",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy comfyLoader"
+      },
+      "widgets_values": [
+        "henmixReal_v6b.safetensors",
+        "vae-ft-mse-840000-ema-pruned.safetensors",
+        -1,
+        "None",
+        1,
+        1,
+        "768 x 768",
+        512,
+        512,
+        "(realistic:1.3) , finely detailed, quality, (masterpiece:1.2) , (photorealistic:1.2) , (best quality) , (detailed skin:1.3) , (intricate details) , ray tracing, dramatic, (1 girl:1.2), (cute korean Ethereal Female), (film grain:1.2),",
+        "3d, Drawings, abstract art, cartoons, surrealist painting, conceptual drawing, graphics, (low resolution:1.3), (worst quality:1.3), (low quality:1.3), collage, (watermark:1.3), letter, nude,",
+        4,
+        [
+          false,
+          true
+        ],
+        [
+          false,
+          true
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "type": "easy fullkSampler",
+      "pos": [
+        320,
+        -590
+      ],
+      "size": [
+        280,
+        386
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "link": 6
+        },
+        {
+          "name": "model",
+          "localized_name": "model",
+          "type": "MODEL",
+          "shape": 7,
+          "link": 59
+        },
+        {
+          "name": "positive",
+          "localized_name": "positive",
+          "type": "CONDITIONING",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "negative",
+          "localized_name": "negative",
+          "type": "CONDITIONING",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "latent",
+          "localized_name": "latent",
+          "type": "LATENT",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "vae",
+          "localized_name": "vae",
+          "type": "VAE",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "clip",
+          "localized_name": "clip",
+          "type": "CLIP",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "xyPlot",
+          "localized_name": "xyPlot",
+          "type": "XYPLOT",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "shape": 7,
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "links": null
+        },
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "links": [
+            11
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "model",
+          "localized_name": "model",
+          "type": "MODEL",
+          "links": [
+            51
+          ],
+          "slot_index": 2
+        },
+        {
+          "name": "positive",
+          "localized_name": "positive",
+          "type": "CONDITIONING",
+          "links": null
+        },
+        {
+          "name": "negative",
+          "localized_name": "negative",
+          "type": "CONDITIONING",
+          "links": null
+        },
+        {
+          "name": "latent",
+          "localized_name": "latent",
+          "type": "LATENT",
+          "links": null
+        },
+        {
+          "name": "vae",
+          "localized_name": "vae",
+          "type": "VAE",
+          "links": null
+        },
+        {
+          "name": "clip",
+          "localized_name": "clip",
+          "type": "CLIP",
+          "links": null
+        },
+        {
+          "name": "seed",
+          "localized_name": "seed",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy fullkSampler"
+      },
+      "widgets_values": [
+        12,
+        4,
+        "dpmpp_sde",
+        "align_your_steps",
+        1,
+        "Hide",
+        0,
+        "ComfyUI",
+        829437686879034,
+        "randomize"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "easy fullkSampler",
+      "pos": [
+        1300,
+        -590
+      ],
+      "size": [
+        280,
+        386
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "link": 16
+        },
+        {
+          "name": "model",
+          "localized_name": "model",
+          "type": "MODEL",
+          "shape": 7,
+          "link": 45
+        },
+        {
+          "name": "positive",
+          "localized_name": "positive",
+          "type": "CONDITIONING",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "negative",
+          "localized_name": "negative",
+          "type": "CONDITIONING",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "latent",
+          "localized_name": "latent",
+          "type": "LATENT",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "vae",
+          "localized_name": "vae",
+          "type": "VAE",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "clip",
+          "localized_name": "clip",
+          "type": "CLIP",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "xyPlot",
+          "localized_name": "xyPlot",
+          "type": "XYPLOT",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "shape": 7,
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "links": [
+            66
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "links": [
+            67
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "model",
+          "localized_name": "model",
+          "type": "MODEL",
+          "links": null
+        },
+        {
+          "name": "positive",
+          "localized_name": "positive",
+          "type": "CONDITIONING",
+          "links": null
+        },
+        {
+          "name": "negative",
+          "localized_name": "negative",
+          "type": "CONDITIONING",
+          "links": null
+        },
+        {
+          "name": "latent",
+          "localized_name": "latent",
+          "type": "LATENT",
+          "links": null
+        },
+        {
+          "name": "vae",
+          "localized_name": "vae",
+          "type": "VAE",
+          "links": null
+        },
+        {
+          "name": "clip",
+          "localized_name": "clip",
+          "type": "CLIP",
+          "links": null
+        },
+        {
+          "name": "seed",
+          "localized_name": "seed",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy fullkSampler"
+      },
+      "widgets_values": [
+        12,
+        4,
+        "dpmpp_sde",
+        "align_your_steps",
+        1,
+        "Hide",
+        0,
+        "ComfyUI",
+        751458739185284,
+        "fixed"
+      ]
+    },
+    {
+      "id": 46,
+      "type": "easy fullkSampler",
+      "pos": [
+        1900,
+        -1140
+      ],
+      "size": [
+        280,
+        386
+      ],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "link": 65
+        },
+        {
+          "name": "model",
+          "localized_name": "model",
+          "type": "MODEL",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "positive",
+          "localized_name": "positive",
+          "type": "CONDITIONING",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "negative",
+          "localized_name": "negative",
+          "type": "CONDITIONING",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "latent",
+          "localized_name": "latent",
+          "type": "LATENT",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "vae",
+          "localized_name": "vae",
+          "type": "VAE",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "clip",
+          "localized_name": "clip",
+          "type": "CLIP",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "xyPlot",
+          "localized_name": "xyPlot",
+          "type": "XYPLOT",
+          "shape": 7,
+          "link": null
+        },
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "shape": 7,
+          "link": 70
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "links": null,
+          "slot_index": 0
+        },
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "links": [
+            68
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "model",
+          "localized_name": "model",
+          "type": "MODEL",
+          "links": null
+        },
+        {
+          "name": "positive",
+          "localized_name": "positive",
+          "type": "CONDITIONING",
+          "links": null
+        },
+        {
+          "name": "negative",
+          "localized_name": "negative",
+          "type": "CONDITIONING",
+          "links": null
+        },
+        {
+          "name": "latent",
+          "localized_name": "latent",
+          "type": "LATENT",
+          "links": null
+        },
+        {
+          "name": "vae",
+          "localized_name": "vae",
+          "type": "VAE",
+          "links": null
+        },
+        {
+          "name": "clip",
+          "localized_name": "clip",
+          "type": "CLIP",
+          "links": null
+        },
+        {
+          "name": "seed",
+          "localized_name": "seed",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy fullkSampler"
+      },
+      "widgets_values": [
+        12,
+        4,
+        "dpmpp_sde",
+        "align_your_steps",
+        0.4,
+        "Hide",
+        0,
+        "ComfyUI",
+        751458739185284,
+        "fixed"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "easy preDetailerFix",
+      "pos": [
+        1970,
+        -470
+      ],
+      "size": [
+        350,
+        508
+      ],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "link": 35
+        },
+        {
+          "name": "bbox_segm_pipe",
+          "localized_name": "bbox_segm_pipe",
+          "type": "PIPE_LINE",
+          "shape": 7,
+          "link": 32
+        },
+        {
+          "name": "sam_pipe",
+          "localized_name": "sam_pipe",
+          "type": "PIPE_LINE",
+          "shape": 7,
+          "link": 34
+        },
+        {
+          "name": "optional_image",
+          "localized_name": "optional_image",
+          "type": "IMAGE",
+          "shape": 7,
+          "link": 68
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pipe",
+          "localized_name": "pipe",
+          "type": "PIPE_LINE",
+          "links": [
+            33
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5",
+        "Node name for S&R": "easy preDetailerFix"
+      },
+      "widgets_values": [
+        256,
+        true,
+        768,
+        567372786607548,
+        "randomize",
+        10,
+        3,
+        "dpmpp_sde",
+        "align_your_steps",
+        0.4,
+        5,
+        true,
+        true,
+        10,
+        "",
+        1,
+        [
+          false,
+          true
+        ]
+      ]
+    }
+  ],
+  "links": [
+    [
+      5,
+      1,
+      0,
+      6,
+      0,
+      "PIPE_LINE"
+    ],
+    [
+      6,
+      6,
+      0,
+      3,
+      0,
+      "PIPE_LINE"
+    ],
+    [
+      7,
+      7,
+      0,
+      6,
+      1,
+      "IMAGE"
+    ],
+    [
+      11,
+      3,
+      1,
+      12,
+      1,
+      "IMAGE"
+    ],
+    [
+      15,
+      15,
+      0,
+      16,
+      0,
+      "PIPE_LINE"
+    ],
+    [
+      16,
+      16,
+      0,
+      13,
+      0,
+      "PIPE_LINE"
+    ],
+    [
+      20,
+      19,
+      0,
+      18,
+      0,
+      "IMAGE"
+    ],
+    [
+      22,
+      21,
+      0,
+      18,
+      1,
+      "IMAGE"
+    ],
+    [
+      23,
+      22,
+      0,
+      18,
+      2,
+      "IMAGE"
+    ],
+    [
+      28,
+      7,
+      0,
+      18,
+      3,
+      "IMAGE"
+    ],
+    [
+      30,
+      24,
+      0,
+      15,
+      2,
+      "INT"
+    ],
+    [
+      32,
+      28,
+      0,
+      27,
+      1,
+      "PIPE_LINE"
+    ],
+    [
+      33,
+      27,
+      0,
+      25,
+      0,
+      "PIPE_LINE"
+    ],
+    [
+      34,
+      26,
+      0,
+      27,
+      2,
+      "PIPE_LINE"
+    ],
+    [
+      35,
+      15,
+      0,
+      27,
+      0,
+      "PIPE_LINE"
+    ],
+    [
+      38,
+      31,
+      0,
+      1,
+      2,
+      "STRING"
+    ],
+    [
+      39,
+      31,
+      0,
+      15,
+      3,
+      "STRING"
+    ],
+    [
+      40,
+      32,
+      0,
+      31,
+      0,
+      "STRING"
+    ],
+    [
+      41,
+      33,
+      0,
+      32,
+      0,
+      "IMAGE"
+    ],
+    [
+      42,
+      34,
+      0,
+      18,
+      4,
+      "IMAGE"
+    ],
+    [
+      43,
+      20,
+      0,
+      18,
+      5,
+      "IMAGE"
+    ],
+    [
+      44,
+      12,
+      0,
+      35,
+      0,
+      "MODEL"
+    ],
+    [
+      45,
+      35,
+      0,
+      13,
+      1,
+      "MODEL"
+    ],
+    [
+      50,
+      18,
+      0,
+      24,
+      0,
+      "IMAGE"
+    ],
+    [
+      51,
+      3,
+      2,
+      12,
+      0,
+      "MODEL"
+    ],
+    [
+      58,
+      1,
+      1,
+      40,
+      0,
+      "MODEL"
+    ],
+    [
+      59,
+      40,
+      0,
+      3,
+      1,
+      "MODEL"
+    ],
+    [
+      62,
+      43,
+      0,
+      44,
+      0,
+      "IMAGE"
+    ],
+    [
+      64,
+      25,
+      1,
+      43,
+      0,
+      "IMAGE"
+    ],
+    [
+      65,
+      45,
+      0,
+      46,
+      0,
+      "PIPE_LINE"
+    ],
+    [
+      66,
+      13,
+      0,
+      45,
+      0,
+      "PIPE_LINE"
+    ],
+    [
+      67,
+      13,
+      1,
+      45,
+      1,
+      "IMAGE"
+    ],
+    [
+      68,
+      46,
+      1,
+      27,
+      3,
+      "IMAGE"
+    ],
+    [
+      69,
+      18,
+      0,
+      16,
+      1,
+      "IMAGE"
+    ],
+    [
+      70,
+      45,
+      1,
+      46,
+      8,
+      "IMAGE"
+    ],
+    [
+      71,
+      44,
+      0,
+      47,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 2,
+      "title": "PoseImage",
+      "bounding": [
+        -40,
+        50,
+        1880,
+        380
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "FaceFix",
+      "bounding": [
+        1610,
+        -720,
+        720,
+        764.5999755859375
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "IPAAndBatch",
+      "bounding": [
+        630,
+        -760,
+        960,
+        793.5999755859375
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 5,
+      "title": "FirstStep",
+      "bounding": [
+        -50,
+        -800,
+        660,
+        823.5999755859375
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 6,
+      "title": "BatchSheet",
+      "bounding": [
+        2360,
+        -720,
+        372.800048828125,
+        279.6000061035156
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 7,
+      "title": "HiresFix",
+      "bounding": [
+        1620,
+        -1220,
+        600,
+        490
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1,
+      "offset": [
+        880,
+        1240
+      ]
+    },
+    "node_versions": {
+      "comfy-core": "0.3.14",
+      "ComfyUI-Easy-Use": "7a65c2f5d71171272f128e61df9b79ab370ade6c",
+      "ComfyUI-WD14-Tagger": "d33501765c5bf3dca6e90e0ebaa962890999fbc5",
+      "ComfyUI-Custom-Scripts": "bc8922deff73f59311c05cef27b9d4caaf43e87b",
+      "ComfyUI-Impact-Pack": "d8738eee2f6c8c9a17ca42ab71f47ce35ccca3e7",
+      "ComfyUI-KJNodes": "3f141b8f1ca1c832a1c6accd806f2d2f40fd4075"
+    },
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0
+  },
+  "version": 0.4
+}

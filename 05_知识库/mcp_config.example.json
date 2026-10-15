@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "supergear-workflow-library": {
+      "command": "C:\\Users\\sg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "args": [
+        "C:\\Users\\sg\\Downloads\\ComfyUI_Design_Library_20261008\\05_知识库\\tools\\mcp_server.py",
+        "C:\\Users\\sg\\Downloads\\ComfyUI_Design_Library_20261008"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "requested": "Comfy-Org/workflow_templates",
+  "repo": "Comfy-Org/workflow_templates",
+  "group": "03_官方模板",
+  "stars": 1260,
+  "pushed_at": "2026-10-08T01:16:53Z",
+  "branch": "main",
+  "sha": "8be1f8c4b5af2d550d70922a23b79cee599e1f3e",
+  "license": "MIT",
+  "url": "https://github.com/Comfy-Org/workflow_templates",
+  "tree_truncated": false,
+  "retrieved_date": "2026-10-08",
+  "archived": false,
+  "workflow_count": 209,
+  "snapshot_note": "GitHub API递归树查询返回的快照标识；下载链接固定到该标识。"
+}

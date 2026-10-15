@@ -1,0 +1,159 @@
+1. Qwen产品局部编辑
+用途：局部换色、去杂物、视觉方案；不承诺碳纤维碎片逐片迁移。
+文件：04_设计优先精选/01_局部编辑/WF0563_Qwen产品局部编辑.json
+硬件：16–24 GB 显存；64 GB RAM（兼容量化/卸载条件下的尝试下限）；推荐：32–48 GB 显存；64–96 GB RAM
+模型：qwen_image_vae.safetensors；qwen_image_vae.safetensors；Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors；Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors；qwen_image_edit_2511_fp8mixed.safetensors；qwen_image_edit_2511_fp8mixed.safetensors；qwen_2.5_vl_7b_fp8_scaled.safetensors；qwen_2.5_vl_7b_fp8_scaled.safetensors
+依赖：
+来源：https://raw.githubusercontent.com/Comfy-Org/workflow_templates/8be1f8c4b5af2d550d70922a23b79cee599e1f3e/templates/image_qwen_image_edit_2511.json
+
+2. Klein4B轻量编辑
+用途：较轻的多参考图编辑入口，先小图比较参考遵循程度。
+文件：04_设计优先精选/01_局部编辑/WF0540_Klein4B轻量编辑.json
+硬件：8–12 GB 显存；32 GB RAM；推荐：16–24 GB 显存；64 GB RAM
+模型：flux-2-klein-4b-fp8.safetensors；qwen_3_4b.safetensors；flux2-vae.safetensors；flux-2-klein-4b-fp8.safetensors；qwen_3_4b.safetensors；flux2-vae.safetensors；flux-2-klein-4b-fp8.safetensors；flux-2-klein-4b-fp8.safetensors；qwen_3_4b.safetensors；qwen_3_4b.safetensors；flux2-vae.safetensors；flux2-vae.safetensors
+依赖：
+来源：https://raw.githubusercontent.com/Comfy-Org/workflow_templates/8be1f8c4b5af2d550d70922a23b79cee599e1f3e/templates/image_flux2_klein_image_edit_4b_distilled.json
+
+3. SD15裁切重绘拼回
+用途：学习遮罩、裁切和拼接；先理解该结构，再换更大模型。
+文件：04_设计优先精选/01_局部编辑/WF0701_SD15裁切重绘拼回.json
+硬件：6–8 GB 显存；16 GB RAM；推荐：12 GB 显存；32 GB RAM
+模型：sd1.5-inpainting/lazymixRealAmateur_v40Inpainting.safetensors
+依赖：
+来源：https://raw.githubusercontent.com/lquesada/ComfyUI-Inpaint-CropAndStitch/8584b08d851762965df898b421a39075fc5357ae/example_workflows/inpaint_sd15.json
+
+4. FLUX裁切重绘拼回
+用途：局部配件效果、背景小修；关注边缘拼接。
+文件：04_设计优先精选/01_局部编辑/WF0699_FLUX裁切重绘拼回.json
+硬件：12–16 GB 显存；32–64 GB RAM；推荐：24–32 GB 显存；64 GB RAM
+模型：ae.safetensors；fluxDevQ5KMGGUFQuantizationA_v10.gguf；FLUX.1-dev-Controlnet-Inpainting-Beta/diffusion_pytorch_model.safetensors；t5-v1_1-xxl-encoder-Q3_K_L.gguf；clip_l.safetensors
+依赖：ComfyUI-GGUF
+来源：https://raw.githubusercontent.com/lquesada/ComfyUI-Inpaint-CropAndStitch/8584b08d851762965df898b421a39075fc5357ae/example_workflows/inpaint_flux.json
+
+5. FLUXFill局部填充
+用途：移除画面杂物、局部修复和广告素材补全。
+文件：04_设计优先精选/01_局部编辑/WF0525_FLUXFill局部填充.json
+硬件：12–16 GB 显存；32–64 GB RAM；推荐：24–32 GB 显存；64 GB RAM
+模型：clip_l.safetensors；t5xxl_fp16.safetensors；clip_l.safetensors；t5xxl_fp16.safetensors；ae.safetensors；ae.safetensors；flux1-fill-dev.safetensors；flux1-fill-dev.safetensors
+依赖：
+来源：https://raw.githubusercontent.com/Comfy-Org/workflow_templates/8be1f8c4b5af2d550d70922a23b79cee599e1f3e/templates/flux_fill_inpaint_example.json
+
+6. FLUXFill海报扩图
+用途：将现有素材延展为横幅/竖幅并留文案区域。
+文件：04_设计优先精选/02_扩图与海报/WF0526_FLUXFill海报扩图.json
+硬件：12–16 GB 显存；32–64 GB RAM；推荐：24–32 GB 显存；64 GB RAM
+模型：clip_l.safetensors；t5xxl_fp16.safetensors；clip_l.safetensors；t5xxl_fp16.safetensors；flux1-fill-dev.safetensors；flux1-fill-dev.safetensors；ae.safetensors；ae.safetensors
+依赖：
+来源：https://raw.githubusercontent.com/Comfy-Org/workflow_templates/8be1f8c4b5af2d550d70922a23b79cee599e1f3e/templates/flux_fill_outpaint_example.json
+
+7. 基础扩图
+用途：学习原图保留与边界延展，适合先跑通低复杂度模板。
+文件：04_设计优先精选/02_扩图与海报/WF0434_基础扩图.json
+硬件：6–8 GB 显存；16 GB RAM；推荐：12 GB 显存；32 GB RAM
+模型：v1-5-pruned-emaonly.safetensors；vae-ft-mse-840000-ema-pruned.safetensors；sd-v1-5-inpainting.ckpt
+依赖：
+来源：https://raw.githubusercontent.com/cubiq/ComfyUI_Workflows/038cb775f2e8eb54bdbc99a8b9720177c7f8a336/in-out_painting/outpaint.json
+
+8. ICLight渐变控制打光
+用途：指定方向光/轮廓光；产品结构和反射要复核。
+文件：04_设计优先精选/03_打光与背景/WF0696_ICLight渐变控制打光.json
+硬件：8 GB 显存；32 GB RAM；推荐：12–16 GB 显存；32 GB RAM
+模型：1_5\photon_v1.safetensors；IC-Light\iclight_sd15_fc.safetensors
+依赖：
+来源：https://raw.githubusercontent.com/kijai/ComfyUI-IC-Light/22811d903af8a90100dccef1c4b579526649a6ab/example_workflows/iclight_example_fc_controlled_gradient_01.png
+
+9. Lama加ICLight场景融合
+用途：清理背景并尝试前景光影融合，依赖较多。
+文件：04_设计优先精选/03_打光与背景/WF0162_Lama加ICLight场景融合.json
+硬件：8 GB 显存；32 GB RAM；推荐：12–16 GB 显存；32 GB RAM
+模型：mistoLine_rank256.safetensors；SDXL\controlnet-union-sdxl-1.0\diffusion_pytorch_model_promax.safetensors；depth_anything_v2_vitl.pth；iclight_sd15_fbc_unet_ldm.safetensors；realisticVisionV60B1_v51VAE.safetensors；aiartistHyperrayXLXL_hypersdxl.safetensors；SDXL\EcomXL_controlnet_inpaint.safetensors
+依赖：
+来源：https://raw.githubusercontent.com/dseditor/ComfyuiWorkflows/b2ea26fa602d6eebadb1de1e4ccf1ecc91875806/BackgroundChanger/LamaIClight.json
+
+10. LBM重打光
+用途：产品与背景光影融合候选；自动加载模型需查插件说明。
+文件：04_设计优先精选/03_打光与背景/WF0057_LBM重打光.json
+硬件：最低未实测；可从8–12 GB显存、32 GB RAM尝试；推荐：16–24 GB 显存；32–64 GB RAM
+模型：LBM_relighting.safetensors
+依赖：ComfyUI-LBM、comfyui-rmbg
+来源：https://raw.githubusercontent.com/axiomgraph/ComfyUIWorkflow/ffe40084d944d1a52bf4600f2defb6af35098ebf/LBM%20Relighting.json
+
+11. BiRefNet抠图
+用途：给车辆、配件制作遮罩起点；透明风挡和轮辐需精修。
+文件：04_设计优先精选/03_打光与背景/WF0615_BiRefNet抠图.json
+硬件：纯图像处理可CPU；模型抠图尝试4–6 GB显存、16 GB RAM；推荐：8–12 GB 显存；32 GB RAM
+模型：birefnet.safetensors；birefnet.safetensors
+依赖：
+来源：https://raw.githubusercontent.com/Comfy-Org/workflow_templates/8be1f8c4b5af2d550d70922a23b79cee599e1f3e/templates/utility_birefnet_remove_background.json
+
+12. IPAdapter风格与构图
+用途：分别参考风格与构图，做品牌调性提案。
+文件：04_设计优先精选/04_构图与风格/WF0686_IPAdapter风格与构图.json
+硬件：8–12 GB 显存；32 GB RAM；推荐：16–24 GB 显存；32–64 GB RAM
+模型：sdxl/AlbedoBaseXL.safetensors
+依赖：
+来源：https://raw.githubusercontent.com/cubiq/ComfyUI_IPAdapter_plus/a0f451a5113cf9becb0847b92884cb10cbdec0ef/examples/ipadapter_style_composition.json
+
+13. FLUXRedux参考变化
+用途：探索配色、造型和画面风格；不作为精确贴图工具。
+文件：04_设计优先精选/04_构图与风格/WF0528_FLUXRedux参考变化.json
+硬件：12–16 GB 显存；32–64 GB RAM；推荐：24–32 GB 显存；64 GB RAM
+模型：flux1-dev.safetensors；flux1-dev.safetensors；t5xxl_fp16.safetensors；clip_l.safetensors；t5xxl_fp16.safetensors；clip_l.safetensors；ae.safetensors；ae.safetensors；flux1-redux-dev.safetensors；flux1-redux-dev.safetensors；sigclip_vision_patch14_384.safetensors；sigclip_vision_patch14_384.safetensors
+依赖：
+来源：https://raw.githubusercontent.com/Comfy-Org/workflow_templates/8be1f8c4b5af2d550d70922a23b79cee599e1f3e/templates/flux_redux_model_example.json
+
+14. 多ControlNet构图
+用途：用多种结构条件探索受控构图；比纯提示词更易对照。
+文件：04_设计优先精选/04_构图与风格/WF0415_多ControlNet构图.json
+硬件：6–8 GB 显存；16 GB RAM；推荐：12 GB 显存；32 GB RAM
+模型：vae-ft-mse-840000-ema-pruned.safetensors；v15/absolutereality_v181.safetensors；control_v11p_sd15_openpose_fp16.safetensors；control_v11e_sd15_shuffle.pth
+依赖：
+来源：https://raw.githubusercontent.com/cubiq/ComfyUI_Workflows/038cb775f2e8eb54bdbc99a8b9720177c7f8a336/guided_composition/experiments/multiple_controlnets.json
+
+15. 官方原生SUPIR
+用途：海报图片细节重建；可包含自动描述LLM，先核对其提示词。
+文件：04_设计优先精选/05_高清修复/WF0619_官方原生SUPIR.json
+硬件：作者曾在10 GB显卡完成512→1024；不等于每份模板最低要求；推荐：24–32 GB 显存；64 GB RAM
+模型：juggernautXL_v9Rdphoto2Lightning.safetensors；juggernautXL_v9Rdphoto2Lightning.safetensors；SUPIR-v0Q_fp16.safetensors；SUPIR-v0Q_fp16.safetensors；qwen3.5_4b_bf16.safetensors；qwen3.5_4b_bf16.safetensors
+依赖：comfyui-kjnodes
+来源：https://raw.githubusercontent.com/Comfy-Org/workflow_templates/8be1f8c4b5af2d550d70922a23b79cee599e1f3e/templates/utility_image_upscale_supir.json
+
+16. 分块ControlNet放大
+用途：探索较大尺寸放大；检查接缝及重复细节。
+文件：04_设计优先精选/05_高清修复/WF0460_分块ControlNet放大.json
+硬件：6–8 GB 显存；16 GB RAM；推荐：12 GB 显存；32 GB RAM
+模型：v1-5-pruned-emaonly.safetensors；vae-ft-mse-840000-ema-pruned.safetensors；control_v11f1e_sd15_tile.pth
+依赖：
+来源：https://raw.githubusercontent.com/cubiq/ComfyUI_Workflows/038cb775f2e8eb54bdbc99a8b9720177c7f8a336/upscale/upscale_tile_controlnet.json
+
+17. 云端产品场景打光
+用途：Seedream远端调用；需要账号/额度，非纯本地工作流。
+文件：04_设计优先精选/06_云端设计_可能收费/WF0604_云端产品场景打光.json
+硬件：本地无需承担云端生成显存；8–16 GB RAM仅为界面操作规划；推荐：16–32 GB RAM、稳定网络、对应账号和服务额度
+模型：
+依赖：
+来源：https://raw.githubusercontent.com/Comfy-Org/workflow_templates/8be1f8c4b5af2d550d70922a23b79cee599e1f3e/templates/templates-product_scene_relight.json
+
+18. 你原来使用的裁切编辑工作流
+用途：保留作者原版供对照；适合局部生成与后处理，不保证精确纹理迁移。
+文件：04_设计优先精选/07_原工作流对照/WF0111_你原来使用的裁切编辑工作流.json
+硬件：作者曾在10 GB显卡完成512→1024；不等于每份模板最低要求；推荐：24–32 GB 显存；64 GB RAM
+模型：qwen_image_edit_2511_fp8mixed.safetensors；qwen_2.5_vl_7b_fp8_scaled.safetensors；Qwen-Image-Edit-2511-Lightning-4steps-V1.0-fp32.safetensors；qwen_image_vae.safetensors；juggernautXL_v9Rdphoto2Lightning.safetensors；SUPIR-v0Q_fp16.safetensors
+依赖：comfyui-inpaint-cropandstitch、comfyui-kjnodes、comfyui_controlnet_aux、lanpaint、rgthree-comfy、vrgamegirl19/comfyui-vrgamedevgirl
+来源：https://raw.githubusercontent.com/axiomgraph/ComfyUIWorkflow/ffe40084d944d1a52bf4600f2defb6af35098ebf/Qwen%20Image%20Edit%202511%204k%206k%20Inpaint%20Crop%20V2.1.json
+
+19. Wan22单图短视频
+用途：将已确认的产品氛围图做短镜头试验；先低帧数，复核轮辐和标识。
+文件：04_设计优先精选/08_视频与动效/WF0667_Wan22单图短视频.json
+硬件：官方参考24 GB显存，需offload和文本编码器CPU；非绝对最低；推荐：32 GB 显存；64–96 GB RAM
+模型：wan2.2_ti2v_5B_fp16.safetensors；wan2.2_ti2v_5B_fp16.safetensors；umt5_xxl_fp8_e4m3fn_scaled.safetensors；umt5_xxl_fp8_e4m3fn_scaled.safetensors；wan2.2_vae.safetensors；wan2.2_vae.safetensors
+依赖：
+来源：https://raw.githubusercontent.com/Comfy-Org/workflow_templates/8be1f8c4b5af2d550d70922a23b79cee599e1f3e/templates/video_wan2_2_5B_ti2v.json
+
+20. LTX23图生视频
+用途：产品广告分镜与短动效；需更高显存，先独立运行视频阶段。
+文件：04_设计优先精选/08_视频与动效/WF0639_LTX23图生视频.json
+硬件：当前官方插件先决条件32 GB以上显存；推荐：32–48 GB 显存；64–128 GB RAM；至少100 GB空闲盘
+模型：ltx-2.3-22b-dev-fp8.safetensors；ltx_2.3_22b_distilled_1.1_lora_dynamic_fro09_avg_rank_111_bf16.safetensors；gemma_3_12B_it_fp4_mixed.safetensors；ltx-2.3-spatial-upscaler-x2-1.1.safetensors；gemma-3-12b-it-abliterated_lora_rank64_bf16.safetensors；ltx-2.3-22b-dev-fp8.safetensors；ltx-2.3-22b-dev-fp8.safetensors；ltx_2.3_22b_distilled_1.1_lora_dynamic_fro09_avg_rank_111_bf16.safetensors；ltx_2.3_22b_distilled_1.1_lora_dynamic_fro09_avg_rank_111_bf16.safetensors；ltx-2.3-spatial-upscaler-x2-1.1.safetensors；ltx-2.3-spatial-upscaler-x2-1.1.safetensors；ltx-2.3-22b-dev-fp8.safetensors；ltx-2.3-22b-dev-fp8.safetensors；gemma_3_12B_it_fp4_mixed.safetensors；ltx-2.3-22b-dev-fp8.safetensors；ltx-2.3-22b-dev-fp8.safetensors；gemma_3_12B_it_fp4_mixed.safetensors；gemma-3-12b-it-abliterated_lora_rank64_bf16.safetensors；gemma-3-12b-it-abliterated_lora_rank64_bf16.safetensors；ltx-av-step-1751000_vocoder_24K.safetensors；gemma-3-12b-it-qat-q4_0-unquantized_readout_proj/model/model.safetensors；ltx-av-step-1751000_vocoder_24K.safetensors；ltx-av-step-1751000_vocoder_24K.safetensors
+依赖：
+来源：https://raw.githubusercontent.com/Comfy-Org/workflow_templates/8be1f8c4b5af2d550d70922a23b79cee599e1f3e/templates/video_ltx2_3_i2v.json

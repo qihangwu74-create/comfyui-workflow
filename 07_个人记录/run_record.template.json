@@ -1,0 +1,42 @@
+{
+  "uid": "请填写稳定ID",
+  "workflow_sha256": "请填写实际测试版本的文件SHA256",
+  "tested_at": "填写实际时间",
+  "outcome": "passed_or_failed",
+  "reported_by": "填写记录人",
+  "machine": {
+    "gpu": "填写实际型号",
+    "vram_gb": null,
+    "ram_gb": null
+  },
+  "environment": {
+    "comfyui_version": "",
+    "plugin_versions": {},
+    "model_files": []
+  },
+  "parameters": {
+    "width": null,
+    "height": null,
+    "batch": 1,
+    "frames": null,
+    "seed": null,
+    "steps": null
+  },
+  "metrics": {
+    "seconds": null,
+    "peak_vram_gb": null
+  },
+  "evidence": {
+    "output_file": "",
+    "comparison_file": "",
+    "error_log": ""
+  },
+  "quality_review": {
+    "product_geometry": "",
+    "texture_accuracy": "",
+    "logo_text": "",
+    "edges": "",
+    "temporal_consistency": ""
+  },
+  "notes": "这是模板，不代表已经执行。填好后可每条一行追加到run_records.jsonl；不要把示例空值当成实测。"
+}

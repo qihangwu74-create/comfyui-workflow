@@ -1,0 +1,16 @@
+{
+  "requested": "kijai/ComfyUI-SUPIR",
+  "repo": "kijai/ComfyUI-SUPIR",
+  "group": "02_高星补充",
+  "stars": 2315,
+  "pushed_at": "2026-04-29T15:30:56Z",
+  "branch": "main",
+  "sha": "99d49e912c905ce1aaf7d15898f550b40fb3e6cc",
+  "license": "NOASSERTION",
+  "url": "https://github.com/kijai/ComfyUI-SUPIR",
+  "tree_truncated": false,
+  "retrieved_date": "2026-10-08",
+  "archived": false,
+  "workflow_count": 1,
+  "snapshot_note": "GitHub API递归树查询返回的快照标识；下载链接固定到该标识。"
+}

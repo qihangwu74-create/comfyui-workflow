@@ -1,0 +1,488 @@
+{
+  "last_node_id": 24,
+  "last_link_id": 27,
+  "nodes": [
+    {
+      "id": 14,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 1030,
+        "1": 120
+      },
+      "size": {
+        "0": 160.99398803710938,
+        "1": 246
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 17
+        }
+      ],
+      "outputs": [],
+      "title": "Masked Target",
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 18,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 879,
+        "1": 469
+      },
+      "size": {
+        "0": 313.9939880371094,
+        "1": 341.0123291015625
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 27
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 16,
+      "type": "CatVTON",
+      "pos": {
+        "0": 599,
+        "1": 471
+      },
+      "size": {
+        "0": 242.99398803710938,
+        "1": 338.0123291015625
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pipe",
+          "type": "MODEL",
+          "link": 20
+        },
+        {
+          "name": "target_image",
+          "type": "IMAGE",
+          "link": 14
+        },
+        {
+          "name": "refer_image",
+          "type": "IMAGE",
+          "link": 15
+        },
+        {
+          "name": "mask_image",
+          "type": "IMAGE",
+          "link": 19
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            27
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CatVTON"
+      },
+      "widgets_values": [
+        42,
+        "fixed",
+        50,
+        2.5
+      ]
+    },
+    {
+      "id": 15,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 850,
+        "1": 120
+      },
+      "size": {
+        "0": 160.1082305908203,
+        "1": 246
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 18
+        }
+      ],
+      "outputs": [],
+      "title": "Binary Mask",
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 13,
+      "type": "AutoMasker",
+      "pos": {
+        "0": 590,
+        "1": 120
+      },
+      "size": {
+        "0": 227.4981231689453,
+        "1": 240.48341369628906
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pipe",
+          "type": "MODEL",
+          "link": 11
+        },
+        {
+          "name": "target_image",
+          "type": "IMAGE",
+          "link": 10
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            18,
+            19
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "image_masked",
+          "type": "IMAGE",
+          "links": [
+            17
+          ],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "AutoMasker"
+      },
+      "widgets_values": [
+        "overall"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "LoadImage",
+      "pos": {
+        "0": 93.77685546875,
+        "1": 465.34710693359375
+      },
+      "size": {
+        "0": 210,
+        "1": 345.0123291015625
+      },
+      "flags": {
+        "pinned": false
+      },
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            10,
+            14
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "title": "Target Person",
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "comicbook_00383_.png",
+        "image"
+      ],
+      "shape": 2
+    },
+    {
+      "id": 12,
+      "type": "LoadAutoMasker",
+      "pos": {
+        "0": 97,
+        "1": 118
+      },
+      "size": {
+        "0": 436.1082458496094,
+        "1": 58
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "pipe",
+          "type": "MODEL",
+          "links": [
+            11
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadAutoMasker"
+      },
+      "widgets_values": [
+        "zhengchong/CatVTON"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "LoadCatVTONPipeline",
+      "pos": {
+        "0": 100,
+        "1": 230
+      },
+      "size": {
+        "0": 431.00823974609375,
+        "1": 106
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "pipe",
+          "type": "MODEL",
+          "links": [
+            20
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadCatVTONPipeline"
+      },
+      "widgets_values": [
+        "botp/stable-diffusion-v1-5-inpainting",
+        "zhengchong/CatVTON",
+        "bf16"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "LoadImage",
+      "pos": {
+        "0": 319.77685546875,
+        "1": 463.34710693359375
+      },
+      "size": {
+        "0": 210,
+        "1": 347.0123291015625
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            15
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "title": "Reference Garment",
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "GN68SzQaEAAZAmQ.jpg",
+        "image"
+      ],
+      "shape": 2
+    }
+  ],
+  "links": [
+    [
+      10,
+      10,
+      0,
+      13,
+      1,
+      "IMAGE"
+    ],
+    [
+      11,
+      12,
+      0,
+      13,
+      0,
+      "MODEL"
+    ],
+    [
+      14,
+      10,
+      0,
+      16,
+      1,
+      "IMAGE"
+    ],
+    [
+      15,
+      11,
+      0,
+      16,
+      2,
+      "IMAGE"
+    ],
+    [
+      17,
+      13,
+      1,
+      14,
+      0,
+      "IMAGE"
+    ],
+    [
+      18,
+      13,
+      0,
+      15,
+      0,
+      "IMAGE"
+    ],
+    [
+      19,
+      13,
+      0,
+      16,
+      3,
+      "IMAGE"
+    ],
+    [
+      20,
+      17,
+      0,
+      16,
+      0,
+      "MODEL"
+    ],
+    [
+      27,
+      16,
+      0,
+      18,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "TryOn by CatVTON",
+      "bounding": [
+        580,
+        387,
+        629,
+        441
+      ],
+      "color": "#b58b2a",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "title": "Inputs Image",
+      "bounding": [
+        80,
+        384,
+        483,
+        443
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "title": "Auto Mask Generating",
+      "bounding": [
+        580,
+        40,
+        630,
+        339
+      ],
+      "color": "#8AA",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "title": "Model Loading",
+      "bounding": [
+        80,
+        38,
+        480,
+        333
+      ],
+      "color": "#b06634",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1,
+      "offset": [
+        6.22314453125,
+        -18
+      ]
+    }
+  },
+  "version": 0.4
+}

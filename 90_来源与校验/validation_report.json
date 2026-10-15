@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-08",
+  "workflow_files": 819,
+  "selected_copies": 20,
+  "repositories": 12,
+  "hashes_passed": 819,
+  "parse_errors": [],
+  "formats": {
+    "UI画布JSON": 818,
+    "API任务JSON": 1
+  },
+  "origins": {
+    "原始JSON": 639,
+    "PNG内嵌workflow提取": 174,
+    "ZIP内JSON提取": 6
+  },
+  "duplicates_by_source_bytes": 9,
+  "unavailable": [
+    {
+      "repo": "dseditor/ComfyuiWorkflows",
+      "path": "SpecialUsage/workflowsummit.zip",
+      "issue": "File <ZipInfo filename='【SP】Anything(KritaGraph).json' compress_type=deflate external_attr=0x20 file_size=32466 compress_size=3774> is encrypted, password required for extraction",
+      "kind": "zip"
+    }
+  ],
+  "excluded_non_workflow_json": 11,
+  "gpu_execution": "未执行",
+  "dependency_installation": "未安装",
+  "model_weights": "未下载",
+  "completeness": "三个指定仓库的可获取JSON工作流、部分图片内嵌与ZIP内工作流；加密ZIP除外。官方模板按设计关键词筛选。PNG仅检查IDAT之前的workflow元数据。"
+}

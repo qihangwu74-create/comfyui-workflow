@@ -1,0 +1,16 @@
+{
+  "requested": "cubiq/ComfyUI_Workflows",
+  "repo": "cubiq/ComfyUI_Workflows",
+  "group": "02_高星补充",
+  "stars": 897,
+  "pushed_at": "2024-01-10T23:28:27Z",
+  "branch": "main",
+  "sha": "038cb775f2e8eb54bdbc99a8b9720177c7f8a336",
+  "license": "Apache-2.0",
+  "url": "https://github.com/cubiq/ComfyUI_Workflows",
+  "tree_truncated": false,
+  "retrieved_date": "2026-10-08",
+  "archived": false,
+  "workflow_count": 67,
+  "snapshot_note": "GitHub API递归树查询返回的快照标识；下载链接固定到该标识。"
+}

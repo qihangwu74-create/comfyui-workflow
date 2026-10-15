@@ -1,0 +1,16 @@
+{
+  "requested": "ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO",
+  "repo": "ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO",
+  "group": "02_高星补充",
+  "stars": 7865,
+  "pushed_at": "2024-12-20T04:28:45Z",
+  "branch": "main",
+  "sha": "5748e40d3678a1ca2a436764f29ead379be4061a",
+  "license": "GPL-3.0",
+  "url": "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO",
+  "tree_truncated": false,
+  "retrieved_date": "2026-10-08",
+  "archived": false,
+  "workflow_count": 17,
+  "snapshot_note": "GitHub API递归树查询返回的快照标识；下载链接固定到该标识。"
+}

@@ -1,0 +1,2218 @@
+{
+  "last_node_id": 303,
+  "last_link_id": 502,
+  "nodes": [
+    {
+      "id": 136,
+      "type": "EmptyImage",
+      "pos": {
+        "0": -80,
+        "1": 480
+      },
+      "size": {
+        "0": 315,
+        "1": 130
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            141,
+            324
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyImage"
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        1,
+        0
+      ]
+    },
+    {
+      "id": 139,
+      "type": "JWImageResizeByLongerSide",
+      "pos": {
+        "0": 310,
+        "1": 90
+      },
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 143
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            144
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "JWImageResizeByLongerSide"
+      },
+      "widgets_values": [
+        1024,
+        "bicubic"
+      ]
+    },
+    {
+      "id": 112,
+      "type": "LayerStyle: DropShadow",
+      "pos": {
+        "0": 1080,
+        "1": 700
+      },
+      "size": {
+        "0": 315,
+        "1": 266
+      },
+      "flags": {},
+      "order": 35,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "background_image",
+          "type": "IMAGE",
+          "link": 474
+        },
+        {
+          "name": "layer_image",
+          "type": "IMAGE",
+          "link": 100
+        },
+        {
+          "name": "layer_mask",
+          "type": "MASK",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            101
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LayerStyle: DropShadow"
+      },
+      "widgets_values": [
+        true,
+        "normal",
+        50,
+        25,
+        25,
+        6,
+        18,
+        "#000000"
+      ],
+      "color": "rgba(20, 95, 121, 0.7)"
+    },
+    {
+      "id": 113,
+      "type": "ImageListToBatch+",
+      "pos": {
+        "0": 1080,
+        "1": 620
+      },
+      "size": {
+        "0": 210,
+        "1": 26
+      },
+      "flags": {},
+      "order": 36,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 101
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            247
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageListToBatch+"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 259,
+      "type": "PreviewBridge",
+      "pos": {
+        "0": -230,
+        "1": 1260
+      },
+      "size": {
+        "0": 320,
+        "1": 340
+      },
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 412
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            416
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewBridge"
+      },
+      "widgets_values": [
+        "$259-0",
+        false,
+        "never"
+      ]
+    },
+    {
+      "id": 280,
+      "type": "CLIPTextEncode",
+      "pos": {
+        "0": 850,
+        "1": 1260
+      },
+      "size": {
+        "0": 400,
+        "1": 100
+      },
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 501
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 473,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            477
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "beautiful scenery nature glass bottle landscape, , purple galaxy bottle,",
+        true
+      ]
+    },
+    {
+      "id": 281,
+      "type": "CLIPTextEncode",
+      "pos": {
+        "0": 850,
+        "1": 1410
+      },
+      "size": {
+        "0": 410,
+        "1": 120
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 502
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            478
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "(deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation",
+        true
+      ]
+    },
+    {
+      "id": 295,
+      "type": "ControlNetLoader",
+      "pos": {
+        "0": 890,
+        "1": 1610
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CONTROL_NET",
+          "type": "CONTROL_NET",
+          "links": [
+            480
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ControlNetLoader"
+      },
+      "widgets_values": [
+        "control_v11p_sd15_openpose.pth"
+      ]
+    },
+    {
+      "id": 137,
+      "type": "LayerUtility: ImageBlendAdvance",
+      "pos": {
+        "0": 320,
+        "1": 270
+      },
+      "size": {
+        "0": 315,
+        "1": 338
+      },
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "background_image",
+          "type": "IMAGE",
+          "link": 141
+        },
+        {
+          "name": "layer_image",
+          "type": "IMAGE",
+          "link": 144,
+          "slot_index": 1
+        },
+        {
+          "name": "layer_mask",
+          "type": "MASK",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            169,
+            412,
+            468,
+            469,
+            481
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LayerUtility: ImageBlendAdvance"
+      },
+      "widgets_values": [
+        true,
+        "normal",
+        100,
+        50,
+        50,
+        "None",
+        1,
+        1,
+        0,
+        "lanczos",
+        0
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
+    },
+    {
+      "id": 293,
+      "type": "DWPreprocessor",
+      "pos": {
+        "0": 890,
+        "1": 1730
+      },
+      "size": {
+        "0": 315,
+        "1": 222
+      },
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 481
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            479
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "POSE_KEYPOINT",
+          "type": "POSE_KEYPOINT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DWPreprocessor"
+      },
+      "widgets_values": [
+        "enable",
+        "enable",
+        "enable",
+        1024,
+        "yolox_l.onnx",
+        "dw-ll_ucoco_384_bs5.torchscript.pt",
+        "disable"
+      ]
+    },
+    {
+      "id": 111,
+      "type": "LayerUtility: SimpleTextImage",
+      "pos": {
+        "0": 1070,
+        "1": 170
+      },
+      "size": {
+        "0": 300,
+        "1": 370
+      },
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "size_as",
+          "type": "*",
+          "link": 324,
+          "shape": 7
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 448,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            100
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": null,
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LayerUtility: SimpleTextImage"
+      },
+      "widgets_values": [
+        "text",
+        "TaipeiSansTCBeta-Bold.ttf",
+        "center",
+        30,
+        8,
+        30,
+        "#FFFFFF",
+        0,
+        "#FF8000",
+        40,
+        700,
+        820,
+        200,
+        true
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
+    },
+    {
+      "id": 291,
+      "type": "DifferentialDiffusion",
+      "pos": {
+        "0": 890,
+        "1": 1180
+      },
+      "size": {
+        "0": 277.20001220703125,
+        "1": 26
+      },
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 467
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            499,
+            500
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DifferentialDiffusion"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 283,
+      "type": "CLIPLoader",
+      "pos": {
+        "0": 440,
+        "1": 1400
+      },
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            501,
+            502
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPLoader"
+      },
+      "widgets_values": [
+        "ViT-L-14-BEST-smooth-GmP-TE-only-HF-format.safetensors",
+        "stable_diffusion"
+      ]
+    },
+    {
+      "id": 292,
+      "type": "CR Text Concatenate",
+      "pos": {
+        "0": 440,
+        "1": 1550
+      },
+      "size": {
+        "0": 310,
+        "1": 80
+      },
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text1",
+          "type": "STRING",
+          "link": 471,
+          "widget": {
+            "name": "text1"
+          },
+          "shape": 7
+        },
+        {
+          "name": "text2",
+          "type": "STRING",
+          "link": 472,
+          "widget": {
+            "name": "text2"
+          },
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "*",
+          "links": [
+            473
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CR Text Concatenate"
+      },
+      "widgets_values": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 294,
+      "type": "ControlNetApplyAdvanced",
+      "pos": {
+        "0": 1250,
+        "1": 1770
+      },
+      "size": {
+        "0": 315,
+        "1": 186
+      },
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 477
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 478
+        },
+        {
+          "name": "control_net",
+          "type": "CONTROL_NET",
+          "link": 480
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 479
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "links": [
+            475
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "links": [
+            476
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ControlNetApplyAdvanced"
+      },
+      "widgets_values": [
+        0.6,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 290,
+      "type": "VAEEncodeForInpaint",
+      "pos": {
+        "0": 1280,
+        "1": 1600
+      },
+      "size": {
+        "0": 340.20001220703125,
+        "1": 98
+      },
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pixels",
+          "type": "IMAGE",
+          "link": 469
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 465
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 470
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            492
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEEncodeForInpaint"
+      },
+      "widgets_values": [
+        6
+      ]
+    },
+    {
+      "id": 285,
+      "type": "ControlNetApplyAdvanced",
+      "pos": {
+        "0": 1300,
+        "1": 1360
+      },
+      "size": {
+        "0": 315,
+        "1": 186
+      },
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 475
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 476
+        },
+        {
+          "name": "control_net",
+          "type": "CONTROL_NET",
+          "link": 460
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 468
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "links": [
+            484
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "links": [
+            485
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ControlNetApplyAdvanced"
+      },
+      "widgets_values": [
+        0.6,
+        0,
+        1
+      ]
+    },
+    {
+      "id": 286,
+      "type": "ControlNetLoader",
+      "pos": {
+        "0": 1300,
+        "1": 1230
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CONTROL_NET",
+          "type": "CONTROL_NET",
+          "links": [
+            460
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ControlNetLoader"
+      },
+      "widgets_values": [
+        "outfitToOutfit_v20.safetensors"
+      ]
+    },
+    {
+      "id": 298,
+      "type": "CFGGuider",
+      "pos": {
+        "0": 1640,
+        "1": 1220
+      },
+      "size": {
+        "0": 315,
+        "1": 98
+      },
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 499
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 484
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 485
+        }
+      ],
+      "outputs": [
+        {
+          "name": "GUIDER",
+          "type": "GUIDER",
+          "links": [
+            483
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CFGGuider"
+      },
+      "widgets_values": [
+        6
+      ]
+    },
+    {
+      "id": 302,
+      "type": "BasicScheduler",
+      "pos": {
+        "0": 1640,
+        "1": 1970
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 500
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            490
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BasicScheduler"
+      },
+      "widgets_values": [
+        "sgm_uniform",
+        25,
+        1
+      ]
+    },
+    {
+      "id": 301,
+      "type": "KSamplerSelect",
+      "pos": {
+        "0": 1640,
+        "1": 1860
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            489
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "widgets_values": [
+        "dpmpp_2m"
+      ]
+    },
+    {
+      "id": 299,
+      "type": "RandomNoise",
+      "pos": {
+        "0": 1640,
+        "1": 1370
+      },
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "NOISE",
+          "type": "NOISE",
+          "links": [
+            487
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      },
+      "widgets_values": [
+        1071308306848750,
+        "fixed"
+      ]
+    },
+    {
+      "id": 300,
+      "type": "DetailDaemonSamplerNode",
+      "pos": {
+        "0": 1650,
+        "1": 1520
+      },
+      "size": {
+        "0": 315,
+        "1": 274
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 489
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            488
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DetailDaemonSamplerNode"
+      },
+      "widgets_values": [
+        0.2,
+        0.1,
+        0.9,
+        0.5,
+        0.6,
+        0,
+        0,
+        0,
+        true,
+        0
+      ]
+    },
+    {
+      "id": 284,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 2030,
+        "1": 1660
+      },
+      "size": {
+        "0": 530,
+        "1": 400
+      },
+      "flags": {},
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 457
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 297,
+      "type": "SamplerCustomAdvanced",
+      "pos": {
+        "0": 2030,
+        "1": 1500
+      },
+      "size": {
+        "0": 355.20001220703125,
+        "1": 106
+      },
+      "flags": {},
+      "order": 32,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "noise",
+          "type": "NOISE",
+          "link": 487
+        },
+        {
+          "name": "guider",
+          "type": "GUIDER",
+          "link": 483
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 488
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 490
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 492
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": null
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": [
+            482
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 282,
+      "type": "VAEDecode",
+      "pos": {
+        "0": 2020,
+        "1": 1410
+      },
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 482
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 456
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            457,
+            474
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 239,
+      "type": "MaskPreview+",
+      "pos": {
+        "0": 340,
+        "1": 700
+      },
+      "size": {
+        "0": 300,
+        "1": 350
+      },
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 424
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "MaskPreview+"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 254,
+      "type": "LayerUtility: TextBox",
+      "pos": {
+        "0": -20,
+        "1": 690
+      },
+      "size": {
+        "0": 320,
+        "1": 81
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            471
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "BackgroundAndHairColor",
+      "properties": {
+        "Node name for S&R": "LayerUtility: TextBox"
+      },
+      "widgets_values": [
+        "masterpiece,ultradetailed,photo of a girl wearing",
+        true
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
+    },
+    {
+      "id": 140,
+      "type": "LayerMask: PersonMaskUltra",
+      "pos": {
+        "0": -30,
+        "1": 820
+      },
+      "size": {
+        "0": 315,
+        "1": 318
+      },
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 169
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": [
+            404
+          ],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LayerMask: PersonMaskUltra"
+      },
+      "widgets_values": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        0.2,
+        10,
+        0.3,
+        0.8,
+        true
+      ],
+      "color": "rgba(27, 80, 119, 0.7)"
+    },
+    {
+      "id": 257,
+      "type": "SaveImage",
+      "pos": {
+        "0": 1470,
+        "1": 620
+      },
+      "size": {
+        "0": 490,
+        "1": 380
+      },
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 395
+        }
+      ],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "HairStyle/ComfyUI"
+      ]
+    },
+    {
+      "id": 187,
+      "type": "CR Comic Panel Templates",
+      "pos": {
+        "0": 1460,
+        "1": 160
+      },
+      "size": {
+        "0": 315,
+        "1": 366
+      },
+      "flags": {},
+      "order": 37,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 247,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            395
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CR Comic Panel Templates"
+      },
+      "widgets_values": [
+        3072,
+        2048,
+        "custom",
+        "left to right",
+        5,
+        2,
+        "custom",
+        "custom",
+        "custom",
+        "H33",
+        "#000000",
+        "#000000",
+        "#000000"
+      ]
+    },
+    {
+      "id": 276,
+      "type": "GoogleTranslateTextNode",
+      "pos": {
+        "0": 700,
+        "1": 870
+      },
+      "size": {
+        "0": 220,
+        "1": 170
+      },
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 445,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            448
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "GoogleTranslateTextNode"
+      },
+      "widgets_values": [
+        "auto",
+        "zh-tw",
+        false,
+        "Manual Trasnlate",
+        "",
+        true
+      ]
+    },
+    {
+      "id": 220,
+      "type": "ShowText|pysssss",
+      "pos": {
+        "0": 700,
+        "1": 300
+      },
+      "size": {
+        "0": 270,
+        "1": 510
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 315,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            445,
+            472
+          ],
+          "slot_index": 0,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        [
+          "Cave Queen: Brown crystal-detailed gown with earth tones. Underground royalty meets mineral grace",
+          "Rock Princess: Leather mini dress with tulle overlay and studded details. Edgy elements meet soft romance",
+          "Urban Fairy: Metallic mesh dress with butterfly wing details. City magic meets ethereal style",
+          "Desert Spirit: Sand-colored flowing dress with wind patterns. Arabian soul meets dynamic movement",
+          "Minimalist Monochrome: A sleek black turtleneck tucked into high-waisted white wide-leg pants. Accessorized with a geometric gold pendant, showcasing modern sophistication",
+          "Diamond Queen: Clear crystal dress with geometric cuts. Gem royalty meets sharp elegance"
+        ],
+        "Rock Elegance: Leather pencil skirt paired with a silk blouse and studded blazer. Edgy elements meet refined sophistication",
+        "City Spirit: Metallic dress with urban skyline patterns. Metropolitan soul meets evening shine",
+        "Thunder Warrior: Grey layered dress with lightning bolt details. Storm power meets battle ready",
+        "Desert Rose: Blush pink kaftan dress with delicate embroidery. Middle Eastern charm meets modern elegance",
+        "Twilight Enchantress: Deep purple velvet gown with starlight crystals and gossamer cape. Mystical elegance meets evening sophistication",
+        "Gothic Romance: A velvet midi dress in deep purple with Victorian-inspired lace details. Features a high collar and fitted sleeves, expressing dramatic elegance"
+      ]
+    },
+    {
+      "id": 219,
+      "type": "RandomPrompt",
+      "pos": {
+        "0": 710,
+        "1": 240
+      },
+      "size": {
+        "0": 320,
+        "1": 310
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "seed",
+          "type": "*",
+          "link": 318,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            315
+          ],
+          "slot_index": 0,
+          "shape": 6
+        }
+      ],
+      "title": "ClothesStyles",
+      "properties": {
+        "Node name for S&R": "RandomPrompt"
+      },
+      "widgets_values": [
+        6,
+        "Bohemian Maxi Dress: A flowing ankle-length dress in rich burgundy chiffon with floral prints, featuring bell sleeves and a deep V-neckline. Adorned with wooden beaded details, creating a free-spirited, artistic vibe\nCorporate Power Suit: A structured charcoal grey blazer with subtle shoulder pads paired with slim-fit trousers. Accented with satin-lined lapels and a crisp white silk blouse, exuding professional confidence\nStreet Style Ensemble: Distressed boyfriend jeans paired with a cropped graphic tee and an oversized denim jacket. Layered with chunky silver chains, bringing an edgy urban attitude\nVintage Tea Dress: A polka dot midi dress in pastel blue with a sweetheart neckline and puff sleeves. Cinched at the waist with a thin patent belt, embodying retro charm\nMinimalist Monochrome: A sleek black turtleneck tucked into high-waisted white wide-leg pants. Accessorized with a geometric gold pendant, showcasing modern sophistication\nFestival Boho Set: Crochet crop top in cream paired with high-waisted flared pants in earthy tones. Embellished with fringe details and layered necklaces, perfect for a carefree spirit\nPreppy Academic Look: A pleated plaid skirt paired with a fitted cashmere sweater and white collar shirt. Topped with a tailored blazer, capturing scholarly elegance\nRomantic Evening Gown: A floor-length silk dress in deep emerald with a cowl neckline and thigh-high slit. Features delicate beading along the back, radiating timeless glamour\nSporty Luxe Outfit: High-performance leggings paired with a cropped windbreaker in metallic silver. Layered with a mesh tank top, blending athleticism with style\nCoastal Resort Wear: A breezy linen jumpsuit in sandy beige with wide legs and a tie waist. Accented with rope belt details, perfect for sophisticated beach vibes\nGothic Romance: A velvet midi dress in deep purple with Victorian-inspired lace details. Features a high collar and fitted sleeves, expressing dramatic elegance\nContemporary Minimalist: A tailored midi dress in pristine white with architectural cut-outs. Clean lines and asymmetrical hemline create modern artistic appeal\nUrban Grunge: Ripped black skinny jeans paired with an oversized band tee and plaid flannel shirt. Topped with a leather moto jacket for rebellious edge\nGarden Party Dress: A tiered floral sundress in soft pastels with ruffled cap sleeves. Adorned with ribbon details, embodying sweet feminine charm\nPower Casual: Tailored culottes in navy paired with a silk blouse and structured vest. Finished with gold hardware accents for refined authority\nFestival Hippie: Tie-dye maxi skirt paired with a crochet halter top in rainbow hues. Adorned with peace sign accessories and fringe details\nModern Ballet: A blush pink wrap dress with tulle overlay and ballet-inspired crossover bodice. Ethereal and graceful movement in every detail\nTech Wear: Water-resistant cargo pants with multiple pockets paired with a cropped tactical vest. Utilitarian details in sleek monochrome\nEco-Chic: Sustainable hemp fabric dress in natural tones with raw edges. Features hand-embroidered details celebrating conscious fashion\nGlam Rock: Metallic leather pants paired with a sequined top and studded jacket. Bold statement pieces for rebellious sophistication\nMediterranean Resort: Off-shoulder linen dress in azure blue with Mediterranean tile print. Features side splits for elegant beachside style\nNordic Minimal: Clean-lined shift dress in slate grey with geometric cutouts. Architectural simplicity meets Scandinavian design\nParisian Chic: High-waisted cigarette pants paired with a striped boat neck top. Classic French styling with modern sophistication\nDesert Bohemian: Layered maxi dress in terra cotta with tribal prints and tassels. Natural elements meet artistic expression\nAsian Fusion: Modern qipao-inspired dress with contemporary abstract prints. Traditional silhouette with avant-garde details\nRock Elegance: Leather pencil skirt paired with a silk blouse and studded blazer. Edgy elements meet refined sophistication\nTropical Paradise: Palm print jumpsuit in vibrant greens with wide-leg silhouette. Exotic patterns meet resort elegance\nIndustrial Chic: Utility jumpsuit in graphite grey with contrast stitching. Functional details meet contemporary style\nRenaissance Modern: Velvet blazer dress with corset details and flowing sleeves. Historical elements in contemporary context\nArctic Minimalist: Oversized wool coat dress in ice white with clean lines. Scandinavian simplicity meets winter elegance\nSafari Adventure: Utility dress in khaki with multiple pockets and belt details. Practical elements meet refined exploration\nUrban Samurai: Wide-leg hakama-style pants paired with minimalist top. Japanese influence meets street style\nLatino Flair: Ruffled salsa dress in crimson with asymmetrical hem. Dynamic movement meets passionate expression\nCyber Punk: Holographic fabric dress with geometric cutouts and LED trim. Futuristic elements meet urban edge\nMountain Chic: Cable knit sweater dress with leather accents and toggle closures. Alpine style meets urban sophistication\nOcean Waves: Ombre chiffon dress in sea blues with flowing layers. Coastal inspiration meets elegant movement\nDesert Night: Metallic jumpsuit with draped elements in midnight blue. Arabian nights meet modern glamour\nForest Fairy: Moss green layered dress with organic patterns and leaf details. Natural elements meet whimsical design\nUrban Tribal: Geometric print dress with modern tribal elements. Cultural inspiration meets city sophistication\nIce Queen: Crystal-embellished gown in frost white with cape details. Winter drama meets royal elegance\nSteam Punk: Brown leather corset dress with brass hardware details. Victorian elements meet industrial style\nTokyo Pop: Colorful layered dress with anime-inspired prints. Japanese pop culture meets fashion forward\nMediterranean Goddess: Draped dress in ivory with gold rope details. Ancient inspiration meets modern grace\nDisco Revival: Sequined jumpsuit with flared legs in rainbow metallic. Retro glamour meets modern party\nArctic Explorer: Technical fabric dress with quilted elements and fur trim. Polar function meets urban style\nJazz Age: Fringe dress in gold with art deco patterns. 1920s inspiration meets modern movement\nCosmic Galaxy: Star-printed velvet dress with constellation details. Universe inspiration meets evening wear\nRainforest Luxe: Tropical print jumpsuit with bamboo belt details. Exotic nature meets luxury style\nDesert Rose: Blush pink kaftan dress with delicate embroidery. Middle Eastern charm meets modern elegance\nUrban Warrior: Asymmetrical dress with protective padding details. Combat style meets fashion forward\nMountain Spring: Floral print dress with alpine flower motifs. Mountain beauty meets feminine grace\nOcean Depths: Gradient blue jumpsuit with wave-inspired details. Deep sea meets elegant design\nNight Sky: Dark sequined dress with star constellation patterns. Celestial beauty meets evening glamour\nForest Mystery: Dark green velvet dress with woodland elements. Natural mystery meets sophisticated style\nCity Lights: Reflective fabric dress with geometric patterns. Urban glow meets modern design\nDesert Wind: Flowing kaftan with abstract dune patterns. Desert movement meets elegant comfort\nArctic Dawn: Pale pink dress with ice crystal embellishments. Polar beauty meets delicate design\nTropical Storm: Navy dress with dynamic storm patterns. Weather drama meets elegant structure\nMountain Peak: White structured dress with geometric mountain cuts. Alpine peaks meet modern angles\nUrban Garden: Floral print jumpsuit with city skyline elements. Natural beauty meets urban structure\nSunset Safari: Terracotta jumpsuit with utilitarian pockets and adjustable waist ties. Copper hardware details create adventurous sophistication while maintaining elegance\nWinter Lodge: Cable-knit sweater dress in cream with suede elbow patches and leather belt. Cozy sophistication meets rustic charm\nMetro Geisha: Modern kimono-inspired wrap dress in black with abstract crane prints. Contemporary Asian fusion with urban edge\nDiamond Ice: Crystal-studded mini dress in silver with geometric cutouts. Arctic inspiration meets club glamour\nPrairie Romance: Ruffled maxi dress in dusty rose with vintage floral prints. Pioneer charm meets modern femininity\nTech Ninja: Black asymmetrical dress with waterproof panels and hidden pockets. Stealth functionality meets avant-garde fashion\nCoral Reef: Layered chiffon dress in aqua tones with pearl embellishments. Ocean depths meet ethereal beauty\nDesert Moon: Silver kaftan with crescent moon embroidery and flowing sleeves. Arabian nights meet celestial beauty\nUrban Samurai: Pleated wide-leg pants with structured crop top in charcoal. Japanese warrior meets street style\nMountain Mist: Grey ombre dress with cloudy patterns and draped elements. Alpine atmosphere meets fluid design\nJungle Queen: Leopard print wrap dress with gold chain details. Wild sophistication meets regal charm\nCity Bloom: Structured dress with architectural flower cutouts in white. Urban gardens meet minimal design\nPolar Aurora: Iridescent evening gown with flowing cape in northern lights colors. Arctic wonder meets evening drama\nZen Garden: Minimalist linen dress with subtle origami folds in sage green. Eastern tranquility meets western simplicity\nSafari Glam: Animal print blazer dress with gold button details. Wild elements meet corporate polish\nDesert Goddess: Floor-length dress in sand tones with golden thread embroidery. Middle Eastern luxury meets modern grace\nRock Princess: Leather mini dress with tulle overlay and studded details. Edgy elements meet soft romance\nTropical Minimalist: Clean-lined dress in paradise bird print with side slits. Exotic prints meet architectural design\nArctic Warrior: White structured coat dress with silver armor-like details. Ice queen meets battle ready\nForest Spirit: Emerald green velvet dress with leaf-like layers. Woodland magic meets evening sophistication\nOcean Depths: Navy sequined gown with wave-like beading patterns. Deep sea mystery meets red carpet glamour\nMountain Echo: Grey draped dress with rocky texture prints. Alpine beauty meets abstract art\nUrban Fairy: Metallic mesh dress with butterfly wing details. City magic meets ethereal style\nDesert Storm: Beige asymmetrical dress with windswept draping. Sandy wilderness meets dynamic design\nPolar Night: Dark blue velvet gown with crystal star details. Arctic darkness meets celestial beauty\nRainforest Mist: Green ombre dress with delicate leaf prints. Tropical nature meets morning dew\nMetro Goddess: Gold lamé dress with art deco patterns. City lights meet divine elegance\nTundra Tales: White textured dress with snowflake cutouts. Arctic stories meet modern craft\nSavanna Sunset: Orange ombre maxi dress with tribal prints. African inspiration meets evening grace\nCosmic Dreams: Space print jumpsuit with constellation details. Galaxy wonder meets urban style\nBeach Warrior: Sand-colored structured dress with shell-like armor details. Coastal strength meets battle wear\nForest Queen: Dark green velvet gown with golden leaf embroidery. Woodland royalty meets evening drama\nCity Shaman: Tribal print dress with modern geometric elements. Ancient wisdom meets urban edge\nMountain Spirit: Grey chiffon dress with misty mountain prints. Alpine soul meets flowing grace\nDesert Princess: Blush pink gown with golden dune patterns. Arabian luxury meets royal grace\nJungle Minimalist: Clean-cut dress in tropical prints with architectural lines. Wild prints meet urban structure\nArctic Goddess: Ice blue gown with crystal snowflake embellishments. Frozen beauty meets divine elegance\nOcean Warrior: Navy structured dress with wave-like armor details. Sea power meets battle ready\nForest Fairy: Green tulle dress with leaf-like layers and flower details. Woodland magic meets whimsical charm\nCity Phoenix: Red ombre dress with flame-like layers and gold details. Urban rebirth meets fiery glamour\nMountain Queen: White structured gown with peaks and valleys in design. Alpine royalty meets architectural grace\nTropical Warrior: Palm print structured dress with protective elements. Paradise meets battle wear\nDesert Fairy: Nude tulle dress with golden sand sparkles. Arabian magic meets ethereal beauty\nArctic Shaman: White textured dress with tribal ice patterns. Frozen wisdom meets mystical style\nOcean Princess: Aqua silk gown with pearl and shell details. Sea royalty meets elegant grace\nForest Goddess: Emerald structured dress with living wall texture. Woodland deity meets architectural strength\nCity Spirit: Metallic dress with urban skyline patterns. Metropolitan soul meets evening shine\nMountain Fairy: Grey tulle dress with rocky crystal details. Alpine magic meets whimsical grace\nDesert Queen: Gold structured gown with dune-like layers. Arabian royalty meets architectural drama\nTropical Goddess: Vibrant print dress with divine draping. Paradise deity meets flowing elegance\nArctic Princess: Ice pink gown with diamond-like crystal details. Frozen royalty meets elegant beauty\nOcean Goddess: Turquoise flowing dress with wave-like layers. Sea deity meets fluid grace\nForest Princess: Moss green gown with delicate vine details. Woodland royalty meets natural elegance\nCity Queen: Black structured dress with neon light patterns. Urban royalty meets modern power\nMountain Goddess: Silver flowing gown with peak-like elements. Alpine deity meets divine grace\nDesert Spirit: Sand-colored flowing dress with wind patterns. Arabian soul meets dynamic movement\nTropical Queen: Bold print structured gown with regal details. Paradise royalty meets architectural drama\nArctic Fairy: White tulle dress with ice crystal embellishments. Frozen magic meets whimsical beauty\nTwilight Enchantress: Deep purple velvet gown with starlight crystals and gossamer cape. Mystical elegance meets evening sophistication\nNeon Samurai: Black structured dress with electric blue geometric panels. Cyberpunk warrior meets urban edge\nGarden Sorceress: Emerald green dress with living flower embellishments and vine details. Natural magic meets couture design\nHighland Warrior: Tartan structured dress with leather harness details. Scottish strength meets battle elegance\nCloud Dancer: White chiffon dress with silver mist details and flowing panels. Sky spirit meets ethereal movement\nElectric Geisha: Modern kimono dress with LED trim and circuit patterns. Traditional Asian meets future tech\nDesert Enchantress: Gold mesh dress with moving sand patterns and crystal details. Arabian magic meets evening allure\nFrost Ninja: Ice blue structured dress with snowflake armor panels. Winter warrior meets stealth design\nBamboo Princess: Green silk dress with subtle bamboo prints and jade details. Asian royalty meets natural grace\nVolcanic Queen: Black and red ombre gown with lava-like texture. Molten elegance meets fierce power\nLunar Goddess: Silver structured dress with moon phase patterns. Celestial deity meets architectural grace\nThunder Warrior: Grey layered dress with lightning bolt details. Storm power meets battle ready\nRiver Spirit: Blue flowing dress with water ripple patterns. Stream soul meets fluid grace\nCrystal Sorceress: Clear sequined dress with prismatic light effects. Gem magic meets evening sparkle\nDawn Priestess: Pink ombre gown with sunrise patterns and gold trim. Morning ritual meets divine elegance\nStorm Queen: Dark grey structured dress with cloud patterns. Weather royalty meets powerful design\nMeadow Fairy: Pastel floral dress with butterfly wing details. Spring magic meets whimsical charm\nEmber Princess: Orange and gold gown with flame-like layers. Fire royalty meets passionate elegance\nWind Dancer: Flowing white dress with air current patterns. Breeze spirit meets graceful movement\nStar Warrior: Black structured dress with constellation armor. Galaxy battle meets evening power\nRain Goddess: Blue droplet-beaded gown with storm cloud details. Weather deity meets fluid grace\nDragon Princess: Red scaled dress with metallic armor details. Asian mythology meets fierce elegance\nSnow Queen: White crystal-encrusted gown with ice texture. Winter royalty meets frozen glamour\nLotus Warrior: Pink structured dress with petal-like armor. Asian flower meets battle beauty\nRainbow Spirit: Multicolored chiffon dress with prism effects. Light soul meets joyful movement\nCave Princess: Grey structured dress with crystal geode details. Earth royalty meets mineral beauty\nSky Dancer: Blue ombre dress with cloud-like layers. Heaven spirit meets graceful movement\nPearl Queen: Iridescent structured gown with shell texture. Ocean royalty meets lustrous elegance\nFire Ninja: Red and black structured dress with flame patterns. Heat warrior meets stealth design\nDiamond Spirit: Crystal-clear structured dress with gem cuts. Mineral soul meets sharp elegance\nCloud Queen: White layered dress with silver lining details. Sky royalty meets ethereal grace\nLightning Princess: Silver structured dress with electric details. Storm royalty meets powerful beauty\nShell Warrior: Pink armored dress with nautical details. Beach battle meets ocean strength\nCrystal Fairy: Clear sequined dress with rainbow effects. Gem magic meets whimsical charm\nStorm Sorceress: Grey ombre gown with lightning patterns. Weather magic meets fierce power\nPearl Princess: White structured dress with shell details. Ocean royalty meets elegant grace\nFlame Dancer: Red flowing dress with fire patterns. Heat spirit meets passionate movement\nIce Warrior: Blue structured dress with frozen details. Winter battle meets cool strength\nCave Queen: Brown crystal-detailed gown with earth tones. Underground royalty meets mineral grace\nRainbow Princess: Colorful structured dress with light effects. Prism royalty meets joyful beauty\nThunder Queen: Dark grey armored dress with storm details. Weather royalty meets powerful grace\nShell Princess: Pink structured gown with nautical patterns. Beach royalty meets ocean beauty\nDiamond Queen: Clear crystal dress with geometric cuts. Gem royalty meets sharp elegance\nCloud Warrior: White armored dress with silver details. Sky battle meets ethereal strength\nLightning Spirit: Silver flowing dress with electric patterns. Storm soul meets dynamic movement\nFire Princess: Red structured gown with flame details. Heat royalty meets passionate beauty\nIce Queen: Blue crystal dress with frozen patterns. Winter royalty meets cool elegance\nCave Spirit: Brown flowing dress with crystal details. Earth soul meets mineral grace\nRainbow Warrior: Multicolored armored dress with light effects. Prism battle meets joyful strength\nThunder Princess: Grey structured gown with storm patterns. Weather royalty meets powerful beauty\nShell Queen: Pink crystal dress with ocean details. Beach royalty meets nautical elegance\nDiamond Princess: Clear structured gown with gem cuts. Mineral royalty meets sharp beauty\nCloud Spirit: White flowing dress with silver patterns. Sky soul meets ethereal grace\nLightning Queen: Silver crystal dress with electric details. Storm royalty meets dynamic elegance\nFire Queen: Red armored gown with flame patterns. Heat royalty meets passionate strength\nIce Princess: Blue structured dress with frozen details. Winter royalty meets cool beauty\nCave Warrior: Brown armored dress with crystal patterns. Earth battle meets mineral strength\nRainbow Queen: Colorful crystal gown with light effects. Prism royalty meets joyful elegance\n",
+        "`` ",
+        "enable",
+        null
+      ]
+    },
+    {
+      "id": 221,
+      "type": "RandomNoise",
+      "pos": {
+        "0": 680,
+        "1": 100
+      },
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "NOISE",
+          "type": "NOISE",
+          "links": [
+            318
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      },
+      "widgets_values": [
+        229044338405404,
+        "randomize"
+      ]
+    },
+    {
+      "id": 262,
+      "type": "ImpactSwitch",
+      "pos": {
+        "0": 170,
+        "1": 1310
+      },
+      "size": {
+        "0": 210,
+        "1": 122
+      },
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "input1",
+          "type": "MASK",
+          "link": 404,
+          "shape": 7
+        },
+        {
+          "name": "input2",
+          "type": "MASK",
+          "link": 416
+        },
+        {
+          "name": "input3",
+          "type": "MASK",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            424,
+            470
+          ],
+          "slot_index": 0,
+          "label": "MASK"
+        },
+        {
+          "name": "selected_label",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "selected_index",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImpactSwitch"
+      },
+      "widgets_values": [
+        1,
+        false
+      ]
+    },
+    {
+      "id": 279,
+      "type": "CheckpointLoaderSimple",
+      "pos": {
+        "0": 440,
+        "1": 1250
+      },
+      "size": {
+        "0": 315,
+        "1": 98
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            467
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [],
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            456,
+            465
+          ],
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "epicphotogasm_ultimateFidelity.safetensors"
+      ]
+    },
+    {
+      "id": 138,
+      "type": "LoadImage",
+      "pos": {
+        "0": -70,
+        "1": 80
+      },
+      "size": {
+        "0": 320,
+        "1": 310
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            143
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "real_00125_.png",
+        "image"
+      ]
+    },
+    {
+      "id": 277,
+      "type": "Note",
+      "pos": {
+        "0": 100,
+        "1": 1670
+      },
+      "size": [
+        300,
+        140
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "epiCPhotoGasm\nhttps://civitai.com/models/132632\n\nOutfit2outfit\nhttps://civitai.com/models/191956/outfit-to-outfit-controlnet-outfit2outfit\n\nSelect Switch2 To Painting Manual Mask\n\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    }
+  ],
+  "links": [
+    [
+      100,
+      111,
+      0,
+      112,
+      1,
+      "IMAGE"
+    ],
+    [
+      101,
+      112,
+      0,
+      113,
+      0,
+      "IMAGE"
+    ],
+    [
+      141,
+      136,
+      0,
+      137,
+      0,
+      "IMAGE"
+    ],
+    [
+      143,
+      138,
+      0,
+      139,
+      0,
+      "IMAGE"
+    ],
+    [
+      144,
+      139,
+      0,
+      137,
+      1,
+      "IMAGE"
+    ],
+    [
+      169,
+      137,
+      0,
+      140,
+      0,
+      "IMAGE"
+    ],
+    [
+      247,
+      113,
+      0,
+      187,
+      0,
+      "IMAGE"
+    ],
+    [
+      315,
+      219,
+      0,
+      220,
+      0,
+      "STRING"
+    ],
+    [
+      318,
+      221,
+      0,
+      219,
+      0,
+      "*"
+    ],
+    [
+      324,
+      136,
+      0,
+      111,
+      0,
+      "*"
+    ],
+    [
+      395,
+      187,
+      0,
+      257,
+      0,
+      "IMAGE"
+    ],
+    [
+      404,
+      140,
+      1,
+      262,
+      0,
+      "*"
+    ],
+    [
+      412,
+      137,
+      0,
+      259,
+      0,
+      "IMAGE"
+    ],
+    [
+      416,
+      259,
+      1,
+      262,
+      1,
+      "MASK"
+    ],
+    [
+      424,
+      262,
+      0,
+      239,
+      0,
+      "MASK"
+    ],
+    [
+      445,
+      220,
+      0,
+      276,
+      0,
+      "STRING"
+    ],
+    [
+      448,
+      276,
+      0,
+      111,
+      1,
+      "STRING"
+    ],
+    [
+      456,
+      279,
+      2,
+      282,
+      1,
+      "VAE"
+    ],
+    [
+      457,
+      282,
+      0,
+      284,
+      0,
+      "IMAGE"
+    ],
+    [
+      460,
+      286,
+      0,
+      285,
+      2,
+      "CONTROL_NET"
+    ],
+    [
+      465,
+      279,
+      2,
+      290,
+      1,
+      "VAE"
+    ],
+    [
+      467,
+      279,
+      0,
+      291,
+      0,
+      "MODEL"
+    ],
+    [
+      468,
+      137,
+      0,
+      285,
+      3,
+      "IMAGE"
+    ],
+    [
+      469,
+      137,
+      0,
+      290,
+      0,
+      "IMAGE"
+    ],
+    [
+      470,
+      262,
+      0,
+      290,
+      2,
+      "MASK"
+    ],
+    [
+      471,
+      254,
+      0,
+      292,
+      0,
+      "STRING"
+    ],
+    [
+      472,
+      220,
+      0,
+      292,
+      1,
+      "STRING"
+    ],
+    [
+      473,
+      292,
+      0,
+      280,
+      1,
+      "STRING"
+    ],
+    [
+      474,
+      282,
+      0,
+      112,
+      0,
+      "IMAGE"
+    ],
+    [
+      475,
+      294,
+      0,
+      285,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      476,
+      294,
+      1,
+      285,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      477,
+      280,
+      0,
+      294,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      478,
+      281,
+      0,
+      294,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      479,
+      293,
+      0,
+      294,
+      3,
+      "IMAGE"
+    ],
+    [
+      480,
+      295,
+      0,
+      294,
+      2,
+      "CONTROL_NET"
+    ],
+    [
+      481,
+      137,
+      0,
+      293,
+      0,
+      "IMAGE"
+    ],
+    [
+      482,
+      297,
+      1,
+      282,
+      0,
+      "LATENT"
+    ],
+    [
+      483,
+      298,
+      0,
+      297,
+      1,
+      "GUIDER"
+    ],
+    [
+      484,
+      285,
+      0,
+      298,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      485,
+      285,
+      1,
+      298,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      487,
+      299,
+      0,
+      297,
+      0,
+      "NOISE"
+    ],
+    [
+      488,
+      300,
+      0,
+      297,
+      2,
+      "SAMPLER"
+    ],
+    [
+      489,
+      301,
+      0,
+      300,
+      0,
+      "SAMPLER"
+    ],
+    [
+      490,
+      302,
+      0,
+      297,
+      3,
+      "SIGMAS"
+    ],
+    [
+      492,
+      290,
+      0,
+      297,
+      4,
+      "LATENT"
+    ],
+    [
+      499,
+      291,
+      0,
+      298,
+      0,
+      "MODEL"
+    ],
+    [
+      500,
+      291,
+      0,
+      302,
+      0,
+      "MODEL"
+    ],
+    [
+      501,
+      283,
+      0,
+      280,
+      0,
+      "CLIP"
+    ],
+    [
+      502,
+      283,
+      0,
+      281,
+      0,
+      "CLIP"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "Outfit",
+      "bounding": [
+        430,
+        1090,
+        2170,
+        1040
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "title": "TextAndCombine",
+      "bounding": [
+        1040,
+        40,
+        960,
+        980
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "title": "Portrait",
+      "bounding": [
+        -90,
+        0,
+        735,
+        624
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "title": "ManualMaskSwitch2",
+      "bounding": [
+        -240,
+        1180,
+        380,
+        420
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1,
+      "offset": [
+        412.5,
+        25
+      ]
+    }
+  },
+  "version": 0.4
+}

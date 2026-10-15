@@ -1,0 +1,851 @@
+{
+  "last_node_id": 39,
+  "last_link_id": 65,
+  "nodes": [
+    {
+      "id": 9,
+      "type": "ModelSamplingFlux",
+      "pos": [
+        690,
+        -190
+      ],
+      "size": [
+        320,
+        130
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 65
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "link": 11,
+          "widget": {
+            "name": "width"
+          }
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "link": 12,
+          "widget": {
+            "name": "height"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            40,
+            43
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ModelSamplingFlux"
+      },
+      "widgets_values": [
+        1.15,
+        0.5,
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": 12,
+      "type": "PrimitiveNode",
+      "pos": [
+        710,
+        -520
+      ],
+      "size": [
+        300,
+        270
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            14,
+            15
+          ],
+          "slot_index": 0,
+          "widget": {
+            "name": "clip_l"
+          }
+        }
+      ],
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "A photo-realistic shoot from a profile camera angle about a young asian woman standing in a flooded industrial environment, wearing a red dress. the image also shows red flowers and tangled wires in the background. on the middle of the image, a 20-year-old woman, who appears to be in her mid-twenties, with long black hair, is standing with her back to the camera, looking to the side with a serene expression. she is wearing a sleeveless red dress and has a silver choker around her neck. her hair is styled in long hair and falls down her back. she has a slender physique and is wearing earrings. her body is partially submerged in the water, with water droplets visible on her skin. the background features a high-tech laboratory with various machinery and wires, and the lighting is bright and natural."
+      ]
+    },
+    {
+      "id": 10,
+      "type": "SDXLEmptyLatentSizePicker+",
+      "pos": [
+        340,
+        -520
+      ],
+      "size": [
+        315,
+        170
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            44
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": [
+            11
+          ],
+          "slot_index": 1,
+          "shape": 3
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": [
+            12
+          ],
+          "slot_index": 2,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SDXLEmptyLatentSizePicker+"
+      },
+      "widgets_values": [
+        "1024x1024 (1.0)",
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 34,
+      "type": "DetailDaemonSamplerNode",
+      "pos": [
+        710,
+        10
+      ],
+      "size": [
+        315,
+        274
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 47
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            48
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DetailDaemonSamplerNode"
+      },
+      "widgets_values": [
+        0.5,
+        0.2,
+        0.8,
+        0.5,
+        0.3,
+        0,
+        0,
+        0,
+        false,
+        0
+      ]
+    },
+    {
+      "id": 11,
+      "type": "CLIPTextEncodeFlux",
+      "pos": [
+        1040,
+        -370
+      ],
+      "size": [
+        300,
+        120
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 13
+        },
+        {
+          "name": "clip_l",
+          "type": "STRING",
+          "link": 14,
+          "widget": {
+            "name": "clip_l"
+          }
+        },
+        {
+          "name": "t5xxl",
+          "type": "STRING",
+          "link": 15,
+          "widget": {
+            "name": "t5xxl"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            38
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncodeFlux"
+      },
+      "widgets_values": [
+        "A photo-realistic shoot from a profile camera angle about a young asian woman standing in a flooded industrial environment, wearing a red dress. the image also shows red flowers and tangled wires in the background. on the middle of the image, a 20-year-old woman, who appears to be in her mid-twenties, with long black hair, is standing with her back to the camera, looking to the side with a serene expression. she is wearing a sleeveless red dress and has a silver choker around her neck. her hair is styled in long hair and falls down her back. she has a slender physique and is wearing earrings. her body is partially submerged in the water, with water droplets visible on her skin. the background features a high-tech laboratory with various machinery and wires, and the lighting is bright and natural.",
+        "A photo-realistic shoot from a profile camera angle about a young asian woman standing in a flooded industrial environment, wearing a red dress. the image also shows red flowers and tangled wires in the background. on the middle of the image, a 20-year-old woman, who appears to be in her mid-twenties, with long black hair, is standing with her back to the camera, looking to the side with a serene expression. she is wearing a sleeveless red dress and has a silver choker around her neck. her hair is styled in long hair and falls down her back. she has a slender physique and is wearing earrings. her body is partially submerged in the water, with water droplets visible on her skin. the background features a high-tech laboratory with various machinery and wires, and the lighting is bright and natural.",
+        3.5,
+        [
+          false,
+          true
+        ],
+        [
+          false,
+          true
+        ]
+      ]
+    },
+    {
+      "id": 29,
+      "type": "RandomNoise",
+      "pos": [
+        1040,
+        -510
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "NOISE",
+          "type": "NOISE",
+          "links": [
+            36
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      },
+      "widgets_values": [
+        0,
+        "fixed"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "BasicScheduler",
+      "pos": [
+        1040,
+        -200
+      ],
+      "size": [
+        315,
+        106
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 43
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            42
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BasicScheduler"
+      },
+      "widgets_values": [
+        "beta",
+        20,
+        1
+      ]
+    },
+    {
+      "id": 30,
+      "type": "BasicGuider",
+      "pos": [
+        1050,
+        -40
+      ],
+      "size": [
+        241.79998779296875,
+        46
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 40
+        },
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 38
+        }
+      ],
+      "outputs": [
+        {
+          "name": "GUIDER",
+          "type": "GUIDER",
+          "links": [
+            37
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BasicGuider"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 33,
+      "type": "VAEDecode",
+      "pos": [
+        1070,
+        70
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 54
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 46
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            55
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 28,
+      "type": "SamplerCustomAdvanced",
+      "pos": [
+        1060,
+        180
+      ],
+      "size": [
+        270,
+        106
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "noise",
+          "type": "NOISE",
+          "link": 36
+        },
+        {
+          "name": "guider",
+          "type": "GUIDER",
+          "link": 37
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 48
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 42
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 44
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            54
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": [],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 2,
+      "type": "SaveImage",
+      "pos": [
+        1380,
+        -510
+      ],
+      "size": [
+        740,
+        810
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 55
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "0812/real"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "UnetLoaderGGUF",
+      "pos": [
+        340,
+        -290
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            35
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UnetLoaderGGUF"
+      },
+      "widgets_values": [
+        "FLUX1\\flux1-dev-Q8_0.gguf"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "DualCLIPLoaderGGUF",
+      "pos": [
+        340,
+        -40
+      ],
+      "size": [
+        315,
+        106
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            13
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DualCLIPLoaderGGUF"
+      },
+      "widgets_values": [
+        "SD3\\clip_l.safetensors",
+        "t5\\t5-v1_1-xxl-encoder-Q8_0.gguf",
+        "flux"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "VAELoader",
+      "pos": [
+        340,
+        120
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            46
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "FLUX1\\ae.sft"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "KSamplerSelect",
+      "pos": [
+        340,
+        240
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            47
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "widgets_values": [
+        "res_2m"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "LoraLoaderModelOnly",
+      "pos": [
+        340,
+        -180
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 35
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            65
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoaderModelOnly"
+      },
+      "widgets_values": [
+        "Flux\\amateurphoto-v6-forcu.safetensors",
+        0.7000000000000001
+      ]
+    }
+  ],
+  "links": [
+    [
+      11,
+      10,
+      1,
+      9,
+      1,
+      "INT"
+    ],
+    [
+      12,
+      10,
+      2,
+      9,
+      2,
+      "INT"
+    ],
+    [
+      13,
+      5,
+      0,
+      11,
+      0,
+      "CLIP"
+    ],
+    [
+      14,
+      12,
+      0,
+      11,
+      1,
+      "STRING"
+    ],
+    [
+      15,
+      12,
+      0,
+      11,
+      2,
+      "STRING"
+    ],
+    [
+      35,
+      26,
+      0,
+      27,
+      0,
+      "MODEL"
+    ],
+    [
+      36,
+      29,
+      0,
+      28,
+      0,
+      "NOISE"
+    ],
+    [
+      37,
+      30,
+      0,
+      28,
+      1,
+      "GUIDER"
+    ],
+    [
+      38,
+      11,
+      0,
+      30,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      40,
+      9,
+      0,
+      30,
+      0,
+      "MODEL"
+    ],
+    [
+      42,
+      32,
+      0,
+      28,
+      3,
+      "SIGMAS"
+    ],
+    [
+      43,
+      9,
+      0,
+      32,
+      0,
+      "MODEL"
+    ],
+    [
+      44,
+      10,
+      0,
+      28,
+      4,
+      "LATENT"
+    ],
+    [
+      46,
+      7,
+      0,
+      33,
+      1,
+      "VAE"
+    ],
+    [
+      47,
+      31,
+      0,
+      34,
+      0,
+      "SAMPLER"
+    ],
+    [
+      48,
+      34,
+      0,
+      28,
+      2,
+      "SAMPLER"
+    ],
+    [
+      54,
+      28,
+      0,
+      33,
+      0,
+      "LATENT"
+    ],
+    [
+      55,
+      33,
+      0,
+      2,
+      0,
+      "IMAGE"
+    ],
+    [
+      65,
+      27,
+      0,
+      9,
+      0,
+      "MODEL"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1,
+      "offset": [
+        -240,
+        620
+      ]
+    },
+    "node_versions": {
+      "comfy-core": "v0.3.10-25-g0b9839e",
+      "ComfyUI-GGUF": "0b65261cc4115d273829cd878f8a855e19c5435f"
+    }
+  },
+  "version": 0.4
+}

@@ -1,0 +1,1290 @@
+{
+  "id": "88ac5dad-efd7-40bb-84fe-fbaefdee1fa9",
+  "revision": 0,
+  "last_node_id": 80,
+  "last_link_id": 169,
+  "nodes": [
+    {
+      "id": 69,
+      "type": "Griptape Create: Agent from Config",
+      "pos": [
+        -1010,
+        -60
+      ],
+      "size": [
+        320.1197204589844,
+        78
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "config",
+          "name": "config",
+          "shape": 7,
+          "type": "CONFIG",
+          "link": 154
+        },
+        {
+          "localized_name": "key_value_replacement",
+          "name": "key_value_replacement",
+          "shape": 7,
+          "type": "DICT",
+          "link": null
+        },
+        {
+          "localized_name": "max_subtasks",
+          "name": "max_subtasks",
+          "shape": 7,
+          "type": "INT",
+          "widget": {
+            "name": "max_subtasks"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "AGENT",
+          "name": "AGENT",
+          "type": "AGENT",
+          "links": [
+            153
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-griptape",
+        "ver": "f300bbedb1c439b7d5a95a7aaeb0899b65da1958",
+        "Node name for S&R": "Griptape Create: Agent from Config"
+      },
+      "widgets_values": [
+        3
+      ]
+    },
+    {
+      "id": 79,
+      "type": "StringFunction|pysssss",
+      "pos": [
+        -1480,
+        -180
+      ],
+      "size": [
+        380,
+        490
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "action",
+          "name": "action",
+          "type": "COMBO",
+          "widget": {
+            "name": "action"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "tidy_tags",
+          "name": "tidy_tags",
+          "type": "COMBO",
+          "widget": {
+            "name": "tidy_tags"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "text_a",
+          "name": "text_a",
+          "shape": 7,
+          "type": "STRING",
+          "widget": {
+            "name": "text_a"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "text_b",
+          "name": "text_b",
+          "shape": 7,
+          "type": "STRING",
+          "widget": {
+            "name": "text_b"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "text_c",
+          "name": "text_c",
+          "shape": 7,
+          "type": "STRING",
+          "widget": {
+            "name": "text_c"
+          },
+          "link": 169
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "STRING",
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            168
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "bc8922deff73f59311c05cef27b9d4caaf43e87b",
+        "Node name for S&R": "StringFunction|pysssss"
+      },
+      "widgets_values": [
+        "replace",
+        "yes",
+        "請給我一首長度為40秒的歌詞，主題關於「SongTopic」。\n請以以下格式輸出：\n最上方提供風格提示，例如格式為：female singing pop music electronic beats fennec core\n接著以 // 分隔風格與歌詞本體。\n歌詞部分每行使用拼音表示，開頭加上 [zh] 以標示中文來源，例如 [zh]wo3zou3guo4shen1ye4de5jie1dao4。\n歌詞段落請明確標示 [verse]、[chorus]、[bridge] 等。",
+        "SongTopic",
+        "",
+        [
+          false,
+          true
+        ],
+        [
+          false,
+          true
+        ],
+        [
+          false,
+          true
+        ],
+        "請給我一首長度為40秒的歌詞，主題關於「太陽下的狗狗」。\n請以以下格式輸出：\n最上方提供風格提示，例如格式為：female singing pop music electronic beats fennec core\n接著以 // 分隔風格與歌詞本體。\n歌詞部分每行使用拼音表示，開頭加上 [zh] 以標示中文來源，例如 [zh]wo3zou3guo4shen1ye4de5jie1dao4。\n歌詞段落請明確標示 [verse]、[chorus]、[bridge] 等。"
+      ]
+    },
+    {
+      "id": 66,
+      "type": "Griptape Run: Agent",
+      "pos": [
+        -1080,
+        70
+      ],
+      "size": [
+        400,
+        157
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "agent",
+          "name": "agent",
+          "shape": 7,
+          "type": "AGENT",
+          "link": 153
+        },
+        {
+          "localized_name": "input_string",
+          "name": "input_string",
+          "shape": 7,
+          "type": "STRING",
+          "link": null
+        },
+        {
+          "localized_name": "key_value_replacement",
+          "name": "key_value_replacement",
+          "shape": 7,
+          "type": "DICT",
+          "link": null
+        },
+        {
+          "localized_name": "STRING",
+          "name": "STRING",
+          "shape": 7,
+          "type": "STRING",
+          "widget": {
+            "name": "STRING"
+          },
+          "link": 168
+        },
+        {
+          "localized_name": "max_subtasks",
+          "name": "max_subtasks",
+          "shape": 7,
+          "type": "INT",
+          "widget": {
+            "name": "max_subtasks"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "OUTPUT",
+          "name": "OUTPUT",
+          "type": "STRING",
+          "links": [
+            164,
+            166
+          ]
+        },
+        {
+          "localized_name": "AGENT",
+          "name": "AGENT",
+          "type": "AGENT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-griptape",
+        "ver": "f300bbedb1c439b7d5a95a7aaeb0899b65da1958",
+        "Node name for S&R": "Griptape Run: Agent"
+      },
+      "widgets_values": [
+        "\n",
+        1,
+        [
+          false,
+          true
+        ]
+      ]
+    },
+    {
+      "id": 68,
+      "type": "Griptape Agent Config: Google Drivers",
+      "pos": [
+        -1030,
+        -530
+      ],
+      "size": [
+        320,
+        404
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "prompt_model_comment",
+          "name": "prompt_model_comment",
+          "shape": 7,
+          "type": -1,
+          "widget": {
+            "name": "prompt_model_comment"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "model",
+          "name": "model",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "model"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "max_attempts_on_fail",
+          "name": "max_attempts_on_fail",
+          "shape": 7,
+          "type": "INT",
+          "widget": {
+            "name": "max_attempts_on_fail"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "temperature",
+          "name": "temperature",
+          "shape": 7,
+          "type": "FLOAT",
+          "widget": {
+            "name": "temperature"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "seed",
+          "name": "seed",
+          "shape": 7,
+          "type": "INT",
+          "widget": {
+            "name": "seed"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "use_native_tools",
+          "name": "use_native_tools",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "use_native_tools"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "max_tokens",
+          "name": "max_tokens",
+          "shape": 7,
+          "type": "INT",
+          "widget": {
+            "name": "max_tokens"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "top_k",
+          "name": "top_k",
+          "shape": 7,
+          "type": "INT",
+          "widget": {
+            "name": "top_k"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "google_api_key_env_var",
+          "name": "google_api_key_env_var",
+          "shape": 7,
+          "type": "STRING",
+          "widget": {
+            "name": "google_api_key_env_var"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "top_p",
+          "name": "top_p",
+          "shape": 7,
+          "type": "FLOAT",
+          "widget": {
+            "name": "top_p"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "embedding_model_comment",
+          "name": "embedding_model_comment",
+          "shape": 7,
+          "type": -1,
+          "widget": {
+            "name": "embedding_model_comment"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "embedding_model",
+          "name": "embedding_model",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "embedding_model"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "task_type",
+          "name": "task_type",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "task_type"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "CONFIG",
+          "name": "CONFIG",
+          "type": "CONFIG",
+          "links": [
+            154
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-griptape",
+        "ver": "f300bbedb1c439b7d5a95a7aaeb0899b65da1958",
+        "Node name for S&R": "Griptape Agent Config: Google Drivers"
+      },
+      "widgets_values": [
+        "Prompt Driver",
+        "gemini-2.0-flash",
+        2,
+        0.10000000000000002,
+        525,
+        "randomize",
+        true,
+        -1,
+        250,
+        "GOOGLE_API_KEY",
+        0.999,
+        "Embedding Driver",
+        "text-embedding-004",
+        "RETRIEVAL_QUERY",
+        null
+      ]
+    },
+    {
+      "id": 40,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        -700,
+        -530
+      ],
+      "size": [
+        375,
+        98
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "ckpt_name",
+          "name": "ckpt_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "ckpt_name"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "MODEL",
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            111
+          ]
+        },
+        {
+          "localized_name": "CLIP",
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            80
+          ]
+        },
+        {
+          "localized_name": "VAE",
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            83
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.35",
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "ace_step_v1_3.5b.safetensors"
+      ]
+    },
+    {
+      "id": 77,
+      "type": "TextSplit",
+      "pos": [
+        -670,
+        -380
+      ],
+      "size": [
+        270,
+        106
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "link": 164
+        },
+        {
+          "localized_name": "separator",
+          "name": "separator",
+          "type": "STRING",
+          "widget": {
+            "name": "separator"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "reverse",
+          "name": "reverse",
+          "type": "COMBO",
+          "widget": {
+            "name": "reverse"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "return_half",
+          "name": "return_half",
+          "type": "COMBO",
+          "widget": {
+            "name": "return_half"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            165
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "chibi",
+        "ver": "290ccef2a8c1bc3917e1c00dbe5c206b66fb8ded",
+        "Node name for S&R": "TextSplit"
+      },
+      "widgets_values": [
+        "//",
+        false,
+        "First Half"
+      ]
+    },
+    {
+      "id": 78,
+      "type": "TextSplit",
+      "pos": [
+        -660,
+        -190
+      ],
+      "size": [
+        270,
+        106
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "link": 166
+        },
+        {
+          "localized_name": "separator",
+          "name": "separator",
+          "type": "STRING",
+          "widget": {
+            "name": "separator"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "reverse",
+          "name": "reverse",
+          "type": "COMBO",
+          "widget": {
+            "name": "reverse"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "return_half",
+          "name": "return_half",
+          "type": "COMBO",
+          "widget": {
+            "name": "return_half"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            167
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "chibi",
+        "ver": "290ccef2a8c1bc3917e1c00dbe5c206b66fb8ded",
+        "Node name for S&R": "TextSplit"
+      },
+      "widgets_values": [
+        "//",
+        false,
+        "Second Half"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "EmptyAceStepLatentAudio",
+      "pos": [
+        -650,
+        -20
+      ],
+      "size": [
+        270,
+        82
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "seconds",
+          "name": "seconds",
+          "type": "FLOAT",
+          "widget": {
+            "name": "seconds"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "batch_size",
+          "name": "batch_size",
+          "type": "INT",
+          "widget": {
+            "name": "batch_size"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "LATENT",
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            142
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.35",
+        "Node name for S&R": "EmptyAceStepLatentAudio"
+      },
+      "widgets_values": [
+        60,
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "type": "TextEncodeAceStepAudio",
+      "pos": [
+        -360,
+        -340
+      ],
+      "size": [
+        400,
+        420
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "clip",
+          "name": "clip",
+          "type": "CLIP",
+          "link": 80
+        },
+        {
+          "localized_name": "tags",
+          "name": "tags",
+          "type": "STRING",
+          "widget": {
+            "name": "tags"
+          },
+          "link": 165
+        },
+        {
+          "localized_name": "lyrics",
+          "name": "lyrics",
+          "type": "STRING",
+          "widget": {
+            "name": "lyrics"
+          },
+          "link": 167
+        },
+        {
+          "localized_name": "lyrics_strength",
+          "name": "lyrics_strength",
+          "type": "FLOAT",
+          "widget": {
+            "name": "lyrics_strength"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "CONDITIONING",
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            110,
+            130
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.35",
+        "Node name for S&R": "TextEncodeAceStepAudio"
+      },
+      "widgets_values": [
+        "female singing pop music electronic beats fennec core",
+        "[inst]\n[inst]\n\n[verse]\ncute fennec girl\nmassive fennec ears\nbig fluffy tail\nlong blonde wavy hair\nlarge blue eyes\nI love fennec girl\n",
+        0.9000000000000001,
+        [
+          false,
+          true
+        ],
+        [
+          false,
+          true
+        ]
+      ]
+    },
+    {
+      "id": 45,
+      "type": "ModelSamplingSD3",
+      "pos": [
+        -310,
+        -520
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "model",
+          "name": "model",
+          "type": "MODEL",
+          "link": 111
+        },
+        {
+          "localized_name": "shift",
+          "name": "shift",
+          "type": "FLOAT",
+          "widget": {
+            "name": "shift"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "MODEL",
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            136
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.35",
+        "Node name for S&R": "ModelSamplingSD3"
+      },
+      "widgets_values": [
+        4.000000000000001
+      ]
+    },
+    {
+      "id": 47,
+      "type": "ConditioningZeroOut",
+      "pos": [
+        -290,
+        -420
+      ],
+      "size": [
+        197.712890625,
+        26
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "conditioning",
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 130
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "CONDITIONING",
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            119
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.35",
+        "Node name for S&R": "ConditioningZeroOut"
+      }
+    },
+    {
+      "id": 3,
+      "type": "KSampler",
+      "pos": [
+        50,
+        -500
+      ],
+      "size": [
+        290,
+        270
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "model",
+          "name": "model",
+          "type": "MODEL",
+          "link": 136
+        },
+        {
+          "localized_name": "positive",
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 110
+        },
+        {
+          "localized_name": "negative",
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 119
+        },
+        {
+          "localized_name": "latent_image",
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 142
+        },
+        {
+          "localized_name": "seed",
+          "name": "seed",
+          "type": "INT",
+          "widget": {
+            "name": "seed"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "steps",
+          "name": "steps",
+          "type": "INT",
+          "widget": {
+            "name": "steps"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "cfg",
+          "name": "cfg",
+          "type": "FLOAT",
+          "widget": {
+            "name": "cfg"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "sampler_name",
+          "name": "sampler_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "sampler_name"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "scheduler",
+          "name": "scheduler",
+          "type": "COMBO",
+          "widget": {
+            "name": "scheduler"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "denoise",
+          "name": "denoise",
+          "type": "FLOAT",
+          "widget": {
+            "name": "denoise"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "LATENT",
+          "name": "LATENT",
+          "type": "LATENT",
+          "slot_index": 0,
+          "links": [
+            141
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.35",
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        848520498406786,
+        "randomize",
+        50,
+        4,
+        "res_multistep",
+        "simple",
+        1
+      ]
+    },
+    {
+      "id": 18,
+      "type": "VAEDecodeAudio",
+      "pos": [
+        80,
+        -170
+      ],
+      "size": [
+        150.93612670898438,
+        46
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "samples",
+          "name": "samples",
+          "type": "LATENT",
+          "link": 141
+        },
+        {
+          "localized_name": "vae",
+          "name": "vae",
+          "type": "VAE",
+          "link": 83
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "AUDIO",
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            26
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.35",
+        "Node name for S&R": "VAEDecodeAudio"
+      }
+    },
+    {
+      "id": 80,
+      "type": "Text Multiline",
+      "pos": [
+        -1480,
+        -340
+      ],
+      "size": [
+        400,
+        110
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "STRING",
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            169
+          ]
+        }
+      ],
+      "title": "SongTopic",
+      "properties": {
+        "cnr_id": "pr-was-node-suite-comfyui-47064894",
+        "ver": "056badacda52e88d29d6a65f9509cd3115ace0f2",
+        "Node name for S&R": "Text Multiline"
+      },
+      "widgets_values": [
+        "太陽下的狗狗",
+        [
+          false,
+          true
+        ]
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 19,
+      "type": "SaveAudio",
+      "pos": [
+        -1490,
+        -530
+      ],
+      "size": [
+        420,
+        112
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "audio",
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 26
+        },
+        {
+          "localized_name": "filename_prefix",
+          "name": "filename_prefix",
+          "type": "STRING",
+          "widget": {
+            "name": "filename_prefix"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "audioUI",
+          "name": "audioUI",
+          "type": "AUDIO_UI",
+          "widget": {
+            "name": "audioUI"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [],
+      "title": "OutputSong",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.35",
+        "Node name for S&R": "SaveAudio"
+      },
+      "widgets_values": [
+        "audio/ComfyUI"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    }
+  ],
+  "links": [
+    [
+      26,
+      18,
+      0,
+      19,
+      0,
+      "AUDIO"
+    ],
+    [
+      80,
+      40,
+      1,
+      14,
+      0,
+      "CLIP"
+    ],
+    [
+      83,
+      40,
+      2,
+      18,
+      1,
+      "VAE"
+    ],
+    [
+      110,
+      14,
+      0,
+      3,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      111,
+      40,
+      0,
+      45,
+      0,
+      "MODEL"
+    ],
+    [
+      119,
+      47,
+      0,
+      3,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      130,
+      14,
+      0,
+      47,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      136,
+      45,
+      0,
+      3,
+      0,
+      "MODEL"
+    ],
+    [
+      141,
+      3,
+      0,
+      18,
+      0,
+      "LATENT"
+    ],
+    [
+      142,
+      17,
+      0,
+      3,
+      3,
+      "LATENT"
+    ],
+    [
+      150,
+      58,
+      0,
+      61,
+      0,
+      "STRING"
+    ],
+    [
+      153,
+      69,
+      0,
+      66,
+      0,
+      "AGENT"
+    ],
+    [
+      154,
+      68,
+      0,
+      69,
+      0,
+      "CONFIG"
+    ],
+    [
+      164,
+      66,
+      0,
+      77,
+      0,
+      "STRING"
+    ],
+    [
+      165,
+      77,
+      0,
+      14,
+      1,
+      "STRING"
+    ],
+    [
+      166,
+      66,
+      0,
+      78,
+      0,
+      "STRING"
+    ],
+    [
+      167,
+      78,
+      0,
+      14,
+      2,
+      "STRING"
+    ],
+    [
+      168,
+      79,
+      0,
+      66,
+      3,
+      "STRING"
+    ],
+    [
+      169,
+      80,
+      0,
+      79,
+      4,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "frontendVersion": "1.19.2",
+    "ds": {
+      "scale": 1,
+      "offset": [
+        1590,
+        630
+      ]
+    }
+  },
+  "version": 0.4
+}

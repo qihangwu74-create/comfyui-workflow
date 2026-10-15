@@ -1,0 +1,180 @@
+{
+  "product_background": {
+    "label": "产品换背景/场景",
+    "aliases": [
+      "换背景",
+      "背景替换",
+      "产品场景",
+      "白底图",
+      "棚拍",
+      "电商主图",
+      "场景融合",
+      "background",
+      "product scene"
+    ],
+    "categories": [
+      "换背景/产品场景"
+    ],
+    "caution": "保持产品轮廓、安装位置与接地阴影；生成背景不证明产品结构准确。"
+  },
+  "relight": {
+    "label": "打光/光影融合",
+    "aliases": [
+      "打光",
+      "光影",
+      "光线",
+      "补光",
+      "轮廓光",
+      "灯光",
+      "relight",
+      "iclight",
+      "ic-light",
+      "lbm"
+    ],
+    "categories": [
+      "打光/光影融合"
+    ],
+    "caution": "反射、漆面和半透明件需对照原图检查。"
+  },
+  "inpaint": {
+    "label": "局部编辑/去杂物",
+    "aliases": [
+      "局部",
+      "重绘",
+      "去杂物",
+      "移除",
+      "去除",
+      "修补",
+      "换色",
+      "改色",
+      "inpaint",
+      "remove"
+    ],
+    "categories": [
+      "局部修改/移除"
+    ],
+    "caution": "先确认遮罩方向，保留不应变化的灯具、标识和机械结构。"
+  },
+  "outpaint": {
+    "label": "扩图/海报留白",
+    "aliases": [
+      "扩图",
+      "海报",
+      "横幅",
+      "展会",
+      "留白",
+      "竖版",
+      "版式",
+      "outpaint",
+      "poster",
+      "banner"
+    ],
+    "categories": [
+      "扩图/版式留白"
+    ],
+    "caution": "扩图适合背景延展；文字、尺寸与Logo使用正式源素材。"
+  },
+  "upscale": {
+    "label": "放大/高清修复",
+    "aliases": [
+      "放大",
+      "高清",
+      "清晰",
+      "修复",
+      "upscale",
+      "supir",
+      "hires"
+    ],
+    "categories": [
+      "高清修复/放大"
+    ],
+    "caution": "生成式增强可能编造纹理，需保留增强前版本作对照。"
+  },
+  "style_reference": {
+    "label": "风格/参考图",
+    "aliases": [
+      "风格",
+      "参考",
+      "材质",
+      "配色",
+      "调性",
+      "style",
+      "redux",
+      "ipadapter"
+    ],
+    "categories": [
+      "参考图/风格探索"
+    ],
+    "caution": "参考生成用于视觉探索，不保证像素级或纹理逐片复制。"
+  },
+  "structure_control": {
+    "label": "结构控制/草图",
+    "aliases": [
+      "草图",
+      "线稿",
+      "结构",
+      "边缘",
+      "深度",
+      "构图",
+      "sketch",
+      "canny",
+      "depth",
+      "controlnet"
+    ],
+    "categories": [
+      "结构控制/草图"
+    ],
+    "caution": "用于外观概念与构图，不能代替工程尺寸或CAD。"
+  },
+  "video": {
+    "label": "产品视频/动效",
+    "aliases": [
+      "视频",
+      "动效",
+      "短片",
+      "分镜",
+      "运镜",
+      "video",
+      "wan",
+      "ltx",
+      "animate"
+    ],
+    "categories": [
+      "视频/动效"
+    ],
+    "caution": "先短片低帧数试验；轮辐、文字、几何和时序一致性需逐帧验收。"
+  },
+  "matting": {
+    "label": "抠图/遮罩",
+    "aliases": [
+      "抠图",
+      "遮罩",
+      "分割",
+      "透明背景",
+      "去背景",
+      "matting",
+      "mask",
+      "birefnet",
+      "rmbg"
+    ],
+    "categories": [
+      "抠图/遮罩"
+    ],
+    "caution": "复杂轮辐、风挡透明边和反光边需复核。"
+  },
+  "exact_texture": {
+    "label": "精确纹理/真实材质复现",
+    "aliases": [
+      "精确纹理",
+      "锻造碳",
+      "碳纤维",
+      "纹理迁移",
+      "完全一致",
+      "一模一样",
+      "exact texture",
+      "forged carbon"
+    ],
+    "categories": [],
+    "caution": "本库没有已验证能精确复制指定纹理排列的生成工作流。优先真实纹理像素+透视/曲面映射或3D贴图；AI可辅助遮罩、背景和光影。"
+  }
+}

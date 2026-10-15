@@ -1,0 +1,292 @@
+{
+  "id": "3ba6fcae-c49e-40dc-8725-12d4cd833fcb",
+  "revision": 0,
+  "last_node_id": 34,
+  "last_link_id": 22,
+  "nodes": [
+    {
+      "id": 28,
+      "type": "SaveImage",
+      "pos": [
+        1346,
+        480
+      ],
+      "size": [
+        410,
+        360
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 18
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": [
+            22
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "ComfyUI"
+      }
+    },
+    {
+      "id": 31,
+      "type": "MarkdownNote",
+      "pos": [
+        130,
+        480
+      ],
+      "size": [
+        330,
+        290
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "About API Node",
+      "properties": {},
+      "widgets_values": [
+        "## Input Asset\n\n- [api_openai_image_1_input_image_mask.jpg](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/api_openai_image_1_input_image_mask.jpg)\n\n\n## Report Issue\n\nNote: Please update ComfyUI first ([guide](https://docs.comfy.org/installation/update_comfyui)) and prepare required models. Desktop/Cloud updates follow stable releases, so some nightly-supported models may not be available yet.\n\n- Cannot run / runtime errors: [ComfyUI/issues](https://github.com/comfyanonymous/ComfyUI/issues)\n- UI / frontend issues: [ComfyUI_frontend/issues](https://github.com/Comfy-Org/ComfyUI_frontend/issues)\n- Workflow issues: [workflow_templates/issues](https://github.com/Comfy-Org/workflow_templates/issues)\n"
+      ],
+      "widgets_values_named": {
+        "text": "## Input Asset\n\n- [api_openai_image_1_input_image_mask.jpg](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/api_openai_image_1_input_image_mask.jpg)\n\n\n## Report Issue\n\nNote: Please update ComfyUI first ([guide](https://docs.comfy.org/installation/update_comfyui)) and prepare required models. Desktop/Cloud updates follow stable releases, so some nightly-supported models may not be available yet.\n\n- Cannot run / runtime errors: [ComfyUI/issues](https://github.com/comfyanonymous/ComfyUI/issues)\n- UI / frontend issues: [ComfyUI_frontend/issues](https://github.com/Comfy-Org/ComfyUI_frontend/issues)\n- Workflow issues: [workflow_templates/issues](https://github.com/Comfy-Org/workflow_templates/issues)\n"
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 29,
+      "type": "LoadImage",
+      "pos": [
+        500,
+        480
+      ],
+      "size": [
+        350,
+        350
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            19,
+            21
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            20
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "api_openai_image_1_input_image_mask.jpg",
+        "image"
+      ],
+      "widgets_values_named": {
+        "image": "api_openai_image_1_input_image_mask.jpg",
+        "upload": "image"
+      }
+    },
+    {
+      "id": 32,
+      "type": "OpenAIGPTImageNodeV2",
+      "pos": [
+        898,
+        480
+      ],
+      "size": [
+        400,
+        366
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "image_1",
+          "name": "model.images.image_1",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 19
+        },
+        {
+          "label": "image_2",
+          "name": "model.images.image_2",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "label": "mask",
+          "name": "model.mask",
+          "shape": 7,
+          "type": "MASK",
+          "link": 20
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            18
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "OpenAIGPTImageNodeV2"
+      },
+      "widgets_values": [
+        "Let the cat hold a big fish.",
+        "gpt-image-2",
+        "auto",
+        1024,
+        1024,
+        "auto",
+        "low",
+        1,
+        0,
+        "randomize"
+      ],
+      "widgets_values_named": {
+        "prompt": "Let the cat hold a big fish.",
+        "model": "gpt-image-2",
+        "model.size": "auto",
+        "model.custom_width": 1024,
+        "model.custom_height": 1024,
+        "model.background": "auto",
+        "model.quality": "low",
+        "n": 1,
+        "seed": 0,
+        "control_after_generate": "randomize"
+      },
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 33,
+      "type": "ImageCompare",
+      "pos": [
+        1804,
+        480
+      ],
+      "size": [
+        400,
+        350
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_a",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 21
+        },
+        {
+          "name": "image_b",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 22
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "ImageCompare"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    }
+  ],
+  "links": [
+    [
+      18,
+      32,
+      0,
+      28,
+      0,
+      "IMAGE"
+    ],
+    [
+      19,
+      29,
+      0,
+      32,
+      0,
+      "IMAGE"
+    ],
+    [
+      20,
+      29,
+      1,
+      32,
+      2,
+      "MASK"
+    ],
+    [
+      21,
+      29,
+      0,
+      33,
+      0,
+      "IMAGE"
+    ],
+    [
+      22,
+      28,
+      0,
+      33,
+      1,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.5589200532444242,
+      "offset": [
+        41.542495356946674,
+        106.54737656399516
+      ]
+    },
+    "frontendVersion": "1.49.6",
+    "node_versions": {
+      "comfy-core": "0.3.29"
+    },
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}

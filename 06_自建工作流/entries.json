@@ -1,0 +1,5251 @@
+[
+  {
+    "id": "OFF20261015_001",
+    "name": "basic_image_color_adjustment.json",
+    "display_name": "basic image color adjustment",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/basic_image_color_adjustment.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/basic_image_color_adjustment.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "f0f87844e202678ea209867952ce5f46aaecf08b21b43e31ef8c566da685f9d5",
+    "tasks": [
+      "局部修改/移除"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "1cccc258-98ed-4c17-8a0b-392e48a99dfa",
+      "1d319b86-6e4f-43d0-83e1-99dc988e1db3",
+      "45b59a1a-ac53-4f90-8ebd-9f3ab79f21e3",
+      "8e3709c0-2209-4184-8a96-264ee9f1eed2",
+      "BOOLEAN",
+      "COLOR",
+      "COMBO",
+      "CURVE",
+      "ColorToRGBInt",
+      "CurveEditor",
+      "CustomCombo",
+      "FLOAT",
+      "GLSLShader",
+      "HISTOGRAM",
+      "IMAGE",
+      "INT",
+      "ImageHistogram",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "PreviewImage",
+      "PrimitiveBoolean",
+      "PrimitiveFloat",
+      "STRING",
+      "b5143322-553a-4d96-9539-76b3707ef275",
+      "b7c3a768-1a1c-4a3d-bddf-043f4a8ffb20",
+      "bde8681c-adbd-4b44-a31c-2a4acb8cf45a",
+      "bf0f7afe-2f48-42b1-9e47-57e362efc6dd",
+      "e864f288-0bda-497b-a111-800d4c0cd171",
+      "ed876eb4-358d-4e40-af28-de21afc3af7f"
+    ],
+    "unmapped_node_types": [
+      "1cccc258-98ed-4c17-8a0b-392e48a99dfa",
+      "1d319b86-6e4f-43d0-83e1-99dc988e1db3",
+      "45b59a1a-ac53-4f90-8ebd-9f3ab79f21e3",
+      "8e3709c0-2209-4184-8a96-264ee9f1eed2",
+      "BOOLEAN",
+      "COLOR",
+      "COMBO",
+      "CURVE",
+      "ColorToRGBInt",
+      "CurveEditor",
+      "CustomCombo",
+      "FLOAT",
+      "GLSLShader",
+      "HISTOGRAM",
+      "IMAGE",
+      "INT",
+      "ImageHistogram",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "PreviewImage",
+      "PrimitiveBoolean",
+      "PrimitiveFloat",
+      "STRING",
+      "b5143322-553a-4d96-9539-76b3707ef275",
+      "b7c3a768-1a1c-4a3d-bddf-043f4a8ffb20",
+      "bde8681c-adbd-4b44-a31c-2a4acb8cf45a",
+      "bf0f7afe-2f48-42b1-9e47-57e362efc6dd",
+      "e864f288-0bda-497b-a111-800d4c0cd171",
+      "ed876eb4-358d-4e40-af28-de21afc3af7f"
+    ],
+    "versions": [],
+    "node_count": 468,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "basic_image_color_adjustment.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_002",
+    "name": "basic_mask_operations_and_compositing.json",
+    "display_name": "basic mask operations and compositing",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/basic_mask_operations_and_compositing.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/basic_mask_operations_and_compositing.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "6cee7cce5ad9cff0b315507f1277cf224a74d2b9fad67a93523f2579438aa7fb",
+    "tasks": [
+      "局部修改/移除"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "EmptyImage",
+      "FeatherMask",
+      "IMAGE",
+      "ImageCompositeMasked",
+      "ImageToMask",
+      "InvertMask",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "MaskComposite",
+      "MaskPreview",
+      "MaskToImage",
+      "PreviewImage",
+      "SolidMask",
+      "ThresholdMask"
+    ],
+    "unmapped_node_types": [
+      "EmptyImage",
+      "FeatherMask",
+      "IMAGE",
+      "ImageCompositeMasked",
+      "ImageToMask",
+      "InvertMask",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "MaskComposite",
+      "MaskPreview",
+      "MaskToImage",
+      "PreviewImage",
+      "SolidMask",
+      "ThresholdMask"
+    ],
+    "versions": [],
+    "node_count": 102,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "basic_mask_operations_and_compositing.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_003",
+    "name": "template_3x3_contact_sheet.json",
+    "display_name": "template 3x3 contact sheet",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/template_3x3_contact_sheet.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/template_3x3_contact_sheet.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "b4e11b70df6b7154a31ff5979dbcf08cf3896f95aba919f5406659d6f37f57f3",
+    "tasks": [
+      "扩图/版式留白"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "CustomCombo",
+      "GEMINI_INPUT_FILES",
+      "GeminiNanoBanana2V2",
+      "IMAGE",
+      "INT",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "STRING",
+      "SaveImage",
+      "StringReplace"
+    ],
+    "unmapped_node_types": [
+      "CustomCombo",
+      "GEMINI_INPUT_FILES",
+      "GeminiNanoBanana2V2",
+      "IMAGE",
+      "INT",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "STRING",
+      "SaveImage",
+      "StringReplace"
+    ],
+    "versions": [],
+    "node_count": 39,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "template_3x3_contact_sheet.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_004",
+    "name": "template_eric_exploded_view.json",
+    "display_name": "template eric exploded view",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/template_eric_exploded_view.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/template_eric_exploded_view.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "d0c3c88b4cbadf016783c72f7cc65c480db0164acff361c6b2aae295ecffbc0e",
+    "tasks": [
+      "多角度/外观提案"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "AUDIO",
+      "BatchImagesNode",
+      "ByteDanceFirstLastFrameNode",
+      "CreateVideo",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiNanoBanana2V2",
+      "GetVideoComponents",
+      "IMAGE",
+      "LoadImage",
+      "MASK",
+      "Note",
+      "STRING",
+      "SaveImage",
+      "SaveVideo",
+      "VIDEO"
+    ],
+    "unmapped_node_types": [
+      "AUDIO",
+      "BatchImagesNode",
+      "ByteDanceFirstLastFrameNode",
+      "CreateVideo",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiNanoBanana2V2",
+      "GetVideoComponents",
+      "IMAGE",
+      "LoadImage",
+      "MASK",
+      "Note",
+      "STRING",
+      "SaveImage",
+      "SaveVideo",
+      "VIDEO"
+    ],
+    "versions": [],
+    "node_count": 57,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "template_eric_exploded_view.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_005",
+    "name": "template_eric_thumbnail_generator.json",
+    "display_name": "template eric thumbnail generator",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/template_eric_thumbnail_generator.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/template_eric_thumbnail_generator.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "ffe3a41e0119f4dd840390675d9558f4e9cc394007c963ce22324aeb75f90173",
+    "tasks": [
+      "扩图/版式留白"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "BatchImagesNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiNanoBanana2",
+      "IMAGE",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "Note",
+      "STRING",
+      "SaveImage"
+    ],
+    "unmapped_node_types": [
+      "BatchImagesNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiNanoBanana2",
+      "IMAGE",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "Note",
+      "STRING",
+      "SaveImage"
+    ],
+    "versions": [],
+    "node_count": 17,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "template_eric_thumbnail_generator.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_006",
+    "name": "template_graphic_color_remixer.json",
+    "display_name": "template graphic color remixer",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/template_graphic_color_remixer.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/template_graphic_color_remixer.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "a34bf7a6016ba55016ba8dfe598063fa577dffdee566ba5668bf8ede9da84ab5",
+    "tasks": [
+      "局部修改/移除"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [
+      "comfyui-kjnodes",
+      "comfyui_essentials"
+    ],
+    "node_types": [
+      "*",
+      "0e9bcfef-261f-4663-91a1-f0035cd35d0b",
+      "7a0de193-af6f-4a29-9fcd-f923ae102dd5",
+      "9660734b-5fa9-4bc5-b531-fb9eb2c0a379",
+      "BOOLEAN",
+      "COMBO",
+      "ComfySwitchNode",
+      "CustomCombo",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "IMAGE,MASK",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "ImageScaleToTotalPixels",
+      "ImageStitch",
+      "LoadImage",
+      "MASK",
+      "PrimitiveNode",
+      "RegexReplace",
+      "ResizeImageMaskNode",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+",
+      "StringCompare",
+      "ac00bc07-820b-486a-a11b-9c9c29d94519",
+      "d5e10c90-d985-4150-ab6a-6becb56739df",
+      "d5ff4db6-2a8e-414b-bd3d-a53522e68431",
+      "ec5b99b5-3f69-421a-a4f0-cc2e65f17e94",
+      "fdcd8ba0-172e-4383-9e2f-6465149375d6"
+    ],
+    "unmapped_node_types": [
+      "*",
+      "0e9bcfef-261f-4663-91a1-f0035cd35d0b",
+      "7a0de193-af6f-4a29-9fcd-f923ae102dd5",
+      "9660734b-5fa9-4bc5-b531-fb9eb2c0a379",
+      "BOOLEAN",
+      "COMBO",
+      "ComfySwitchNode",
+      "CustomCombo",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "IMAGE,MASK",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "ImageScaleToTotalPixels",
+      "ImageStitch",
+      "LoadImage",
+      "MASK",
+      "PrimitiveNode",
+      "RegexReplace",
+      "ResizeImageMaskNode",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+",
+      "StringCompare",
+      "ac00bc07-820b-486a-a11b-9c9c29d94519",
+      "d5e10c90-d985-4150-ab6a-6becb56739df",
+      "d5ff4db6-2a8e-414b-bd3d-a53522e68431",
+      "ec5b99b5-3f69-421a-a4f0-cc2e65f17e94",
+      "fdcd8ba0-172e-4383-9e2f-6465149375d6"
+    ],
+    "versions": [],
+    "node_count": 847,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "template_graphic_color_remixer.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_007",
+    "name": "template_horizontal_vertical_extension.json",
+    "display_name": "template horizontal vertical extension",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/template_horizontal_vertical_extension.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/template_horizontal_vertical_extension.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "4d062e2adf639636f6267b27ff71f9d690be22fff74230c5b6098e61898bdc01",
+    "tasks": [
+      "扩图/版式留白"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [
+      "comfyui_essentials",
+      "comfyui_layerstyle",
+      "masquerade-nodes-comfyui"
+    ],
+    "node_types": [
+      "*",
+      "7594b5c0-2b90-4aeb-846b-e3eb8fa89f33",
+      "AUDIO",
+      "CreateVideo",
+      "FLOAT",
+      "Get Image Size",
+      "GetVideoComponents",
+      "IMAGE",
+      "INT",
+      "ImageRemoveAlpha+",
+      "ImageToMask",
+      "JWImageResizeByShorterSide",
+      "KlingOmniProEditVideoNode",
+      "LayerUtility: ColorImage V2",
+      "LoadVideo",
+      "MASK",
+      "MASK_MAPPING",
+      "MarkdownNote",
+      "Note",
+      "Paste By Mask",
+      "PreviewImage",
+      "ResolutionSelector",
+      "SaveVideo",
+      "VIDEO",
+      "Video Slice"
+    ],
+    "unmapped_node_types": [
+      "*",
+      "7594b5c0-2b90-4aeb-846b-e3eb8fa89f33",
+      "AUDIO",
+      "CreateVideo",
+      "FLOAT",
+      "Get Image Size",
+      "GetVideoComponents",
+      "IMAGE",
+      "INT",
+      "ImageRemoveAlpha+",
+      "ImageToMask",
+      "JWImageResizeByShorterSide",
+      "KlingOmniProEditVideoNode",
+      "LayerUtility: ColorImage V2",
+      "LoadVideo",
+      "MASK",
+      "MASK_MAPPING",
+      "MarkdownNote",
+      "Note",
+      "Paste By Mask",
+      "PreviewImage",
+      "ResolutionSelector",
+      "SaveVideo",
+      "VIDEO",
+      "Video Slice"
+    ],
+    "versions": [],
+    "node_count": 99,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "template_horizontal_vertical_extension.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_008",
+    "name": "template_product_placement.json",
+    "display_name": "template product placement",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/template_product_placement.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/template_product_placement.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "32d313b2c2dacfdeaf2259e10c2673836a022aa9d0edff014470d81473be5572",
+    "tasks": [
+      "换背景/产品场景"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "*",
+      "AUDIO",
+      "COMBO",
+      "GEMINI_INPUT_FILES",
+      "GeminiNanoBanana2V2",
+      "GeminiNode",
+      "IMAGE",
+      "KlingVideoNode",
+      "LoadImage",
+      "MASK",
+      "PreviewAny",
+      "PreviewImage",
+      "STRING",
+      "SaveVideo",
+      "VIDEO"
+    ],
+    "unmapped_node_types": [
+      "*",
+      "AUDIO",
+      "COMBO",
+      "GEMINI_INPUT_FILES",
+      "GeminiNanoBanana2V2",
+      "GeminiNode",
+      "IMAGE",
+      "KlingVideoNode",
+      "LoadImage",
+      "MASK",
+      "PreviewAny",
+      "PreviewImage",
+      "STRING",
+      "SaveVideo",
+      "VIDEO"
+    ],
+    "versions": [],
+    "node_count": 43,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "template_product_placement.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_009",
+    "name": "template_qwen_multiangle.app.json",
+    "display_name": "template qwen multiangle.app",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/template_qwen_multiangle.app.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/template_qwen_multiangle.app.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "f3092defd3acbb3f2e2ead00a0aa39a6f5067d5e6d68093a1401697f8f43a053",
+    "tasks": [
+      "多角度/外观提案"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [
+      {
+        "file": "qwen_image_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_edit_2511_int8_convrot.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      }
+    ],
+    "model_links": [],
+    "loaders": [
+      {
+        "node": "VAELoader",
+        "values": [
+          "qwen_image_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "qwen_image_edit_2511_int8_convrot.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "qwen_image",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+          1
+        ],
+        "mode": 0
+      }
+    ],
+    "plugins": [],
+    "node_types": [
+      "6ac722f6-a021-4a23-809c-054361a86ea7",
+      "BOOLEAN",
+      "CFGNorm",
+      "CLIP",
+      "CLIPLoader",
+      "COMBO",
+      "CONDITIONING",
+      "CameraAngle",
+      "ComfySwitchNode",
+      "FLOAT",
+      "FluxKontextImageScale",
+      "FluxKontextMultiReferenceLatentMethod",
+      "IMAGE",
+      "INT",
+      "KSampler",
+      "LATENT",
+      "LOAD3D_CAMERA",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "ModelSamplingAuraFlow",
+      "Note",
+      "PrimitiveBoolean",
+      "PrimitiveFloat",
+      "PrimitiveInt",
+      "STRING",
+      "SaveImage",
+      "TextEncodeQwenImageEditPlus",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader",
+      "qwen_image"
+    ],
+    "unmapped_node_types": [
+      "6ac722f6-a021-4a23-809c-054361a86ea7",
+      "BOOLEAN",
+      "CFGNorm",
+      "CLIP",
+      "CLIPLoader",
+      "COMBO",
+      "CONDITIONING",
+      "CameraAngle",
+      "ComfySwitchNode",
+      "FLOAT",
+      "FluxKontextImageScale",
+      "FluxKontextMultiReferenceLatentMethod",
+      "IMAGE",
+      "INT",
+      "KSampler",
+      "LATENT",
+      "LOAD3D_CAMERA",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "ModelSamplingAuraFlow",
+      "Note",
+      "PrimitiveBoolean",
+      "PrimitiveFloat",
+      "PrimitiveInt",
+      "STRING",
+      "SaveImage",
+      "TextEncodeQwenImageEditPlus",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader",
+      "qwen_image"
+    ],
+    "versions": [],
+    "node_count": 169,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "template_qwen_multiangle.app.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_010",
+    "name": "template_sferro21_product_ad.app.json",
+    "display_name": "template sferro21 product ad.app",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/template_sferro21_product_ad.app.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/template_sferro21_product_ad.app.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "66e0579da63bcff208b9492e2c666e0c34043f908138fd537889a620e46074af",
+    "tasks": [
+      "换背景/产品场景"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "BatchImagesNode",
+      "COMBO",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "IMAGE",
+      "LoadImage",
+      "MASK",
+      "STRING",
+      "SaveImage"
+    ],
+    "unmapped_node_types": [
+      "BatchImagesNode",
+      "COMBO",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "IMAGE",
+      "LoadImage",
+      "MASK",
+      "STRING",
+      "SaveImage"
+    ],
+    "versions": [],
+    "node_count": 22,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "template_sferro21_product_ad.app.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_011",
+    "name": "templates-1_click_multiple_character_angles-v1.0.json",
+    "display_name": "templates-1 click multiple character angles-v1.0",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-1_click_multiple_character_angles-v1.0.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-1_click_multiple_character_angles-v1.0.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "11bd88562f38fb0e5b999e31b6b3ef78c2bfe12a6785805becbac46245370b89",
+    "tasks": [
+      "多角度/外观提案",
+      "服装/人物"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [
+      {
+        "file": "qwen_image_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_edit_2511_bf16.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_edit_2511_bf16.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_edit_2511_bf16.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_edit_2511_bf16.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_edit_2511_bf16.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_edit_2511_bf16.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_edit_2511_bf16.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_edit_2511_bf16.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      }
+    ],
+    "model_links": [],
+    "loaders": [
+      {
+        "node": "VAELoader",
+        "values": [
+          "qwen_image_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "qwen_image_edit_2511_bf16.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "qwen_image",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "VAELoader",
+        "values": [
+          "qwen_image_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "qwen_image_edit_2511_bf16.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "qwen_image",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "VAELoader",
+        "values": [
+          "qwen_image_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "qwen_image_edit_2511_bf16.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "qwen_image",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "VAELoader",
+        "values": [
+          "qwen_image_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "qwen_image_edit_2511_bf16.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "qwen_image",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "VAELoader",
+        "values": [
+          "qwen_image_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "qwen_image_edit_2511_bf16.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "qwen_image",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "VAELoader",
+        "values": [
+          "qwen_image_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "qwen_image_edit_2511_bf16.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "qwen_image",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "VAELoader",
+        "values": [
+          "qwen_image_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "qwen_image_edit_2511_bf16.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "qwen_image",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "VAELoader",
+        "values": [
+          "qwen_image_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "qwen_image_edit_2511_bf16.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "qwen_image",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+          1
+        ],
+        "mode": 0
+      }
+    ],
+    "plugins": [],
+    "node_types": [
+      "1e1f716b-262a-42ac-8d8d-a9fe59ce99a7",
+      "2da6c1b5-324c-40d0-9bcd-cf467f63702e",
+      "6b6e4ec3-3bd2-476c-8132-55d562d3b89d",
+      "818896cc-6841-4085-a847-5037e1b32969",
+      "9242a3e7-e9bf-493c-b872-e357e1f8ebc3",
+      "BOOLEAN",
+      "CFGNorm",
+      "CLIP",
+      "CLIPLoader",
+      "COMBO",
+      "CONDITIONING",
+      "ComfySwitchNode",
+      "FLOAT",
+      "FluxKontextImageScale",
+      "FluxKontextMultiReferenceLatentMethod",
+      "IMAGE",
+      "INT",
+      "KSampler",
+      "LATENT",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "ModelSamplingAuraFlow",
+      "Note",
+      "PrimitiveBoolean",
+      "PrimitiveFloat",
+      "PrimitiveInt",
+      "STRING",
+      "SaveImage",
+      "TextEncodeQwenImageEditPlus",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader",
+      "d2dfa167-d627-410a-8f15-b4982e730f15",
+      "e7b1f154-48c4-4f28-b9c3-d650b1286c3a",
+      "e7f8cdd3-aee4-4194-8c17-04a32354fd5e",
+      "fbeb7173-6cb7-4f0c-9a99-de0f6e53a0c2"
+    ],
+    "unmapped_node_types": [
+      "1e1f716b-262a-42ac-8d8d-a9fe59ce99a7",
+      "2da6c1b5-324c-40d0-9bcd-cf467f63702e",
+      "6b6e4ec3-3bd2-476c-8132-55d562d3b89d",
+      "818896cc-6841-4085-a847-5037e1b32969",
+      "9242a3e7-e9bf-493c-b872-e357e1f8ebc3",
+      "BOOLEAN",
+      "CFGNorm",
+      "CLIP",
+      "CLIPLoader",
+      "COMBO",
+      "CONDITIONING",
+      "ComfySwitchNode",
+      "FLOAT",
+      "FluxKontextImageScale",
+      "FluxKontextMultiReferenceLatentMethod",
+      "IMAGE",
+      "INT",
+      "KSampler",
+      "LATENT",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "ModelSamplingAuraFlow",
+      "Note",
+      "PrimitiveBoolean",
+      "PrimitiveFloat",
+      "PrimitiveInt",
+      "STRING",
+      "SaveImage",
+      "TextEncodeQwenImageEditPlus",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader",
+      "d2dfa167-d627-410a-8f15-b4982e730f15",
+      "e7b1f154-48c4-4f28-b9c3-d650b1286c3a",
+      "e7f8cdd3-aee4-4194-8c17-04a32354fd5e",
+      "fbeb7173-6cb7-4f0c-9a99-de0f6e53a0c2"
+    ],
+    "versions": [],
+    "node_count": 1361,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-1_click_multiple_character_angles-v1.0.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_012",
+    "name": "templates-1_click_multiple_scene_angles-v1.0.json",
+    "display_name": "templates-1 click multiple scene angles-v1.0",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-1_click_multiple_scene_angles-v1.0.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-1_click_multiple_scene_angles-v1.0.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "3bb93b011ed8284db1fa202fe46e870f14ace5b55ce036bca5ac7157b8bd376b",
+    "tasks": [
+      "多角度/外观提案",
+      "换背景/产品场景"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [
+      {
+        "file": "qwen_image_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Edit-2509-Multiple-angles.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      }
+    ],
+    "model_links": [],
+    "loaders": [
+      {
+        "node": "VAELoader",
+        "values": [
+          "qwen_image_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "qwen_image",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Edit-2509-Multiple-angles.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
+          1
+        ],
+        "mode": 0
+      }
+    ],
+    "plugins": [],
+    "node_types": [
+      "*",
+      "0f47377a-2933-4dba-9791-a9c54b078226",
+      "0fa92773-03c8-4142-b133-0a7984ebf385",
+      "1c290d33-3ee6-409d-8f39-e3885e3e205e",
+      "7a63c466-efd0-41c6-b9a4-bbbec01fd12f",
+      "CFGNorm",
+      "CLIP",
+      "CLIPLoader",
+      "COMBO",
+      "CONDITIONING",
+      "IMAGE",
+      "INT",
+      "ImageScaleToTotalPixels",
+      "KSampler",
+      "LATENT",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "ModelSamplingAuraFlow",
+      "PreviewImage",
+      "PrimitiveStringMultiline",
+      "Reroute",
+      "STRING",
+      "SaveImage",
+      "TextEncodeQwenImageEditPlus",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader",
+      "b7908082-f5ff-497d-8e80-e4b0ffde0419",
+      "bd0db7e4-bbb5-4a0c-bf57-429a2c393ffd",
+      "dd5bbf11-5767-45ee-bc1a-7012473bd7cb",
+      "e3abecd3-2aa7-408a-83bb-90f14e706169",
+      "e73dd290-d72e-48d9-9cb8-263978864dfd",
+      "f8c65a72-1b09-4a5b-93c1-5e431d47aa9b"
+    ],
+    "unmapped_node_types": [
+      "*",
+      "0f47377a-2933-4dba-9791-a9c54b078226",
+      "0fa92773-03c8-4142-b133-0a7984ebf385",
+      "1c290d33-3ee6-409d-8f39-e3885e3e205e",
+      "7a63c466-efd0-41c6-b9a4-bbbec01fd12f",
+      "CFGNorm",
+      "CLIP",
+      "CLIPLoader",
+      "COMBO",
+      "CONDITIONING",
+      "IMAGE",
+      "INT",
+      "ImageScaleToTotalPixels",
+      "KSampler",
+      "LATENT",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "ModelSamplingAuraFlow",
+      "PreviewImage",
+      "PrimitiveStringMultiline",
+      "Reroute",
+      "STRING",
+      "SaveImage",
+      "TextEncodeQwenImageEditPlus",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader",
+      "b7908082-f5ff-497d-8e80-e4b0ffde0419",
+      "bd0db7e4-bbb5-4a0c-bf57-429a2c393ffd",
+      "dd5bbf11-5767-45ee-bc1a-7012473bd7cb",
+      "e3abecd3-2aa7-408a-83bb-90f14e706169",
+      "e73dd290-d72e-48d9-9cb8-263978864dfd",
+      "f8c65a72-1b09-4a5b-93c1-5e431d47aa9b"
+    ],
+    "versions": [],
+    "node_count": 852,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-1_click_multiple_scene_angles-v1.0.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_013",
+    "name": "templates-1_input-multiple_styles_prompt.app.json",
+    "display_name": "templates-1 input-multiple styles prompt.app",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-1_input-multiple_styles_prompt.app.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-1_input-multiple_styles_prompt.app.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "f21b9f0132947f22f6d6a65c77327c8a80d0f80a37901335c82e5d4f35b51976",
+    "tasks": [
+      "参考图/风格探索"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "GrokImageEditNodeV2",
+      "IMAGE",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "SaveImage"
+    ],
+    "unmapped_node_types": [
+      "GrokImageEditNodeV2",
+      "IMAGE",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "SaveImage"
+    ],
+    "versions": [],
+    "node_count": 88,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-1_input-multiple_styles_prompt.app.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_014",
+    "name": "templates-2x2_grid-character_bg_product.json",
+    "display_name": "templates-2x2 grid-character bg product",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-2x2_grid-character_bg_product.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-2x2_grid-character_bg_product.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "1faa40ea0b3a33fe82c95476589c451a37996682f2a311bbd1929ceb924f86fb",
+    "tasks": [
+      "扩图/版式留白",
+      "换背景/产品场景",
+      "服装/人物"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [
+      "comfyui-kjnodes",
+      "comfyui_essentials"
+    ],
+    "node_types": [
+      "*",
+      "38467b91-f6e9-4f17-a18a-44e81ac5de93",
+      "7a951a01-c7c7-4f0b-83d2-c2781ad6175b",
+      "7f0b4117-39c1-4a46-af45-19cf8fd86001",
+      "BatchImagesNode",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "ImageFromBatch",
+      "ImageResizeKJv2",
+      "LoadImage",
+      "MASK",
+      "PreviewImage",
+      "PrimitiveInt",
+      "Reroute",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+",
+      "f4f8f4f2-9671-4f7f-b27b-5fdbd1e01628"
+    ],
+    "unmapped_node_types": [
+      "*",
+      "38467b91-f6e9-4f17-a18a-44e81ac5de93",
+      "7a951a01-c7c7-4f0b-83d2-c2781ad6175b",
+      "7f0b4117-39c1-4a46-af45-19cf8fd86001",
+      "BatchImagesNode",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "ImageFromBatch",
+      "ImageResizeKJv2",
+      "LoadImage",
+      "MASK",
+      "PreviewImage",
+      "PrimitiveInt",
+      "Reroute",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+",
+      "f4f8f4f2-9671-4f7f-b27b-5fdbd1e01628"
+    ],
+    "versions": [],
+    "node_count": 319,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-2x2_grid-character_bg_product.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_015",
+    "name": "templates-3x3_grid_brand_icons.json",
+    "display_name": "templates-3x3 grid brand icons",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-3x3_grid_brand_icons.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-3x3_grid_brand_icons.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "1d9861c7037fd47a1025359d6288eefd440e794658f001bc246346c1fc6116e1",
+    "tasks": [
+      "扩图/版式留白"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [
+      "comfyui-kjnodes",
+      "comfyui_essentials"
+    ],
+    "node_types": [
+      "*",
+      "18e92265-632c-4221-8df4-c33500d34c6b",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "LoadImage",
+      "MASK",
+      "PreviewImage",
+      "PrimitiveInt",
+      "PrimitiveStringMultiline",
+      "RegexReplace",
+      "Reroute",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+"
+    ],
+    "unmapped_node_types": [
+      "*",
+      "18e92265-632c-4221-8df4-c33500d34c6b",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "LoadImage",
+      "MASK",
+      "PreviewImage",
+      "PrimitiveInt",
+      "PrimitiveStringMultiline",
+      "RegexReplace",
+      "Reroute",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+"
+    ],
+    "versions": [],
+    "node_count": 322,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-3x3_grid_brand_icons.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_016",
+    "name": "templates-9grid_social_media-v2.0.json",
+    "display_name": "templates-9grid social media-v2.0",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-9grid_social_media-v2.0.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-9grid_social_media-v2.0.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "f6627ec7f73cfc34de29f9a5931495f992194762cb2490b74e9f47c8f3f0e895",
+    "tasks": [
+      "扩图/版式留白"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [
+      "comfyui-kjnodes",
+      "comfyui_essentials"
+    ],
+    "node_types": [
+      "*",
+      "004fe23c-a959-416e-bddb-2e0bf33b328f",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatch",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "ImageFromBatch",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "Note",
+      "PreviewImage",
+      "PrimitiveInt",
+      "Reroute",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+",
+      "d8f2ac09-8231-4b0c-821b-195b5e2e2607"
+    ],
+    "unmapped_node_types": [
+      "*",
+      "004fe23c-a959-416e-bddb-2e0bf33b328f",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatch",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "ImageFromBatch",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "Note",
+      "PreviewImage",
+      "PrimitiveInt",
+      "Reroute",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+",
+      "d8f2ac09-8231-4b0c-821b-195b5e2e2607"
+    ],
+    "versions": [],
+    "node_count": 369,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-9grid_social_media-v2.0.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_017",
+    "name": "templates-assemble_dieline.json",
+    "display_name": "templates-assemble dieline",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-assemble_dieline.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-assemble_dieline.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "fd0369eb29e789057d18c5e0520251521da1f0565a0838a21fced0aab510c6aa",
+    "tasks": [
+      "扩图/版式留白"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "IMAGE",
+      "LoadImage",
+      "MASK",
+      "STRING",
+      "SaveImage"
+    ],
+    "unmapped_node_types": [
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "IMAGE",
+      "LoadImage",
+      "MASK",
+      "STRING",
+      "SaveImage"
+    ],
+    "versions": [],
+    "node_count": 10,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-assemble_dieline.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_018",
+    "name": "templates-car_product.json",
+    "display_name": "templates-car product",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-car_product.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-car_product.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "db170bcb741496c820c92e71deecc2d7412ea3a00c5b6bfd87fa0a784ba2fdf3",
+    "tasks": [
+      "换背景/产品场景"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "*",
+      "8644d200-d58d-4311-bebe-a9f397568743",
+      "AUDIO",
+      "BatchImagesNode",
+      "ByteDanceSeedreamNodeV3",
+      "COMBO",
+      "CreateVideo",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiNodeV3",
+      "GetVideoComponents",
+      "IMAGE",
+      "KlingFirstLastFrameNode",
+      "LoadImage",
+      "MASK",
+      "PreviewAny",
+      "RegexExtract",
+      "Reroute",
+      "STRING",
+      "SaveImage",
+      "SaveVideo",
+      "VIDEO",
+      "ba9a7b30-cca0-4afc-9b44-ebfdc6121d4a",
+      "f0fb6ee5-af18-4ce2-b2e5-3c41c2b18aec"
+    ],
+    "unmapped_node_types": [
+      "*",
+      "8644d200-d58d-4311-bebe-a9f397568743",
+      "AUDIO",
+      "BatchImagesNode",
+      "ByteDanceSeedreamNodeV3",
+      "COMBO",
+      "CreateVideo",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiNodeV3",
+      "GetVideoComponents",
+      "IMAGE",
+      "KlingFirstLastFrameNode",
+      "LoadImage",
+      "MASK",
+      "PreviewAny",
+      "RegexExtract",
+      "Reroute",
+      "STRING",
+      "SaveImage",
+      "SaveVideo",
+      "VIDEO",
+      "ba9a7b30-cca0-4afc-9b44-ebfdc6121d4a",
+      "f0fb6ee5-af18-4ce2-b2e5-3c41c2b18aec"
+    ],
+    "versions": [],
+    "node_count": 207,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-car_product.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_019",
+    "name": "templates-character_sheet.json",
+    "display_name": "templates-character sheet",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-character_sheet.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-character_sheet.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "37d523abee97de8efc1a540e8675421c01f45131c48ef8d822e871dbda4aa168",
+    "tasks": [
+      "服装/人物"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "*",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "IMAGE",
+      "ImageStitch",
+      "LoadImage",
+      "MASK",
+      "Reroute",
+      "STRING",
+      "SaveImage"
+    ],
+    "unmapped_node_types": [
+      "*",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "IMAGE",
+      "ImageStitch",
+      "LoadImage",
+      "MASK",
+      "Reroute",
+      "STRING",
+      "SaveImage"
+    ],
+    "versions": [],
+    "node_count": 29,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-character_sheet.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_020",
+    "name": "templates-color_illustration.json",
+    "display_name": "templates-color illustration",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-color_illustration.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-color_illustration.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "46a7a981ad85c8ea8521cd71160e6f9e810400659ccfdf5010ec6fa0548792ed",
+    "tasks": [
+      "参考图/风格探索"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "IMAGE",
+      "LoadImage",
+      "MASK",
+      "STRING",
+      "SaveImage"
+    ],
+    "unmapped_node_types": [
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "IMAGE",
+      "LoadImage",
+      "MASK",
+      "STRING",
+      "SaveImage"
+    ],
+    "versions": [],
+    "node_count": 10,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-color_illustration.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_021",
+    "name": "templates-fashion_shoot_vton.json",
+    "display_name": "templates-fashion shoot vton",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-fashion_shoot_vton.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-fashion_shoot_vton.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "ad7391ea9f87356f0e42614e3887b8af476e15fb4a86692fdd3c6e1a42ad6f7b",
+    "tasks": [
+      "服装/人物"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [
+      "comfyui-kjnodes",
+      "comfyui_essentials"
+    ],
+    "node_types": [
+      "*",
+      "438291c7-4d80-4015-bd42-f21a45b4a67b",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatch",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "ImageFromBatch",
+      "ImageResizeKJv2",
+      "LoadImage",
+      "MASK",
+      "Note",
+      "PreviewImage",
+      "PrimitiveInt",
+      "PrimitiveStringMultiline",
+      "Reroute",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+"
+    ],
+    "unmapped_node_types": [
+      "*",
+      "438291c7-4d80-4015-bd42-f21a45b4a67b",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatch",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "ImageFromBatch",
+      "ImageResizeKJv2",
+      "LoadImage",
+      "MASK",
+      "Note",
+      "PreviewImage",
+      "PrimitiveInt",
+      "PrimitiveStringMultiline",
+      "Reroute",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+"
+    ],
+    "versions": [],
+    "node_count": 239,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-fashion_shoot_vton.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_022",
+    "name": "templates-image_to_real.json",
+    "display_name": "templates-image to real",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-image_to_real.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-image_to_real.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "6c3f0bb762bf9cb1d8af58b9c7c8e28918cc748a051741d44d35930613967a15",
+    "tasks": [
+      "参考图/风格探索"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [
+      {
+        "file": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2509-Anything2RealAlpha.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2509-Lightning-8steps-V1.0-bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      }
+    ],
+    "model_links": [],
+    "loaders": [
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "qwen_image",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "VAELoader",
+        "values": [
+          "qwen_image_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2509-Anything2RealAlpha.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2509-Lightning-8steps-V1.0-bf16.safetensors",
+          1
+        ],
+        "mode": 0
+      }
+    ],
+    "plugins": [],
+    "node_types": [
+      "5d31be54-7e20-4abe-81d7-f9e278fe0801",
+      "CFGNorm",
+      "CLIP",
+      "CLIPLoader",
+      "COMBO",
+      "CONDITIONING",
+      "IMAGE",
+      "INT",
+      "KSampler",
+      "LATENT",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "ModelSamplingAuraFlow",
+      "STRING",
+      "SaveImage",
+      "TextEncodeQwenImageEditPlus",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader"
+    ],
+    "unmapped_node_types": [
+      "5d31be54-7e20-4abe-81d7-f9e278fe0801",
+      "CFGNorm",
+      "CLIP",
+      "CLIPLoader",
+      "COMBO",
+      "CONDITIONING",
+      "IMAGE",
+      "INT",
+      "KSampler",
+      "LATENT",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "ModelSamplingAuraFlow",
+      "STRING",
+      "SaveImage",
+      "TextEncodeQwenImageEditPlus",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader"
+    ],
+    "versions": [],
+    "node_count": 98,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-image_to_real.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_023",
+    "name": "templates-led_billboard.json",
+    "display_name": "templates-led billboard",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-led_billboard.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-led_billboard.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "f7fc71df4ce313b3a4aad7fb16fe96423b02bab62e2640c6ccb9c4a7f7154885",
+    "tasks": [
+      "扩图/版式留白"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [
+      "comfyui_essentials"
+    ],
+    "node_types": [
+      "319c5e46-36eb-4854-a39e-1291507505e2",
+      "BatchImagesNode",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImagePadForOutpaint",
+      "ImageScaleToTotalPixels",
+      "KlingFirstLastFrameNode",
+      "LoadImage",
+      "MASK",
+      "PreviewImage",
+      "PrimitiveInt",
+      "PrimitiveStringMultiline",
+      "RegexReplace",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SaveVideo",
+      "SimpleMath+",
+      "VIDEO",
+      "afac6e36-94b5-4d13-ae22-66f87405e994"
+    ],
+    "unmapped_node_types": [
+      "319c5e46-36eb-4854-a39e-1291507505e2",
+      "BatchImagesNode",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImagePadForOutpaint",
+      "ImageScaleToTotalPixels",
+      "KlingFirstLastFrameNode",
+      "LoadImage",
+      "MASK",
+      "PreviewImage",
+      "PrimitiveInt",
+      "PrimitiveStringMultiline",
+      "RegexReplace",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SaveVideo",
+      "SimpleMath+",
+      "VIDEO",
+      "afac6e36-94b5-4d13-ae22-66f87405e994"
+    ],
+    "versions": [],
+    "node_count": 124,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-led_billboard.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_024",
+    "name": "templates-multiple_consistent_shots-nb_pro.json",
+    "display_name": "templates-multiple consistent shots-nb pro",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-multiple_consistent_shots-nb_pro.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-multiple_consistent_shots-nb_pro.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "19d6c1cbecdb845580b72e8fd63cba329dd4ed79928c8ee0ad09790c6c2a867a",
+    "tasks": [
+      "图像生成/编辑基础"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [
+      "comfyui-kjnodes",
+      "comfyui_essentials"
+    ],
+    "node_types": [
+      "*",
+      "4682df2b-bfbf-4fc5-8bfb-a6eb6aaea892",
+      "601fd020-3eba-4b24-b15f-a2a9c0307d3a",
+      "6d92985e-3e1e-49e2-acea-91c5259d86a8",
+      "86a340d1-ba23-44b6-8470-6b3d64167d65",
+      "AUDIO",
+      "BatchImagesNode",
+      "COMBO",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GeminiNode",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "PreviewAny",
+      "PreviewImage",
+      "PrimitiveInt",
+      "PrimitiveNode",
+      "PrimitiveStringMultiline",
+      "RegexExtract",
+      "RegexReplace",
+      "Reroute",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+",
+      "SomethingToString",
+      "VIDEO",
+      "a39f1ec1-8086-4164-97cb-340ed88c8168",
+      "acb845ee-315b-479a-8579-7ad2af961ba0",
+      "d33c1791-dfd2-4102-8540-aa63e4434cd2",
+      "da09b826-d678-40e0-a4e4-5f2178043ab6",
+      "e3dd2fcb-0e5e-47a8-963b-adea96749eb0",
+      "e5719f6e-fb77-48b8-ba45-c60901a55fe7",
+      "eaabb89a-2cd6-4960-ad44-1b152bff77c1",
+      "f2228dc9-64e8-43b1-a4ca-b8a57eed8f64"
+    ],
+    "unmapped_node_types": [
+      "*",
+      "4682df2b-bfbf-4fc5-8bfb-a6eb6aaea892",
+      "601fd020-3eba-4b24-b15f-a2a9c0307d3a",
+      "6d92985e-3e1e-49e2-acea-91c5259d86a8",
+      "86a340d1-ba23-44b6-8470-6b3d64167d65",
+      "AUDIO",
+      "BatchImagesNode",
+      "COMBO",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GeminiNode",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "PreviewAny",
+      "PreviewImage",
+      "PrimitiveInt",
+      "PrimitiveNode",
+      "PrimitiveStringMultiline",
+      "RegexExtract",
+      "RegexReplace",
+      "Reroute",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+",
+      "SomethingToString",
+      "VIDEO",
+      "a39f1ec1-8086-4164-97cb-340ed88c8168",
+      "acb845ee-315b-479a-8579-7ad2af961ba0",
+      "d33c1791-dfd2-4102-8540-aa63e4434cd2",
+      "da09b826-d678-40e0-a4e4-5f2178043ab6",
+      "e3dd2fcb-0e5e-47a8-963b-adea96749eb0",
+      "e5719f6e-fb77-48b8-ba45-c60901a55fe7",
+      "eaabb89a-2cd6-4960-ad44-1b152bff77c1",
+      "f2228dc9-64e8-43b1-a4ca-b8a57eed8f64"
+    ],
+    "versions": [],
+    "node_count": 511,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-multiple_consistent_shots-nb_pro.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_025",
+    "name": "templates-photo_to_product_vid.json",
+    "display_name": "templates-photo to product vid",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-photo_to_product_vid.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-photo_to_product_vid.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "8f72dc2fe82794e0818b34673e5afd606edc275dd7d2ce50511881b9496932cf",
+    "tasks": [
+      "换背景/产品场景",
+      "视频/动效"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "23514ff4-69d2-461d-97d8-8b34d2981d4b",
+      "AUDIO",
+      "ByteDanceSeedreamNode",
+      "CreateVideo",
+      "FLOAT",
+      "GetVideoComponents",
+      "IMAGE",
+      "ImageBatch",
+      "LoadImage",
+      "MASK",
+      "MinimaxHailuoVideoNode",
+      "SaveImage",
+      "SaveVideo",
+      "VIDEO"
+    ],
+    "unmapped_node_types": [
+      "23514ff4-69d2-461d-97d8-8b34d2981d4b",
+      "AUDIO",
+      "ByteDanceSeedreamNode",
+      "CreateVideo",
+      "FLOAT",
+      "GetVideoComponents",
+      "IMAGE",
+      "ImageBatch",
+      "LoadImage",
+      "MASK",
+      "MinimaxHailuoVideoNode",
+      "SaveImage",
+      "SaveVideo",
+      "VIDEO"
+    ],
+    "versions": [],
+    "node_count": 72,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-photo_to_product_vid.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_026",
+    "name": "templates-portrait_light_migration.json",
+    "display_name": "templates-portrait light migration",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-portrait_light_migration.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-portrait_light_migration.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "b080a2b96676dd0a5178ff3b394f10da8167f3b6383eb9fc3b7ac3d2bf2d14a9",
+    "tasks": [
+      "打光/光影融合"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [
+      {
+        "file": "qwen_image_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2509-Light-Migration.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      }
+    ],
+    "model_links": [],
+    "loaders": [
+      {
+        "node": "VAELoader",
+        "values": [
+          "qwen_image_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "qwen_image",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2509-Light-Migration.safetensors",
+          1
+        ],
+        "mode": 0
+      }
+    ],
+    "plugins": [],
+    "node_types": [
+      "9e3c3756-d15f-4361-8e99-c35673036e68",
+      "BOOLEAN",
+      "CFGNorm",
+      "CLIP",
+      "CLIPLoader",
+      "COMBO",
+      "CONDITIONING",
+      "ComfySwitchNode",
+      "FLOAT",
+      "FluxKontextImageScale",
+      "IMAGE",
+      "INT",
+      "KSampler",
+      "LATENT",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "ModelSamplingAuraFlow",
+      "Note",
+      "PrimitiveBoolean",
+      "PrimitiveFloat",
+      "PrimitiveInt",
+      "STRING",
+      "SaveImage",
+      "TextEncodeQwenImageEditPlus",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader"
+    ],
+    "unmapped_node_types": [
+      "9e3c3756-d15f-4361-8e99-c35673036e68",
+      "BOOLEAN",
+      "CFGNorm",
+      "CLIP",
+      "CLIPLoader",
+      "COMBO",
+      "CONDITIONING",
+      "ComfySwitchNode",
+      "FLOAT",
+      "FluxKontextImageScale",
+      "IMAGE",
+      "INT",
+      "KSampler",
+      "LATENT",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "ModelSamplingAuraFlow",
+      "Note",
+      "PrimitiveBoolean",
+      "PrimitiveFloat",
+      "PrimitiveInt",
+      "STRING",
+      "SaveImage",
+      "TextEncodeQwenImageEditPlus",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader"
+    ],
+    "versions": [],
+    "node_count": 161,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-portrait_light_migration.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_027",
+    "name": "templates-poster_product_integration.json",
+    "display_name": "templates-poster product integration",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-poster_product_integration.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-poster_product_integration.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "d10df57d70bf3691f38eb9b26c756eafd5fa76a5a2c91b7d43797d83a27b31ab",
+    "tasks": [
+      "扩图/版式留白",
+      "换背景/产品场景"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [
+      "comfyui_essentials"
+    ],
+    "node_types": [
+      "*",
+      "62df1500-5aa3-4efd-95e7-cd3db70f1ded",
+      "AUDIO",
+      "BatchImagesNode",
+      "ByteDanceSeedreamNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiNode",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "ImageRemoveBackground+",
+      "LoadImage",
+      "MASK",
+      "PreviewAny",
+      "PreviewImage",
+      "REMBG_SESSION",
+      "RemBGSession+",
+      "Reroute",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "VIDEO"
+    ],
+    "unmapped_node_types": [
+      "*",
+      "62df1500-5aa3-4efd-95e7-cd3db70f1ded",
+      "AUDIO",
+      "BatchImagesNode",
+      "ByteDanceSeedreamNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiNode",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "ImageRemoveBackground+",
+      "LoadImage",
+      "MASK",
+      "PreviewAny",
+      "PreviewImage",
+      "REMBG_SESSION",
+      "RemBGSession+",
+      "Reroute",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "VIDEO"
+    ],
+    "versions": [],
+    "node_count": 72,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-poster_product_integration.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_028",
+    "name": "templates-poster_to_2x2_mockups-v2.0.json",
+    "display_name": "templates-poster to 2x2 mockups-v2.0",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-poster_to_2x2_mockups-v2.0.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-poster_to_2x2_mockups-v2.0.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "0ed80474c3b37b672ff5e9ae30119024e5c283a16a74e45dfae890b6a5eb5dde",
+    "tasks": [
+      "扩图/版式留白"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [
+      "comfyui_essentials"
+    ],
+    "node_types": [
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatch",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "ImageFromBatch",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "PreviewImage",
+      "PrimitiveInt",
+      "PrimitiveStringMultiline",
+      "RegexReplace",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+",
+      "b04db13c-0164-4644-a228-21050043aafc"
+    ],
+    "unmapped_node_types": [
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatch",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "ImageFromBatch",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "PreviewImage",
+      "PrimitiveInt",
+      "PrimitiveStringMultiline",
+      "RegexReplace",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+",
+      "b04db13c-0164-4644-a228-21050043aafc"
+    ],
+    "versions": [],
+    "node_count": 196,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-poster_to_2x2_mockups-v2.0.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_029",
+    "name": "templates-product_ad-v2.0.json",
+    "display_name": "templates-product ad-v2.0",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-product_ad-v2.0.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-product_ad-v2.0.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "124466728f7fc24379322bf065b40fe467ad49db2cb4ed550356fdcce276b34f",
+    "tasks": [
+      "换背景/产品场景"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "ImageBatch",
+      "LoadImage",
+      "MASK",
+      "PrimitiveStringMultiline",
+      "RegexReplace",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage"
+    ],
+    "unmapped_node_types": [
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "ImageBatch",
+      "LoadImage",
+      "MASK",
+      "PrimitiveStringMultiline",
+      "RegexReplace",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage"
+    ],
+    "versions": [],
+    "node_count": 36,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-product_ad-v2.0.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_030",
+    "name": "templates-sprite_sheet.json",
+    "display_name": "templates-sprite sheet",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-sprite_sheet.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-sprite_sheet.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "faf28e9090d19da767fbd963a5536a410d223cf0390e2748cd360596c655f88c",
+    "tasks": [
+      "图像生成/编辑基础"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [
+      "comfyui-kjnodes",
+      "comfyui_essentials",
+      "comfyui_layerstyle"
+    ],
+    "node_types": [
+      "*",
+      "0518703c-1cc9-4cf3-8e42-030ce6c965fa",
+      "06efa70b-1778-4fbd-81b1-90da9e9e5df9",
+      "1199485a-4420-4430-bd51-e2e73c752b77",
+      "3442c715-5f4b-4c16-9579-109362552086",
+      "3555538f-1640-401f-8975-c9deb6afbe30",
+      "381cb43d-1b97-446d-9d8b-09def3168e4f",
+      "56da3fe7-61e8-47ab-85d0-65c2fcf8b0cd",
+      "5b3b5a69-6d48-432e-8fc3-b9ed82d8519a",
+      "67cd363c-0573-4c1f-b1c5-f6474ee5f616",
+      "69a6bfa9-1478-45c1-85cd-16aa7ab7397d",
+      "6f2a3d41-8e40-40f6-98c3-8d9c79db25fd",
+      "79dc3651-3ca7-4d1d-9246-9a951b834ab9",
+      "7e3ee2fc-28cd-42ef-9106-1ee0c21f08f4",
+      "82b9f3ac-eaa6-4ed1-b6c4-2af94a41ab52",
+      "8f8662c0-0db9-46cc-a525-c5c420f153b5",
+      "9ad795f0-da72-4b2f-a0d2-b39c9bef3ac2",
+      "9d9aead4-8fd2-4353-9ba1-787e9ca42240",
+      "AUDIO",
+      "BatchImagesNode",
+      "ColorToMask",
+      "CreateVideo",
+      "CropMask",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatchMulti",
+      "ImageCompositeMasked",
+      "ImageCrop",
+      "ImageFromBatch",
+      "ImagePadForOutpaintMasked",
+      "ImageResizeKJv2",
+      "InvertMask",
+      "LayerUtility: ColorImage V2",
+      "LoadImage",
+      "MASK",
+      "MaskBoundingBox+",
+      "MaskPreview+",
+      "PreviewImage",
+      "PrimitiveInt",
+      "PrimitiveNode",
+      "RepeatImageBatch",
+      "Reroute",
+      "STRING",
+      "SaveImage",
+      "SaveVideo",
+      "SimpleMath+",
+      "SplitImageWithAlpha",
+      "VIDEO",
+      "a7ef5ddd-c7a8-4d6d-86e7-b61267a737b8",
+      "aa348f53-fb9c-4ce6-9661-a232d909dcd9",
+      "ac1d3248-5084-4747-8bbf-97037447c680",
+      "b3e46f6d-9c2e-417f-9fd2-b937b0c44103",
+      "d3cb85d6-9dbf-4beb-bf7e-e5961e6c739b",
+      "daee4a04-f70f-477b-8fb6-ae8a8a59aaf3",
+      "e438156f-1fda-4d7e-b117-76c2311fb673",
+      "e6bcb358-3fee-47eb-8c25-30eeee20d90e",
+      "e79b1370-0410-44ab-8e23-5ba9a5382114",
+      "eac468e2-a5b1-4b44-a416-a94653d05781",
+      "ef99a7c8-723f-4957-a83a-3904dceb7285"
+    ],
+    "unmapped_node_types": [
+      "*",
+      "0518703c-1cc9-4cf3-8e42-030ce6c965fa",
+      "06efa70b-1778-4fbd-81b1-90da9e9e5df9",
+      "1199485a-4420-4430-bd51-e2e73c752b77",
+      "3442c715-5f4b-4c16-9579-109362552086",
+      "3555538f-1640-401f-8975-c9deb6afbe30",
+      "381cb43d-1b97-446d-9d8b-09def3168e4f",
+      "56da3fe7-61e8-47ab-85d0-65c2fcf8b0cd",
+      "5b3b5a69-6d48-432e-8fc3-b9ed82d8519a",
+      "67cd363c-0573-4c1f-b1c5-f6474ee5f616",
+      "69a6bfa9-1478-45c1-85cd-16aa7ab7397d",
+      "6f2a3d41-8e40-40f6-98c3-8d9c79db25fd",
+      "79dc3651-3ca7-4d1d-9246-9a951b834ab9",
+      "7e3ee2fc-28cd-42ef-9106-1ee0c21f08f4",
+      "82b9f3ac-eaa6-4ed1-b6c4-2af94a41ab52",
+      "8f8662c0-0db9-46cc-a525-c5c420f153b5",
+      "9ad795f0-da72-4b2f-a0d2-b39c9bef3ac2",
+      "9d9aead4-8fd2-4353-9ba1-787e9ca42240",
+      "AUDIO",
+      "BatchImagesNode",
+      "ColorToMask",
+      "CreateVideo",
+      "CropMask",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatchMulti",
+      "ImageCompositeMasked",
+      "ImageCrop",
+      "ImageFromBatch",
+      "ImagePadForOutpaintMasked",
+      "ImageResizeKJv2",
+      "InvertMask",
+      "LayerUtility: ColorImage V2",
+      "LoadImage",
+      "MASK",
+      "MaskBoundingBox+",
+      "MaskPreview+",
+      "PreviewImage",
+      "PrimitiveInt",
+      "PrimitiveNode",
+      "RepeatImageBatch",
+      "Reroute",
+      "STRING",
+      "SaveImage",
+      "SaveVideo",
+      "SimpleMath+",
+      "SplitImageWithAlpha",
+      "VIDEO",
+      "a7ef5ddd-c7a8-4d6d-86e7-b61267a737b8",
+      "aa348f53-fb9c-4ce6-9661-a232d909dcd9",
+      "ac1d3248-5084-4747-8bbf-97037447c680",
+      "b3e46f6d-9c2e-417f-9fd2-b937b0c44103",
+      "d3cb85d6-9dbf-4beb-bf7e-e5961e6c739b",
+      "daee4a04-f70f-477b-8fb6-ae8a8a59aaf3",
+      "e438156f-1fda-4d7e-b117-76c2311fb673",
+      "e6bcb358-3fee-47eb-8c25-30eeee20d90e",
+      "e79b1370-0410-44ab-8e23-5ba9a5382114",
+      "eac468e2-a5b1-4b44-a416-a94653d05781",
+      "ef99a7c8-723f-4957-a83a-3904dceb7285"
+    ],
+    "versions": [],
+    "node_count": 3919,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-sprite_sheet.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_031",
+    "name": "templates-subject_holding_product.app.json",
+    "display_name": "templates-subject holding product.app",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-subject_holding_product.app.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-subject_holding_product.app.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "c1a2affe80c0f7190ed01094d3d771f1c37fd87d1e258594be338d5418b88f8a",
+    "tasks": [
+      "换背景/产品场景",
+      "服装/人物"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "BatchImagesNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "LoadImage",
+      "MASK",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "e20a7fb5-3d72-41c9-a78c-fdf287ec46ec"
+    ],
+    "unmapped_node_types": [
+      "BatchImagesNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "LoadImage",
+      "MASK",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "e20a7fb5-3d72-41c9-a78c-fdf287ec46ec"
+    ],
+    "versions": [],
+    "node_count": 42,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-subject_holding_product.app.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_032",
+    "name": "templates-subject_product_swap.app.json",
+    "display_name": "templates-subject product swap.app",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-subject_product_swap.app.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-subject_product_swap.app.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "7d23d95d0d8cc2131b1d3a1f29147e4c6789bdb03551a5ec8c08229d146c39c8",
+    "tasks": [
+      "局部修改/移除",
+      "换背景/产品场景",
+      "服装/人物"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "BatchImagesNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "LoadImage",
+      "MASK",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "e20a7fb5-3d72-41c9-a78c-fdf287ec46ec"
+    ],
+    "unmapped_node_types": [
+      "BatchImagesNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "LoadImage",
+      "MASK",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "e20a7fb5-3d72-41c9-a78c-fdf287ec46ec"
+    ],
+    "versions": [],
+    "node_count": 42,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-subject_product_swap.app.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_033",
+    "name": "templates-textured_logo_elements.json",
+    "display_name": "templates-textured logo elements",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-textured_logo_elements.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-textured_logo_elements.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "571d6f0151a5daa6dd63b2a5aca76f3f5705edbf7e0fc7004921b0cb2a213381",
+    "tasks": [
+      "参考图/风格探索"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "BatchImagesNode",
+      "ByteDanceImageToVideoNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "LoadImage",
+      "MASK",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SaveVideo",
+      "VIDEO",
+      "button",
+      "e160d976-2957-4c31-aecd-e27e9466ea1f"
+    ],
+    "unmapped_node_types": [
+      "BatchImagesNode",
+      "ByteDanceImageToVideoNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "LoadImage",
+      "MASK",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SaveVideo",
+      "VIDEO",
+      "button",
+      "e160d976-2957-4c31-aecd-e27e9466ea1f"
+    ],
+    "versions": [],
+    "node_count": 65,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-textured_logo_elements.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_034",
+    "name": "templates-textured_logotype-v2.1.json",
+    "display_name": "templates-textured logotype-v2.1",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates-textured_logotype-v2.1.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates-textured_logotype-v2.1.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "1b9c19ae870704b29d18985b9cf7860190119fbe870f77ea11213010fa176020",
+    "tasks": [
+      "参考图/风格探索"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "ByteDanceFirstLastFrameNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GeminiImageNode",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "ImageBatch",
+      "LoadImage",
+      "MASK",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SaveVideo",
+      "VIDEO",
+      "button"
+    ],
+    "unmapped_node_types": [
+      "ByteDanceFirstLastFrameNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GeminiImageNode",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "ImageBatch",
+      "LoadImage",
+      "MASK",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SaveVideo",
+      "VIDEO",
+      "button"
+    ],
+    "versions": [],
+    "node_count": 42,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates-textured_logotype-v2.1.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_035",
+    "name": "templates_3d_match_game_art_style.app.json",
+    "display_name": "templates 3d match game art style.app",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates_3d_match_game_art_style.app.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates_3d_match_game_art_style.app.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "2ff4536490270e95b82348f6b96eff20a5199e4d12e3f1c8c51bc1b8cb87936f",
+    "tasks": [
+      "参考图/风格探索"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "BatchImagesNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "IMAGE",
+      "ImageCompare",
+      "LoadImage",
+      "MASK",
+      "PrimitiveStringMultiline",
+      "RecraftRemoveBackgroundNode",
+      "STRING",
+      "SaveImage",
+      "StringConcatenate"
+    ],
+    "unmapped_node_types": [
+      "BatchImagesNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "IMAGE",
+      "ImageCompare",
+      "LoadImage",
+      "MASK",
+      "PrimitiveStringMultiline",
+      "RecraftRemoveBackgroundNode",
+      "STRING",
+      "SaveImage",
+      "StringConcatenate"
+    ],
+    "versions": [],
+    "node_count": 42,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates_3d_match_game_art_style.app.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_036",
+    "name": "templates_doc_workbox_klein_9b_image_extend.json",
+    "display_name": "templates doc workbox klein 9b image extend",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates_doc_workbox_klein_9b_image_extend.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates_doc_workbox_klein_9b_image_extend.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "b88339e518a269adeb68327f335577396f899c952700240afc223fe0748d15c3",
+    "tasks": [
+      "图像生成/编辑基础"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [
+      {
+        "file": "flux-2-klein-9b.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "qwen_3_8b.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "flux2-vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      }
+    ],
+    "model_links": [],
+    "loaders": [
+      {
+        "node": "UNETLoader",
+        "values": [
+          "flux-2-klein-9b.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "qwen_3_8b.safetensors",
+          "flux2",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "VAELoader",
+        "values": [
+          "flux2-vae.safetensors"
+        ],
+        "mode": 0
+      }
+    ],
+    "plugins": [],
+    "node_types": [
+      "BOOLEAN",
+      "CFGGuider",
+      "CLIP",
+      "CLIPLoader",
+      "CLIPTextEncode",
+      "COMBO",
+      "CONDITIONING",
+      "ColorMatch",
+      "ConditioningZeroOut",
+      "DrawMaskOnImage",
+      "EmptyFlux2LatentImage",
+      "FLOAT",
+      "Flux2Scheduler",
+      "GUIDER",
+      "GetImageSize",
+      "IMAGE",
+      "IMAGEUPLOAD",
+      "INT",
+      "ImageCompare",
+      "ImagePadForOutpaint",
+      "ImageScaleToTotalPixels",
+      "KSamplerSelect",
+      "LATENT",
+      "LoadImage",
+      "MASK",
+      "MODEL",
+      "NOISE",
+      "RandomNoise",
+      "ReferenceLatent",
+      "SAMPLER",
+      "SIGMAS",
+      "STRING",
+      "SamplerCustomAdvanced",
+      "SaveImage",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader"
+    ],
+    "unmapped_node_types": [
+      "BOOLEAN",
+      "CFGGuider",
+      "CLIP",
+      "CLIPLoader",
+      "CLIPTextEncode",
+      "COMBO",
+      "CONDITIONING",
+      "ColorMatch",
+      "ConditioningZeroOut",
+      "DrawMaskOnImage",
+      "EmptyFlux2LatentImage",
+      "FLOAT",
+      "Flux2Scheduler",
+      "GUIDER",
+      "GetImageSize",
+      "IMAGE",
+      "IMAGEUPLOAD",
+      "INT",
+      "ImageCompare",
+      "ImagePadForOutpaint",
+      "ImageScaleToTotalPixels",
+      "KSamplerSelect",
+      "LATENT",
+      "LoadImage",
+      "MASK",
+      "MODEL",
+      "NOISE",
+      "RandomNoise",
+      "ReferenceLatent",
+      "SAMPLER",
+      "SIGMAS",
+      "STRING",
+      "SamplerCustomAdvanced",
+      "SaveImage",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader"
+    ],
+    "versions": [],
+    "node_count": 116,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates_doc_workbox_klein_9b_image_extend.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_037",
+    "name": "templates_doc_workbox_poster_recreator.json",
+    "display_name": "templates doc workbox poster recreator",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates_doc_workbox_poster_recreator.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates_doc_workbox_poster_recreator.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "4f0b91c8e024cdf89c654268ced9d6f4a0a7336589739bfb09a4c34f65b90e1d",
+    "tasks": [
+      "扩图/版式留白"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "ComfySwitchNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "IMAGE",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "PrimitiveStringMultiline",
+      "STRING",
+      "SaveImage",
+      "StringConcatenate"
+    ],
+    "unmapped_node_types": [
+      "ComfySwitchNode",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "IMAGE",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "PrimitiveStringMultiline",
+      "STRING",
+      "SaveImage",
+      "StringConcatenate"
+    ],
+    "versions": [],
+    "node_count": 21,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates_doc_workbox_poster_recreator.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_038",
+    "name": "templates_graphic_design_recomposer.json",
+    "display_name": "templates graphic design recomposer",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates_graphic_design_recomposer.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates_graphic_design_recomposer.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "218af2c7bec8fcb8c2271a1c7218feecd76b7bff96ab412e763636eb0b222338",
+    "tasks": [
+      "局部修改/移除"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "172f1008-9337-4d2f-9212-ee081cb4faf5",
+      "BOOLEAN",
+      "COMBO",
+      "ComfySwitchNode",
+      "CustomCombo",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GeminiNanoBanana2V2",
+      "IMAGE",
+      "INT",
+      "LoadImage",
+      "MASK",
+      "PrimitiveNode",
+      "PrimitiveStringMultiline",
+      "STRING",
+      "SaveImage",
+      "StringCompare"
+    ],
+    "unmapped_node_types": [
+      "172f1008-9337-4d2f-9212-ee081cb4faf5",
+      "BOOLEAN",
+      "COMBO",
+      "ComfySwitchNode",
+      "CustomCombo",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GeminiNanoBanana2V2",
+      "IMAGE",
+      "INT",
+      "LoadImage",
+      "MASK",
+      "PrimitiveNode",
+      "PrimitiveStringMultiline",
+      "STRING",
+      "SaveImage",
+      "StringCompare"
+    ],
+    "versions": [],
+    "node_count": 59,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates_graphic_design_recomposer.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_039",
+    "name": "templates_product_scene_transformation.json",
+    "display_name": "templates product scene transformation",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates_product_scene_transformation.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates_product_scene_transformation.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "80be192f0e153d527099c7b926af82c2650ef75c12c9dd7fb946e63b005cdd3e",
+    "tasks": [
+      "换背景/产品场景"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [
+      {
+        "file": "wan2.1_vace_14B_fp16.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "umt5_xxl_fp16.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "lightx2v_14B_T2V_cfg_step_distill_lora_adaptive_rank_quantile_0.15_bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "wan_2.1_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "wan2.1_vace_14B_fp16.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "umt5_xxl_fp16.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "wan_2.1_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "lightx2v_14B_T2V_cfg_step_distill_lora_adaptive_rank_quantile_0.15_bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "wan2.1_vace_14B_fp16.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "umt5_xxl_fp16.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "lightx2v_14B_T2V_cfg_step_distill_lora_adaptive_rank_quantile_0.15_bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "wan_2.1_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "wan2.1_vace_14B_fp16.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "umt5_xxl_fp16.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "lightx2v_14B_T2V_cfg_step_distill_lora_adaptive_rank_quantile_0.15_bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "wan_2.1_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      }
+    ],
+    "model_links": [],
+    "loaders": [
+      {
+        "node": "UNETLoader",
+        "values": [
+          "wan2.1_vace_14B_fp16.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "umt5_xxl_fp16.safetensors",
+          "wan",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "lightx2v_14B_T2V_cfg_step_distill_lora_adaptive_rank_quantile_0.15_bf16.safetensors",
+          0.7
+        ],
+        "mode": 0
+      },
+      {
+        "node": "VAELoader",
+        "values": [
+          "wan_2.1_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "wan2.1_vace_14B_fp16.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "umt5_xxl_fp16.safetensors",
+          "wan",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "VAELoader",
+        "values": [
+          "wan_2.1_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "lightx2v_14B_T2V_cfg_step_distill_lora_adaptive_rank_quantile_0.15_bf16.safetensors",
+          0.7
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "wan2.1_vace_14B_fp16.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "umt5_xxl_fp16.safetensors",
+          "wan",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "lightx2v_14B_T2V_cfg_step_distill_lora_adaptive_rank_quantile_0.15_bf16.safetensors",
+          0.7
+        ],
+        "mode": 0
+      },
+      {
+        "node": "VAELoader",
+        "values": [
+          "wan_2.1_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "wan2.1_vace_14B_fp16.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "umt5_xxl_fp16.safetensors",
+          "wan",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "lightx2v_14B_T2V_cfg_step_distill_lora_adaptive_rank_quantile_0.15_bf16.safetensors",
+          0.7
+        ],
+        "mode": 0
+      },
+      {
+        "node": "VAELoader",
+        "values": [
+          "wan_2.1_vae.safetensors"
+        ],
+        "mode": 0
+      }
+    ],
+    "plugins": [
+      "comfyui-depthanythingv2",
+      "comfyui-kjnodes",
+      "comfyui-videohelpersuite",
+      "comfyui_essentials"
+    ],
+    "node_types": [
+      "*",
+      "2c2c7db3-ba09-413e-a773-fa9d7becfc89",
+      "47f054a5-a25d-418b-93dd-cedbfd2aacd2",
+      "50be4f0c-b166-4c68-88aa-69dd0b5d813e",
+      "AUDIO",
+      "BatchImagesNode",
+      "CLIP",
+      "CLIPLoader",
+      "CLIPTextEncode",
+      "CM_IntToFloat",
+      "COMBO",
+      "CONDITIONING",
+      "CreateVideo",
+      "DAMODEL",
+      "DepthAnything_V2",
+      "DownloadAndLoadDepthAnythingV2Model",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageRangeFromBatch",
+      "GetImageSize",
+      "GetVideoComponents",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "ImageFromBatch",
+      "ImageRemoveAlpha+",
+      "ImageRemoveBackground+",
+      "ImageResize+",
+      "ImageResizeKJv2",
+      "KSampler",
+      "KlingVideoNode",
+      "LATENT",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "PrimitiveFloat",
+      "PrimitiveInt",
+      "PrimitiveStringMultiline",
+      "REMBG_SESSION",
+      "RemBGSession+",
+      "Reroute",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SaveVideo",
+      "SimpleMath+",
+      "TrimVideoLatent",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAELoader",
+      "VHS_SelectEveryNthImage",
+      "VIDEO",
+      "WanVaceToVideo",
+      "a62f0f74-3759-4256-99ea-847e9f295b12",
+      "c9e9a249-c8ff-40a0-afa3-f1a2e52c40c1",
+      "ce7bd8cc-f613-4a86-85ca-321c66d7b091",
+      "dfc1e172-dcda-4f33-87e2-859e405337f9",
+      "wan"
+    ],
+    "unmapped_node_types": [
+      "*",
+      "2c2c7db3-ba09-413e-a773-fa9d7becfc89",
+      "47f054a5-a25d-418b-93dd-cedbfd2aacd2",
+      "50be4f0c-b166-4c68-88aa-69dd0b5d813e",
+      "AUDIO",
+      "BatchImagesNode",
+      "CLIP",
+      "CLIPLoader",
+      "CLIPTextEncode",
+      "CM_IntToFloat",
+      "COMBO",
+      "CONDITIONING",
+      "CreateVideo",
+      "DAMODEL",
+      "DepthAnything_V2",
+      "DownloadAndLoadDepthAnythingV2Model",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageRangeFromBatch",
+      "GetImageSize",
+      "GetVideoComponents",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "ImageFromBatch",
+      "ImageRemoveAlpha+",
+      "ImageRemoveBackground+",
+      "ImageResize+",
+      "ImageResizeKJv2",
+      "KSampler",
+      "KlingVideoNode",
+      "LATENT",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "PrimitiveFloat",
+      "PrimitiveInt",
+      "PrimitiveStringMultiline",
+      "REMBG_SESSION",
+      "RemBGSession+",
+      "Reroute",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SaveVideo",
+      "SimpleMath+",
+      "TrimVideoLatent",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAELoader",
+      "VHS_SelectEveryNthImage",
+      "VIDEO",
+      "WanVaceToVideo",
+      "a62f0f74-3759-4256-99ea-847e9f295b12",
+      "c9e9a249-c8ff-40a0-afa3-f1a2e52c40c1",
+      "ce7bd8cc-f613-4a86-85ca-321c66d7b091",
+      "dfc1e172-dcda-4f33-87e2-859e405337f9",
+      "wan"
+    ],
+    "versions": [],
+    "node_count": 761,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates_product_scene_transformation.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_040",
+    "name": "templates_rob_fashion_shoot_vton-4in1.app.json",
+    "display_name": "templates rob fashion shoot vton-4in1.app",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates_rob_fashion_shoot_vton-4in1.app.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates_rob_fashion_shoot_vton-4in1.app.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "85d49647e8018dfbbcf3038116f9a6396027f7bac974d734557f45ee72c3d226",
+    "tasks": [
+      "服装/人物"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [
+      "comfyui-kjnodes",
+      "comfyui_essentials"
+    ],
+    "node_types": [
+      "438291c7-4d80-4015-bd42-f21a45b4a67b",
+      "BatchImagesNode",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "ImageResizeKJv2",
+      "LoadImage",
+      "MASK",
+      "PrimitiveInt",
+      "PrimitiveStringMultiline",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+"
+    ],
+    "unmapped_node_types": [
+      "438291c7-4d80-4015-bd42-f21a45b4a67b",
+      "BatchImagesNode",
+      "FLOAT",
+      "GEMINI_INPUT_FILES",
+      "GeminiImage2Node",
+      "GetImageSize",
+      "IMAGE",
+      "INT",
+      "INT,FLOAT",
+      "ImageBatchMulti",
+      "ImageCrop",
+      "ImageResizeKJv2",
+      "LoadImage",
+      "MASK",
+      "PrimitiveInt",
+      "PrimitiveStringMultiline",
+      "ResizeAndPadImage",
+      "STRING",
+      "SaveImage",
+      "SimpleMath+"
+    ],
+    "versions": [],
+    "node_count": 187,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates_rob_fashion_shoot_vton-4in1.app.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_041",
+    "name": "templates_rob_image_to_real.app.json",
+    "display_name": "templates rob image to real.app",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates_rob_image_to_real.app.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates_rob_image_to_real.app.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "474cc91f615883cbbc4e85789799e20affcc225c3fe422b350e71ca511422fa9",
+    "tasks": [
+      "参考图/风格探索"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [
+      {
+        "file": "qwen_image_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2509-Anything2RealAlpha.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      }
+    ],
+    "model_links": [],
+    "loaders": [
+      {
+        "node": "VAELoader",
+        "values": [
+          "qwen_image_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "qwen_image",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2509-Anything2RealAlpha.safetensors",
+          1
+        ],
+        "mode": 0
+      }
+    ],
+    "plugins": [],
+    "node_types": [
+      "0e16cc59-a0fd-448a-8cdb-f61a5554ef36",
+      "BOOLEAN",
+      "CFGNorm",
+      "CLIP",
+      "CLIPLoader",
+      "COMBO",
+      "CONDITIONING",
+      "ComfySwitchNode",
+      "FLOAT",
+      "FluxKontextImageScale",
+      "IMAGE",
+      "INT",
+      "ImageCompare",
+      "KSampler",
+      "LATENT",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "ModelSamplingAuraFlow",
+      "PrimitiveBoolean",
+      "PrimitiveFloat",
+      "PrimitiveInt",
+      "STRING",
+      "SaveImage",
+      "TextEncodeQwenImageEditPlus",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader"
+    ],
+    "unmapped_node_types": [
+      "0e16cc59-a0fd-448a-8cdb-f61a5554ef36",
+      "BOOLEAN",
+      "CFGNorm",
+      "CLIP",
+      "CLIPLoader",
+      "COMBO",
+      "CONDITIONING",
+      "ComfySwitchNode",
+      "FLOAT",
+      "FluxKontextImageScale",
+      "IMAGE",
+      "INT",
+      "ImageCompare",
+      "KSampler",
+      "LATENT",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "ModelSamplingAuraFlow",
+      "PrimitiveBoolean",
+      "PrimitiveFloat",
+      "PrimitiveInt",
+      "STRING",
+      "SaveImage",
+      "TextEncodeQwenImageEditPlus",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader"
+    ],
+    "versions": [],
+    "node_count": 160,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates_rob_image_to_real.app.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_042",
+    "name": "templates_rob_portrait_light_migration.app.json",
+    "display_name": "templates rob portrait light migration.app",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/templates_rob_portrait_light_migration.app.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/templates_rob_portrait_light_migration.app.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "0eaf615e8d8973d031e866bff7c0549a0f1a7e6a7b069483efa5d5a0b17d275f",
+    "tasks": [
+      "打光/光影融合"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [
+      {
+        "file": "qwen_image_vae.safetensors",
+        "node": "VAELoader",
+        "directory": "models/vae",
+        "mode": 0
+      },
+      {
+        "file": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+        "node": "CLIPLoader",
+        "directory": "models/text_encoders",
+        "mode": 0
+      },
+      {
+        "file": "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+        "node": "UNETLoader",
+        "directory": "models/diffusion_models 或 models/unet",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      },
+      {
+        "file": "Qwen-Image-Edit-2509-Light-Migration.safetensors",
+        "node": "LoraLoaderModelOnly",
+        "directory": "models/loras",
+        "mode": 0
+      }
+    ],
+    "model_links": [],
+    "loaders": [
+      {
+        "node": "VAELoader",
+        "values": [
+          "qwen_image_vae.safetensors"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "CLIPLoader",
+        "values": [
+          "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+          "qwen_image",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "UNETLoader",
+        "values": [
+          "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+          "default"
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
+          1
+        ],
+        "mode": 0
+      },
+      {
+        "node": "LoraLoaderModelOnly",
+        "values": [
+          "Qwen-Image-Edit-2509-Light-Migration.safetensors",
+          1
+        ],
+        "mode": 0
+      }
+    ],
+    "plugins": [],
+    "node_types": [
+      "BOOLEAN",
+      "CFGNorm",
+      "CLIP",
+      "CLIPLoader",
+      "COMBO",
+      "CONDITIONING",
+      "ComfySwitchNode",
+      "FLOAT",
+      "FluxKontextImageScale",
+      "IMAGE",
+      "INT",
+      "KSampler",
+      "LATENT",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "ModelSamplingAuraFlow",
+      "Note",
+      "PrimitiveBoolean",
+      "PrimitiveFloat",
+      "PrimitiveInt",
+      "STRING",
+      "SaveImage",
+      "TextEncodeQwenImageEditPlus",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader",
+      "d878efb6-f575-4da6-bf2d-d9f32b55643c"
+    ],
+    "unmapped_node_types": [
+      "BOOLEAN",
+      "CFGNorm",
+      "CLIP",
+      "CLIPLoader",
+      "COMBO",
+      "CONDITIONING",
+      "ComfySwitchNode",
+      "FLOAT",
+      "FluxKontextImageScale",
+      "IMAGE",
+      "INT",
+      "KSampler",
+      "LATENT",
+      "LoadImage",
+      "LoraLoaderModelOnly",
+      "MASK",
+      "MODEL",
+      "MarkdownNote",
+      "ModelSamplingAuraFlow",
+      "Note",
+      "PrimitiveBoolean",
+      "PrimitiveFloat",
+      "PrimitiveInt",
+      "STRING",
+      "SaveImage",
+      "TextEncodeQwenImageEditPlus",
+      "UNETLoader",
+      "VAE",
+      "VAEDecode",
+      "VAEEncode",
+      "VAELoader",
+      "d878efb6-f575-4da6-bf2d-d9f32b55643c"
+    ],
+    "versions": [],
+    "node_count": 158,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "templates_rob_portrait_light_migration.app.json",
+    "selected": false
+  },
+  {
+    "id": "OFF20261015_043",
+    "name": "utility_image_stitch.json",
+    "display_name": "utility image stitch",
+    "repo": "Comfy-Org/workflow_templates",
+    "stars": 892,
+    "path": "03_官方模板/Comfy-Org__workflow_templates_20261015_design_update/workflows/templates/utility_image_stitch.json",
+    "source_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/3e89967349dd95fa68ce3b36966f41d642af8ea7/templates/utility_image_stitch.json",
+    "origin": "2026-10-15 官方设计精选更新",
+    "source_sha256": "27e83744a8d8f55270565fb8226c1a059824c20585e060f0a1853a4adf56e33f",
+    "tasks": [
+      "图像生成/编辑基础"
+    ],
+    "uses": [
+      "通用设计工作流；具体输入、模型和可用性以工作流节点及官方模板说明为准。"
+    ],
+    "design_note": "来自 ComfyUI 官方模板仓库的设计向精选快照。",
+    "family": "其他/未确定",
+    "runtime": "未核实",
+    "cloud_nodes": [],
+    "models": [],
+    "model_links": [],
+    "loaders": [],
+    "plugins": [],
+    "node_types": [
+      "COMBO",
+      "IMAGE",
+      "IMAGE,MASK",
+      "ImageStitch",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "ResizeImageMaskNode",
+      "SaveImage"
+    ],
+    "unmapped_node_types": [
+      "COMBO",
+      "IMAGE",
+      "IMAGE,MASK",
+      "ImageStitch",
+      "LoadImage",
+      "MASK",
+      "MarkdownNote",
+      "ResizeImageMaskNode",
+      "SaveImage"
+    ],
+    "versions": [],
+    "node_count": 34,
+    "inputs": [
+      "输入图像、提示词或参数；以原工作流为准"
+    ],
+    "minimum": "云端流程主要需要可用 API；本地流程显存需求依模型而定",
+    "recommended": "先在 ComfyUI 模板浏览器检查缺失模型和节点",
+    "hardware_conditions": "尚未在本库完成逐个 GPU 实测。",
+    "hardware_evidence": "静态解析与官方来源信息",
+    "notes": [
+      "来源明确且 JSON 可解析；依赖和实际运行结果仍需逐项验证。"
+    ],
+    "license": "MIT",
+    "duplicate_of": null,
+    "format": "UI画布JSON",
+    "source_path": "utility_image_stitch.json",
+    "selected": false
+  }
+]

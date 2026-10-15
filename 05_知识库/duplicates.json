@@ -1,0 +1,115 @@
+[
+  {
+    "canonical_json_sha256": "e4e7ad19c81a907ce6e2e6509d6e35264e713f47d0ca96b4fcea0d49359faa17",
+    "uids": [
+      "wf_4d121773dba267f7",
+      "wf_1441266302e7f602"
+    ],
+    "kind": "same_JSON_values_after_key_order_and_whitespace_normalization"
+  },
+  {
+    "canonical_json_sha256": "2a97206d47ede15415bca5701f3bc533bdbb6d2b36f7cfc9a9171ca68e043ed6",
+    "uids": [
+      "wf_d96c59b0fea4da9a",
+      "wf_4f22bec59b672a52"
+    ],
+    "kind": "same_JSON_values_after_key_order_and_whitespace_normalization"
+  },
+  {
+    "canonical_json_sha256": "1e52948fb45e4715ec2fe79d8a000e5691bcfe7c64cbd3ba3b28d7266d109dd2",
+    "uids": [
+      "wf_ec86bb6719541488",
+      "wf_261cc95bf083caf5"
+    ],
+    "kind": "same_JSON_values_after_key_order_and_whitespace_normalization"
+  },
+  {
+    "canonical_json_sha256": "5df2043e5ca617393b05268ab22efbda7c0b4ff5bd34726d5f2a24197dff4291",
+    "uids": [
+      "wf_5cee0737ca2177e0",
+      "wf_dd10c6b217b38c15"
+    ],
+    "kind": "same_JSON_values_after_key_order_and_whitespace_normalization"
+  },
+  {
+    "canonical_json_sha256": "ad40d8276e71a524c9220f4d987545645236d42053eccf3b6e3217285b53853a",
+    "uids": [
+      "wf_96b8ca0aca8c40bf",
+      "wf_1c27b6e50b6985f3"
+    ],
+    "kind": "same_JSON_values_after_key_order_and_whitespace_normalization"
+  },
+  {
+    "canonical_json_sha256": "abb7e0dc25a5b8d0c75037ad2ccbb1f38d3cea1ebe5816f10b555948bc875261",
+    "uids": [
+      "wf_26d5cfe9cc83a96f",
+      "wf_6f78c08daa8b63f4"
+    ],
+    "kind": "same_JSON_values_after_key_order_and_whitespace_normalization"
+  },
+  {
+    "canonical_json_sha256": "aa25320a5d5afabbb274d8301cdf178f441a1f1da670f2da34d101517b5a011e",
+    "uids": [
+      "wf_64919378dd1c9892",
+      "wf_f7bd482ab7750eab"
+    ],
+    "kind": "same_JSON_values_after_key_order_and_whitespace_normalization"
+  },
+  {
+    "canonical_json_sha256": "74df91209956875a20a7d6d1a04f04e9984ea8b06379adcf3ee99248e71f2a04",
+    "uids": [
+      "wf_b9bf36ddc5589e3c",
+      "wf_4fe80ecb4ead9b3d"
+    ],
+    "kind": "same_JSON_values_after_key_order_and_whitespace_normalization"
+  },
+  {
+    "canonical_json_sha256": "9f448d7e4223e833634740c1f156ecd00d600e9bd71df5734b847f0876a8a155",
+    "uids": [
+      "wf_830bae273388a906",
+      "wf_379baea6a86ae327"
+    ],
+    "kind": "same_JSON_values_after_key_order_and_whitespace_normalization"
+  },
+  {
+    "canonical_json_sha256": "e294661468381e7235454d973ba45577792626334f4def0d043751890f37b736",
+    "uids": [
+      "wf_17497f26da51fabe",
+      "wf_20fe3e62952dc814"
+    ],
+    "kind": "same_JSON_values_after_key_order_and_whitespace_normalization"
+  },
+  {
+    "canonical_json_sha256": "6329586171fb6b247e73168ed26fe6644e657291f176050ef9eec7d97715924e",
+    "uids": [
+      "wf_0e39e6e44a4d1c63",
+      "wf_43e72270aa88d42f",
+      "wf_b682ce6c2297e70d"
+    ],
+    "kind": "same_JSON_values_after_key_order_and_whitespace_normalization"
+  },
+  {
+    "canonical_json_sha256": "049818245581e4dc34f02c9e5e7ffced24597bb77c5b139fa2c3a7467f26710d",
+    "uids": [
+      "wf_0ba714edc46235a8",
+      "wf_53a0640a4a9dfb12"
+    ],
+    "kind": "same_JSON_values_after_key_order_and_whitespace_normalization"
+  },
+  {
+    "canonical_json_sha256": "cebf20003d35a2201e86cbac6208424b2ec63e1942022eaefc7be620dab95b8d",
+    "uids": [
+      "wf_de85c3345dfa1256",
+      "wf_57ab45351a7702ea"
+    ],
+    "kind": "same_JSON_values_after_key_order_and_whitespace_normalization"
+  },
+  {
+    "canonical_json_sha256": "3cc5384a6bdec570290e04a0f8299eea1cbb84f09f39800c6db576decd7784aa",
+    "uids": [
+      "wf_09b044454abbe521",
+      "wf_dc335d11e9de3a00"
+    ],
+    "kind": "same_JSON_values_after_key_order_and_whitespace_normalization"
+  }
+]

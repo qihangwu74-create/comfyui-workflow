@@ -1,0 +1,1309 @@
+{
+  "last_node_id": 114,
+  "last_link_id": 223,
+  "nodes": [
+    {
+      "id": 25,
+      "type": "BasicGuider",
+      "pos": {
+        "0": 200,
+        "1": -60
+      },
+      "size": {
+        "0": 241.79998779296875,
+        "1": 46
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 204
+        },
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 51,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "GUIDER",
+          "type": "GUIDER",
+          "links": [
+            17
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BasicGuider"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 26,
+      "type": "SamplerCustomAdvanced",
+      "pos": {
+        "0": 210,
+        "1": 220
+      },
+      "size": {
+        "0": 236.8000030517578,
+        "1": 106
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "noise",
+          "type": "NOISE",
+          "link": 23
+        },
+        {
+          "name": "guider",
+          "type": "GUIDER",
+          "link": 17
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 152
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 163
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 30
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            110
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": [],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 37,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 550,
+        "1": -40
+      },
+      "size": {
+        "0": 410,
+        "1": 460
+      },
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 49
+        }
+      ],
+      "outputs": [],
+      "title": "Detail Daemon preview image",
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 29,
+      "type": "BasicScheduler",
+      "pos": {
+        "0": 200,
+        "1": 50
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 205,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            163
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BasicScheduler"
+      },
+      "widgets_values": [
+        "beta",
+        20,
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "type": "EmptyLatentImage",
+      "pos": {
+        "0": -870,
+        "1": 890
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            30,
+            213
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        1
+      ]
+    },
+    {
+      "id": 106,
+      "type": "DualCLIPLoader",
+      "pos": {
+        "0": -180,
+        "1": 930
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            206,
+            207
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DualCLIPLoader"
+      },
+      "widgets_values": [
+        "ViT-L-14-BEST-smooth-GmP-TE-only-HF-format.safetensors",
+        "SD3\\clip_g.safetensors",
+        "sdxl"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "RandomNoise",
+      "pos": {
+        "0": -860,
+        "1": 740
+      },
+      "size": {
+        "0": 315.3865661621094,
+        "1": 82
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "NOISE",
+          "type": "NOISE",
+          "links": [
+            23,
+            212
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      },
+      "widgets_values": [
+        638719414060291,
+        "randomize"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "VAEDecode",
+      "pos": {
+        "0": 220,
+        "1": 400
+      },
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 110
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 25
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            49
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 96,
+      "type": "UnetLoaderGGUF",
+      "pos": {
+        "0": -170,
+        "1": -70
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            203
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UnetLoaderGGUF"
+      },
+      "widgets_values": [
+        "FLUX1\\flux1-dev-Q8_0.gguf"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "CLIPTextEncodeFlux",
+      "pos": {
+        "0": -180,
+        "1": 290
+      },
+      "size": {
+        "0": 350,
+        "1": 130
+      },
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 140
+        },
+        {
+          "name": "clip_l",
+          "type": "STRING",
+          "link": 221,
+          "widget": {
+            "name": "clip_l"
+          }
+        },
+        {
+          "name": "t5xxl",
+          "type": "STRING",
+          "link": 222,
+          "widget": {
+            "name": "t5xxl"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            51
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncodeFlux"
+      },
+      "widgets_values": [
+        "A 25-year-old Taiwanese woman with short hair styled in two ponytails, showcasing her graceful body curves, is dressed in a meticulously designed, intricately detailed, strapless multicolored classical Hanfu. She is cooking in a beautifully decorated kitchen, where charming decor and well-arranged ingredients create a visually appealing environment. Her bright, large eyes radiate enthusiasm and concentration as she prepares her dish, and the camera captures her from a direct angle that highlights the vibrant colors of her attire and the inviting atmosphere of the kitchen. Soft, warm lighting fills the space, casting gentle shadows that enhance the textures of her clothing and the fresh produce around her, resulting in a lively and engaging scene that draws the viewer into this delightful moment of culinary artistry.",
+        "A 25-year-old Taiwanese woman with short hair styled in two ponytails, showcasing her graceful body curves, is dressed in a meticulously designed, intricately detailed, strapless multicolored classical Hanfu. She is cooking in a beautifully decorated kitchen, where charming decor and well-arranged ingredients create a visually appealing environment. Her bright, large eyes radiate enthusiasm and concentration as she prepares her dish, and the camera captures her from a direct angle that highlights the vibrant colors of her attire and the inviting atmosphere of the kitchen. Soft, warm lighting fills the space, casting gentle shadows that enhance the textures of her clothing and the fresh produce around her, resulting in a lively and engaging scene that draws the viewer into this delightful moment of culinary artistry.",
+        4,
+        true,
+        true
+      ]
+    },
+    {
+      "id": 112,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 920,
+        "1": 750
+      },
+      "size": {
+        "0": 420,
+        "1": 470
+      },
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 219
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 104,
+      "type": "CLIPTextEncode",
+      "pos": {
+        "0": 170,
+        "1": 760
+      },
+      "size": {
+        "0": 330,
+        "1": 80
+      },
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 206
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 223,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            208
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "A 25-year-old Taiwanese woman with short hair styled in two ponytails, showcasing her graceful body curves, is dressed in a meticulously designed, intricately detailed, strapless multicolored classical Hanfu. She is cooking in a beautifully decorated kitchen, where charming decor and well-arranged ingredients create a visually appealing environment. Her bright, large eyes radiate enthusiasm and concentration as she prepares her dish, and the camera captures her from a direct angle that highlights the vibrant colors of her attire and the inviting atmosphere of the kitchen. Soft, warm lighting fills the space, casting gentle shadows that enhance the textures of her clothing and the fresh produce around her, resulting in a lively and engaging scene that draws the viewer into this delightful moment of culinary artistry.",
+        true
+      ]
+    },
+    {
+      "id": 105,
+      "type": "CLIPTextEncode",
+      "pos": {
+        "0": 170,
+        "1": 900
+      },
+      "size": {
+        "0": 340,
+        "1": 170
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 207
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            209
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "(octane render, render, drawing, anime, bad photo, bad photography:1.3), (worst quality, low quality, blurry:1.2), (bad teeth, deformed teeth, deformed lips), (bad anatomy, bad proportions:1.1), (deformed iris, deformed pupils), (deformed eyes, bad eyes), (deformed face, ugly face, bad face), (deformed hands, bad hands, fused fingers), morbid, mutilated, mutation, disfigured",
+        true
+      ]
+    },
+    {
+      "id": 111,
+      "type": "CFGGuider",
+      "pos": {
+        "0": 550,
+        "1": 740
+      },
+      "size": {
+        "0": 315,
+        "1": 98
+      },
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 210
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 208
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 209
+        }
+      ],
+      "outputs": [
+        {
+          "name": "GUIDER",
+          "type": "GUIDER",
+          "links": [
+            216
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CFGGuider"
+      },
+      "widgets_values": [
+        2
+      ]
+    },
+    {
+      "id": 109,
+      "type": "SamplerCustomAdvanced",
+      "pos": {
+        "0": 580,
+        "1": 1050
+      },
+      "size": {
+        "0": 236.8000030517578,
+        "1": 106
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "noise",
+          "type": "NOISE",
+          "link": 212
+        },
+        {
+          "name": "guider",
+          "type": "GUIDER",
+          "link": 216
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 214
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 215
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 213
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            217
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": [],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 107,
+      "type": "VAEDecode",
+      "pos": {
+        "0": 580,
+        "1": 1220
+      },
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 217
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 218
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            219
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 22,
+      "type": "DualCLIPLoader",
+      "pos": {
+        "0": -170,
+        "1": 30
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            140
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DualCLIPLoader"
+      },
+      "widgets_values": [
+        "ViT-L-14-BEST-smooth-GmP-TE-only-HF-format.safetensors",
+        "t5xxl_fp8_e4m3fn_scaled.safetensors",
+        "flux"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "KSamplerSelect",
+      "pos": {
+        "0": -860,
+        "1": 630
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            151,
+            214
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "widgets_values": [
+        "dpmpp_2m"
+      ]
+    },
+    {
+      "id": 110,
+      "type": "BasicScheduler",
+      "pos": {
+        "0": 560,
+        "1": 890
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 211,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            215
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BasicScheduler"
+      },
+      "widgets_values": [
+        "sgm_uniform",
+        5,
+        1
+      ]
+    },
+    {
+      "id": 103,
+      "type": "CheckpointLoaderSimple",
+      "pos": {
+        "0": -180,
+        "1": 770
+      },
+      "size": {
+        "0": 315,
+        "1": 98
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            210,
+            211
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": null
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            218
+          ],
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "SDXL\\realvisxlV50_v50LightningBakedvae.safetensors"
+      ]
+    },
+    {
+      "id": 102,
+      "type": "ModelSamplingFlux",
+      "pos": {
+        "0": -180,
+        "1": 480
+      },
+      "size": {
+        "0": 315,
+        "1": 130
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 203
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            204,
+            205
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ModelSamplingFlux"
+      },
+      "widgets_values": [
+        1.15,
+        0.5,
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": 27,
+      "type": "VAELoader",
+      "pos": {
+        "0": -170,
+        "1": 190
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            25
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "ae.safetensors"
+      ]
+    },
+    {
+      "id": 114,
+      "type": "PrimitiveNode",
+      "pos": {
+        "0": -740,
+        "1": 300
+      },
+      "size": {
+        "0": 450,
+        "1": 210
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            221,
+            222,
+            223
+          ],
+          "slot_index": 0,
+          "widget": {
+            "name": "clip_l"
+          }
+        }
+      ],
+      "properties": {
+        "Run widget replace on values": false
+      },
+      "widgets_values": [
+        "A 25-year-old Taiwanese woman with short hair styled in two ponytails, showcasing her graceful body curves, is dressed in a meticulously designed, intricately detailed, strapless multicolored classical Hanfu. She is cooking in a beautifully decorated kitchen, where charming decor and well-arranged ingredients create a visually appealing environment. Her bright, large eyes radiate enthusiasm and concentration as she prepares her dish, and the camera captures her from a direct angle that highlights the vibrant colors of her attire and the inviting atmosphere of the kitchen. Soft, warm lighting fills the space, casting gentle shadows that enhance the textures of her clothing and the fresh produce around her, resulting in a lively and engaging scene that draws the viewer into this delightful moment of culinary artistry."
+      ]
+    },
+    {
+      "id": 80,
+      "type": "DetailDaemonSamplerNode",
+      "pos": {
+        "0": -500,
+        "1": 640
+      },
+      "size": {
+        "0": 228.84759521484375,
+        "1": 274
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 151
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            152
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DetailDaemonSamplerNode"
+      },
+      "widgets_values": [
+        0.6,
+        0.1,
+        0.9,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        true,
+        0
+      ]
+    }
+  ],
+  "links": [
+    [
+      17,
+      25,
+      0,
+      26,
+      1,
+      "GUIDER"
+    ],
+    [
+      23,
+      30,
+      0,
+      26,
+      0,
+      "NOISE"
+    ],
+    [
+      25,
+      27,
+      0,
+      8,
+      1,
+      "VAE"
+    ],
+    [
+      30,
+      5,
+      0,
+      26,
+      4,
+      "LATENT"
+    ],
+    [
+      49,
+      8,
+      0,
+      37,
+      0,
+      "IMAGE"
+    ],
+    [
+      51,
+      38,
+      0,
+      25,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      110,
+      26,
+      0,
+      8,
+      0,
+      "LATENT"
+    ],
+    [
+      140,
+      22,
+      0,
+      38,
+      0,
+      "CLIP"
+    ],
+    [
+      151,
+      28,
+      0,
+      80,
+      0,
+      "SAMPLER"
+    ],
+    [
+      152,
+      80,
+      0,
+      26,
+      2,
+      "SAMPLER"
+    ],
+    [
+      163,
+      29,
+      0,
+      26,
+      3,
+      "SIGMAS"
+    ],
+    [
+      203,
+      96,
+      0,
+      102,
+      0,
+      "MODEL"
+    ],
+    [
+      204,
+      102,
+      0,
+      25,
+      0,
+      "MODEL"
+    ],
+    [
+      205,
+      102,
+      0,
+      29,
+      0,
+      "MODEL"
+    ],
+    [
+      206,
+      106,
+      0,
+      104,
+      0,
+      "CLIP"
+    ],
+    [
+      207,
+      106,
+      0,
+      105,
+      0,
+      "CLIP"
+    ],
+    [
+      208,
+      104,
+      0,
+      111,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      209,
+      105,
+      0,
+      111,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      210,
+      103,
+      0,
+      111,
+      0,
+      "MODEL"
+    ],
+    [
+      211,
+      103,
+      0,
+      110,
+      0,
+      "MODEL"
+    ],
+    [
+      212,
+      30,
+      0,
+      109,
+      0,
+      "NOISE"
+    ],
+    [
+      213,
+      5,
+      0,
+      109,
+      4,
+      "LATENT"
+    ],
+    [
+      214,
+      28,
+      0,
+      109,
+      2,
+      "SAMPLER"
+    ],
+    [
+      215,
+      110,
+      0,
+      109,
+      3,
+      "SIGMAS"
+    ],
+    [
+      216,
+      111,
+      0,
+      109,
+      1,
+      "GUIDER"
+    ],
+    [
+      217,
+      109,
+      0,
+      107,
+      0,
+      "LATENT"
+    ],
+    [
+      218,
+      103,
+      2,
+      107,
+      1,
+      "VAE"
+    ],
+    [
+      219,
+      107,
+      0,
+      112,
+      0,
+      "IMAGE"
+    ],
+    [
+      221,
+      114,
+      0,
+      38,
+      1,
+      "STRING"
+    ],
+    [
+      222,
+      114,
+      0,
+      38,
+      2,
+      "STRING"
+    ],
+    [
+      223,
+      114,
+      0,
+      104,
+      1,
+      "STRING"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "SDXLLightning",
+      "bounding": [
+        -190,
+        670,
+        1550,
+        600
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "title": "Detailer",
+      "bounding": [
+        -880,
+        550,
+        619,
+        450
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "title": "FLUX",
+      "bounding": [
+        -190,
+        -150,
+        1190,
+        800
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1,
+      "offset": [
+        1212.5,
+        212.5
+      ]
+    }
+  },
+  "version": 0.4
+}

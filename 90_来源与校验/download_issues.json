@@ -1,0 +1,63 @@
+[
+  {
+    "repo": "dseditor/ComfyuiWorkflows",
+    "path": "Experiment/config.json",
+    "issue": "非ComfyUI工作流JSON，排除"
+  },
+  {
+    "repo": "dseditor/ComfyuiWorkflows",
+    "path": "SpecialUsage/workflowsummit.zip",
+    "issue": "File <ZipInfo filename='【SP】Anything(KritaGraph).json' compress_type=deflate external_attr=0x20 file_size=32466 compress_size=3774> is encrypted, password required for extraction",
+    "kind": "zip"
+  },
+  {
+    "repo": "dseditor/ComfyuiWorkflows",
+    "path": "Style/sdxl_styles_gpt.json",
+    "issue": "非ComfyUI工作流JSON，排除"
+  },
+  {
+    "repo": "dseditor/ComfyuiWorkflows",
+    "path": "Style/sdxl_styles_sai_tw.json",
+    "issue": "非ComfyUI工作流JSON，排除"
+  },
+  {
+    "repo": "dseditor/ComfyuiWorkflows",
+    "path": "Style/sdxl_styles_twri_tw.json",
+    "issue": "非ComfyUI工作流JSON，排除"
+  },
+  {
+    "repo": "kijai/ComfyUI-SUPIR",
+    "path": "configs/clip_vit_config.json",
+    "issue": "非ComfyUI工作流JSON，排除"
+  },
+  {
+    "repo": "kijai/ComfyUI-SUPIR",
+    "path": "configs/tokenizer/config.json",
+    "issue": "非ComfyUI工作流JSON，排除"
+  },
+  {
+    "repo": "kijai/ComfyUI-SUPIR",
+    "path": "configs/tokenizer/preprocessor_config.json",
+    "issue": "非ComfyUI工作流JSON，排除"
+  },
+  {
+    "repo": "kijai/ComfyUI-SUPIR",
+    "path": "configs/tokenizer/special_tokens_map.json",
+    "issue": "非ComfyUI工作流JSON，排除"
+  },
+  {
+    "repo": "kijai/ComfyUI-SUPIR",
+    "path": "configs/tokenizer/tokenizer.json",
+    "issue": "非ComfyUI工作流JSON，排除"
+  },
+  {
+    "repo": "kijai/ComfyUI-SUPIR",
+    "path": "configs/tokenizer/tokenizer_config.json",
+    "issue": "非ComfyUI工作流JSON，排除"
+  },
+  {
+    "repo": "kijai/ComfyUI-SUPIR",
+    "path": "configs/tokenizer/vocab.json",
+    "issue": "非ComfyUI工作流JSON，排除"
+  }
+]

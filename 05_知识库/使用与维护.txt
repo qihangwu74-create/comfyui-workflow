@@ -1,0 +1,77 @@
+AI工作流库 v2 使用、维护与接入说明
+
+一、这次解决什么
+稳定ID：以仓库+原始文件路径生成wf_编号；更新排序不会改变ID。文件内容哈希独立表示版本。
+JSON资料卡：每份工作流各一张，AI可按需读取，降低上下文占用。
+SQLite数据库：索引工作流、用途、模型引用和插件引用；供后续程序或服务使用。
+中文任务检索：同义词+关键词规则，支持名称、模型和插件搜索。当前不是向量检索，也不调用外部模型。
+推荐解释：说明命中任务、是否精选、运行方式和限制；排名分数不代表生成成功率。
+依赖复用：model_registry.json可以查看同一模型文件被哪些流程引用。模型名相同不保证权重版本相同。
+去重：duplicates.json只按JSON键顺序/空白归一后的内容分组；不是证明不同流程功能相同。原始来源仍保留。
+版本追踪：源仓库许可、下载时星标、原文件链接、SHA256继续保留。
+个人记录：收藏、备注、真实运行记录独立保存，重建索引不会抹掉。
+可扩展素材：08_素材与配方/asset_registry.json预留真实材质、遮罩、产品原图、Logo、提示词配方、模型和结果图的位置；没有自动导入你的私人图片。
+
+二、目录
+01–04：原始资料与设计精选，保持原工作流JSON不变。
+05_知识库/registry.json：完整机器索引。
+05_知识库/cards：逐流程资料卡。
+05_知识库/library.sqlite3：可重建数据库。
+05_知识库/tasks.json：设计任务与同义词。
+05_知识库/model_registry.json、plugin_registry.json：共享依赖反查。
+05_知识库/tools：Python 3.10+标准库工具，无需pip安装；当前示例指向已存在的Python运行时。
+06_自建工作流：你导入的原创流程与父流程关系。
+07_个人记录：收藏备注与用户登记的测试记录。
+08_素材与配方：后续扩展索引。
+90_来源与校验：原下载与验证记录。
+
+三、让AI调用
+方式A：把00_AI助手入口.txt给有本机文件工具的AI，让它按需运行CLI。当前会话已经可以按这条路径检索。
+方式B：把mcp_config.example.json中的server条目添加到支持本地stdio MCP的客户端。配置格式因客户端不同而异；示例未自动安装或启用。
+MCP提供6个只读工具：search_workflows、recommend_workflows、get_workflow、model_usage、library_status、list_tasks。
+stdio由客户端按需启动，没有开放HTTP端口，不常驻占用GPU，不安装模型、不调用付费服务、不提交ComfyUI生成队列。
+协议实现目标：MCP 2025-06-18，并兼容2025-03-26/2024-11-05基础工具调用；只做了本地握手与工具契约测试，客户端端到端接入需在具体客户端验证。
+
+四、CLI示例
+搜索：& "python" ".\05_知识库\tools\library.py" search "产品换背景" --runtime local --limit 5
+推荐：& "python" ".\05_知识库\tools\library.py" recommend "给摩托车产品做展会海报，扩图留白" --runtime local
+详情：& "python" ".\05_知识库\tools\library.py" get WORKFLOW_UID
+模型反查：& "python" ".\05_知识库\tools\library.py" models "iclight"
+收藏：& "python" ".\05_知识库\tools\library.py" annotate WORKFLOW_UID --favorite yes --note "准备实测"
+导入自建：& "python" ".\05_知识库\tools\library.py" import "D:\你的流程.json" --name "整流罩局部换色" --task inpaint --parent WORKFLOW_UID
+重建索引：& "python" ".\05_知识库\tools\library.py" rebuild
+完整性检查：& "python" ".\05_知识库\tools\library.py" verify
+把WORKFLOW_UID替换成真实wf_编号，也支持旧WF0001编号。
+import只复制/建索引，不执行JSON中的节点；--parent用于记录衍生流程。自建运行方式默认unknown，需人工审查。
+
+五、正确记录实测
+run_record.template.json是空模板，不能当测试结果。
+实际跑过后填写GPU/RAM、ComfyUI和插件版本、模型文件、分辨率/帧数/seed、耗时与输出文件。
+每条测试记录保存成单行JSON，追加到run_records.jsonl。get会列出对应记录并判断工作流SHA是否匹配；不自动把用户记录当作工具验证事实。
+输出验收至少看：产品几何、真实材质、Logo文字、拼接边缘；视频还看时序一致性。
+变更模型/插件/输入尺寸后，旧测试不代表新环境可用。
+
+六、为什么没有一键自动生成
+当前库里818份是UI画布JSON、1份是API任务JSON。UI JSON不等于可以直接POST给/prompt的API图。
+下一阶段自动执行需要：核对当前ComfyUI/object_info、导出API格式、固定输入参数映射、模型与插件环境、输出位置和失败处理。
+本轮按你的选择先完成推荐、解释和定位文件。尚未把所有来源工作流转换为执行模板，也没有做依赖已安装/GPU成功运行的宣称。
+ComfyUI接口依据：https://docs.comfy.org/development/comfyui-server/comms_routes
+MCP依据：https://modelcontextprotocol.io/specification/2025-06-18/basic/transports
+MCP工具依据：https://modelcontextprotocol.io/specification/2025-06-18/server/tools
+
+七、长期维护建议
+每次新增先放06目录并import；先跑小图、固定seed，保留成功参数和失败日志。
+优先实测10–20份高频设计流程，逐步建立自己的可信配方库，而不是不断增加未验证收藏。
+正式配方最好是：工作流版本+模型哈希+插件版本+输入示例+固定参数+预览结果+验收说明。
+升级来源仓库时建立新快照，比较文件SHA，再重建索引；当前rebuild只重新整理本地文件，不会联网拉取新版本。
+稳定ID依赖仓库+路径；上游重命名/移动文件会产生新ID，后续可用parent_uid或人工迁移表关联，不能声称永远不变。
+07个人记录要备份；数据库和cards可重建。整个库搬家时保留相对目录，CLI可--root指定根目录，MCP配置中的绝对路径需跟着改。
+本机ZIP仅用于回滚，不是独立磁盘/异地备份。若以后接NAS或云盘，先确定唯一主库与同步冲突规则。
+
+八、优先实测清单（规划，未执行）
+1. 精确抠图与遮罩：复杂风挡、轮辐、接地边缘。
+2. 局部换色：检查覆盖件形状、缝隙、灯具与Logo。
+3. 背景延展：展会横幅、社媒竖版、文字留白。
+4. 产品打光：检查漆面/碳纹反射和真实材质观感。
+5. 保守放大：对比增强前后，拒绝虚构纹理。
+每类选1–2个经过验证的配方后，再考虑让AI自动填写参数、批量提交。

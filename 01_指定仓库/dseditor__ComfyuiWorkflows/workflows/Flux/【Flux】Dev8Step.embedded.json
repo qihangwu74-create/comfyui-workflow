@@ -1,0 +1,555 @@
+{
+  "last_node_id": 19,
+  "last_link_id": 15,
+  "nodes": [
+    {
+      "id": 14,
+      "type": "EmptyLatentImage",
+      "pos": {
+        "0": 360,
+        "1": 650
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            9
+          ],
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        1
+      ]
+    },
+    {
+      "id": 16,
+      "type": "UnetLoaderGGUF",
+      "pos": {
+        "0": 380,
+        "1": 10
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            10
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UnetLoaderGGUF"
+      },
+      "widgets_values": [
+        "FLUX1\\flux1-dev-Q4_K_S.gguf"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "DualCLIPLoaderGGUF",
+      "pos": {
+        "0": 380,
+        "1": 130
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            11
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DualCLIPLoaderGGUF"
+      },
+      "widgets_values": [
+        "t5\\t5-v1_1-xxl-encoder-Q5_K_S.gguf",
+        "clip_l.safetensors",
+        "flux"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "VAELoader",
+      "pos": {
+        "0": 370,
+        "1": 290
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            15
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "FLUX1\\ae.sft"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "CLIPTextEncode",
+      "pos": {
+        "0": 290,
+        "1": 400
+      },
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 11
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            3
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "A 20-year-old Taiwanese girl with a delicate hourglass figure and twin ponytails lies gracefully on a luxurious classical yacht adorned with an abundance of flower petals. She is dressed in intricately designed, colorful diamond lingerie that showcases meticulous details. Her bright, large eyes gaze directly at the camera, capturing the viewer's attention with a single, focused angle of view. The scene is bathed in soft, warm lighting that enhances the vibrant colors of her outfit and the rich textures of the yacht's wooden surfaces, creating a serene and inviting atmosphere. The petals around her add a touch of romance and whimsy, contrasting beautifully with the elegance of the yacht, making the composition both captivating and inviting.",
+        true
+      ]
+    },
+    {
+      "id": 13,
+      "type": "LorasForFluxParams+",
+      "pos": {
+        "0": 720,
+        "1": 410
+      },
+      "size": {
+        "0": 270,
+        "1": 82
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LORA_PARAMS",
+          "type": "LORA_PARAMS",
+          "links": [
+            8
+          ],
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LorasForFluxParams+"
+      },
+      "widgets_values": [
+        "Flux\\Hyper-FLUX.1-dev-8steps-lora.safetensors",
+        "0.13"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 1020,
+        "1": 260
+      },
+      "size": {
+        "0": 430,
+        "1": 420
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 14
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 19,
+      "type": "VAEDecode",
+      "pos": {
+        "0": 1030,
+        "1": 130
+      },
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 13
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 15
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            14
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "id": 9,
+      "type": "FluxSamplerParams+",
+      "pos": {
+        "0": 730,
+        "1": 50
+      },
+      "size": {
+        "0": 270,
+        "1": 290
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 10
+        },
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 3
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 9
+        },
+        {
+          "name": "loras",
+          "type": "LORA_PARAMS",
+          "link": 8
+        }
+      ],
+      "outputs": [
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "links": [
+            13
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "params",
+          "type": "SAMPLER_PARAMS",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FluxSamplerParams+"
+      },
+      "widgets_values": [
+        "?",
+        "euler",
+        "beta",
+        "8",
+        "3.5",
+        "2.0",
+        "0.5",
+        "1.0"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "Note",
+      "pos": {
+        "0": 100,
+        "1": 50
+      },
+      "size": [
+        240,
+        110
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "ComfyUIManger -> install models\nID 85\nID 357\nID 60\nID 347"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    }
+  ],
+  "links": [
+    [
+      3,
+      10,
+      0,
+      9,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      8,
+      13,
+      0,
+      9,
+      3,
+      "LORA_PARAMS"
+    ],
+    [
+      9,
+      14,
+      0,
+      9,
+      2,
+      "LATENT"
+    ],
+    [
+      10,
+      16,
+      0,
+      9,
+      0,
+      "MODEL"
+    ],
+    [
+      11,
+      17,
+      0,
+      10,
+      0,
+      "CLIP"
+    ],
+    [
+      13,
+      9,
+      0,
+      19,
+      0,
+      "LATENT"
+    ],
+    [
+      14,
+      19,
+      0,
+      12,
+      0,
+      "IMAGE"
+    ],
+    [
+      15,
+      18,
+      0,
+      19,
+      1,
+      "VAE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1,
+      "offset": [
+        0,
+        90
+      ]
+    },
+    "groupNodes": {
+      "GGUFLoader": {
+        "nodes": [
+          {
+            "id": -1,
+            "type": "UnetLoaderGGUF",
+            "pos": {
+              "0": 459.2096252441406,
+              "1": 297.9753112792969
+            },
+            "size": {
+              "0": 315,
+              "1": 58
+            },
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "MODEL",
+                "type": "MODEL",
+                "links": [],
+                "slot_index": 0,
+                "shape": 3
+              }
+            ],
+            "properties": {
+              "Node name for S&R": "UnetLoaderGGUF"
+            },
+            "widgets_values": [
+              "FLUX1\\flux1-dev-Q4_K_S.gguf"
+            ],
+            "index": 0
+          },
+          {
+            "id": -1,
+            "type": "DualCLIPLoaderGGUF",
+            "pos": {
+              "0": 450,
+              "1": 410
+            },
+            "size": {
+              "0": 315,
+              "1": 106
+            },
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "CLIP",
+                "type": "CLIP",
+                "links": [],
+                "slot_index": 0,
+                "shape": 3
+              }
+            ],
+            "properties": {
+              "Node name for S&R": "DualCLIPLoaderGGUF"
+            },
+            "widgets_values": [
+              "t5\\t5-v1_1-xxl-encoder-Q5_K_S.gguf",
+              "ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors",
+              "flux"
+            ],
+            "index": 1
+          },
+          {
+            "id": -1,
+            "type": "VAELoader",
+            "pos": {
+              "0": 440,
+              "1": 570
+            },
+            "size": {
+              "0": 315,
+              "1": 58
+            },
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "VAE",
+                "type": "VAE",
+                "links": [],
+                "slot_index": 0,
+                "shape": 3
+              }
+            ],
+            "properties": {
+              "Node name for S&R": "VAELoader"
+            },
+            "widgets_values": [
+              "FLUX1\\ae.sft"
+            ],
+            "index": 2
+          }
+        ],
+        "links": [],
+        "external": []
+      }
+    }
+  },
+  "version": 0.4
+}

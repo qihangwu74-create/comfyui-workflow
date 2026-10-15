@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "items": [],
+  "allowed_asset_kinds": [
+    "material_reference",
+    "mask",
+    "product_original",
+    "brand_logo",
+    "prompt_recipe",
+    "model_record",
+    "workflow_output"
+  ],
+  "field_guide": {
+    "asset_id": "稳定唯一标识",
+    "kind": "素材类型",
+    "relative_path": "相对于库根目录的位置",
+    "sha256": "内容哈希",
+    "license": "授权或来源",
+    "related_workflow_uids": "关联工作流ID数组",
+    "tags": "用途标签",
+    "notes": "来源事实与实测备注"
+  }
+}

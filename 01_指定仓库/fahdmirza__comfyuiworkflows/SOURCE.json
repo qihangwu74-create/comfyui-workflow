@@ -1,0 +1,16 @@
+{
+  "requested": "fahdmirza/comfyuiworkflows",
+  "repo": "fahdmirza/comfyuiworkflows",
+  "group": "01_指定仓库",
+  "stars": 165,
+  "pushed_at": "2026-09-18T23:24:36Z",
+  "branch": "main",
+  "sha": "9750e8fb19b9a7bec888f716ffd12e75700d689d",
+  "license": "Apache-2.0",
+  "url": "https://github.com/fahdmirza/comfyuiworkflows",
+  "tree_truncated": false,
+  "retrieved_date": "2026-10-08",
+  "archived": false,
+  "workflow_count": 14,
+  "snapshot_note": "GitHub API递归树查询返回的快照标识；下载链接固定到该标识。"
+}

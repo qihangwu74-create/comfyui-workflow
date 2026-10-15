@@ -1,0 +1,16 @@
+{
+  "requested": "lquesada/ComfyUI-Inpaint-CropAndStitch",
+  "repo": "lquesada/ComfyUI-Inpaint-CropAndStitch",
+  "group": "02_高星补充",
+  "stars": 1183,
+  "pushed_at": "2026-09-23T17:42:27Z",
+  "branch": "main",
+  "sha": "8584b08d851762965df898b421a39075fc5357ae",
+  "license": "GPL-3.0",
+  "url": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch",
+  "tree_truncated": false,
+  "retrieved_date": "2026-10-08",
+  "archived": false,
+  "workflow_count": 8,
+  "snapshot_note": "GitHub API递归树查询返回的快照标识；下载链接固定到该标识。"
+}

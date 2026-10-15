@@ -1,0 +1,12 @@
+{
+  "registry_schema": "2.0",
+  "status": "retrieval_ready_not_generation_ready",
+  "entrypoint": "00_AI助手入口.txt",
+  "tool": "05_知识库/tools/library.py",
+  "mcp": "05_知识库/tools/mcp_server.py",
+  "automatic_client_registration": false,
+  "gpu_execution": false,
+  "workflow_source_files_modified": false,
+  "source_index_enriched_with_exact_paths": true,
+  "author_metadata_is_untrusted_reference": true
+}

@@ -1,0 +1,2206 @@
+{
+  "last_node_id": 114,
+  "last_link_id": 230,
+  "nodes": [
+    {
+      "id": 28,
+      "type": "KSamplerSelect",
+      "pos": {
+        "0": 230,
+        "1": 480
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            99,
+            146,
+            151,
+            166
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "widgets_values": [
+        "dpmpp_2m"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "EmptyLatentImage",
+      "pos": {
+        "0": 230,
+        "1": 170
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            30,
+            100,
+            145,
+            160
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        1
+      ]
+    },
+    {
+      "id": 30,
+      "type": "RandomNoise",
+      "pos": {
+        "0": 230,
+        "1": 330
+      },
+      "size": {
+        "0": 315.3865661621094,
+        "1": 82
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "NOISE",
+          "type": "NOISE",
+          "links": [
+            23,
+            97,
+            141,
+            156
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      },
+      "widgets_values": [
+        55268804028075,
+        "fixed"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "BasicScheduler",
+      "pos": {
+        "0": 230,
+        "1": 590
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 226,
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            96,
+            120,
+            163,
+            164,
+            202
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BasicScheduler"
+      },
+      "widgets_values": [
+        "beta",
+        20,
+        1
+      ]
+    },
+    {
+      "id": 25,
+      "type": "BasicGuider",
+      "pos": {
+        "0": 240,
+        "1": 60
+      },
+      "size": {
+        "0": 241.79998779296875,
+        "1": 46
+      },
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 225
+        },
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 51,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "GUIDER",
+          "type": "GUIDER",
+          "links": [
+            17,
+            98,
+            142,
+            157
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BasicGuider"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 26,
+      "type": "SamplerCustomAdvanced",
+      "pos": {
+        "0": 750,
+        "1": 280
+      },
+      "size": {
+        "0": 236.8000030517578,
+        "1": 106
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "noise",
+          "type": "NOISE",
+          "link": 23
+        },
+        {
+          "name": "guider",
+          "type": "GUIDER",
+          "link": 17
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 152
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 163
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 30
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            110
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": [],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 78,
+      "type": "VAEDecode",
+      "pos": {
+        "0": 909.2210693359375,
+        "1": 781.3582763671875
+      },
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 24,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 148
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            149,
+            198
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 77,
+      "type": "SamplerCustomAdvanced",
+      "pos": {
+        "0": 876.2210693359375,
+        "1": 710.3582763671875
+      },
+      "size": {
+        "0": 355.20001220703125,
+        "1": 106
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 20,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "noise",
+          "type": "NOISE",
+          "link": 141
+        },
+        {
+          "name": "guider",
+          "type": "GUIDER",
+          "link": 142
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 165
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 164
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 145
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            148
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": [],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 71,
+      "type": "LyingSigmaSampler",
+      "pos": {
+        "0": 821.2210693359375,
+        "1": 538.3582763671875
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 146
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            165
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LyingSigmaSampler"
+      },
+      "widgets_values": [
+        -0.05,
+        0.05,
+        0.9
+      ]
+    },
+    {
+      "id": 98,
+      "type": "Image Comparer (rgthree)",
+      "pos": {
+        "0": 1725,
+        "1": 457
+      },
+      "size": {
+        "0": 427.1917419433594,
+        "1": 458.9107666015625
+      },
+      "flags": {},
+      "order": 32,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "image_a",
+          "type": "IMAGE",
+          "link": 198,
+          "dir": 3
+        },
+        {
+          "name": "image_b",
+          "type": "IMAGE",
+          "link": 199,
+          "dir": 3
+        }
+      ],
+      "outputs": [],
+      "title": "Compare with default",
+      "properties": {
+        "comparer_mode": "Slide"
+      },
+      "widgets_values": [
+        [
+          {
+            "name": "A",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_sppos_00001_.png&type=temp&subfolder=&rand=0.9753625084622339"
+          },
+          {
+            "name": "B",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_sppos_00002_.png&type=temp&subfolder=&rand=0.8074629265257474"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 83,
+      "type": "SamplerCustomAdvanced",
+      "pos": {
+        "0": 870,
+        "1": 1270
+      },
+      "size": {
+        "0": 355.20001220703125,
+        "1": 106
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "noise",
+          "type": "NOISE",
+          "link": 156
+        },
+        {
+          "name": "guider",
+          "type": "GUIDER",
+          "link": 157
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 166
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 161
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 160
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            162
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": [],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 70,
+      "type": "MultiplySigmas",
+      "pos": {
+        "0": 810,
+        "1": 1110
+      },
+      "size": {
+        "0": 340.20001220703125,
+        "1": 58
+      },
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 120
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            161
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MultiplySigmas"
+      },
+      "widgets_values": [
+        0.96
+      ]
+    },
+    {
+      "id": 67,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 244,
+        "1": 1005
+      },
+      "size": {
+        "0": 447.607177734375,
+        "1": 461.6881103515625
+      },
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 95
+        }
+      ],
+      "outputs": [],
+      "title": "Default preview image (no detailer)",
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 66,
+      "type": "SamplerCustomAdvanced",
+      "pos": {
+        "0": -30,
+        "1": 1159
+      },
+      "size": {
+        "0": 355.20001220703125,
+        "1": 106
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "noise",
+          "type": "NOISE",
+          "link": 97
+        },
+        {
+          "name": "guider",
+          "type": "GUIDER",
+          "link": 98
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 99
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 96
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 100
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            101
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": [],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 80,
+      "type": "DetailDaemonSamplerNode",
+      "pos": {
+        "0": 735,
+        "1": -80
+      },
+      "size": {
+        "0": 228.84759521484375,
+        "1": 274
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 151
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            152
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DetailDaemonSamplerNode"
+      },
+      "widgets_values": [
+        0.5,
+        0.1,
+        0.9,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        false,
+        0
+      ]
+    },
+    {
+      "id": 37,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 1276,
+        "1": -82
+      },
+      "size": {
+        "0": 444.4699401855469,
+        "1": 458.221435546875
+      },
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 49
+        }
+      ],
+      "outputs": [],
+      "title": "Detail Daemon preview image",
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 79,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 1269,
+        "1": 452
+      },
+      "size": {
+        "0": 441.1180114746094,
+        "1": 464.446533203125
+      },
+      "flags": {},
+      "order": 31,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 149
+        }
+      ],
+      "outputs": [],
+      "title": "Lying Sigma Sampler preview image",
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 82,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 1260,
+        "1": 1000
+      },
+      "size": {
+        "0": 448.5738525390625,
+        "1": 467.3197021484375
+      },
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 155
+        }
+      ],
+      "outputs": [],
+      "title": "Multiply Sigmas preview image",
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 100,
+      "type": "DetailDaemonGraphSigmasNode",
+      "pos": {
+        "0": 974,
+        "1": -108
+      },
+      "size": {
+        "0": 281.25433349609375,
+        "1": 486
+      },
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 202
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "DetailDaemonGraphSigmasNode"
+      },
+      "widgets_values": [
+        0.5,
+        0.1,
+        0.9,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        false,
+        1
+      ]
+    },
+    {
+      "id": 81,
+      "type": "VAEDecode",
+      "pos": {
+        "0": 900,
+        "1": 1330
+      },
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 162
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 229
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            155,
+            203
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 65,
+      "type": "VAEDecode",
+      "pos": {
+        "0": 10,
+        "1": 1230
+      },
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 101
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 228
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            95,
+            197,
+            199,
+            204
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 102,
+      "type": "FL_ImageNotes",
+      "pos": {
+        "0": 1780,
+        "1": 1230
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 204
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            205
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FL_ImageNotes"
+      },
+      "widgets_values": [
+        "Original",
+        50,
+        24
+      ],
+      "color": "#16727c",
+      "bgcolor": "#4F0074"
+    },
+    {
+      "id": 97,
+      "type": "Image Comparer (rgthree)",
+      "pos": {
+        "0": 1730,
+        "1": -80
+      },
+      "size": {
+        "0": 438.29681396484375,
+        "1": 458.221435546875
+      },
+      "flags": {},
+      "order": 29,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "image_a",
+          "type": "IMAGE",
+          "link": 196,
+          "dir": 3
+        },
+        {
+          "name": "image_b",
+          "type": "IMAGE",
+          "link": 197,
+          "dir": 3
+        }
+      ],
+      "outputs": [],
+      "title": "Compare with default",
+      "properties": {
+        "comparer_mode": "Slide"
+      },
+      "widgets_values": [
+        [
+          {
+            "name": "A",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_mqavm_00001_.png&type=temp&subfolder=&rand=0.26559991198291977"
+          },
+          {
+            "name": "B",
+            "selected": true,
+            "url": "/api/view?filename=rgthree.compare._temp_mqavm_00002_.png&type=temp&subfolder=&rand=0.517245193682482"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 101,
+      "type": "FL_ImageNotes",
+      "pos": {
+        "0": 1770,
+        "1": 1070
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 203
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            208
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FL_ImageNotes"
+      },
+      "widgets_values": [
+        "Multply",
+        50,
+        24
+      ],
+      "color": "#16727c",
+      "bgcolor": "#4F0074"
+    },
+    {
+      "id": 110,
+      "type": "Text Random Line",
+      "pos": {
+        "0": -218.5780792236328,
+        "1": 1241.7830810546875
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 213,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            216
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Text Random Line"
+      },
+      "widgets_values": [
+        "",
+        1065476071306395,
+        "randomize"
+      ]
+    },
+    {
+      "id": 113,
+      "type": "Text List",
+      "pos": {
+        "0": -188.5780792236328,
+        "1": 1301.7830810546875
+      },
+      "size": {
+        "0": 210,
+        "1": 154
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_a",
+          "type": "STRING",
+          "link": 215,
+          "widget": {
+            "name": "text_a"
+          },
+          "shape": 7
+        },
+        {
+          "name": "text_b",
+          "type": "STRING",
+          "link": 216,
+          "widget": {
+            "name": "text_b"
+          },
+          "shape": 7
+        },
+        {
+          "name": "text_c",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "text_c"
+          },
+          "shape": 7
+        },
+        {
+          "name": "text_d",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "text_d"
+          },
+          "shape": 7
+        },
+        {
+          "name": "text_e",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "text_e"
+          },
+          "shape": 7
+        },
+        {
+          "name": "text_f",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "text_f"
+          },
+          "shape": 7
+        },
+        {
+          "name": "text_g",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "text_g"
+          },
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": [
+            214
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Text List"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 112,
+      "type": "Text Multiline",
+      "pos": {
+        "0": -920,
+        "1": 790
+      },
+      "size": {
+        "0": 330,
+        "1": 160
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            213
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "RandomStylePrompt",
+      "properties": {
+        "Node name for S&R": "Text Multiline"
+      },
+      "widgets_values": [
+        "Zaha Hadid, fluid curved walls, glossy epoxy floors, undulating ceilings, angled windows, sculptural light fixtures, futuristic furniture with organic forms, white and silver color scheme, diffused ambient lighting\nFrank Lloyd Wright, natural stone walls, hardwood floors, coffered ceilings, stained glass windows, prairie-style chandeliers, built-in furniture with geometric patterns, earth tones with pops of red, warm indirect lighting\nLe Corbusier, exposed concrete walls, terrazzo floors, flat ceilings, ribbon windows, industrial-style lamps, modular furniture with primary colors, white base with bold color accents, abundant natural light\nMies van der Rohe, glass walls, travertine floors, minimalist ceilings, floor-to-ceiling windows, recessed lighting, Barcelona chairs and daybeds, black and cream palette, clean and uncluttered spaces\nEero Saarinen, curved plaster walls, carpet floors, acoustic tile ceilings, panoramic windows, tulip-shaped light fixtures, organic furniture forms, shades of white and gray, soft diffused lighting\nCharles and Ray Eames, wood-paneled walls, cork floors, exposed beam ceilings, large picture windows, colorful hanging lamps, molded plywood furniture, vibrant color blocking, playful natural light\nEileen Gray, lacquered walls, rubber floors, mirrored ceilings, circular windows, adjustable wall sconces, tubular steel furniture, black and chrome with pops of red, dramatic spot lighting\nArne Jacobsen, textured white walls, linoleum floors, drop ceilings, clerestory windows, egg-shaped pendant lights, iconic chairs in various colors, monochromatic scheme with wood accents, balanced ambient light\nIsamu Noguchi, shoji screen walls, tatami mat floors, bamboo ceilings, sliding paper doors, Akari light sculptures, low-profile furniture, neutral tones with subtle patterns, soft filtered light\nMarcel Breuer, board-formed concrete walls, slate floors, wood-slatted ceilings, corner windows, cantilevered task lamps, tubular steel and leather furniture, grayscale palette with natural textures, focused task lighting\nRay Kappe, exposed timber walls, polished concrete floors, sloped wood ceilings, clerestory windows, track lighting systems, built-in seating and storage, warm wood tones with glass, layered daylighting\nVerner Panton, curved plastic walls, epoxy floors, illuminated ceilings, porthole windows, flowerpot pendant lamps, molded plastic furniture, psychedelic color schemes, immersive colorful lighting\nJean Prouvé, prefab metal walls, linoleum floors, folded plate ceilings, pivot windows, industrial pendant lights, utilitarian furniture with raw materials, primary colors with metallic finishes, functional task lighting\nEttore Sottsass, laminate walls with geometric patterns, terrazzo floors, suspended grid ceilings, asymmetrical windows, Memphis-style table lamps, quirky postmodern furniture, bold clashing colors, theatrical lighting effects\nTadao Ando, smooth concrete walls, wooden floors, skylights, narrow slit windows, concealed LED strips, minimalist custom furniture, monochromatic gray scheme, ethereal natural light\nKelly Wearstler, textured plaster walls, marble inlay floors, coffered ceilings, arched windows, oversized sculptural chandeliers, eclectic mix of vintage and modern furniture, black and gold color palette, dramatic layered lighting\nPatricia Urquiola, colorful tiled walls, patterned cement floors, perforated metal ceilings, floor-to-ceiling glass, woven pendant lights, playful modular furniture, mix of pastels and bold hues, soft diffused illumination\nKarim Rashid, molded polymer walls, resin floors, backlit stretch ceilings, curved glass walls, blob-shaped light fixtures, fluid ergonomic furniture, neon colors with white, dynamic color-changing lights\nNate Berkus, grasscloth wallpapered walls, herringbone wood floors, classic molded ceilings, French doors, vintage crystal chandeliers, mix of antique and contemporary furniture, neutral palette with metallic accents, warm ambient lighting\nJonathan Adler, lacquered walls, needlepoint rugs, Pop Art ceilings, porthole mirrors, Sputnik chandeliers, mid-century modern furniture with a twist, bold colors and graphic patterns, playful accent lighting\nIndia Mahdavi, velvet-upholstered walls, terrazzo floors, domed ceilings, arched windows, candy-colored glass pendants, curvaceous custom furniture, pastel color blocking, soft glowing illumination\nTom Dixon, copper-clad walls, parquet floors, mirrored ceilings, warehouse windows, clustered metallic pendants, industrial-chic furniture, warm metallics with black accents, moody atmospheric lighting\nDavid Chipperfield, limestone walls, oak plank floors, planar ceilings, full-height sliding doors, recessed linear lighting, minimalist bespoke furniture, subdued earthy palette, carefully controlled natural light\nIlse Crawford, lime-washed walls, wide-plank pine floors, pitched ceilings, steel-framed windows, overscale paper lanterns, comfortable upholstered furniture, warm neutrals with tactile textures, cozy layered lighting\nAxel Vervoordt, raw plaster walls, antique stone floors, exposed beam ceilings, leaded glass windows, wrought iron candelabras, rustic furniture with Belgian linen, muted earth tones, soft candlelight ambiance\nKelly Hoppen, taupe-painted walls, silk carpet floors, tray ceilings, plantation shutters, crystal table lamps, clean-lined furniture with luxe fabrics, neutral palette with texture, sophisticated accent lighting\nPeter Marino, leather-paneled walls, rare wood floors, lacquered ceilings, bronze-framed windows, Art Deco-inspired sconces, sumptuous custom furniture, black and gold color scheme, dramatic contrasting light\nPiet Boon, lime-washed brick walls, concrete floors, steel beam ceilings, crittal windows, minimalist track lighting, understated luxury furniture, shades of gray with natural materials, diffused ambient light\nStudio KO, rammed earth walls, zellige tile floors, woven reed ceilings, keyhole windows, perforated brass pendants, low-slung modernist furniture, earthy color palette, warm glowing illumination\nVincent Van Duysen, Belgian linen walls, wide oak plank floors, plastered ceilings, steel-framed doors, minimalist cantilevered lights, austere wooden furniture, monochromatic neutrals, serene natural daylight\nYabu Pushelberg, fluted wood walls, honed stone floors, coffered ceilings, floor-to-ceiling drapes, sculptural floor lamps, sleek custom furniture, soft grays with subtle color accents, layered ambient lighting\nJoseph Dirand, veined marble walls, herringbone parquet floors, ornate molded ceilings, tall mirrors, alabaster sconces, modernist furniture with classical touches, monochrome with gold accents, elegant focused lighting\nCristina Celestino, pastel-hued walls, terrazzo floors, scalloped ceilings, arched doorways, retro-inspired table lamps, playful furniture with feminine curves, soft pastels with jewel tones, dreamy diffused light\nPierre Yovanovitch, oak-paneled walls, chevron wood floors, barrel-vaulted ceilings, circular windows, oversized ceramic pendants, sculptural furniture with curved forms, muted colors with pops of bright hues, warm ambient glow\nStudio Peregalli, frescoed walls, reclaimed terracotta floors, coffered wood ceilings, mullioned windows, antique chandeliers, eclectic mix of period furniture, rich jewel tones, atmospheric layered lighting\nDimore Studio, velvet-draped walls, inlaid wood floors, pressed tin ceilings, stained glass panels, vintage Murano glass lamps, eclectic mid-century furniture, moody dark colors, theatrical lighting effects\nFaye Toogood, chalk-textured walls, poured concrete floors, corrugated metal ceilings, skylight wells, paper lantern clusters, primitive-inspired furniture, chalky neutrals with natural materials, ethereal diffused daylight\nIlmari Tapiovaara, pine-clad walls, birch plank floors, exposed roof trusses, clerestory windows, Alvar Aalto pendants, organic modernist furniture, warm wood tones with black accents, soft northern light\nGert Voorjans, silk-upholstered walls, antique Persian rugs, gilded ceilings, tall sash windows, Venetian glass chandeliers, mix of antiques and modern pieces, rich jewel tones with patterns, dramatic accent lighting\nNeri&Hu, reclaimed brick walls, raw concrete floors, woven bamboo ceilings, steel-framed partitions, paper lantern pendants, minimal furniture with Asian influences, earthy neutrals with red accents, soft filtered light\nIndia Mahdavi, boldly patterned walls, colorful mosaic floors, gold-leafed ceilings, arched mirrors, blown glass chandeliers, curvaceous custom furniture, vibrant color blocking, playful ambient lighting\nShigeru Ban, paper tube walls, bamboo floors, tensile fabric ceilings, shoji screens, washi paper lamps, lightweight modular furniture, natural materials with white accents, soft diffused illumination\nMartyn Lawrence Bullard, exotic wallpapered walls, animal print rugs, lacquered ceilings, Moorish arched windows, Moroccan lanterns, glamorous Hollywood Regency furniture, bold patterns and colors, dramatic mood lighting\nLuca Nichetto, colorful resin walls, geometric tile floors, suspended acoustic panels, ribbon windows, modular lighting systems, playful contemporary furniture, primary colors with pastels, dynamic color-changing illumination",
+        true
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 114,
+      "type": "Text Multiline",
+      "pos": {
+        "0": -930,
+        "1": 1010
+      },
+      "size": {
+        "0": 380,
+        "1": 81
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            215
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "RoomType",
+      "properties": {
+        "Node name for S&R": "Text Multiline"
+      },
+      "widgets_values": [
+        "a small bedroom designed by",
+        true
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 111,
+      "type": "Text List to Text",
+      "pos": {
+        "0": -580,
+        "1": 680
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_list",
+          "type": "LIST",
+          "link": 214
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            217,
+            218
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Text List to Text"
+      },
+      "widgets_values": [
+        ","
+      ]
+    },
+    {
+      "id": 38,
+      "type": "CLIPTextEncodeFlux",
+      "pos": {
+        "0": -150,
+        "1": 500
+      },
+      "size": [
+        290,
+        120
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 227
+        },
+        {
+          "name": "clip_l",
+          "type": "STRING",
+          "link": 217,
+          "widget": {
+            "name": "clip_l"
+          }
+        },
+        {
+          "name": "t5xxl",
+          "type": "STRING",
+          "link": 218,
+          "widget": {
+            "name": "t5xxl"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            51
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncodeFlux"
+      },
+      "widgets_values": [
+        "a photo of a majestic, vividly colored peacock standing proudly in an exotic, lush jungle. The bird's feathers display an iridescent array of blues, greens, and purples, with intricate eye patterns. Taken with a Canon EOS 5D Mark IV and a Canon EF 100-400mm f/4.5-5.6L IS II USM lens at 200mm, the scene includes tropical plants, vibrant flowers, and distant waterfalls under a bright, sunny sky, creating a rich and detailed paradise setting. The peacock is the focal point, exuding elegance and grace. Tack sharp, with many details. Other elements of wildlife, like colorful butterflies and exotic birds, add life to the scene, enhancing the overall photographic quality.",
+        "a photo of a majestic, vividly colored peacock standing proudly in an exotic, lush jungle. The bird's feathers display an iridescent array of blues, greens, and purples, with intricate eye patterns. Taken with a Canon EOS 5D Mark IV and a Canon EF 100-400mm f/4.5-5.6L IS II USM lens at 200mm, the scene includes tropical plants, vibrant flowers, and distant waterfalls under a bright, sunny sky, creating a rich and detailed paradise setting. The peacock is the focal point, exuding elegance and grace. Tack sharp, with many details. Other elements of wildlife, like colorful butterflies and exotic birds, add life to the scene, enhancing the overall photographic quality.",
+        3.5,
+        true,
+        true
+      ]
+    },
+    {
+      "id": 8,
+      "type": "VAEDecode",
+      "pos": {
+        "0": 750,
+        "1": 330
+      },
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 110
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 230
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            49,
+            196,
+            206
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 108,
+      "type": "VAELoader",
+      "pos": {
+        "0": -580,
+        "1": 570
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            228,
+            229,
+            230
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "ae.safetensors"
+      ]
+    },
+    {
+      "id": 107,
+      "type": "DualCLIPLoaderGGUF",
+      "pos": {
+        "0": -580,
+        "1": 410
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            227
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DualCLIPLoaderGGUF"
+      },
+      "widgets_values": [
+        "t5\\t5-v1_1-xxl-encoder-Q8_0.gguf",
+        "ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors",
+        "flux"
+      ]
+    },
+    {
+      "id": 106,
+      "type": "UnetLoaderGGUF",
+      "pos": {
+        "0": -570,
+        "1": 280
+      },
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            225,
+            226
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UnetLoaderGGUF"
+      },
+      "widgets_values": [
+        "FLUX1\\flux1-dev-Q8_0.gguf"
+      ]
+    },
+    {
+      "id": 104,
+      "type": "FL_ImageNotes",
+      "pos": {
+        "0": 1780,
+        "1": 240
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 206
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            207
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FL_ImageNotes"
+      },
+      "widgets_values": [
+        "Daemon",
+        50,
+        24
+      ],
+      "color": "#16727c",
+      "bgcolor": "#4F0074"
+    },
+    {
+      "id": 103,
+      "type": "ImageConcatMulti",
+      "pos": {
+        "0": 2200,
+        "1": 540
+      },
+      "size": {
+        "0": 210,
+        "1": 170
+      },
+      "flags": {},
+      "order": 35,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 205
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": 207
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": 208
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": [
+            209
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        3,
+        "right",
+        true,
+        null
+      ]
+    },
+    {
+      "id": 105,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 2220,
+        "1": 860
+      },
+      "size": [
+        1070,
+        400
+      ],
+      "flags": {},
+      "order": 36,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 209
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    }
+  ],
+  "links": [
+    [
+      17,
+      25,
+      0,
+      26,
+      1,
+      "GUIDER"
+    ],
+    [
+      23,
+      30,
+      0,
+      26,
+      0,
+      "NOISE"
+    ],
+    [
+      30,
+      5,
+      0,
+      26,
+      4,
+      "LATENT"
+    ],
+    [
+      49,
+      8,
+      0,
+      37,
+      0,
+      "IMAGE"
+    ],
+    [
+      51,
+      38,
+      0,
+      25,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      95,
+      65,
+      0,
+      67,
+      0,
+      "IMAGE"
+    ],
+    [
+      96,
+      29,
+      0,
+      66,
+      3,
+      "SIGMAS"
+    ],
+    [
+      97,
+      30,
+      0,
+      66,
+      0,
+      "NOISE"
+    ],
+    [
+      98,
+      25,
+      0,
+      66,
+      1,
+      "GUIDER"
+    ],
+    [
+      99,
+      28,
+      0,
+      66,
+      2,
+      "SAMPLER"
+    ],
+    [
+      100,
+      5,
+      0,
+      66,
+      4,
+      "LATENT"
+    ],
+    [
+      101,
+      66,
+      0,
+      65,
+      0,
+      "LATENT"
+    ],
+    [
+      110,
+      26,
+      0,
+      8,
+      0,
+      "LATENT"
+    ],
+    [
+      120,
+      29,
+      0,
+      70,
+      0,
+      "SIGMAS"
+    ],
+    [
+      141,
+      30,
+      0,
+      77,
+      0,
+      "NOISE"
+    ],
+    [
+      142,
+      25,
+      0,
+      77,
+      1,
+      "GUIDER"
+    ],
+    [
+      145,
+      5,
+      0,
+      77,
+      4,
+      "LATENT"
+    ],
+    [
+      146,
+      28,
+      0,
+      71,
+      0,
+      "SAMPLER"
+    ],
+    [
+      148,
+      77,
+      0,
+      78,
+      0,
+      "LATENT"
+    ],
+    [
+      149,
+      78,
+      0,
+      79,
+      0,
+      "IMAGE"
+    ],
+    [
+      151,
+      28,
+      0,
+      80,
+      0,
+      "SAMPLER"
+    ],
+    [
+      152,
+      80,
+      0,
+      26,
+      2,
+      "SAMPLER"
+    ],
+    [
+      155,
+      81,
+      0,
+      82,
+      0,
+      "IMAGE"
+    ],
+    [
+      156,
+      30,
+      0,
+      83,
+      0,
+      "NOISE"
+    ],
+    [
+      157,
+      25,
+      0,
+      83,
+      1,
+      "GUIDER"
+    ],
+    [
+      160,
+      5,
+      0,
+      83,
+      4,
+      "LATENT"
+    ],
+    [
+      161,
+      70,
+      0,
+      83,
+      3,
+      "SIGMAS"
+    ],
+    [
+      162,
+      83,
+      0,
+      81,
+      0,
+      "LATENT"
+    ],
+    [
+      163,
+      29,
+      0,
+      26,
+      3,
+      "SIGMAS"
+    ],
+    [
+      164,
+      29,
+      0,
+      77,
+      3,
+      "SIGMAS"
+    ],
+    [
+      165,
+      71,
+      0,
+      77,
+      2,
+      "SAMPLER"
+    ],
+    [
+      166,
+      28,
+      0,
+      83,
+      2,
+      "SAMPLER"
+    ],
+    [
+      196,
+      8,
+      0,
+      97,
+      0,
+      "IMAGE"
+    ],
+    [
+      197,
+      65,
+      0,
+      97,
+      1,
+      "IMAGE"
+    ],
+    [
+      198,
+      78,
+      0,
+      98,
+      0,
+      "IMAGE"
+    ],
+    [
+      199,
+      65,
+      0,
+      98,
+      1,
+      "IMAGE"
+    ],
+    [
+      202,
+      29,
+      0,
+      100,
+      0,
+      "SIGMAS"
+    ],
+    [
+      203,
+      81,
+      0,
+      101,
+      0,
+      "IMAGE"
+    ],
+    [
+      204,
+      65,
+      0,
+      102,
+      0,
+      "IMAGE"
+    ],
+    [
+      205,
+      102,
+      0,
+      103,
+      0,
+      "IMAGE"
+    ],
+    [
+      206,
+      8,
+      0,
+      104,
+      0,
+      "IMAGE"
+    ],
+    [
+      207,
+      104,
+      0,
+      103,
+      1,
+      "IMAGE"
+    ],
+    [
+      208,
+      101,
+      0,
+      103,
+      2,
+      "IMAGE"
+    ],
+    [
+      209,
+      103,
+      0,
+      105,
+      0,
+      "IMAGE"
+    ],
+    [
+      213,
+      112,
+      0,
+      110,
+      0,
+      "STRING"
+    ],
+    [
+      214,
+      113,
+      0,
+      111,
+      0,
+      "LIST"
+    ],
+    [
+      215,
+      114,
+      0,
+      113,
+      0,
+      "STRING"
+    ],
+    [
+      216,
+      110,
+      0,
+      113,
+      1,
+      "STRING"
+    ],
+    [
+      217,
+      111,
+      0,
+      38,
+      1,
+      "STRING"
+    ],
+    [
+      218,
+      111,
+      0,
+      38,
+      2,
+      "STRING"
+    ],
+    [
+      219,
+      106,
+      0,
+      29,
+      0,
+      "MODEL"
+    ],
+    [
+      220,
+      106,
+      0,
+      25,
+      0,
+      "MODEL"
+    ],
+    [
+      221,
+      108,
+      0,
+      81,
+      1,
+      "VAE"
+    ],
+    [
+      222,
+      108,
+      0,
+      65,
+      1,
+      "VAE"
+    ],
+    [
+      223,
+      108,
+      0,
+      8,
+      1,
+      "VAE"
+    ],
+    [
+      224,
+      107,
+      0,
+      38,
+      0,
+      "CLIP"
+    ],
+    [
+      225,
+      106,
+      0,
+      25,
+      0,
+      "MODEL"
+    ],
+    [
+      226,
+      106,
+      0,
+      29,
+      0,
+      "MODEL"
+    ],
+    [
+      227,
+      107,
+      0,
+      38,
+      0,
+      "CLIP"
+    ],
+    [
+      228,
+      108,
+      0,
+      65,
+      1,
+      "VAE"
+    ],
+    [
+      229,
+      108,
+      0,
+      81,
+      1,
+      "VAE"
+    ],
+    [
+      230,
+      108,
+      0,
+      8,
+      1,
+      "VAE"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "Default (no detailer)",
+      "bounding": [
+        -150,
+        925,
+        857,
+        555
+      ],
+      "color": "#a1309b",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "title": "Detail Daemon",
+      "bounding": [
+        722,
+        -150,
+        1450,
+        539
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "title": "Lying Sigmas",
+      "bounding": [
+        723,
+        396,
+        1445,
+        530
+      ],
+      "color": "#b58b2a",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "title": "Multiply Sigmas",
+      "bounding": [
+        720,
+        940,
+        1450,
+        543
+      ],
+      "color": "#8A8",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1,
+      "offset": [
+        1287.5,
+        260
+      ]
+    }
+  },
+  "version": 0.4
+}

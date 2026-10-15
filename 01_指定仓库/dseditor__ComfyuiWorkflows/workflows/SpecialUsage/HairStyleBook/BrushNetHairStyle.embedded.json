@@ -1,0 +1,1439 @@
+{
+  "last_node_id": 254,
+  "last_link_id": 389,
+  "nodes": [
+    {
+      "id": 187,
+      "type": "CR Comic Panel Templates",
+      "pos": {
+        "0": 1040,
+        "1": 530
+      },
+      "size": {
+        "0": 315,
+        "1": 366
+      },
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 247,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            248
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CR Comic Panel Templates"
+      },
+      "widgets_values": [
+        2048,
+        3072,
+        "custom",
+        "left to right",
+        5,
+        2,
+        "custom",
+        "custom",
+        "custom",
+        "V33",
+        "#000000",
+        "#000000",
+        "#000000"
+      ]
+    },
+    {
+      "id": 188,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 1080,
+        "1": 960
+      },
+      "size": {
+        "0": 260,
+        "1": 380
+      },
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 248
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 112,
+      "type": "LayerStyle: DropShadow",
+      "pos": {
+        "0": 700,
+        "1": 1050
+      },
+      "size": {
+        "0": 315,
+        "1": 266
+      },
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "background_image",
+          "type": "IMAGE",
+          "link": 341
+        },
+        {
+          "name": "layer_image",
+          "type": "IMAGE",
+          "link": 100
+        },
+        {
+          "name": "layer_mask",
+          "type": "MASK",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            101
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LayerStyle: DropShadow"
+      },
+      "widgets_values": [
+        true,
+        "normal",
+        50,
+        25,
+        25,
+        6,
+        18,
+        "#000000"
+      ],
+      "color": "rgba(20, 95, 121, 0.7)"
+    },
+    {
+      "id": 113,
+      "type": "ImageListToBatch+",
+      "pos": {
+        "0": 720,
+        "1": 960
+      },
+      "size": {
+        "0": 210,
+        "1": 26
+      },
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 101
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            247
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageListToBatch+"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 136,
+      "type": "EmptyImage",
+      "pos": {
+        "0": -1160,
+        "1": 410
+      },
+      "size": {
+        "0": 315,
+        "1": 130
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            141,
+            324
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyImage"
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        1,
+        0
+      ]
+    },
+    {
+      "id": 221,
+      "type": "RandomNoise",
+      "pos": {
+        "0": -400,
+        "1": -120
+      },
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "NOISE",
+          "type": "NOISE",
+          "links": [
+            318
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      },
+      "widgets_values": [
+        1023834723893818,
+        "randomize"
+      ]
+    },
+    {
+      "id": 241,
+      "type": "CheckpointLoaderSimple",
+      "pos": {
+        "0": -400,
+        "1": 630
+      },
+      "size": {
+        "0": 315,
+        "1": 98
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            375
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            353,
+            354
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            370,
+            376
+          ],
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "SDXL\\realvisxlV50_v50LightningBakedvae.safetensors"
+      ]
+    },
+    {
+      "id": 243,
+      "type": "CLIPTextEncode",
+      "pos": {
+        "0": -400,
+        "1": 780
+      },
+      "size": {
+        "0": 350,
+        "1": 120
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 354
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            378
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "(octane render, render, drawing, anime, bad photo, bad photography:1.3), (worst quality, low quality, blurry:1.2), (bad teeth, deformed teeth, deformed lips), (bad anatomy, bad proportions:1.1), (deformed iris, deformed pupils), (deformed eyes, bad eyes), (deformed face, ugly face, bad face), (deformed hands, bad hands, fused fingers), morbid, mutilated, mutation, disfigured",
+        true
+      ]
+    },
+    {
+      "id": 137,
+      "type": "LayerUtility: ImageBlendAdvance",
+      "pos": {
+        "0": -760,
+        "1": 200
+      },
+      "size": {
+        "0": 315,
+        "1": 338
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "background_image",
+          "type": "IMAGE",
+          "link": 141
+        },
+        {
+          "name": "layer_image",
+          "type": "IMAGE",
+          "link": 144,
+          "slot_index": 1
+        },
+        {
+          "name": "layer_mask",
+          "type": "MASK",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            169,
+            380
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LayerUtility: ImageBlendAdvance"
+      },
+      "widgets_values": [
+        true,
+        "normal",
+        100,
+        50,
+        50,
+        "None",
+        1,
+        1,
+        0,
+        "lanczos",
+        0
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
+    },
+    {
+      "id": 248,
+      "type": "BrushNetLoader",
+      "pos": {
+        "0": -380,
+        "1": 950
+      },
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "brushnet",
+          "type": "BRMODEL",
+          "links": [
+            371
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BrushNetLoader"
+      },
+      "widgets_values": [
+        "Brushnet_XL\\random_mask_brushnet_ckpt_sdxl_v0\\diffusion_pytorch_model.safetensors",
+        "float16"
+      ]
+    },
+    {
+      "id": 111,
+      "type": "LayerUtility: SimpleTextImage",
+      "pos": {
+        "0": 710,
+        "1": 500
+      },
+      "size": {
+        "0": 300,
+        "1": 370
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "size_as",
+          "type": "*",
+          "link": 324,
+          "shape": 7
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 385,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            100
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": null,
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LayerUtility: SimpleTextImage"
+      },
+      "widgets_values": [
+        "text",
+        "TaipeiSansTCBeta-Bold.ttf",
+        "center",
+        35,
+        8,
+        30,
+        "#FFFFFF",
+        0,
+        "#FF8000",
+        40,
+        700,
+        768,
+        200,
+        true
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
+    },
+    {
+      "id": 138,
+      "type": "LoadImage",
+      "pos": {
+        "0": -1150,
+        "1": 10
+      },
+      "size": [
+        320,
+        310
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            143
+          ],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "videos_00025.png",
+        "image"
+      ]
+    },
+    {
+      "id": 219,
+      "type": "RandomPrompt",
+      "pos": {
+        "0": -410,
+        "1": 20
+      },
+      "size": [
+        330,
+        530
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "seed",
+          "type": "*",
+          "link": 318,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            315,
+            385,
+            386
+          ],
+          "slot_index": 0,
+          "shape": 6
+        }
+      ],
+      "title": "HairStyles",
+      "properties": {
+        "Node name for S&R": "RandomPrompt"
+      },
+      "widgets_values": [
+        6,
+        "Classic French Braid: Start at the crown, weave three sections down to the nape, incorporating loose hair as you go. This timeless style provides elegance and functionality while showcasing length and texture.\nWaterfall Twist: Create a horizontal twist along the hairline, dropping strands periodically to form a cascading effect. The remaining hair falls in natural waves, creating a romantic, ethereal appearance.\nSleek Center-Part Bob: Part hair precisely down the middle, straighten with a flat iron, and tuck behind ears. This minimalist style creates a sharp, sophisticated look that highlights facial features.\nBohemian Crown Braid: Weave a Dutch braid around the perimeter of the head, loosening slightly for volume. Leave wispy pieces around the face for a soft, whimsical finish.\nHigh Textured Ponytail: Backcomb the crown for volume, gather hair high on the head, and secure with an elastic. Wrap a strand around the base for polish while maintaining textural interest.\nSide-Swept Hollywood Waves: Create deep waves with a large barrel iron, brush through gently, and sweep to one side. This glamorous style channels vintage sophistication with modern movement.\nDouble Dutch Fishtail: Part hair down the middle, create two fishtail braids from the hairline to ends. Pull sections gently for an intricate, voluminous effect.\nMessy Low Chignon: Gather hair at the nape, twist loosely, and pin in place allowing pieces to fall naturally. This effortless style works for both casual and formal occasions.\nTwisted Crown Updo: Create two rope twists along each side of the head, pin at the back, and arrange remaining hair in a soft bun. This romantic style balances structure with softness.\nSlicked-Back Wet Look: Apply styling gel from roots to mid-lengths, comb back smoothly, leaving ends natural. This editorial-inspired style creates dramatic contrast and modern edge.\nBubble Ponytail: Create a high ponytail, tie small elastics every two inches, gently pull each section for fullness. This playful style adds interesting texture to a classic look.\nBraided Headband Style: Create a French braid along the hairline like a headband, secure behind the ear. Let remaining hair fall naturally for an elegant, face-framing effect.\nSide-Swept Fishtail: Sweep all hair to one side, create a loose fishtail braid, pull sections gently for volume. This asymmetrical style combines sophistication with bohemian charm.\nDouble Twisted Low Buns: Part hair down the middle, twist each side into a low bun at the nape. This symmetrical style offers a modern take on classic ballet dancer hair.\nVoluminous Half-Up Bouffant: Tease the crown section, smooth over, and secure with pins. This retro-inspired style adds height while maintaining feminine softness.\nRope Twist Updo: Create multiple rope twists, pin them in various directions for an intricate bun. This architectural style offers unique texture and formal elegance.\nSleek Twisted Topknot: Smooth hair into a high ponytail, twist tightly into a structured knot. This minimalist style emphasizes facial features and neck length.\nReverse French Braid Updo: Create an upside-down French braid from nape to crown, twist remaining hair into a messy bun. This unexpected style combines structure with casual charm.\nSide-Parted Vintage Waves: Create finger waves with a small barrel iron, brush out for soft movement. This classic style adds romantic glamour to any look.\nBraided Crown with Loose Waves: French braid along the hairline, wrap around head like a crown, curl remaining hair. This ethereal style balances structure with flowing movement.\nTwisted Side Chignon: Gather hair to one side, create multiple twists, pin into an asymmetrical bun. This elegant style offers a modern take on special occasion hair.\nDouble Dutch Crown: Create two Dutch braids that wrap around the head, meeting and pinning at the back. This intricate style provides security with artistic appeal.\nSleek Low Ponytail: Part hair deeply, smooth with styling product, secure at the nape. This minimalist style offers sophistication for any setting.\nBoho Twisted Braid: Create a loose braid, twist sections randomly, secure with decorative pins. This casual style adds artistic flair to everyday looks.\nTwisted Side Sweep: Create multiple twists from one side, pin behind the opposite ear. This asymmetrical style frames the face while controlling volume.\nHigh Braided Crown: French braid up the back of the head, wrap around like a crown at the top. This regal style elevates any formal occasion.\nMessy Side Fishtail: Create a loose fishtail braid over one shoulder, pull apart for volume. This relaxed style combines technique with casual appeal.\nTriple Twisted Updo: Create three twisted sections, pin in a circular pattern at the back. This detailed style offers unique texture and formal elegance.\nSleek Center-Part Waves: Part hair precisely down the middle, create loose waves throughout. This balanced style combines polish with movement.\nKnotted Half-Up: Create small knots across the back of the head, secure with pins. This playful style adds interest to everyday looks.\nDouble Rope Twist Ponytail: Create two rope twists, wrap around a high ponytail base. This secure style adds artistic detail to athletic looks.\nSide-Swept Cascading Curls: Create varying sized curls, sweep dramatically to one side. This glamorous style offers red-carpet worthy drama.\nTwisted Back Chignon: Create multiple twists from front to back, pin into a low bun. This elegant style works for both day and evening.\nBraided Mohawk Style: Create a center French braid with sides smoothed back. This edgy style combines structure with modern appeal.\nLow Textured Knot: Gather hair at the nape, twist and knot loosely, secure with pins. This effortless style balances polish with casual charm.\nCrown Braid with Twisted Bun: Create a crown braid, gather remaining hair into a twisted bun. This combination style offers special occasion elegance.\nSleek Wrapped Ponytail: Create a smooth high ponytail, wrap sections around the base. This polished style elevates athletic looks.\nTwisted Side Braid: Create a loose side braid with twisted sections throughout. This unique style combines multiple textures for interest.\nDouble Waterfall Braid: Create two waterfall braids that meet at the back. This romantic style adds intricate detail to flowing hair.\nHigh Twisted Crown: Create a high twist around the crown, secure with decorative pins. This regal style adds height and elegance.\nSide-Parted Sleek Bob: Create a deep side part, straighten with precision. This classic style offers sophisticated simplicity.\nBraided Headband with Curls: Braid along the hairline, curl remaining hair loosely. This feminine style balances structure with softness.\nMulti-Twisted Updo: Create various sized twists, pin randomly for an artistic bun. This creative style works for formal occasions.\nLow Braided Bun: Create a loose braid, wrap into a low bun, secure with pins. This classic style offers timeless elegance.\nTwisted Side Sweep: Create multiple twists from temple to ear, pin securely. This asymmetrical style controls volume while adding interest.\nDouble Dutch Ponytail: Create two Dutch braids leading into a high ponytail. This secure style combines athleticism with style.\nSleek Center-Part Chignon: Part hair precisely, smooth back into a low, twisted bun. This minimalist style offers sophisticated polish.\nBoho Twisted Crown: Create loose twists around the head, pin randomly. This casual style adds romantic charm to everyday looks.\nBraided Side Bun: Create a side French braid leading into a twisted bun. This combination style offers elegant asymmetry.\nHigh Rope Twist Bun: Create multiple rope twists, wrap into a high bun. This secure style adds interesting texture to updo looks.\nTriple Braided Updo: Create three braids, pin in a circular pattern at the back. This detailed style works for special occasions.\nSleek Low Knot: Smooth hair back, create a loose knot at the nape. This simple style offers everyday elegance.\nTwisted Headband Style: Create a rope twist along the hairline like a headband. This face-framing style adds subtle detail.\nDouble Fishtail Crown: Create two fishtail braids that wrap around the head. This intricate style offers bohemian elegance.\nSide-Swept Twisted Updo: Create multiple twists, pin asymmetrically at the back. This artistic style combines texture with sophistication.\nBraided Low Ponytail: Create a center braid leading into a low ponytail. This secure style combines classic elements.\nKnotted Crown Style: Create small knots around the crown, pin securely. This unique style adds interesting texture to formal looks.\nSleek Twisted Side Bun: Smooth hair to one side, twist into a structured bun. This asymmetrical style offers modern elegance.\nDouble Rope Braid Crown: Create two rope braids that wrap around the head. This secure style adds unique texture to formal looks.\nTwisted Back Updo: Create multiple twists from front to back, pin randomly. This artistic style works for special occasions.\nSpiral Twist Bun: Create a ponytail, twist hair in a spiral pattern around the base, pin securely. This structured style creates visual interest while maintaining elegance.\nMermaid Braid Cascade: Start with a Dutch braid at the crown, transition to a fishtail halfway down. This hybrid style combines two braiding techniques for unique texture.\nOrigami Bow Updo: Shape hair into geometric folds resembling a bow at the nape, secure with pins. This architectural style offers avant-garde sophistication.\nInfinity Braid Crown: Create an endless-looking braid pattern around the head, pin strategically. This intricate style provides romantic whimsy.\nStacked Bubble Buns: Create three small buns vertically at the back, pull gently for fullness. This playful style adds height and visual interest.\nWoven Lattice Updo: Create a lattice pattern with thin sections of hair, secure with pins. This detailed style offers formal elegance with artistic flair.\nTwisted Halo Braid: Create a rope twist that circles the head like a halo, secure ends invisibly. This angelic style frames the face beautifully.\nSerpentine French Braid: Weave a curved French braid from side to side down the back. This unique take on traditional braiding adds movement.\nButterfly Braid Wings: Create symmetrical braids that wing out from the center back. This whimsical style offers structured creativity.\nBasket Weave Chignon: Weave sections of hair in a basket pattern, form into a low bun. This textured style combines technique with sophistication.\nTwisted Fan Updo: Create multiple twists that spread like a fan from the nape. This architectural style offers dramatic impact.\nKnotted Pearl Chain: Create a series of small knots down the back resembling pearls. This elegant style adds refined texture.\nRibbon Braid Cascade: Weave a ribbon through a loose braid, letting ends flow freely. This romantic style adds color and movement.\nStarburst Crown Braid: Create braids radiating from a center point like sun rays. This statement style offers artistic expression.\nTwisted Rose Bun: Shape a twisted ponytail into a spiral resembling a rose bloom. This feminine style adds floral elegance.\nCeltic Knot Updo: Create interwoven loops resembling traditional Celtic knots. This intricate style offers heritage-inspired beauty.\nSculptural Wave Updo: Shape waves into an architectural form, secure with pins. This modern style combines structure with flow.\nBraided Butterfly: Create a butterfly shape with braids at the back of the head. This playful style offers whimsical charm.\nWoven Diamond Pattern: Create a diamond pattern with crossed sections of hair. This geometric style adds visual interest.\nTwisted Tiara Braid: Form a tiara shape with a series of connected twists. This regal style offers crown-like elegance.\nBraided Sunburst: Create braids radiating from a central point like sunbeams. This dramatic style makes a bold statement.\nOrigami Flower Updo: Shape sections into geometric flower forms, pin securely. This artistic style combines precision with beauty.\nInfinity Knot Bun: Create a figure-eight pattern with twisted sections. This mathematical style offers structured elegance.\nWoven Basket Crown: Create a basket weave pattern around the crown area. This textured style adds dimensional interest.\nDouble Helix Braid: Create two intertwining braids resembling DNA structure. This scientific style offers unique appeal.\nTwisted Maze Updo: Create an intricate maze pattern with twisted sections. This complex style challenges traditional forms.\nBraided Heart Design: Shape braids into a heart pattern at the back. This romantic style adds symbolic beauty.\nKnotted Chain Link: Create a series of connected knots resembling a chain. This structured style offers linear appeal.\nTwisted Peacock Fan: Create twists that spread like peacock feathers. This dramatic style offers artistic flair.\nBraided Galaxy Swirl: Create spiral braids resembling a galaxy formation. This cosmic style adds celestial beauty.\nWoven Lattice Crown: Create a crown of interwoven sections like lattice. This detailed style offers regal sophistication.\nTwisted Waterfall Cascade: Create multiple twists that fall like a waterfall. This flowing style adds natural movement.\nBraided Constellation: Arrange braids in star pattern formations. This celestial style offers night sky inspiration.\nKnotted Vine Updo: Create a series of knots resembling climbing vines. This organic style adds natural beauty.\nTwisted Lotus Bun: Shape twists to resemble lotus petals in a bun. This oriental style offers floral elegance.\nBraided Moon Phases: Create varying sized buns representing moon phases. This celestial style offers lunar inspiration.\nWoven Ribbon Pattern: Create a pattern resembling interwoven ribbons. This detailed style adds dimensional interest.\nTwisted Shell Spiral: Shape hair into a spiral resembling a seashell. This oceanic style offers natural inspiration.\nBraided Crown Jewels: Create braid patterns resembling crown jewels. This regal style adds majestic beauty.\nKnotted Infinity Crown: Create endless knot patterns around the head. This mathematical style offers structured grace.\nTwisted Fan Cascade: Create twists that fan out like a hand fan. This oriental style adds artistic flair.\nBraided Pyramid: Create graduated braids forming a pyramid shape. This geometric style offers structural interest.\nWoven Diamond Crown: Create diamond patterns around the crown area. This detailed style adds royal sophistication.\nTwisted Rose Garden: Create multiple rose-shaped twists across the head. This floral style offers garden inspiration.\nBraided Celtic Heart: Create heart patterns using Celtic knot techniques. This romantic style adds heritage beauty.\nKnotted Cascade Fall: Create a series of knots that cascade down. This flowing style adds vertical interest.\nTwisted Starlight Pattern: Create star-shaped twists across the head. This celestial style offers nighttime beauty.\nBraided Ocean Waves: Create undulating braids resembling ocean waves. This nautical style adds natural movement.\nWoven Sunflower Bun: Create a bun resembling sunflower petals. This floral style offers sunny inspiration.\nTwisted Mountain Range: Create peaks and valleys with twisted sections. This landscape style adds natural drama.\nBraided Butterfly Wing: Create detailed wing patterns with fine braids. This nature style offers delicate beauty.\nKnotted Bamboo Pattern: Create knots resembling bamboo segments. This oriental style adds structural grace.\nTwisted Cherry Blossom: Create twists resembling cherry blossom petals. This floral style offers spring beauty.\nBraided Rain Cascade: Create thin braids falling like rain streams. This natural style adds vertical flow.\nWoven Desert Dunes: Create waves resembling desert sand dunes. This landscape style offers natural inspiration.\nTwisted Forest Path: Create winding twists like a forest path. This organic style adds natural movement.\nBraided Northern Lights: Create colorful braided patterns resembling aurora. This celestial style offers arctic beauty.\nKnotted Ivy Pattern: Create knots resembling climbing ivy vines. This botanical style adds natural grace.\nTwisted Snow Crystal: Create geometric patterns resembling snowflakes. This winter style offers seasonal beauty.\nBraided Mountain Stream: Create braids flowing like mountain waters. This landscape style adds natural movement.\nWoven Autumn Leaves: Create patterns resembling falling leaves. This seasonal style offers natural inspiration.\n",
+        "`` ",
+        "enable",
+        null
+      ]
+    },
+    {
+      "id": 220,
+      "type": "ShowText|pysssss",
+      "pos": {
+        "0": -60,
+        "1": 20
+      },
+      "size": {
+        "0": 270,
+        "1": 510
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 315,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 0,
+          "shape": 6
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "Braided Moon Phases: Create varying sized buns representing moon phases. This celestial style offers lunar inspiration.",
+        "Twisted Side Sweep: Create multiple twists from temple to ear, pin securely. This asymmetrical style controls volume while adding interest.",
+        "Braided Headband with Curls: Braid along the hairline, curl remaining hair loosely. This feminine style balances structure with softness.",
+        "Twisted Mountain Range: Create peaks and valleys with twisted sections. This landscape style adds natural drama.",
+        "Low Braided Bun: Create a loose braid, wrap into a low bun, secure with pins. This classic style offers timeless elegance.",
+        "Twisted Headband Style: Create a rope twist along the hairline like a headband. This face-framing style adds subtle detail."
+      ]
+    },
+    {
+      "id": 139,
+      "type": "JWImageResizeByLongerSide",
+      "pos": {
+        "0": -770,
+        "1": 20
+      },
+      "size": {
+        "0": 315,
+        "1": 82
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 143
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            144
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "JWImageResizeByLongerSide"
+      },
+      "widgets_values": [
+        1024,
+        "bicubic"
+      ]
+    },
+    {
+      "id": 236,
+      "type": "PreviewImage",
+      "pos": {
+        "0": 200,
+        "1": 1120
+      },
+      "size": {
+        "0": 410,
+        "1": 300
+      },
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 340
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 242,
+      "type": "CLIPTextEncode",
+      "pos": {
+        "0": -20,
+        "1": 620
+      },
+      "size": [
+        300,
+        70
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 353
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 384,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            377
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "",
+        true
+      ]
+    },
+    {
+      "id": 249,
+      "type": "BrushNet",
+      "pos": {
+        "0": -30,
+        "1": 740
+      },
+      "size": {
+        "0": 315,
+        "1": 226
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 375
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 376
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 380
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 379
+        },
+        {
+          "name": "brushnet",
+          "type": "BRMODEL",
+          "link": 371
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 377
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 378
+        }
+      ],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "links": [
+            381
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "links": [
+            372
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "links": [
+            373
+          ],
+          "slot_index": 2
+        },
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "links": [
+            374
+          ],
+          "slot_index": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BrushNet"
+      },
+      "widgets_values": [
+        1,
+        0,
+        10000
+      ]
+    },
+    {
+      "id": 244,
+      "type": "KSampler",
+      "pos": {
+        "0": 310,
+        "1": 700
+      },
+      "size": [
+        280,
+        260
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 381
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 372
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 373
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 374
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            355
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        550159893960578,
+        "randomize",
+        5,
+        2,
+        "dpmpp_sde",
+        "karras",
+        1
+      ]
+    },
+    {
+      "id": 239,
+      "type": "MaskPreview+",
+      "pos": {
+        "0": -730,
+        "1": 1000
+      },
+      "size": {
+        "0": 300,
+        "1": 350
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 352
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "MaskPreview+"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 224,
+      "type": "VAEDecode",
+      "pos": {
+        "0": -10,
+        "1": 1020
+      },
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 355
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 370
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            340,
+            341
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 140,
+      "type": "LayerMask: PersonMaskUltra",
+      "pos": {
+        "0": -750,
+        "1": 620
+      },
+      "size": {
+        "0": 315,
+        "1": 318
+      },
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 169
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": [
+            352,
+            379
+          ],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LayerMask: PersonMaskUltra"
+      },
+      "widgets_values": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        0.2,
+        10,
+        0.01,
+        0.99,
+        true
+      ],
+      "color": "rgba(27, 80, 119, 0.7)"
+    },
+    {
+      "id": 251,
+      "type": "CR Text Concatenate",
+      "pos": {
+        "0": 310,
+        "1": 490
+      },
+      "size": [
+        290,
+        100
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text1",
+          "type": "STRING",
+          "link": 386,
+          "widget": {
+            "name": "text1"
+          },
+          "shape": 7
+        },
+        {
+          "name": "text2",
+          "type": "STRING",
+          "link": 389,
+          "widget": {
+            "name": "text2"
+          },
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "*",
+          "links": [
+            384
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CR Text Concatenate"
+      },
+      "widgets_values": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 254,
+      "type": "LayerUtility: TextBox",
+      "pos": {
+        "0": 260,
+        "1": 350
+      },
+      "size": [
+        330,
+        81
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            389
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "BackgroundPrompt",
+      "properties": {
+        "Node name for S&R": "LayerUtility: TextBox"
+      },
+      "widgets_values": [
+        "masterpiece,in the beautiful garden,realistic photo,highly detailed, ",
+        true
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
+    }
+  ],
+  "links": [
+    [
+      100,
+      111,
+      0,
+      112,
+      1,
+      "IMAGE"
+    ],
+    [
+      101,
+      112,
+      0,
+      113,
+      0,
+      "IMAGE"
+    ],
+    [
+      141,
+      136,
+      0,
+      137,
+      0,
+      "IMAGE"
+    ],
+    [
+      143,
+      138,
+      0,
+      139,
+      0,
+      "IMAGE"
+    ],
+    [
+      144,
+      139,
+      0,
+      137,
+      1,
+      "IMAGE"
+    ],
+    [
+      169,
+      137,
+      0,
+      140,
+      0,
+      "IMAGE"
+    ],
+    [
+      247,
+      113,
+      0,
+      187,
+      0,
+      "IMAGE"
+    ],
+    [
+      248,
+      187,
+      0,
+      188,
+      0,
+      "IMAGE"
+    ],
+    [
+      315,
+      219,
+      0,
+      220,
+      0,
+      "STRING"
+    ],
+    [
+      318,
+      221,
+      0,
+      219,
+      0,
+      "*"
+    ],
+    [
+      324,
+      136,
+      0,
+      111,
+      0,
+      "*"
+    ],
+    [
+      340,
+      224,
+      0,
+      236,
+      0,
+      "IMAGE"
+    ],
+    [
+      341,
+      224,
+      0,
+      112,
+      0,
+      "IMAGE"
+    ],
+    [
+      352,
+      140,
+      1,
+      239,
+      0,
+      "MASK"
+    ],
+    [
+      353,
+      241,
+      1,
+      242,
+      0,
+      "CLIP"
+    ],
+    [
+      354,
+      241,
+      1,
+      243,
+      0,
+      "CLIP"
+    ],
+    [
+      355,
+      244,
+      0,
+      224,
+      0,
+      "LATENT"
+    ],
+    [
+      370,
+      241,
+      2,
+      224,
+      1,
+      "VAE"
+    ],
+    [
+      371,
+      248,
+      0,
+      249,
+      4,
+      "BRMODEL"
+    ],
+    [
+      372,
+      249,
+      1,
+      244,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      373,
+      249,
+      2,
+      244,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      374,
+      249,
+      3,
+      244,
+      3,
+      "LATENT"
+    ],
+    [
+      375,
+      241,
+      0,
+      249,
+      0,
+      "MODEL"
+    ],
+    [
+      376,
+      241,
+      2,
+      249,
+      1,
+      "VAE"
+    ],
+    [
+      377,
+      242,
+      0,
+      249,
+      5,
+      "CONDITIONING"
+    ],
+    [
+      378,
+      243,
+      0,
+      249,
+      6,
+      "CONDITIONING"
+    ],
+    [
+      379,
+      140,
+      1,
+      249,
+      3,
+      "MASK"
+    ],
+    [
+      380,
+      137,
+      0,
+      249,
+      2,
+      "IMAGE"
+    ],
+    [
+      381,
+      249,
+      0,
+      244,
+      0,
+      "MODEL"
+    ],
+    [
+      384,
+      251,
+      0,
+      242,
+      1,
+      "STRING"
+    ],
+    [
+      385,
+      219,
+      0,
+      111,
+      1,
+      "STRING"
+    ],
+    [
+      386,
+      219,
+      0,
+      251,
+      0,
+      "STRING"
+    ],
+    [
+      389,
+      254,
+      0,
+      251,
+      1,
+      "STRING"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "Text",
+      "bounding": [
+        660,
+        440,
+        740,
+        970
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "title": "Portrait",
+      "bounding": [
+        -1170,
+        -70,
+        735,
+        624
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1,
+      "offset": [
+        1575,
+        275
+      ]
+    }
+  },
+  "version": 0.4
+}

@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "generated_at": "2026-10-15T02:20:07+00:00",
+  "workflows": 862,
+  "selected": 20,
+  "canonical_duplicate_groups": 14,
+  "model_file_references": 804,
+  "plugin_ids": 84,
+  "gpu_tested_by_this_task": 0,
+  "hash_mismatches": [],
+  "sqlite_integrity": "ok"
+}

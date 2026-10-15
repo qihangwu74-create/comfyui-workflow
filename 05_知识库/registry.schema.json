@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ComfyUI workflow knowledge registry v2",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "cards"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "uid",
+          "source",
+          "file",
+          "readiness",
+          "dependencies",
+          "tasks"
+        ],
+        "properties": {
+          "uid": {
+            "type": "string",
+            "pattern": "^wf_[0-9a-f]{16}$"
+          },
+          "asset_kind": {
+            "const": "comfyui_workflow"
+          },
+          "runtime": {
+            "enum": [
+              "local_likely",
+              "cloud_or_hybrid",
+              "unknown"
+            ]
+          },
+          "tasks": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "product_background",
+                "relight",
+                "inpaint",
+                "outpaint",
+                "upscale",
+                "style_reference",
+                "structure_control",
+                "video",
+                "matting",
+                "exact_texture"
+              ]
+            }
+          },
+          "file": {
+            "type": "object",
+            "required": [
+              "relative_path",
+              "sha256",
+              "format"
+            ],
+            "properties": {
+              "relative_path": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            }
+          },
+          "readiness": {
+            "type": "object",
+            "required": [
+              "downloaded",
+              "json_parsed",
+              "dependencies_checked",
+              "gpu_run_tested",
+              "production_approved"
+            ]
+          },
+          "parent_uid": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

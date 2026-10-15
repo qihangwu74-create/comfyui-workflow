@@ -1,0 +1,1007 @@
+{
+  "last_node_id": 29,
+  "last_link_id": 68,
+  "nodes": [
+    {
+      "id": 23,
+      "type": "PreviewImage",
+      "pos": [
+        -1010,
+        550
+      ],
+      "size": [
+        340,
+        290
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "localized_name": "images",
+          "type": "IMAGE",
+          "link": 54
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.26",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 25,
+      "type": "ImageResize+",
+      "pos": [
+        -1000,
+        280
+      ],
+      "size": [
+        315,
+        218
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "link": 55
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "localized_name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            59
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "width",
+          "localized_name": "width",
+          "type": "INT",
+          "links": [
+            57
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "height",
+          "localized_name": "height",
+          "type": "INT",
+          "links": [
+            58
+          ],
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_essentials",
+        "ver": "33ff89fd354d8ec3ab6affb605a79a931b445d99",
+        "Node name for S&R": "ImageResize+"
+      },
+      "widgets_values": [
+        768,
+        768,
+        "bicubic",
+        "keep proportion",
+        "always",
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "type": "LayerUtility: CropByMask V2",
+      "pos": [
+        -1040,
+        -40
+      ],
+      "size": [
+        260,
+        270
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "link": 18
+        },
+        {
+          "name": "mask",
+          "localized_name": "mask",
+          "type": "MASK",
+          "link": 19
+        },
+        {
+          "name": "crop_box",
+          "localized_name": "crop_box",
+          "type": "BOX",
+          "shape": 7,
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "croped_image",
+          "localized_name": "croped_image",
+          "type": "IMAGE",
+          "shape": 3,
+          "links": [
+            3
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "croped_mask",
+          "localized_name": "croped_mask",
+          "type": "MASK",
+          "shape": 3,
+          "links": [
+            4,
+            63
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "crop_box",
+          "localized_name": "crop_box",
+          "type": "BOX",
+          "shape": 3,
+          "links": [
+            6
+          ],
+          "slot_index": 2
+        },
+        {
+          "name": "box_preview",
+          "localized_name": "box_preview",
+          "type": "IMAGE",
+          "shape": 3,
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_layerstyle",
+        "ver": "7b326d13e43fc4022cd80e472c7af67027409b1e",
+        "Node name for S&R": "LayerUtility: CropByMask V2"
+      },
+      "widgets_values": [
+        false,
+        "min_bounding_rect",
+        35,
+        35,
+        35,
+        35,
+        "8"
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
+    },
+    {
+      "id": 3,
+      "type": "LayerUtility: ImageScaleRestore V2",
+      "pos": [
+        -740,
+        -30
+      ],
+      "size": [
+        290,
+        210
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "link": 3
+        },
+        {
+          "name": "mask",
+          "localized_name": "mask",
+          "type": "MASK",
+          "shape": 7,
+          "link": 4
+        },
+        {
+          "name": "original_size",
+          "localized_name": "original_size",
+          "type": "BOX",
+          "shape": 7,
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "shape": 3,
+          "links": [
+            54,
+            55
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "mask",
+          "localized_name": "mask",
+          "type": "MASK",
+          "shape": 3,
+          "links": [
+            8
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "original_size",
+          "localized_name": "original_size",
+          "type": "BOX",
+          "shape": 3,
+          "links": [
+            9
+          ],
+          "slot_index": 2
+        },
+        {
+          "name": "width",
+          "localized_name": "width",
+          "type": "INT",
+          "shape": 3,
+          "links": null,
+          "slot_index": 3
+        },
+        {
+          "name": "height",
+          "localized_name": "height",
+          "type": "INT",
+          "shape": 3,
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_layerstyle",
+        "ver": "7b326d13e43fc4022cd80e472c7af67027409b1e",
+        "Node name for S&R": "LayerUtility: ImageScaleRestore V2"
+      },
+      "widgets_values": [
+        2.5,
+        "lanczos",
+        "by_scale",
+        1024
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
+    },
+    {
+      "id": 27,
+      "type": "LayerMask: MaskEdgeUltraDetail V2",
+      "pos": [
+        -110,
+        -30
+      ],
+      "size": [
+        300,
+        294
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "link": 62
+        },
+        {
+          "name": "mask",
+          "localized_name": "mask",
+          "type": "MASK",
+          "link": 63
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "links": [
+            64
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "mask",
+          "localized_name": "mask",
+          "type": "MASK",
+          "links": [
+            65
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_layerstyle",
+        "ver": "7b326d13e43fc4022cd80e472c7af67027409b1e",
+        "Node name for S&R": "LayerMask: MaskEdgeUltraDetail V2"
+      },
+      "widgets_values": [
+        "VITMatte(local)",
+        0,
+        0,
+        0.75,
+        6,
+        6,
+        0.01,
+        0.99,
+        "cuda",
+        2
+      ],
+      "color": "rgba(27, 80, 119, 0.7)"
+    },
+    {
+      "id": 5,
+      "type": "LayerUtility: ImageScaleRestore V2",
+      "pos": [
+        -430,
+        -20
+      ],
+      "size": [
+        290,
+        210
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "link": 60
+        },
+        {
+          "name": "mask",
+          "localized_name": "mask",
+          "type": "MASK",
+          "shape": 7,
+          "link": 8
+        },
+        {
+          "name": "original_size",
+          "localized_name": "original_size",
+          "type": "BOX",
+          "shape": 7,
+          "link": 9
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "shape": 3,
+          "links": [
+            62
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "mask",
+          "localized_name": "mask",
+          "type": "MASK",
+          "shape": 3,
+          "links": null
+        },
+        {
+          "name": "original_size",
+          "localized_name": "original_size",
+          "type": "BOX",
+          "shape": 3,
+          "links": null
+        },
+        {
+          "name": "width",
+          "localized_name": "width",
+          "type": "INT",
+          "shape": 3,
+          "links": null
+        },
+        {
+          "name": "height",
+          "localized_name": "height",
+          "type": "INT",
+          "shape": 3,
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_layerstyle",
+        "ver": "7b326d13e43fc4022cd80e472c7af67027409b1e",
+        "Node name for S&R": "LayerUtility: ImageScaleRestore V2"
+      },
+      "widgets_values": [
+        1,
+        "lanczos",
+        "by_scale",
+        1024
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
+    },
+    {
+      "id": 26,
+      "type": "PreviewImage",
+      "pos": [
+        -300,
+        510
+      ],
+      "size": [
+        330,
+        280
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "localized_name": "images",
+          "type": "IMAGE",
+          "link": 61
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.26",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 4,
+      "type": "LayerUtility: RestoreCropBox",
+      "pos": [
+        -310,
+        330
+      ],
+      "size": [
+        315,
+        118
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "background_image",
+          "localized_name": "background_image",
+          "type": "IMAGE",
+          "link": 26
+        },
+        {
+          "name": "croped_image",
+          "localized_name": "croped_image",
+          "type": "IMAGE",
+          "link": 64
+        },
+        {
+          "name": "crop_box",
+          "localized_name": "crop_box",
+          "type": "BOX",
+          "link": 6
+        },
+        {
+          "name": "croped_mask",
+          "localized_name": "croped_mask",
+          "type": "MASK",
+          "shape": 7,
+          "link": 65
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "shape": 3,
+          "links": [
+            27,
+            67
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "mask",
+          "localized_name": "mask",
+          "type": "MASK",
+          "shape": 3,
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui_layerstyle",
+        "ver": "7b326d13e43fc4022cd80e472c7af67027409b1e",
+        "Node name for S&R": "LayerUtility: RestoreCropBox"
+      },
+      "widgets_values": [
+        false
+      ],
+      "color": "rgba(38, 73, 116, 0.7)"
+    },
+    {
+      "id": 14,
+      "type": "PreviewImage",
+      "pos": [
+        240,
+        -50
+      ],
+      "size": [
+        760,
+        930
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "localized_name": "images",
+          "type": "IMAGE",
+          "link": 27
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.26",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 29,
+      "type": "PreviewImage",
+      "pos": [
+        1070,
+        180
+      ],
+      "size": [
+        1080,
+        680
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "images",
+          "localized_name": "images",
+          "type": "IMAGE",
+          "link": 68
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.26",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 10,
+      "type": "LoadImage",
+      "pos": [
+        -1810,
+        -40
+      ],
+      "size": [
+        730,
+        890
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "localized_name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            18,
+            26,
+            66
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "localized_name": "MASK",
+          "type": "MASK",
+          "links": [
+            19
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.26",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "clipspace/clipspace-mask-12444720.9.png [input]",
+        "image"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "Google-Gemini",
+      "pos": [
+        -630,
+        280
+      ],
+      "size": [
+        280,
+        330
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "shape": 7,
+          "link": 59
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 57
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 58
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "localized_name": "image",
+          "type": "IMAGE",
+          "links": [
+            60,
+            61
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "API Respond",
+          "localized_name": "API Respond",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "aux_id": "CY-CHENYUE/ComfyUI-Gemini-API",
+        "ver": "a8688f998b276da2d0d9739ac5d4b39f1b3864b1",
+        "Node name for S&R": "Google-Gemini"
+      },
+      "widgets_values": [
+        "將圖片中類似文字的圖案修正為「松音」兩個中文字",
+        "",
+        "models/gemini-2.0-flash-exp",
+        1024,
+        1024,
+        0.3,
+        80169806,
+        "randomize",
+        false,
+        [
+          false,
+          true
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "type": "ImageConcanate",
+      "pos": [
+        1080,
+        -30
+      ],
+      "size": [
+        315,
+        102
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "image1",
+          "localized_name": "image1",
+          "type": "IMAGE",
+          "link": 66
+        },
+        {
+          "name": "image2",
+          "localized_name": "image2",
+          "type": "IMAGE",
+          "link": 67
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "localized_name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            68
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "3f141b8f1ca1c832a1c6accd806f2d2f40fd4075",
+        "Node name for S&R": "ImageConcanate"
+      },
+      "widgets_values": [
+        "right",
+        true
+      ]
+    }
+  ],
+  "links": [
+    [
+      3,
+      2,
+      0,
+      3,
+      0,
+      "IMAGE"
+    ],
+    [
+      4,
+      2,
+      1,
+      3,
+      1,
+      "MASK"
+    ],
+    [
+      6,
+      2,
+      2,
+      4,
+      2,
+      "BOX"
+    ],
+    [
+      8,
+      3,
+      1,
+      5,
+      1,
+      "MASK"
+    ],
+    [
+      9,
+      3,
+      2,
+      5,
+      2,
+      "BOX"
+    ],
+    [
+      18,
+      10,
+      0,
+      2,
+      0,
+      "IMAGE"
+    ],
+    [
+      19,
+      10,
+      1,
+      2,
+      1,
+      "MASK"
+    ],
+    [
+      26,
+      10,
+      0,
+      4,
+      0,
+      "IMAGE"
+    ],
+    [
+      27,
+      4,
+      0,
+      14,
+      0,
+      "IMAGE"
+    ],
+    [
+      54,
+      3,
+      0,
+      23,
+      0,
+      "IMAGE"
+    ],
+    [
+      55,
+      3,
+      0,
+      25,
+      0,
+      "IMAGE"
+    ],
+    [
+      57,
+      25,
+      1,
+      24,
+      1,
+      "INT"
+    ],
+    [
+      58,
+      25,
+      2,
+      24,
+      2,
+      "INT"
+    ],
+    [
+      59,
+      25,
+      0,
+      24,
+      0,
+      "IMAGE"
+    ],
+    [
+      60,
+      24,
+      0,
+      5,
+      0,
+      "IMAGE"
+    ],
+    [
+      61,
+      24,
+      0,
+      26,
+      0,
+      "IMAGE"
+    ],
+    [
+      62,
+      5,
+      0,
+      27,
+      0,
+      "IMAGE"
+    ],
+    [
+      63,
+      2,
+      1,
+      27,
+      1,
+      "MASK"
+    ],
+    [
+      64,
+      27,
+      0,
+      4,
+      1,
+      "IMAGE"
+    ],
+    [
+      65,
+      27,
+      1,
+      4,
+      3,
+      "MASK"
+    ],
+    [
+      66,
+      10,
+      0,
+      28,
+      0,
+      "IMAGE"
+    ],
+    [
+      67,
+      4,
+      0,
+      28,
+      1,
+      "IMAGE"
+    ],
+    [
+      68,
+      28,
+      0,
+      29,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "Group",
+      "bounding": [
+        -1050,
+        -110,
+        1270,
+        990
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "Group",
+      "bounding": [
+        1060,
+        -100,
+        1100,
+        973.5999755859375
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1,
+      "offset": [
+        1910,
+        150
+      ]
+    },
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0
+  },
+  "version": 0.4
+}

@@ -1,0 +1,1166 @@
+{
+  "last_node_id": 40,
+  "last_link_id": 46,
+  "nodes": [
+    {
+      "id": 23,
+      "type": "KSampler",
+      "pos": {
+        "0": 920,
+        "1": -160
+      },
+      "size": {
+        "0": 315,
+        "1": 262
+      },
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 22,
+          "label": "model"
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 20,
+          "label": "positive"
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 21,
+          "label": "negative"
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 23,
+          "label": "latent_image"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            24
+          ],
+          "slot_index": 0,
+          "label": "LATENT"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler",
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27"
+      },
+      "widgets_values": [
+        528593877720721,
+        "randomize",
+        6,
+        2,
+        "dpmpp_sde",
+        "karras",
+        1
+      ]
+    },
+    {
+      "id": 24,
+      "type": "EmptyLatentImage",
+      "pos": {
+        "0": 110,
+        "1": -340
+      },
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            23
+          ],
+          "slot_index": 0,
+          "label": "LATENT"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27"
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        1
+      ]
+    },
+    {
+      "id": 20,
+      "type": "CheckpointLoaderSimple",
+      "pos": {
+        "0": 100,
+        "1": -530
+      },
+      "size": {
+        "0": 315,
+        "1": 122
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            22
+          ],
+          "slot_index": 0,
+          "label": "MODEL"
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            18,
+            19
+          ],
+          "slot_index": 1,
+          "label": "CLIP"
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            26
+          ],
+          "slot_index": 2,
+          "label": "VAE"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple",
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27"
+      },
+      "widgets_values": [
+        "830832655739266347",
+        "dreamshaperXL_lightningDPMSDE - 1.0"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "SaveImage",
+      "pos": {
+        "0": 1332,
+        "1": -170
+      },
+      "size": [
+        846.49375221946,
+        893.3425820090554
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 33,
+          "label": "images"
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "SaveImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27"
+      },
+      "widgets_values": [
+        "TensorArt"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "ImageListToImageBatch",
+      "pos": {
+        "0": 543,
+        "1": 116
+      },
+      "size": {
+        "0": 315,
+        "1": 26
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 38,
+          "label": "images"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            32
+          ],
+          "slot_index": 0,
+          "label": "IMAGE"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageListToImageBatch",
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "d8738eee2f6c8c9a17ca42ab71f47ce35ccca3e7"
+      }
+    },
+    {
+      "id": 34,
+      "type": "LayerUtility: SimpleTextImage",
+      "pos": {
+        "0": 554,
+        "1": 331
+      },
+      "size": [
+        344.61510814319956,
+        379.0699053677645
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "size_as",
+          "type": "*",
+          "link": null,
+          "label": "size_as"
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 41,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            36
+          ],
+          "shape": 3,
+          "label": "image",
+          "slot_index": 0
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": null,
+          "shape": 3,
+          "label": "mask"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LayerUtility: SimpleTextImage"
+      },
+      "widgets_values": [
+        "text",
+        "Alibaba-PuHuiTi-Heavy.ttf",
+        "center",
+        20,
+        8,
+        40,
+        "#FFFFFF",
+        0,
+        "#FF8000",
+        250,
+        800,
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": 29,
+      "type": "ImageConcatFromBatch",
+      "pos": {
+        "0": 935,
+        "1": 251
+      },
+      "size": {
+        "0": 352.79998779296875,
+        "1": 106
+      },
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 32,
+          "label": "images"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            33
+          ],
+          "slot_index": 0,
+          "label": "IMAGE"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageConcatFromBatch",
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "3f141b8f1ca1c832a1c6accd806f2d2f40fd4075"
+      },
+      "widgets_values": [
+        2,
+        false,
+        4096
+      ]
+    },
+    {
+      "id": 26,
+      "type": "VAEDecode",
+      "pos": {
+        "0": 940,
+        "1": 149
+      },
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 24,
+          "label": "samples"
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 26,
+          "label": "vae"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            37
+          ],
+          "slot_index": 0,
+          "label": "IMAGE"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode",
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27"
+      }
+    },
+    {
+      "id": 35,
+      "type": "LayerStyle: DropShadow",
+      "pos": {
+        "0": 933,
+        "1": 441
+      },
+      "size": {
+        "0": 315,
+        "1": 266
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "background_image",
+          "type": "IMAGE",
+          "link": 37,
+          "label": "background_image"
+        },
+        {
+          "name": "layer_image",
+          "type": "IMAGE",
+          "link": 36,
+          "label": "layer_image"
+        },
+        {
+          "name": "layer_mask",
+          "type": "MASK",
+          "link": null,
+          "label": "layer_mask"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            38
+          ],
+          "shape": 3,
+          "label": "image",
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LayerStyle: DropShadow"
+      },
+      "widgets_values": [
+        true,
+        "normal",
+        50,
+        25,
+        25,
+        6,
+        18,
+        "#000000"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "StringFunction|pysssss",
+      "pos": {
+        "0": 339,
+        "1": -120
+      },
+      "size": [
+        400,
+        263
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_a",
+          "type": "STRING",
+          "link": 46,
+          "shape": 7,
+          "widget": {
+            "name": "text_a"
+          },
+          "label": "text_a"
+        },
+        {
+          "name": "text_b",
+          "type": "STRING",
+          "link": 34,
+          "shape": 7,
+          "widget": {
+            "name": "text_b"
+          },
+          "label": "text_b"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            28
+          ],
+          "slot_index": 0,
+          "label": "STRING"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StringFunction|pysssss",
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "bc8922deff73f59311c05cef27b9d4caaf43e87b"
+      },
+      "widgets_values": [
+        "append",
+        "no",
+        "{prompt} (in the style of Ivan Bilibin) ",
+        "a tropical bedroom",
+        "Best Quality, 8K, Super Detail, Masterpiece",
+        " (in the style of Vincent Van Gogh)a tropical bathroomBest Quality, 8K, Super Detail, Masterpiece, (in the style of Paul Gauguin)a tropical bathroomBest Quality, 8K, Super Detail, Masterpiece, (in the style of Henri Rousseau)a tropical bathroomBest Quality, 8K, Super Detail, Masterpiece, (in the style of Paul Cézanne)a tropical bathroomBest Quality, 8K, Super Detail, Masterpiece"
+      ]
+    },
+    {
+      "id": 40,
+      "type": "StringFunction|pysssss",
+      "pos": {
+        "0": 333,
+        "1": 294
+      },
+      "size": [
+        400,
+        244
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_a",
+          "type": "STRING",
+          "link": 40,
+          "widget": {
+            "name": "text_a"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            41
+          ],
+          "shape": 3,
+          "label": "STRING",
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StringFunction|pysssss"
+      },
+      "widgets_values": [
+        "replace",
+        "yes",
+        "",
+        "/(prompt|in|the|style|of|{|})/",
+        "",
+        "( Vcent Van Gogh),( Paul Gaugu),( Henri Rousseau),( Paul Cézanne)"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "SDXLPromptStylerAll",
+      "pos": {
+        "0": -430,
+        "1": -272
+      },
+      "size": {
+        "0": 400,
+        "1": 242
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "positive_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            42
+          ],
+          "shape": 3,
+          "label": "positive_prompt_text_g",
+          "slot_index": 0
+        },
+        {
+          "name": "negative_prompt_text_g",
+          "type": "STRING",
+          "links": null,
+          "shape": 3,
+          "label": "negative_prompt_text_g"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SDXLPromptStylerAll"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "Vincent Van Gogh",
+        "No",
+        false,
+        false
+      ]
+    },
+    {
+      "id": 37,
+      "type": "SDXLPromptStylerAll",
+      "pos": {
+        "0": -424,
+        "1": 31
+      },
+      "size": {
+        "0": 400,
+        "1": 242
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "positive_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            43
+          ],
+          "shape": 3,
+          "label": "positive_prompt_text_g",
+          "slot_index": 0
+        },
+        {
+          "name": "negative_prompt_text_g",
+          "type": "STRING",
+          "links": null,
+          "shape": 3,
+          "label": "negative_prompt_text_g"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SDXLPromptStylerAll"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "Paul Gauguin",
+        "No",
+        false,
+        false
+      ]
+    },
+    {
+      "id": 38,
+      "type": "SDXLPromptStylerAll",
+      "pos": {
+        "0": -407,
+        "1": 328
+      },
+      "size": {
+        "0": 400,
+        "1": 242
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "positive_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            44
+          ],
+          "shape": 3,
+          "label": "positive_prompt_text_g",
+          "slot_index": 0
+        },
+        {
+          "name": "negative_prompt_text_g",
+          "type": "STRING",
+          "links": null,
+          "shape": 3,
+          "label": "negative_prompt_text_g"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SDXLPromptStylerAll"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "Henri Rousseau",
+        "No",
+        false,
+        false
+      ]
+    },
+    {
+      "id": 39,
+      "type": "SDXLPromptStylerAll",
+      "pos": {
+        "0": -407,
+        "1": 637
+      },
+      "size": {
+        "0": 400,
+        "1": 242
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "positive_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            45
+          ],
+          "shape": 3,
+          "label": "positive_prompt_text_g",
+          "slot_index": 0
+        },
+        {
+          "name": "negative_prompt_text_g",
+          "type": "STRING",
+          "links": null,
+          "shape": 3,
+          "label": "negative_prompt_text_g"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SDXLPromptStylerAll"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "Paul Cézanne",
+        "No",
+        false,
+        false
+      ]
+    },
+    {
+      "id": 32,
+      "type": "Text Multiline",
+      "pos": {
+        "0": -417,
+        "1": -536
+      },
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            34
+          ],
+          "slot_index": 0,
+          "label": "STRING"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Text Multiline",
+        "cnr_id": "pr-was-node-suite-comfyui-47064894",
+        "ver": "056badacda52e88d29d6a65f9509cd3115ace0f2"
+      },
+      "widgets_values": [
+        "a tropical bathroom"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "CLIPTextEncode",
+      "pos": {
+        "0": 638,
+        "1": -10
+      },
+      "size": {
+        "0": 390,
+        "1": 130
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 19,
+          "label": "clip"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            21
+          ],
+          "slot_index": 0,
+          "label": "CONDITIONING"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode",
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27"
+      },
+      "widgets_values": [
+        "text,watermark,nsfw"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "CLIPTextEncode",
+      "pos": {
+        "0": 641,
+        "1": -64
+      },
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 18,
+          "label": "clip"
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 28,
+          "widget": {
+            "name": "text"
+          },
+          "label": "text"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            20
+          ],
+          "slot_index": 0,
+          "label": "CONDITIONING"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode",
+        "cnr_id": "comfy-core",
+        "ver": "0.3.27"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 13,
+      "type": "easy promptList",
+      "pos": {
+        "0": 164,
+        "1": -62
+      },
+      "size": {
+        "0": 350,
+        "1": 289
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "optional_prompt_list",
+          "type": "LIST",
+          "link": null,
+          "shape": 7,
+          "label": "optional_prompt_list"
+        },
+        {
+          "name": "prompt_1",
+          "type": "STRING",
+          "link": 42,
+          "widget": {
+            "name": "prompt_1"
+          },
+          "label": "prompt_1"
+        },
+        {
+          "name": "prompt_2",
+          "type": "STRING",
+          "link": 43,
+          "widget": {
+            "name": "prompt_2"
+          },
+          "label": "prompt_2"
+        },
+        {
+          "name": "prompt_3",
+          "type": "STRING",
+          "link": 44,
+          "widget": {
+            "name": "prompt_3"
+          },
+          "label": "prompt_3"
+        },
+        {
+          "name": "prompt_4",
+          "type": "STRING",
+          "link": 45,
+          "widget": {
+            "name": "prompt_4"
+          },
+          "label": "prompt_4"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "prompt_list",
+          "type": "LIST",
+          "links": null,
+          "label": "prompt_list"
+        },
+        {
+          "name": "prompt_strings",
+          "type": "STRING",
+          "links": [
+            40,
+            46
+          ],
+          "slot_index": 1,
+          "shape": 6,
+          "label": "prompt_strings"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy promptList",
+        "cnr_id": "comfyui-easy-use",
+        "ver": "0daf114fe8870aeacfea484aa59e7f9973b91cd5"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    }
+  ],
+  "links": [
+    [
+      18,
+      20,
+      1,
+      21,
+      0,
+      "CLIP"
+    ],
+    [
+      19,
+      20,
+      1,
+      22,
+      0,
+      "CLIP"
+    ],
+    [
+      20,
+      21,
+      0,
+      23,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      21,
+      22,
+      0,
+      23,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      22,
+      20,
+      0,
+      23,
+      0,
+      "MODEL"
+    ],
+    [
+      23,
+      24,
+      0,
+      23,
+      3,
+      "LATENT"
+    ],
+    [
+      24,
+      23,
+      0,
+      26,
+      0,
+      "LATENT"
+    ],
+    [
+      26,
+      20,
+      2,
+      26,
+      1,
+      "VAE"
+    ],
+    [
+      28,
+      27,
+      0,
+      21,
+      1,
+      "STRING"
+    ],
+    [
+      32,
+      30,
+      0,
+      29,
+      0,
+      "IMAGE"
+    ],
+    [
+      33,
+      29,
+      0,
+      31,
+      0,
+      "IMAGE"
+    ],
+    [
+      34,
+      32,
+      0,
+      27,
+      1,
+      "STRING"
+    ],
+    [
+      36,
+      34,
+      0,
+      35,
+      1,
+      "IMAGE"
+    ],
+    [
+      37,
+      26,
+      0,
+      35,
+      0,
+      "IMAGE"
+    ],
+    [
+      38,
+      35,
+      0,
+      30,
+      0,
+      "IMAGE"
+    ],
+    [
+      40,
+      13,
+      1,
+      40,
+      0,
+      "STRING"
+    ],
+    [
+      41,
+      40,
+      0,
+      34,
+      1,
+      "STRING"
+    ],
+    [
+      42,
+      36,
+      0,
+      13,
+      1,
+      "STRING"
+    ],
+    [
+      43,
+      37,
+      0,
+      13,
+      2,
+      "STRING"
+    ],
+    [
+      44,
+      38,
+      0,
+      13,
+      3,
+      "STRING"
+    ],
+    [
+      45,
+      39,
+      0,
+      13,
+      4,
+      "STRING"
+    ],
+    [
+      46,
+      13,
+      1,
+      27,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.1000000000000008,
+      "offset": {
+        "0": 231.78866577148438,
+        "1": 647.426025390625
+      }
+    },
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0
+  },
+  "version": 0.4
+}

@@ -1,0 +1,16 @@
+{
+  "requested": "axiomgraph/ComfyUIWorkflow",
+  "repo": "axiomgraph/ComfyUIWorkflow",
+  "group": "01_指定仓库",
+  "stars": 566,
+  "pushed_at": "2026-10-07T17:08:10Z",
+  "branch": "main",
+  "sha": "ffe40084d944d1a52bf4600f2defb6af35098ebf",
+  "license": "GPL-3.0",
+  "url": "https://github.com/axiomgraph/ComfyUIWorkflow",
+  "tree_truncated": false,
+  "retrieved_date": "2026-10-08",
+  "archived": false,
+  "workflow_count": 130,
+  "snapshot_note": "GitHub API递归树查询返回的快照标识；下载链接固定到该标识。"
+}

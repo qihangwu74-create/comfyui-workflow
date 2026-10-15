@@ -1,0 +1,16 @@
+{
+  "requested": "comfyanonymous/ComfyUI_examples",
+  "repo": "comfyanonymous/ComfyUI_examples",
+  "group": "03_官方模板",
+  "stars": 4591,
+  "pushed_at": "2025-11-26T20:34:21Z",
+  "branch": "master",
+  "sha": "f9431bb000ce792094ff345446e22cac1ea6cef3",
+  "license": "NOASSERTION",
+  "url": "https://github.com/comfyanonymous/ComfyUI_examples",
+  "tree_truncated": false,
+  "retrieved_date": "2026-10-08",
+  "archived": false,
+  "workflow_count": 113,
+  "snapshot_note": "GitHub API递归树查询返回的快照标识；下载链接固定到该标识。"
+}

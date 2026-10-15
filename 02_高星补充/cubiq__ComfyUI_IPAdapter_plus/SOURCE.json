@@ -1,0 +1,16 @@
+{
+  "requested": "cubiq/ComfyUI_IPAdapter_plus",
+  "repo": "cubiq/ComfyUI_IPAdapter_plus",
+  "group": "02_高星补充",
+  "stars": 6139,
+  "pushed_at": "2025-04-14T07:29:17Z",
+  "branch": "main",
+  "sha": "a0f451a5113cf9becb0847b92884cb10cbdec0ef",
+  "license": "GPL-3.0",
+  "url": "https://github.com/cubiq/ComfyUI_IPAdapter_plus",
+  "tree_truncated": false,
+  "retrieved_date": "2026-10-08",
+  "archived": false,
+  "workflow_count": 21,
+  "snapshot_note": "GitHub API递归树查询返回的快照标识；下载链接固定到该标识。"
+}

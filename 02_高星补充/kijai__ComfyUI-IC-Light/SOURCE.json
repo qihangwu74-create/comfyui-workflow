@@ -1,0 +1,16 @@
+{
+  "requested": "kijai/ComfyUI-IC-Light",
+  "repo": "kijai/ComfyUI-IC-Light",
+  "group": "02_高星补充",
+  "stars": 1156,
+  "pushed_at": "2025-05-30T19:21:20Z",
+  "branch": "main",
+  "sha": "22811d903af8a90100dccef1c4b579526649a6ab",
+  "license": "Apache-2.0",
+  "url": "https://github.com/kijai/ComfyUI-IC-Light",
+  "tree_truncated": false,
+  "retrieved_date": "2026-10-08",
+  "archived": false,
+  "workflow_count": 7,
+  "snapshot_note": "GitHub API递归树查询返回的快照标识；下载链接固定到该标识。"
+}

@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.tmp
+*.log
+*.bak
+*.sqlite3-wal
+*.sqlite3-shm
+.DS_Store
+Thumbs.db
+
+# 模型权重不进入 Git 仓库
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.gguf
+
+# 私人素材与本地配置
+private/
+secrets/
+.env
+.env.*
+

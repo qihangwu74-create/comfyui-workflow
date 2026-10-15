@@ -1,0 +1,10 @@
+{
+  "search": "& \"C:\\Users\\sg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" \"C:\\Users\\sg\\Downloads\\ComfyUI_Design_Library_20261008\\05_知识库\\tools\\library.py\" search \"产品换背景\" --runtime local --limit 5",
+  "recommend": "& \"C:\\Users\\sg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" \"C:\\Users\\sg\\Downloads\\ComfyUI_Design_Library_20261008\\05_知识库\\tools\\library.py\" recommend \"给摩托车产品做展会海报，扩图留白\" --runtime local",
+  "get": "& \"C:\\Users\\sg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" \"C:\\Users\\sg\\Downloads\\ComfyUI_Design_Library_20261008\\05_知识库\\tools\\library.py\" get WORKFLOW_UID",
+  "verify": "& \"C:\\Users\\sg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" \"C:\\Users\\sg\\Downloads\\ComfyUI_Design_Library_20261008\\05_知识库\\tools\\library.py\" verify",
+  "rebuild": "& \"C:\\Users\\sg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" \"C:\\Users\\sg\\Downloads\\ComfyUI_Design_Library_20261008\\05_知识库\\tools\\library.py\" rebuild",
+  "models": "& \"C:\\Users\\sg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" \"C:\\Users\\sg\\Downloads\\ComfyUI_Design_Library_20261008\\05_知识库\\tools\\library.py\" models \"iclight\"",
+  "favorite": "& \"C:\\Users\\sg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" \"C:\\Users\\sg\\Downloads\\ComfyUI_Design_Library_20261008\\05_知识库\\tools\\library.py\" annotate WORKFLOW_UID --favorite yes --note \"准备实测\"",
+  "import": "& \"C:\\Users\\sg\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" \"C:\\Users\\sg\\Downloads\\ComfyUI_Design_Library_20261008\\05_知识库\\tools\\library.py\" import \"D:\\你的流程.json\" --name \"整流罩局部换色\" --task inpaint --parent WORKFLOW_UID"
+}

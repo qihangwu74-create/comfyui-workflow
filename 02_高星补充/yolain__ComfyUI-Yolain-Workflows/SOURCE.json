@@ -1,0 +1,16 @@
+{
+  "requested": "yolain/ComfyUI-Yolain-Workflows",
+  "repo": "yolain/ComfyUI-Yolain-Workflows",
+  "group": "02_高星补充",
+  "stars": 2222,
+  "pushed_at": "2024-11-25T02:44:29Z",
+  "branch": "main",
+  "sha": "529b5026c2f4440cdeb7a501275a4f3a74ae2c73",
+  "license": "GPL-3.0",
+  "url": "https://github.com/yolain/ComfyUI-Yolain-Workflows",
+  "tree_truncated": false,
+  "retrieved_date": "2026-10-08",
+  "archived": false,
+  "workflow_count": 29,
+  "snapshot_note": "GitHub API递归树查询返回的快照标识；下载链接固定到该标识。"
+}

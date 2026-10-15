@@ -1,0 +1,16 @@
+{
+  "requested": "dseditor/ComfyuiWorkflows",
+  "repo": "dseditor/ComfyuiWorkflows",
+  "group": "01_指定仓库",
+  "stars": 256,
+  "pushed_at": "2026-08-17T16:14:54Z",
+  "branch": "main",
+  "sha": "b2ea26fa602d6eebadb1de1e4ccf1ecc91875806",
+  "license": "GPL-3.0",
+  "url": "https://github.com/dseditor/ComfyuiWorkflows",
+  "tree_truncated": false,
+  "retrieved_date": "2026-10-08",
+  "archived": false,
+  "workflow_count": 203,
+  "snapshot_note": "GitHub API递归树查询返回的快照标识；下载链接固定到该标识。"
+}
