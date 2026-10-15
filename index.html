@@ -3,15 +3,91 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ComfyUI Design Workflow Library</title>
-  <meta http-equiv="refresh" content="0; url=./00_%E5%BC%80%E5%A7%8B%E8%BF%99%E9%87%8C.html">
+  <meta name="description" content="ComfyUI 设计工作流、真实招聘证据、技能路线与可复用模板的一体化职业资产控制台。">
+  <title>设计工作流与职业资产控制台</title>
   <style>
-    body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0d1117;color:#e6edf3;font:16px system-ui}
-    a{color:#58a6ff}
+    :root{--bg:#0b1020;--panel:#121a2e;--panel2:#17223a;--line:#2a3857;--text:#edf3ff;--muted:#9cafcf;--blue:#65a7ff;--cyan:#53d8d0;--yellow:#ffc857;--green:#58d68d;--red:#ff7d87;--shadow:0 20px 60px rgba(0,0,0,.28)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:radial-gradient(circle at 15% 0,#182a4b 0,transparent 34%),var(--bg);color:var(--text);font:15px/1.65 Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+    button,a{font:inherit} a{color:var(--blue)} button{color:inherit}.shell{max-width:1440px;margin:auto;padding:24px}.top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;margin-bottom:22px}.eyebrow{color:var(--cyan);font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.top h1{font-size:clamp(25px,3vw,42px);line-height:1.15;margin:5px 0 8px}.top p{margin:0;color:var(--muted);max-width:760px}.source-note{border:1px solid var(--line);border-radius:14px;background:rgba(18,26,46,.8);padding:12px 15px;min-width:260px}.source-note b{display:block}.source-note span{color:var(--muted);font-size:13px}.nav{display:flex;gap:8px;overflow:auto;padding:7px;background:#0e1629;border:1px solid var(--line);border-radius:15px;position:sticky;top:8px;z-index:10;box-shadow:var(--shadow)}.nav button{white-space:nowrap;border:0;background:transparent;padding:10px 15px;border-radius:10px;cursor:pointer;color:var(--muted);font-weight:700}.nav button.active{background:var(--blue);color:#07101e}.view{display:none;padding-top:22px}.view.active{display:block}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px}.stat,.card,.road-card,.template{border:1px solid var(--line);border-radius:16px;background:linear-gradient(145deg,rgba(23,34,58,.96),rgba(14,22,41,.96));box-shadow:var(--shadow)}.stat{padding:17px}.stat strong{font-size:28px;display:block}.stat span{color:var(--muted)}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:16px 0}.toolbar h2{margin:0}.filters{display:flex;gap:7px;flex-wrap:wrap}.filter{border:1px solid var(--line);background:#101a30;padding:8px 12px;border-radius:999px;cursor:pointer;color:var(--muted)}.filter.active{border-color:var(--cyan);color:var(--text);background:#16313b}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{padding:18px;display:flex;flex-direction:column;gap:11px}.card h3{margin:0;font-size:18px}.meta{display:flex;gap:7px;align-items:center;flex-wrap:wrap}.badge{font-size:12px;font-weight:800;border-radius:999px;padding:3px 8px;background:#263654}.grade-A{background:#153b2a;color:#76e4a7}.grade-B{background:#383319;color:#ffe083}.grade-C{background:#40232b;color:#ff9ba5}.tags{display:flex;gap:6px;flex-wrap:wrap}.tag{font-size:12px;padding:3px 7px;background:#182742;border:1px solid #2d4166;border-radius:7px;color:#bed0ef}.card a{margin-top:auto;font-weight:700;text-decoration:none}.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:18px}.skill{display:grid;grid-template-columns:1fr auto;gap:10px;border-bottom:1px solid var(--line);padding:13px 3px}.skill small{color:var(--muted);display:block}.priority{color:var(--yellow);font-weight:800}.workflow-frame{width:100%;height:76vh;border:1px solid var(--line);border-radius:16px;background:#0d1117}.openbar{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:12px}.button{display:inline-flex;align-items:center;gap:6px;background:var(--blue);color:#07101e;padding:9px 13px;border-radius:9px;font-weight:800;text-decoration:none}.roadmap{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.road-card{padding:18px}.road-card h3{margin:0 0 8px}.road-card p{color:var(--muted);min-height:48px}.task{display:flex;align-items:flex-start;gap:9px;padding:10px 0;border-top:1px solid var(--line)}.task input{margin-top:5px;accent-color:var(--green)}.task.done span{text-decoration:line-through;color:#75839c}.progress{height:12px;background:#18233a;border-radius:999px;overflow:hidden}.progress i{height:100%;display:block;width:0;background:linear-gradient(90deg,var(--blue),var(--cyan));transition:.25s}.progress-copy{display:flex;justify-content:space-between;color:var(--muted);margin:8px 0 18px}.templates{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.template{padding:20px;text-decoration:none;color:var(--text);transition:.18s}.template:hover{transform:translateY(-3px);border-color:var(--blue)}.template b{display:block;font-size:18px;margin-bottom:6px}.template span{color:var(--muted)}.evidence-rule{margin-top:20px;border-left:4px solid var(--yellow);padding:12px 16px;background:#171d2d;color:var(--muted)}.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:50px}.footer{color:var(--muted);font-size:13px;margin:28px 0 8px}.footer a{margin-right:14px}
+    @media(max-width:900px){.top{display:block}.source-note{margin-top:14px}.stats,.cards,.roadmap,.templates{grid-template-columns:repeat(2,1fr)}.skills{grid-template-columns:1fr}}
+    @media(max-width:600px){.shell{padding:14px}.stats,.cards,.roadmap,.templates{grid-template-columns:1fr}.toolbar{align-items:flex-start;flex-direction:column}.workflow-frame{height:72vh}.source-note{min-width:0}}
   </style>
 </head>
 <body>
-  <p>正在进入 ComfyUI 工作流交互检索页……<a href="./00_%E5%BC%80%E5%A7%8B%E8%BF%99%E9%87%8C.html">点击打开</a></p>
-  <!-- GitHub Pages deployment trigger: 2026-10-15 -->
+  <main class="shell">
+    <header class="top">
+      <div><div class="eyebrow">Portable Design Asset System</div><h1>设计工作流与职业资产控制台</h1><p>从任务找工作流，从真实招聘要求找能力缺口，再把测试结果沉淀成可迁移的模板和作品集证据。</p></div>
+      <div class="source-note"><b>证据更新时间：2026-10-15</b><span>企业官网优先 · 招聘要求与个人推导分离</span></div>
+    </header>
+    <nav class="nav" aria-label="主导航">
+      <button class="active" data-view="workflows">工作流检索</button>
+      <button data-view="market">市场技能雷达</button>
+      <button data-view="roadmap">90 天行动</button>
+      <button data-view="templates">可复制模板</button>
+    </nav>
+
+    <section id="workflows" class="view active">
+      <div class="openbar"><div><h2>ComfyUI 工作流检索</h2><span style="color:var(--muted)">原有检索与 AI 推荐功能完整保留</span></div><a class="button" href="./00_%E5%BC%80%E5%A7%8B%E8%BF%99%E9%87%8C.html" target="_blank" rel="noopener">独立打开 ↗</a></div>
+      <iframe class="workflow-frame" title="ComfyUI 工作流检索" src="./00_%E5%BC%80%E5%A7%8B%E8%BF%99%E9%87%8C.html"></iframe>
+    </section>
+
+    <section id="market" class="view">
+      <div class="stats"><div class="stat"><strong id="postingCount">9</strong><span>真实岗位证据</span></div><div class="stat"><strong id="skillCount">7</strong><span>重复核心能力</span></div><div class="stat"><strong>4</strong><span>职业方向</span></div><div class="stat"><strong>3+</strong><span>岗位重复才列核心</span></div></div>
+      <div class="toolbar"><h2>真实岗位要求</h2><div class="filters" id="filters"><button class="filter active" data-filter="all">全部</button><button class="filter" data-filter="ai">AI 内容</button><button class="filter" data-filter="3d">3D 产品</button><button class="filter" data-filter="cmf">摩托车 / CMF</button><button class="filter" data-filter="brand">品牌营销</button></div></div>
+      <div class="cards" id="jobCards"></div>
+      <div class="toolbar"><h2>跨岗位重复出现的能力</h2></div><div class="skills" id="skillList"></div>
+      <div class="evidence-rule"><b>证据规则：</b> A 级为企业官方招聘页，B 级为大型招聘平台或公司招聘系统，C 级为聚合/转载。C 级资料只作补充。页面失效时标记为已下线并保留抓取日期。</div>
+    </section>
+
+    <section id="roadmap" class="view">
+      <div class="openbar"><div><h2>90 天资产升级</h2><span style="color:var(--muted)">勾选状态只保存在你的浏览器，不会上传私人记录</span></div><a class="button" href="./05_%E7%9F%A5%E8%AF%86%E5%BA%93/%E7%B4%A0%E6%9D%90%E5%BA%93%E7%BC%BA%E5%8F%A3%E4%B8%8E90%E5%A4%A9%E8%B7%AF%E7%BA%BF%E5%9B%BE.md" target="_blank">查看完整路线图 ↗</a></div>
+      <div class="progress"><i id="progressBar"></i></div><div class="progress-copy"><span>总体进度</span><b id="progressText">0 / 9</b></div>
+      <div class="roadmap" id="roadmapGrid"></div>
+    </section>
+
+    <section id="templates" class="view">
+      <div class="openbar"><div><h2>直接复制使用</h2><span style="color:var(--muted)">每次项目都用同一套结构积累证据</span></div></div>
+      <div class="templates">
+        <a class="template" href="./09_%E9%80%9A%E7%94%A8%E8%AE%BE%E8%AE%A1%E6%A8%A1%E6%9D%BF/%E8%AE%BE%E8%AE%A1%E4%BB%BB%E5%8A%A1%E5%8D%A1%E6%A8%A1%E6%9D%BF.md"><b>设计任务卡</b><span>先定义目标、输入、限制、渠道和交付。</span></a>
+        <a class="template" href="./09_%E9%80%9A%E7%94%A8%E8%AE%BE%E8%AE%A1%E6%A8%A1%E6%9D%BF/AI%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%AE%9E%E6%B5%8B%E5%8D%A1.md"><b>AI 工作流实测卡</b><span>记录环境、三次运行、显存、失败和质量检查。</span></a>
+        <a class="template" href="./09_%E9%80%9A%E7%94%A8%E8%AE%BE%E8%AE%A1%E6%A8%A1%E6%9D%BF/%E4%BD%9C%E5%93%81%E9%9B%86%E6%A1%88%E4%BE%8B%E6%A8%A1%E6%9D%BF.md"><b>作品集案例模板</b><span>把漂亮成图升级为问题、判断、系统和结果证据。</span></a>
+        <a class="template" href="./05_%E7%9F%A5%E8%AF%86%E5%BA%93/%E5%B7%A5%E4%BD%9C%E6%B5%81%E8%B4%A8%E9%87%8F%E5%88%86%E7%BA%A7.md"><b>工作流质量分级</b><span>L0 收录、L1 可启动、L2 可复现、L3 可交付。</span></a>
+        <a class="template" href="./05_%E7%9F%A5%E8%AF%86%E5%BA%93/%E6%8B%9B%E8%81%98%E9%9C%80%E6%B1%82%E8%AF%81%E6%8D%AE%E5%BA%93_2026-10.md"><b>招聘证据全文</b><span>查看岗位、原始链接、证据等级和推导边界。</span></a>
+        <a class="template" href="https://qihangwu74-create.github.io/" target="_blank" rel="noopener"><b>职业方向导航台</b><span>连接长期能力、作品集与可携带资产规划。</span></a>
+      </div>
+    </section>
+
+    <footer class="footer"><a href="https://github.com/qihangwu74-create/comfyui-workflow">GitHub 仓库</a><a href="./README.md">使用说明</a><span>不保存客户数据、公司机密或模型权重。</span></footer>
+  </main>
+  <script>
+    const fallback={postings:[
+      {id:'E01',company:'美团',role:'AI 批量内容生产',grade:'A',category:'ai',url:'https://zhaopin.meituan.com/web/position/detail?highlightType=social&jobUnionId=4805954551',requirements:['AI批量内容生产线','至少两种AI视频工具','发布前质检','工作流编排','平台数据归因','可核验案例']},
+      {id:'E02',company:'美团',role:'整合营销视觉设计',grade:'A',category:'brand',url:'https://zhaopin.meituan.com/web/position/detail?highlightType=social&jobUnionId=4779681468',requirements:['视觉策略','平面与动效','AIGC实景合成','coding提效工具','跨文化视觉','业务理解']},
+      {id:'E03',company:'美团',role:'AI 产品从 0 到 1',grade:'A',category:'ai',url:'https://zhaopin.meituan.com/web/position/detail?highlightType=social&jobUnionId=4360870843',requirements:['需求到验证闭环','多模态与Agent边界','动手构建','跨团队协作','开源项目']},
+      {id:'E04',company:'General Motors',role:'CMF Designer',grade:'A',category:'cmf',url:'https://search-careers.gm.com/en/jobs/jr-202618374/creative-senior-lead-cmf-designer/',requirements:['品牌与用户连接','材料研究','实体样板','供应商协作','验证与量产','2D与3D沟通']},
+      {id:'E05',company:'重庆张雪机车',role:'车辆造型 / CMF 设计师',grade:'B',category:'cmf',url:'https://www.zhaopin.com/jobdetail/CCL1482625180J40872772901.htm',requirements:['草图到3D','品牌语言','CMF与贴花','表面工艺','油泥与量产','Alias加分']},
+      {id:'E06',company:'摩托车企业（Randstad）',role:'造型设计工程师',grade:'B',category:'cmf',url:'https://www.randstad.cn/en/jobs/zao-xing-she-ji-gong-cheng-shi_hangzhou_90M0152385_19591_EN/',requirements:['2D到3D CAS','曲面建模','工程可行性','开模','人机工程','竞品分析']},
+      {id:'E07',company:'Kirin',role:'3D Product Visualization Artist',grade:'B',category:'3d',url:'https://jobs.ashbyhq.com/Kirin/c567966b-133d-4e45-b1d1-4d279d5f9f15',requirements:['CAD/STP清理','PBR材质','灯光相机','电商PDP','材质真实性','可复用源文件']},
+      {id:'E08',company:'TikTok Shop',role:'AI 产品设计师',grade:'C',category:'ai',url:'https://www.mianshima.com/job/2/7667901772677368117',requirements:['Figma','信息架构','交互与视觉','AI原型工具','设计系统','英语']},
+      {id:'E09',company:'Anker Innovations',role:'三维高级设计师',grade:'C',category:'3d',url:'https://hireportal.us.com/cn/job/xprkqjt40brg/job',requirements:['C4D','Octane','产品动画运镜','材质灯光','After Effects','AIGC加分']}
+    ],inferred_core_skills:[
+      {label:'稳定生产与质量控制',evidence:['E01','E03','E07'],priority:'P0'},{label:'产品真实性与 CMF 工艺',evidence:['E04','E05','E06','E07'],priority:'P0'},{label:'需求到结果的业务闭环',evidence:['E01','E02','E03'],priority:'P0'},{label:'动态内容与镜头表达',evidence:['E01','E02','E09'],priority:'P1'},{label:'工作流编排、自动化与轻量编码',evidence:['E01','E02','E03'],priority:'P1'},{label:'跨团队与供应商协作',evidence:['E02','E03','E04','E05','E06'],priority:'P0'},{label:'可核验案例与结构化作品集',evidence:['E01','E05','E07'],priority:'P0'}
+    ]};
+    const categories={E01:'ai',E02:'brand',E03:'ai',E04:'cmf',E05:'cmf',E06:'cmf',E07:'3d',E08:'ai',E09:'3d'};
+    let data=fallback,filter='all';
+    function renderJobs(){const box=document.querySelector('#jobCards');const rows=data.postings.filter(x=>filter==='all'||(x.category||categories[x.id])===filter);box.innerHTML=rows.length?rows.map(x=>`<article class="card"><div class="meta"><span class="badge grade-${x.grade}">${x.grade} 级证据</span><span class="badge">${x.id}</span></div><h3>${x.company}｜${x.role}</h3><div class="tags">${x.requirements.map(r=>`<span class="tag">${r}</span>`).join('')}</div><a href="${x.url}" target="_blank" rel="noopener">查看招聘来源 ↗</a></article>`).join(''):'<div class="empty">暂无该方向岗位</div>';}
+    function renderSkills(){document.querySelector('#skillList').innerHTML=data.inferred_core_skills.map(x=>`<div class="skill"><div><b>${x.label}</b><small>证据：${x.evidence.join(' · ')}</small></div><span class="priority">${x.priority}</span></div>`).join('');document.querySelector('#postingCount').textContent=data.postings.length;document.querySelector('#skillCount').textContent=data.inferred_core_skills.length;}
+    fetch('./05_%E7%9F%A5%E8%AF%86%E5%BA%93/market_skill_evidence.json').then(r=>r.ok?r.json():Promise.reject()).then(x=>{data=x;data.postings.forEach(p=>p.category=categories[p.id]||'ai');renderJobs();renderSkills()}).catch(()=>{});
+    document.querySelectorAll('.nav button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.nav button,.view').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelector('#'+b.dataset.view).classList.add('active');history.replaceState(null,'','#'+b.dataset.view)}));
+    document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));b.classList.add('active');filter=b.dataset.filter;renderJobs()}));
+    const plans=[{title:'前 30 天｜建立可复现性',desc:'从“收藏”转为“有实测证据”。',tasks:['筛选 12 个黄金工作流','每个流程完成三次运行','完成两个完整项目案例']},{title:'31–60 天｜连接产品真实',desc:'补齐 CMF、工程与动态内容。',tasks:['建立六类 CMF 材质参考卡','完成一个 CAD/STP 产品可视化','搭建 15 秒 AI 视频管线']},{title:'61–90 天｜形成竞争力',desc:'让资产能交接、能展示、能证明结果。',tasks:['完成一个批量或质检工具','发布三个结构化作品集案例','完成个人资产恢复说明']}];
+    const saved=JSON.parse(localStorage.getItem('designRoadmap')||'{}');
+    document.querySelector('#roadmapGrid').innerHTML=plans.map((p,pi)=>`<article class="road-card"><h3>${p.title}</h3><p>${p.desc}</p>${p.tasks.map((t,ti)=>{const k=pi+'-'+ti;return `<label class="task ${saved[k]?'done':''}"><input type="checkbox" data-key="${k}" ${saved[k]?'checked':''}><span>${t}</span></label>`}).join('')}</article>`).join('');
+    function updateProgress(){const checks=[...document.querySelectorAll('.task input')];const done=checks.filter(x=>x.checked).length;document.querySelector('#progressBar').style.width=(done/checks.length*100)+'%';document.querySelector('#progressText').textContent=done+' / '+checks.length;}
+    document.querySelectorAll('.task input').forEach(x=>x.addEventListener('change',()=>{saved[x.dataset.key]=x.checked;x.closest('.task').classList.toggle('done',x.checked);localStorage.setItem('designRoadmap',JSON.stringify(saved));updateProgress()}));
+    renderJobs();renderSkills();updateProgress();
+    const hash=location.hash.slice(1);if(['workflows','market','roadmap','templates'].includes(hash))document.querySelector(`[data-view="${hash}"]`).click();
+  </script>
 </body>
 </html>
+
