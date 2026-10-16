@@ -1,0 +1,316 @@
+{
+  "schema_version": "1.0",
+  "audited_at": "2026-10-16",
+  "methodology": "以15条招聘证据抽取24个代表性任务；candidate_covered表示库中存在静态匹配候选，不代表已运行；partial表示只能完成其中一段；unsupported表示需要其他专业工具、物理验证或业务系统。",
+  "repository_metrics": {
+    "workflows": 862,
+    "selected": 20,
+    "gpu_tested": 0,
+    "canonical_duplicate_groups": 14,
+    "model_file_references": 804,
+    "plugin_ids": 84,
+    "source_hash_mismatches": 636,
+    "run_records": 0
+  },
+  "benchmark": {
+    "total": 24,
+    "candidate_covered": 8,
+    "partial": 6,
+    "unsupported": 10,
+    "candidate_or_partial": 14,
+    "production_proven": 0
+  },
+  "verdicts": {
+    "discovery_value": "high",
+    "production_readiness": "low",
+    "recommended_use": "作为检索、学习和方案原型库使用；任何商业交付前必须完成依赖检查、三次复现、人工质量检查和许可核验。",
+    "not_recommended_use": "不能把收录数量当成功率，不能用ComfyUI替代CAD、PBR材质、CMF实体验证、确定性排版、Figma设计系统或业务归因。"
+  },
+  "tasks": [
+    {
+      "id": "matting",
+      "label": "产品抠图与透明背景",
+      "status": "candidate_covered",
+      "workflow_task": "matting",
+      "market": [
+        "E07",
+        "E14"
+      ],
+      "limits": "复杂轮辐、透明风挡和反光边仍需人工复核"
+    },
+    {
+      "id": "background",
+      "label": "产品换背景与生活方式场景",
+      "status": "candidate_covered",
+      "workflow_task": "product_background",
+      "market": [
+        "E02",
+        "E07",
+        "E14"
+      ],
+      "limits": "生成背景可用，产品结构和接地关系必须质检"
+    },
+    {
+      "id": "inpaint",
+      "label": "局部清理、去杂物与受控修改",
+      "status": "candidate_covered",
+      "workflow_task": "inpaint",
+      "market": [
+        "E01",
+        "E02"
+      ],
+      "limits": "遮罩外漂移、Logo和机械结构可能被改写"
+    },
+    {
+      "id": "relight",
+      "label": "重打光、阴影与场景融合",
+      "status": "candidate_covered",
+      "workflow_task": "relight",
+      "market": [
+        "E02",
+        "E07",
+        "E14"
+      ],
+      "limits": "黑色漆面、金属与透明件反射不保证物理正确"
+    },
+    {
+      "id": "outpaint",
+      "label": "扩图与海报留白",
+      "status": "candidate_covered",
+      "workflow_task": "outpaint",
+      "market": [
+        "E02",
+        "E15"
+      ],
+      "limits": "只适合背景延展，最终版式和文字需确定性工具"
+    },
+    {
+      "id": "upscale",
+      "label": "放大、去噪与细节修复",
+      "status": "candidate_covered",
+      "workflow_task": "upscale",
+      "market": [
+        "E07",
+        "E14"
+      ],
+      "limits": "生成式细节可能编造产品纹理"
+    },
+    {
+      "id": "style",
+      "label": "风格、配色与视觉方向探索",
+      "status": "candidate_covered",
+      "workflow_task": "style_reference",
+      "market": [
+        "E02",
+        "E11",
+        "E15"
+      ],
+      "limits": "适合提案探索，不是可量产CMF规格"
+    },
+    {
+      "id": "structure",
+      "label": "草图、边缘、深度与构图控制",
+      "status": "candidate_covered",
+      "workflow_task": "structure_control",
+      "market": [
+        "E05",
+        "E06",
+        "E10"
+      ],
+      "limits": "不能代替曲面质量、工程尺寸或CAD"
+    },
+    {
+      "id": "video_proto",
+      "label": "短视频与镜头概念原型",
+      "status": "partial",
+      "workflow_task": "video",
+      "market": [
+        "E01",
+        "E02",
+        "E09",
+        "E14"
+      ],
+      "limits": "可做概念样片；产品几何、轮辐、文字和时序一致性未验证"
+    },
+    {
+      "id": "video_continuity",
+      "label": "可交付产品动画与镜头连续性",
+      "status": "partial",
+      "workflow_task": "video",
+      "market": [
+        "E09",
+        "E14"
+      ],
+      "limits": "缺少镜头级验收、声音、字幕和一致性实测"
+    },
+    {
+      "id": "batch",
+      "label": "批量变体与多规格适配",
+      "status": "partial",
+      "workflow_task": null,
+      "market": [
+        "E01",
+        "E02"
+      ],
+      "limits": "有工作流编排基础，但缺少已验证批处理、失败重试和命名规范"
+    },
+    {
+      "id": "pdp_composite",
+      "label": "电商PDP与实景合成",
+      "status": "partial",
+      "workflow_task": "product_background",
+      "market": [
+        "E02",
+        "E07"
+      ],
+      "limits": "能辅助背景与光影；不能证明产品尺寸、材质和卖点准确"
+    },
+    {
+      "id": "quality",
+      "label": "质量控制、版本与复现",
+      "status": "partial",
+      "workflow_task": null,
+      "market": [
+        "E01",
+        "E07",
+        "E12"
+      ],
+      "limits": "已有索引和模板，但0个GPU实测且636个源哈希不一致"
+    },
+    {
+      "id": "portfolio",
+      "label": "作品集叙事与案例沉淀",
+      "status": "partial",
+      "workflow_task": null,
+      "market": [
+        "E04",
+        "E10",
+        "E13"
+      ],
+      "limits": "已有模板；没有真实案例结果、反馈和指标"
+    },
+    {
+      "id": "typography",
+      "label": "最终文字排版与品牌版式",
+      "status": "unsupported",
+      "workflow_task": null,
+      "market": [
+        "E02",
+        "E15"
+      ],
+      "limits": "生成模型无法稳定保证字形、间距、对齐和层级，需Figma/Adobe等确定性工具"
+    },
+    {
+      "id": "brand_copy",
+      "label": "Logo、法律文案与精确复制",
+      "status": "unsupported",
+      "workflow_task": null,
+      "market": [
+        "E13",
+        "E15"
+      ],
+      "limits": "必须使用正式矢量Logo和审核后的文字资产"
+    },
+    {
+      "id": "exact_texture",
+      "label": "指定纹理的像素级迁移",
+      "status": "unsupported",
+      "workflow_task": "exact_texture",
+      "market": [
+        "E04",
+        "E11",
+        "E12"
+      ],
+      "limits": "参考图生成只学习语义；精确纹理需2D贴图变形或3D UV/PBR"
+    },
+    {
+      "id": "cad",
+      "label": "CAD/STP清理、曲面和装配",
+      "status": "unsupported",
+      "workflow_task": null,
+      "market": [
+        "E06",
+        "E07",
+        "E10"
+      ],
+      "limits": "ComfyUI不是CAD/CAS工具，需Alias/Rhino/Blender/CAD管线"
+    },
+    {
+      "id": "pbr",
+      "label": "程序化PBR材质与扫描",
+      "status": "unsupported",
+      "workflow_task": null,
+      "market": [
+        "E07",
+        "E12"
+      ],
+      "limits": "需Substance Designer、扫描、通道贴图和多光照验证"
+    },
+    {
+      "id": "physical_cmf",
+      "label": "实体CMF样板与颜色验证",
+      "status": "unsupported",
+      "workflow_task": null,
+      "market": [
+        "E04",
+        "E10",
+        "E11",
+        "E13"
+      ],
+      "limits": "必须依赖实体样板、色彩管理、供应商和环境光验证"
+    },
+    {
+      "id": "manufacturing",
+      "label": "制造可行性、Tech Pack与量产",
+      "status": "unsupported",
+      "workflow_task": null,
+      "market": [
+        "E04",
+        "E05",
+        "E06",
+        "E10",
+        "E11",
+        "E13"
+      ],
+      "limits": "需要工程、成本、法规、材料和供应链输入"
+    },
+    {
+      "id": "design_system",
+      "label": "Figma交互与设计系统",
+      "status": "unsupported",
+      "workflow_task": null,
+      "market": [
+        "E08",
+        "E15"
+      ],
+      "limits": "当前库没有组件、变量、原型和无障碍交付能力"
+    },
+    {
+      "id": "attribution",
+      "label": "业务数据归因与效果复盘",
+      "status": "unsupported",
+      "workflow_task": null,
+      "market": [
+        "E01",
+        "E03",
+        "E14"
+      ],
+      "limits": "需要渠道数据、实验设计和指标看板"
+    },
+    {
+      "id": "supplier",
+      "label": "供应商协作与生产闭环",
+      "status": "unsupported",
+      "workflow_task": null,
+      "market": [
+        "E04",
+        "E05",
+        "E06",
+        "E10",
+        "E11",
+        "E13"
+      ],
+      "limits": "AI图像工作流不能替代打样、评审和量产签核"
+    }
+  ]
+}
