@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.0",
-  "observed_at": "2026-10-15",
+  "schema_version": "1.1",
+  "observed_at": "2026-10-16",
   "evidence_policy": {
     "A": "employer_official",
     "B": "major_job_board_or_company_ats",
@@ -150,6 +150,108 @@
         "After Effects",
         "AIGC加分"
       ]
+    },
+    {
+      "id": "E10",
+      "company": "Nike",
+      "role": "Senior Designer, Accessories Innovation Design",
+      "grade": "A",
+      "category": "3d",
+      "url": "https://careers.nike.com/zh-cn/senior-designer-accessories-innovation-design/job/R-88131",
+      "status": "active_when_checked",
+      "requirements": [
+        "产品问题解决",
+        "材料探索",
+        "数字与实体原型",
+        "3D可视化",
+        "制造方法",
+        "从洞察到最终执行"
+      ]
+    },
+    {
+      "id": "E11",
+      "company": "Nike",
+      "role": "Lead Footwear Color & Materials Designer, GC",
+      "grade": "A",
+      "category": "cmf",
+      "url": "https://careers.nike.com/zh-tw/lead-footwear-color-materials-designer-performance-local-creation-gc/job/R-72284",
+      "status": "active_when_checked",
+      "requirements": [
+        "色彩与材料策略",
+        "材料可实现性",
+        "制造与商业化",
+        "原型与样件评审",
+        "3D与AI可视化",
+        "成本质量时程"
+      ]
+    },
+    {
+      "id": "E12",
+      "company": "Nike",
+      "role": "Color Materials and Graphics Designer",
+      "grade": "A",
+      "category": "3d",
+      "url": "https://careers.nike.com/zh-tw/color-materials-and-graphics-designer/job/R-89939",
+      "status": "active_when_checked",
+      "requirements": [
+        "Substance Designer",
+        "程序化PBR材质",
+        "路径追踪与实时渲染",
+        "多光照LookDev",
+        "自定义工具",
+        "可复用技术标准"
+      ]
+    },
+    {
+      "id": "E13",
+      "company": "Brooks Running",
+      "role": "Designer II, Advanced Footwear Design, Visual Brand + CMF",
+      "grade": "B",
+      "category": "cmf",
+      "url": "https://jobs.lever.co/brooksrunning/51987653-6231-4862-8d0a-46c8ba5d04f4",
+      "status": "active_when_checked",
+      "requirements": [
+        "AI辅助快速探索",
+        "CMF规格与技术文档",
+        "Tech Pack",
+        "制造流程",
+        "3D可视化",
+        "视觉叙事"
+      ]
+    },
+    {
+      "id": "E14",
+      "company": "Grand Games",
+      "role": "Senior 3D Marketing Artist",
+      "grade": "B",
+      "category": "3d",
+      "url": "https://jobs.lever.co/grand/f4facce6-b7d5-44de-9819-f9017cc43397",
+      "status": "active_when_checked",
+      "requirements": [
+        "C4D或Blender或Maya",
+        "动效与动画原则",
+        "After Effects",
+        "营销视觉",
+        "市场趋势",
+        "数据反馈"
+      ]
+    },
+    {
+      "id": "E15",
+      "company": "Adobe",
+      "role": "Head of Brand Design, Adobe Creative",
+      "grade": "A",
+      "category": "brand",
+      "url": "https://careers.adobe.com/us/en/job/ADOBUSR171523EXTERNALENUS/Head-of-Brand-Design-Adobe-Creative",
+      "status": "active_when_checked",
+      "requirements": [
+        "品牌系统",
+        "视觉识别架构",
+        "跨渠道一致性",
+        "Creative Cloud",
+        "Firefly与生成式AI工作流",
+        "设计领导力"
+      ]
     }
   ],
   "inferred_core_skills": [
@@ -159,28 +261,36 @@
       "evidence": [
         "E01",
         "E03",
-        "E07"
+        "E07",
+        "E12",
+        "E14"
       ],
       "priority": "P0"
     },
     {
       "id": "product_truth",
-      "label": "产品真实性与CMF工艺",
+      "label": "产品真实性、CMF与制造约束",
       "evidence": [
         "E04",
         "E05",
         "E06",
-        "E07"
+        "E07",
+        "E10",
+        "E11",
+        "E12",
+        "E13"
       ],
       "priority": "P0"
     },
     {
       "id": "business_loop",
-      "label": "需求到结果的业务闭环",
+      "label": "需求、交付与业务反馈闭环",
       "evidence": [
         "E01",
         "E02",
-        "E03"
+        "E03",
+        "E14",
+        "E15"
       ],
       "priority": "P0"
     },
@@ -190,7 +300,8 @@
       "evidence": [
         "E01",
         "E02",
-        "E09"
+        "E09",
+        "E14"
       ],
       "priority": "P1"
     },
@@ -200,19 +311,23 @@
       "evidence": [
         "E01",
         "E02",
-        "E03"
+        "E03",
+        "E12"
       ],
       "priority": "P1"
     },
     {
       "id": "collaboration",
-      "label": "跨团队与供应商协作",
+      "label": "跨团队、工程与供应商协作",
       "evidence": [
         "E02",
         "E03",
         "E04",
         "E05",
-        "E06"
+        "E06",
+        "E10",
+        "E11",
+        "E13"
       ],
       "priority": "P0"
     },
@@ -221,10 +336,37 @@
       "label": "可核验案例与结构化作品集",
       "evidence": [
         "E01",
+        "E04",
         "E05",
-        "E07"
+        "E07",
+        "E10",
+        "E13"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "three_d_materials",
+      "label": "3D、PBR材质与多光照验证",
+      "evidence": [
+        "E07",
+        "E10",
+        "E12",
+        "E13",
+        "E14"
+      ],
+      "priority": "P0"
+    },
+    {
+      "id": "brand_system",
+      "label": "品牌系统、排版与跨渠道一致性",
+      "evidence": [
+        "E02",
+        "E11",
+        "E13",
+        "E15"
       ],
       "priority": "P0"
     }
-  ]
+  ],
+  "audit_note": "岗位要求只证明市场需求，不证明仓库工作流具备对应能力；能力覆盖以 market_coverage_audit.json 为准。"
 }
